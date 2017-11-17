@@ -15,7 +15,7 @@ export default {
     methods: {
         formatRoute(route){
             let returnStr = "";
-            if(this.edges.hasOwnProperty(this.map)){
+            if(this.map in this.edges){
                 returnStr = String(this.edges[this.map][route[0]].join("-") + "-");
                 for(let i = 1; i < route.length; i++){
                     returnStr += String(this.edges[this.map][route[i]][1]+"-");

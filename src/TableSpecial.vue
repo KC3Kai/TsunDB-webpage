@@ -1,6 +1,7 @@
 <template>
     <table>
 		<tr>
+			<th></th>
 			<th>Route</th>
 			<th>Cleared?</th>
 			<th>HQ</th>
@@ -18,6 +19,7 @@
 			<th>Debuff</th>
 		</tr>
 		<tr v-for="sample in samples">
+			<a class="button is-small" @click="displayFleet(sample)">Info</a>
 			<routing-col :route="sample.edgeID"></routing-col>
 			<clear-col :clear="sample.cleared"></clear-col>
 			<hq-col :lvl="sample.hqLvl"></hq-col>
@@ -36,7 +38,12 @@
 
 <script>
     export default {
-        props:['samples','map']
+		props:['samples','map'],
+		methods: {
+			toggleNextRoute(data){
+            	this.$emit("fleetClicked", data);
+     	   }
+		}
     }
 </script>
 

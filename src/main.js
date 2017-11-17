@@ -6,6 +6,7 @@ import Pagination from './Pagination.vue'
 
 import TableSpecial from './TableSpecial.vue'
 import TableNormal from './TableNormal.vue'
+import DisplayFleet from './DisplayFleet.vue'
 
 import Boss from './components/Boss.vue'
 import Clear from './components/Clear.vue'
@@ -25,6 +26,7 @@ Vue.component('options', Options);
 Vue.component('pagination', Pagination);
 Vue.component('table-special', TableSpecial);
 Vue.component('table-normal', TableNormal);
+Vue.component('display-fleet', DisplayFleet);
 Vue.component('routing-col', Route);
 Vue.component('boss-col', Boss);
 Vue.component('clear-col', Clear);
