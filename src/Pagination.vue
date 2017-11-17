@@ -52,13 +52,13 @@
             <span class="pagination-ellipsis">&hellip;</span>
         </li>
         <li>
-            <a class="pagination-link" aria-label="To Previous" @click="changePage(offset-1)">{{offset-1}}</a>
+            <a class="pagination-link" aria-label="To Previous" @click="changePage(parseInt(offset)-1)">{{parseInt(offset)-1}}</a>
         </li>
         <li>
             <a class="pagination-link is-current" aria-label="46" aria-current="page">{{offset}}</a>
         </li>
         <li>
-            <a class="pagination-link" aria-label="To Next" @click="changePage(offset+1)">{{offset+1}}</a>
+            <a class="pagination-link" aria-label="To Next" @click="changePage(parseInt(offset)+1)">{{parseInt(offset)+1}}</a>
         </li>
         <li>
             <span class="pagination-ellipsis">&hellip;</span>
