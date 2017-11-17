@@ -7,7 +7,7 @@ export default {
 	props: ['type'],
 	methods: {
 		formatFleetType: function(type){
-			returnStr = "";
+			let returnStr = "";
 			switch(type){
 				case 0:
 					returnStr = "Single";

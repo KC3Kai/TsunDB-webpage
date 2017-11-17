@@ -1,6 +1,6 @@
 <template>
     <div class="container" v-if="data != undefined">
-        <h2 class="subtitle">Route: {{formatRoute(data.edgeID)}}</h2>
+        <h2 class="subtitle">Route taken in {{map}}: {{formatRoute(data.edgeID)}}</h2>
         <h2>Still working on the node and event types, feel free to ignore this.</h2>
         <h2>Node: {{data.eventId}} ({{checkNodeType(data.eventId)}}??)</h2>
         <h2>Event: {{data.eventKind}} ({{checkEventType(data.eventKind)}}??)</h2>

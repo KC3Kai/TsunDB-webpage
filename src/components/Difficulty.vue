@@ -7,7 +7,7 @@ export default {
     props: ['diff'],
     methods: {
         formatDiff: function(diff){
-            returnStr = "None";
+            let returnStr = "None";
             switch(diff){
                 case 1:
                     returnStr = "丙";

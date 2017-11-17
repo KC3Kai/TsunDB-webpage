@@ -7,7 +7,7 @@ export default {
     props: ['type'],
     methods: {
         formatGaugeType: function(type){
-            returnStr = "None";
+            let returnStr = "None";
             switch(type){
                 case 2:
                     returnStr = "HP";

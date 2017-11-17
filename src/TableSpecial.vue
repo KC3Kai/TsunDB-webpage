@@ -20,7 +20,7 @@
 		</tr>
 		<tr v-for="sample in samples">
 			<a class="button is-small" @click="displayFleet(sample)">Info</a>
-			<routing-col :route="sample.edgeID"></routing-col>
+			<routing-col :route="sample.edgeID" :map="map"></routing-col>
 			<clear-col :clear="sample.cleared"></clear-col>
 			<hq-col :lvl="sample.hqLvl"></hq-col>
 			<fleet-type-col :type="sample.fleetType"></fleet-type-col>
@@ -40,7 +40,7 @@
     export default {
 		props:['samples','map'],
 		methods: {
-			toggleNextRoute(data){
+			displayFleet(data){
             	this.$emit("fleetClicked", data);
      	   }
 		}

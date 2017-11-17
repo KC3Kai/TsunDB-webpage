@@ -2,14 +2,14 @@
 <div>
     <navbar @mapIsSet="loadData($event)"></navbar>
     <div class="container" v-if="map == undefined">
-        <h2 class="subtitle">Select a world first, you shitty admiral!</h2>
+        <h2 class="subtitle">Select a world, you shitty admiral!</h2>
     </div>
     <div v-else>
         <h1 class="title">Map {{map}}</h1>
         <options class="container" @nextRouteToggled="nextRouteToggled($event)"></options>
         <pagination :offset="offset" @pageChanged="updatePage($event)"></pagination>
-        <table-special v-if="eventselected" :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-special>
-        <table-normal v-else :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-normal>
+        <table-special class="container" v-if="eventselected" :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-special>
+        <table-normal class="container" v-else :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-normal>
         <display-fleet :data="data" :map="map"></display-fleet>
         <pagination :offset="offset" @pageChanged="updatePage($event)"></pagination>
     </div>
@@ -33,7 +33,7 @@ export default {
     },
     methods: {
         getJSON () {
-            let data = axios.get(`http://kckai.cybersnets.com/api/routes/data/${this.map}?offset=${this.offset}&limit=${this.limit}&next_route=${this.nextRoute}`)
+            let data = axios.get(`http://kckai.cybersnets.com/api/routes/data/${this.map}?offset=${this.offset*this.limit}&limit=${this.limit}&next_route=${this.nextRoute}`)
             .then(response => {
                 return response;
             })
@@ -48,7 +48,8 @@ export default {
         eventMapSelected () {
             this.eventselected = true;
         },
-        loadData(map){
+        loadData([map, mapType]){
+            this.eventselected = mapType;
             this.map = map;
             this.getJSON();
         },
