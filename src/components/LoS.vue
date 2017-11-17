@@ -3,7 +3,7 @@
 </template>
 
 <script>
-    export default{
-    	props: ['los']
-    }
+export default {
+  props: ['los']
+}
 </script>

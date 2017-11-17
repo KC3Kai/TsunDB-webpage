@@ -15,22 +15,22 @@
                     World 1
                 </span>
                 <div class="navbar-dropdown is-boxed">
-                    <a class="navbar-item" href="#" @click="setMap('1-1')">
+                    <a class="navbar-item" @click="setMap('1-1')">
                         1-1
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('1-2')">
+                    <a class="navbar-item" @click="setMap('1-2')">
                         1-2
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('1-3')">
+                    <a class="navbar-item" @click="setMap('1-3')">
                         1-3
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('1-4')">
+                    <a class="navbar-item" @click="setMap('1-4')">
                         1-4
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('1-5')">
+                    <a class="navbar-item" @click="setMap('1-5')">
                         1-5
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('1-6')">
+                    <a class="navbar-item" @click="setMap('1-6')">
                         1-6
                     </a>
                 </div>
@@ -40,19 +40,19 @@
                     World 2
                 </span>
                 <div class="navbar-dropdown is-boxed">
-                    <a class="navbar-item" href="#" @click="setMap('2-1')">
+                    <a class="navbar-item" @click="setMap('2-1')">
                         2-1
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('2-2')">
+                    <a class="navbar-item" @click="setMap('2-2')">
                         2-2
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('2-3')">
+                    <a class="navbar-item" @click="setMap('2-3')">
                         2-3
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('2-4')">
+                    <a class="navbar-item" @click="setMap('2-4')">
                         2-4
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('2-5')">
+                    <a class="navbar-item" @click="setMap('2-5')">
                         2-5
                     </a>
                 </div>
@@ -62,19 +62,19 @@
                     World 3
                 </span>
                 <div class="navbar-dropdown is-boxed">
-                    <a class="navbar-item" href="#" @click="setMap('3-1')">
+                    <a class="navbar-item" @click="setMap('3-1')">
                         3-1
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('3-2')">
+                    <a class="navbar-item" @click="setMap('3-2')">
                         3-2
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('3-3')">
+                    <a class="navbar-item" @click="setMap('3-3')">
                         3-3
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('3-4')">
+                    <a class="navbar-item" @click="setMap('3-4')">
                         3-4
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('3-5')">
+                    <a class="navbar-item" @click="setMap('3-5')">
                         3-5
                     </a>
                 </div>
@@ -84,19 +84,19 @@
                     World 4
                 </span>
                 <div class="navbar-dropdown is-boxed">
-                    <a class="navbar-item" href="#" @click="setMap('4-1')">
+                    <a class="navbar-item" @click="setMap('4-1')">
                         4-1
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('4-2')">
+                    <a class="navbar-item" @click="setMap('4-2')">
                         4-2
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('4-3')">
+                    <a class="navbar-item" @click="setMap('4-3')">
                         4-3
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('4-4')">
+                    <a class="navbar-item" @click="setMap('4-4')">
                         4-4
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('4-5')">
+                    <a class="navbar-item" @click="setMap('4-5')">
                         4-5
                     </a>
                 </div>
@@ -106,19 +106,19 @@
                     World 5
                 </span>
                 <div class="navbar-dropdown is-boxed">
-                    <a class="navbar-item" href="#" @click="setMap('5-1')">
+                    <a class="navbar-item" @click="setMap('5-1')">
                         5-1
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('5-2')">
+                    <a class="navbar-item" @click="setMap('5-2')">
                         5-2
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('5-3')">
+                    <a class="navbar-item" @click="setMap('5-3')">
                         5-3
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('5-4')">
+                    <a class="navbar-item" @click="setMap('5-4')">
                         5-4
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('5-5')">
+                    <a class="navbar-item" @click="setMap('5-5')">
                         5-5
                     </a>
                 </div>
@@ -128,19 +128,19 @@
                     World 6
                 </span>
                 <div class="navbar-dropdown is-boxed">
-                    <a class="navbar-item" href="#" @click="setMap('6-1')">
+                    <a class="navbar-item" @click="setMap('6-1')">
                         6-1
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('6-2')">
+                    <a class="navbar-item" @click="setMap('6-2')">
                         6-2
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('6-3')">
+                    <a class="navbar-item" @click="setMap('6-3')">
                         6-3
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('6-4')">
+                    <a class="navbar-item" @click="setMap('6-4')">
                         6-4
                     </a>
-                    <a class="navbar-item" href="#" @click="setMap('6-5')">
+                    <a class="navbar-item" @click="setMap('6-5')">
                         6-5
                     </a>
                 </div>
@@ -150,16 +150,16 @@
                     Fall 2017
                 </span>
                 <div class="navbar-dropdown is-boxed">
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" @click="setMap('40-1')">
                         E-1
                     </a>
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" @click="setMap('40-2')">
                         E-2
                     </a>
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" @click="setMap('40-3')">
                         E-3
                     </a>
-                    <a class="navbar-item" href="#">
+                    <a class="navbar-item" @click="setMap('40-4')">
                         E-4
                     </a>
                 </div>

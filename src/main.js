@@ -1,9 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
 import NavBar from './NavBar.vue'
+import Options from './Options.vue'
+import Pagination from './Pagination.vue'
 
 import TableSpecial from './TableSpecial.vue'
 import TableNormal from './TableNormal.vue'
+
 import Boss from './components/Boss.vue'
 import Clear from './components/Clear.vue'
 import Debuff from './components/Debuff.vue'
@@ -18,6 +21,8 @@ import Route from './components/Route.vue'
 import Speed from './components/Speed.vue'
 
 Vue.component('navbar', NavBar);
+Vue.component('options', Options);
+Vue.component('pagination', Pagination);
 Vue.component('table-special', TableSpecial);
 Vue.component('table-normal', TableNormal);
 Vue.component('routing-col', Route);

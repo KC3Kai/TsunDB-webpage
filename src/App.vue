@@ -1,8 +1,11 @@
 <template>
 <div>
     <navbar @mapIsSet="loadData($event)"></navbar>
+    <options class="container" @nextRouteToggled="nextRouteToggled($event)"></options>
+    <pagination :offset="offset" @pageChanged="updatePage($event)"></pagination>
     <table-special v-if="eventselected" :samples="samples" :map="map"></table-special>
     <table-normal v-else :samples="samples" :map="map"></table-normal>
+    <pagination :offset="offset" @pageChanged="updatePage($event)"></pagination>
 </div>
 </template>
 
@@ -12,6 +15,9 @@ import axios from 'axios';
 export default {
     data: function() {
         return {
+            offset: 1,
+            limit: 50,
+            nextRoute: 0,
             eventselected: false,
             samples: [],
             map: undefined
@@ -19,7 +25,7 @@ export default {
     },
     methods: {
         getJSON () {
-            let data = axios.get('http://kckai.cybersnets.com/api/routes/data/' + this.map)
+            let data = axios.get(`http://kckai.cybersnets.com/api/routes/data/${this.map}?offset=${this.offset}&limit=${this.limit}&next_route=${this.nextRoute}`)
             .then(response => {
                 return response;
             })
@@ -36,6 +42,14 @@ export default {
         },
         loadData(map){
             this.map = map;
+            this.getJSON();
+        },
+        nextRouteToggled(nextRoute){
+            this.nextRoute = nextRoute;
+            this.getJSON();
+        },
+        updatePage(offset){
+            this.offset = offset;
             this.getJSON();
         }
     }
