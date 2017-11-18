@@ -22,7 +22,7 @@
                 <td v-for="value in ship.equip" :key="value">{{value}}</td>
                 <td>{{ship.exslot}}</td>
             </tr>
-            <span v-if="'fleet2' in data">
+            <template v-if="'fleet2' in data">
                 <tr>
                     <th>Ship</th>
                     <th>Type</th>
@@ -40,7 +40,7 @@
                     <td v-for="value in ship.equip" :key="value">{{value}}</td>
                     <td>{{ship.exslot}}</td>
                 </tr>
-            </span>
+            </template>
         </table>
     </div>
 </template>
