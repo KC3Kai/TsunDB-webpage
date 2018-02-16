@@ -164,6 +164,34 @@
                     </a>
                 </div>
             </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+                <span class="navbar-item">
+                    Winter 2018
+                </span>
+                <div class="navbar-dropdown is-boxed">
+                    <a class="navbar-item" @click="setMap('41-1', true)">
+                        E-1
+                    </a>
+                    <a class="navbar-item" @click="setMap('41-2', true)">
+                        E-2
+                    </a>
+                    <a class="navbar-item" @click="setMap('41-3', true)">
+                        E-3
+                    </a>
+                    <a class="navbar-item" @click="setMap('41-4', true)">
+                        E-4
+                    </a>
+                    <a class="navbar-item" @click="setMap('41-5', true)">
+                        E-5
+                    </a>
+                    <a class="navbar-item" @click="setMap('41-6', true)">
+                        E-6
+                    </a>
+                    <a class="navbar-item" @click="setMap('41-7', true)">
+                        E-7
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </nav>

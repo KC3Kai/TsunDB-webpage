@@ -1,0 +1,1371 @@
+{
+    "-1":{
+        "en":"Nothing",
+        "icon":-1
+    },
+    "1":{
+       "en":"12cm Single Gun Mount",
+       "type":1,
+       "icon":1
+    },
+    "2":{
+       "en":"12.7cm Twin Gun Mount",
+       "type":1,
+       "icon":1
+    },
+    "3":{
+       "en":"10cm Twin High-angle Gun Mount",
+       "type":1,
+       "icon":16
+    },
+    "4":{
+       "en":"14cm Single Gun Mount",
+       "type":2,
+       "icon":2
+    },
+    "5":{
+       "en":"15.5cm Triple Gun Mount",
+       "type":2,
+       "icon":2
+    },
+    "6":{
+       "en":"20.3cm Twin Gun Mount",
+       "type":2,
+       "icon":2
+    },
+    "7":{
+       "en":"35.6cm Twin Gun Mount",
+       "type":3,
+       "icon":3
+    },
+    "8":{
+       "en":"41cm Twin Gun Mount",
+       "type":3,
+       "icon":3
+    },
+    "9":{
+       "en":"46cm Triple Gun Mount",
+       "type":3,
+       "icon":3
+    },
+    "10":{
+       "en":"12.7cm Twin High-angle Gun Mount",
+       "type":4,
+       "icon":16
+    },
+    "11":{
+       "en":"15.2cm Single Gun Mount",
+       "type":4,
+       "icon":4
+    },
+    "12":{
+       "en":"15.5cm Triple Secondary Gun Mount",
+       "type":4,
+       "icon":4
+    },
+    "13":{
+       "en":"61cm Triple Torpedo Mount",
+       "type":5,
+       "icon":5
+    },
+    "14":{
+       "en":"61cm Quadruple Torpedo Mount",
+       "type":5,
+       "icon":5
+    },
+    "15":{
+       "en":"61cm Quadruple (Oxygen) Torpedo Mount",
+       "type":5,
+       "icon":5
+    },
+    "16":{
+       "en":"Type 97 Torpedo Bomber",
+       "type":8,
+       "icon":8
+    },
+    "17":{
+       "en":"Tenzan",
+       "type":8,
+       "icon":8
+    },
+    "18":{
+       "en":"Ryuusei",
+       "type":8,
+       "icon":8
+    },
+    "19":{
+       "en":"Type 96 Fighter",
+       "type":6,
+       "icon":6
+    },
+    "20":{
+       "en":"Type 0 Fighter Model 21",
+       "type":6,
+       "icon":6
+    },
+    "21":{
+       "en":"Type 0 Fighter Model 52",
+       "type":6,
+       "icon":6
+    },
+    "22":{
+       "en":"Reppuu",
+       "type":6,
+       "icon":6
+    },
+    "23":{
+       "en":"Type 99 Dive Bomber",
+       "type":7,
+       "icon":7
+    },
+    "24":{
+       "en":"Suisei",
+       "type":7,
+       "icon":7
+    },
+    "25":{
+       "en":"Type 0 Reconnaissance Seaplane",
+       "type":10,
+       "icon":10
+    },
+    "26":{
+       "en":"Zuiun",
+       "type":11,
+       "icon":10
+    },
+    "27":{
+       "en":"Type 13 Air Radar",
+       "type":12,
+       "icon":11
+    },
+    "28":{
+       "en":"Type 22 Surface Radar",
+       "type":12,
+       "icon":11
+    },
+    "29":{
+       "en":"Type 33 Surface Radar",
+       "type":12,
+       "icon":11
+    },
+    "30":{
+       "en":"Type 21 Air Radar",
+       "type":13,
+       "icon":11
+    },
+    "31":{
+       "en":"Type 32 Surface Radar",
+       "type":13,
+       "icon":11
+    },
+    "32":{
+       "en":"Type 14 Air Radar",
+       "type":13,
+       "icon":11
+    },
+    "33":{
+       "en":"Improved Kanhon Type Turbine",
+       "type":17,
+       "icon":19
+    },
+    "34":{
+       "en":"Enhanced Kanhon Type Boiler",
+       "type":17,
+       "icon":19
+    },
+    "35":{
+       "en":"Type 3 Shell",
+       "type":18,
+       "icon":12
+    },
+    "36":{
+       "en":"Type 91 Armor Piercing Shell",
+       "type":19,
+       "icon":13
+    },
+    "37":{
+       "en":"7.7mm Machine Gun",
+       "type":21,
+       "icon":15
+    },
+    "38":{
+       "en":"12.7mm Single Machine Gun Mount",
+       "type":21,
+       "icon":15
+    },
+    "39":{
+       "en":"25mm Twin Autocannon Mount",
+       "type":21,
+       "icon":15
+    },
+    "40":{
+       "en":"25mm Triple Autocannon Mount",
+       "type":21,
+       "icon":15
+    },
+    "41":{
+       "en":"Kouhyouteki",
+       "type":22,
+       "icon":5
+    },
+    "42":{
+       "en":"Emergency Repair Personnel",
+       "type":23,
+       "icon":14
+    },
+    "43":{
+       "en":"Emergency Repair Goddess",
+       "type":23,
+       "icon":14
+    },
+    "44":{
+       "en":"Type 94 Depth Charge Projector",
+       "type":15,
+       "icon":17
+    },
+    "45":{
+       "en":"Type 3 Depth Charge Projector",
+       "type":15,
+       "icon":17
+    },
+    "46":{
+       "en":"Type 93 Passive Sonar",
+       "type":14,
+       "icon":18
+    },
+    "47":{
+       "en":"Type 3 Active Sonar",
+       "type":14,
+       "icon":18
+    },
+    "48":{
+       "en":"12.7cm Single High-angle Gun Mount",
+       "type":1,
+       "icon":16
+    },
+    "49":{
+       "en":"25mm Single Autocannon Mount",
+       "type":21,
+       "icon":15
+    },
+    "50":{
+       "en":"20.3cm (No.3) Twin Gun Mount",
+       "type":2,
+       "icon":2
+    },
+    "51":{
+       "en":"12cm 30-tube Rocket Launcher",
+       "type":21,
+       "icon":15
+    },
+    "52":{
+       "en":"Ryuusei Kai",
+       "type":8,
+       "icon":8
+    },
+    "53":{
+       "en":"Reppuu Kai",
+       "type":6,
+       "icon":6
+    },
+    "54":{
+       "en":"Saiun",
+       "type":9,
+       "icon":9
+    },
+    "55":{
+       "en":"Shiden Kai 2",
+       "type":6,
+       "icon":6
+    },
+    "56":{
+       "en":"Shinden Kai",
+       "type":6,
+       "icon":6
+    },
+    "57":{
+       "en":"Suisei Model 12A",
+       "type":7,
+       "icon":7
+    },
+    "58":{
+       "en":"61cm Quintuple (Oxygen) Torpedo Mount",
+       "type":5,
+       "icon":5
+    },
+    "59":{
+       "en":"Type 0 Observation Seaplane",
+       "type":10,
+       "icon":10
+    },
+    "60":{
+       "en":"Type 0 Fighter Model 62 (Fighter-bomber)",
+       "type":7,
+       "icon":7
+    },
+    "61":{
+       "en":"Type 2 Reconnaissance Aircraft",
+       "type":9,
+       "icon":9
+    },
+    "62":{
+       "en":"Prototype Seiran",
+       "type":11,
+       "icon":10
+    },
+    "63":{
+       "en":"12.7cm Twin Gun Mount Model B Kai 2",
+       "type":1,
+       "icon":1
+    },
+    "64":{
+       "en":"Ju 87C Kai",
+       "type":7,
+       "icon":7
+    },
+    "65":{
+       "en":"15.2cm Twin Gun Mount",
+       "type":2,
+       "icon":2
+    },
+    "66":{
+       "en":"8cm High-angle Gun",
+       "type":4,
+       "icon":16
+    },
+    "67":{
+       "en":"53cm Bow (Oxygen) Torpedo Mount",
+       "type":5,
+       "icon":5
+    },
+    "68":{
+       "en":"Daihatsu Landing Craft",
+       "type":24,
+       "icon":20
+    },
+    "69":{
+       "en":"Ka Type Observation Autogyro",
+       "type":25,
+       "icon":21
+    },
+    "70":{
+       "en":"Type 3 Command Liaison Aircraft (ASW)",
+       "type":26,
+       "icon":22
+    },
+    "71":{
+       "en":"10cm Twin High-angle Gun Mount (Carriage)",
+       "type":4,
+       "icon":16
+    },
+    "72":{
+       "en":"Anti-torpedo Bulge (Medium)",
+       "type":27,
+       "icon":23
+    },
+    "73":{
+       "en":"Anti-torpedo Bulge (Large)",
+       "type":28,
+       "icon":23
+    },
+    "74":{
+       "en":"Searchlight",
+       "type":29,
+       "icon":24
+    },
+    "75":{
+       "en":"Drum Canister (Transport Use)",
+       "type":30,
+       "icon":25
+    },
+    "76":{
+       "en":"38cm Twin Gun Mount",
+       "type":3,
+       "icon":3
+    },
+    "77":{
+       "en":"15cm Twin Secondary Gun Mount",
+       "type":4,
+       "icon":4
+    },
+    "78":{
+       "en":"12.7cm Single Gun Mount",
+       "type":1,
+       "icon":1
+    },
+    "79":{
+       "en":"Zuiun (634 Air Group)",
+       "type":11,
+       "icon":10
+    },
+    "80":{
+       "en":"Zuiun Model 12",
+       "type":11,
+       "icon":10
+    },
+    "81":{
+       "en":"Zuiun Model 12 (634 Air Group)",
+       "type":11,
+       "icon":10
+    },
+    "82":{
+       "en":"Type 97 Torpedo Bomber (931 Air Group)",
+       "type":8,
+       "icon":8
+    },
+    "83":{
+       "en":"Tenzan (931 Air Group)",
+       "type":8,
+       "icon":8
+    },
+    "84":{
+       "en":"2cm Flakvierling 38",
+       "type":21,
+       "icon":15
+    },
+    "85":{
+       "en":"3.7cm FlaK M42",
+       "type":21,
+       "icon":15
+    },
+    "86":{
+       "en":"Ship Repair Facility",
+       "type":31,
+       "icon":26
+    },
+    "87":{
+       "en":"New Model High Temperature High Pressure Boiler",
+       "type":17,
+       "icon":19
+    },
+    "88":{
+       "en":"Type 22 Surface Radar Kai 4",
+       "type":12,
+       "icon":11
+    },
+    "89":{
+       "en":"Type 21 Air Radar Kai",
+       "type":13,
+       "icon":11
+    },
+    "90":{
+       "en":"20.3cm (No.2) Twin Gun Mount",
+       "type":2,
+       "icon":2
+    },
+    "91":{
+       "en":"12.7cm Twin High-angle Gun Mount (Late Model)",
+       "type":1,
+       "icon":16
+    },
+    "92":{
+       "en":"Bi Type 40mm Twin Autocannon Mount",
+       "type":21,
+       "icon":15
+    },
+    "93":{
+       "en":"Type 97 Torpedo Bomber (Tomonaga Squadron)",
+       "type":8,
+       "icon":8
+    },
+    "94":{
+       "en":"Tenzan Model 12 (Tomonaga Squadron)",
+       "type":8,
+       "icon":8
+    },
+    "95":{
+       "en":"Submarine 53cm Bow Torpedo Mount (8 tubes)",
+       "type":32,
+       "icon":5
+    },
+    "96":{
+       "en":"Type 0 Fighter Model 21 (Skilled)",
+       "type":6,
+       "icon":6
+    },
+    "97":{
+       "en":"Type 99 Dive Bomber (Skilled)",
+       "type":7,
+       "icon":7
+    },
+    "98":{
+       "en":"Type 97 Torpedo Bomber (Skilled)",
+       "type":8,
+       "icon":8
+    },
+    "99":{
+       "en":"Type 99 Dive Bomber (Egusa Squadron)",
+       "type":7,
+       "icon":7
+    },
+    "100":{
+       "en":"Suisei (Egusa Squadron)",
+       "type":7,
+       "icon":7
+    },
+    "101":{
+       "en":"Star Shell",
+       "type":33,
+       "icon":27
+    },
+    "102":{
+       "en":"Type 98 Reconnaissance Seaplane (Night Recon)",
+       "type":10,
+       "icon":10
+    },
+    "103":{
+       "en":"Prototype 35.6cm Triple Gun Mount",
+       "type":3,
+       "icon":3
+    },
+    "104":{
+       "en":"35.6cm Twin Gun Mount (Dazzle Camouflage)",
+       "type":3,
+       "icon":3
+    },
+    "105":{
+       "en":"Prototype 41cm Triple Gun Mount",
+       "type":3,
+       "icon":3
+    },
+    "106":{
+       "en":"Type 13 Air Radar Kai",
+       "type":12,
+       "icon":11
+    },
+    "107":{
+       "en":"Fleet Command Facility",
+       "type":34,
+       "icon":28
+    },
+    "108":{
+       "en":"Skilled Carrier-based Aircraft Maintenance Personnel",
+       "type":35,
+       "icon":29
+    },
+    "109":{
+       "en":"Zero Fighter Model 52C (601 Air Group)",
+       "type":6,
+       "icon":6
+    },
+    "110":{
+       "en":"Reppuu (601 Air Group)",
+       "type":6,
+       "icon":6
+    },
+    "111":{
+       "en":"Suisei (601 Air Group)",
+       "type":7,
+       "icon":7
+    },
+    "112":{
+       "en":"Tenzan (601 Air Group)",
+       "type":8,
+       "icon":8
+    },
+    "113":{
+       "en":"Ryuusei (601 Air Group)",
+       "type":8,
+       "icon":8
+    },
+    "114":{
+       "en":"38cm Twin Gun Mount Kai",
+       "type":3,
+       "icon":3
+    },
+    "115":{
+       "en":"Ar196 Kai",
+       "type":10,
+       "icon":10
+    },
+    "116":{
+       "en":"Type 1 Armor Piercing Shell",
+       "type":19,
+       "icon":13
+    },
+    "117":{
+       "en":"Prototype 46cm Twin Gun Mount",
+       "type":3,
+       "icon":3
+    },
+    "118":{
+       "en":"Shiun",
+       "type":10,
+       "icon":10
+    },
+    "119":{
+       "en":"14cm Twin Gun Mount",
+       "type":2,
+       "icon":2
+    },
+    "120":{
+       "en":"Type 91 Anti-Aircraft Fire Director",
+       "type":36,
+       "icon":30
+    },
+    "121":{
+       "en":"Type 94 Anti-Aircraft Fire Director",
+       "type":36,
+       "icon":30
+    },
+    "122":{
+       "en":"10cm Twin High-angle Gun Mount + Anti-Aircraft Fire Director",
+       "type":1,
+       "icon":16
+    },
+    "123":{
+       "en":"SKC34 20.3cm Twin Gun Mount",
+       "type":2,
+       "icon":2
+    },
+    "124":{
+       "en":"FuMO25 Radar",
+       "type":13,
+       "icon":11
+    },
+    "125":{
+       "en":"61cm Triple (Oxygen) Torpedo Mount",
+       "type":5,
+       "icon":5
+    },
+    "126":{
+       "en":"WG42 (Wurfgerät 42)",
+       "type":37,
+       "icon":31
+    },
+    "127":{
+       "en":"Prototype FaT Type 95 Oxygen Torpedo Kai",
+       "type":32,
+       "icon":5
+    },
+    "128":{
+       "en":"Prototype 51cm Twin Gun Mount",
+       "type":38,
+       "icon":3
+    },
+    "129":{
+       "en":"Skilled Lookouts",
+       "type":39,
+       "icon":32
+    },
+    "130":{
+       "en":"12.7cm High-angle Gun + Anti-Aircraft Fire Director",
+       "type":4,
+       "icon":16
+    },
+    "131":{
+       "en":"25mm Triple Autocannon Mount (Concentrated Deployment)",
+       "type":21,
+       "icon":15
+    },
+    "132":{
+       "en":"Type 0 Passive Sonar",
+       "type":40,
+       "icon":18
+    },
+    "133":{
+       "en":"381mm/50 Triple Gun Mount",
+       "type":3,
+       "icon":3
+    },
+    "134":{
+       "en":"OTO 152mm Triple Rapid Fire Gun Mount",
+       "type":4,
+       "icon":4
+    },
+    "135":{
+       "en":"90mm Single High-angle Gun Mount",
+       "type":4,
+       "icon":16
+    },
+    "136":{
+       "en":"Pugliese Underwater Protection Bulkhead",
+       "type":28,
+       "icon":23
+    },
+    "137":{
+       "en":"381mm/50 Triple Gun Mount Kai",
+       "type":3,
+       "icon":3
+    },
+    "138":{
+       "en":"Type 2 Large Flying Boat",
+       "type":41,
+       "icon":33
+    },
+    "139":{
+       "en":"15.2cm Twin Gun Mount Kai",
+       "type":2,
+       "icon":2
+    },
+    "140":{
+       "en":"Type 96 150cm Searchlight",
+       "type":42,
+       "icon":24
+    },
+    "141":{
+       "en":"Type 32 Surface Radar Kai",
+       "type":13,
+       "icon":11
+    },
+    "142":{
+       "en":"15m Duplex Rangefinder + Type 21 Radar Kai Ni",
+       "type":93,
+       "icon":11
+    },
+    "143":{
+       "en":"Type 97 Torpedo Bomber (Murata Squadron)",
+       "type":8,
+       "icon":8
+    },
+    "144":{
+       "en":"Tenzan Model 12 (Murata Squadron)",
+       "type":8,
+       "icon":8
+    },
+    "145":{
+       "en":"Combat Ration",
+       "type":43,
+       "icon":34
+    },
+    "146":{
+       "en":"Underway Replenishment",
+       "type":44,
+       "icon":35
+    },
+    "147":{
+       "en":"120mm Twin Gun Mount",
+       "type":1,
+       "icon":1
+    },
+    "148":{
+       "en":"Prototype Nanzan",
+       "type":7,
+       "icon":7
+    },
+    "149":{
+       "en":"Type 4 Passive Sonar",
+       "type":14,
+       "icon":18
+    },
+    "150":{
+       "en":"Canned Mackerel",
+       "type":43,
+       "icon":34
+    },
+    "151":{
+       "en":"Prototype Keiun (Carrier-based Reconnaissance Model)",
+       "type":94,
+       "icon":9
+    },
+    "152":{
+       "en":"Type 0 Fighter Model 52 (Skilled)",
+       "type":6,
+       "icon":6
+    },
+    "153":{
+       "en":"Zero Fighter Model 52C (w/ Iwai Flight)",
+       "type":6,
+       "icon":6
+    },
+    "154":{
+       "en":"Zero Fighter Model 62 (Fighter-bomber / Iwai Squadron)",
+       "type":7,
+       "icon":7
+    },
+    "155":{
+       "en":"Zero Fighter Model 21 (w/ Iwamoto Flight)",
+       "type":6,
+       "icon":6
+    },
+    "156":{
+       "en":"Zero Fighter Model 52A (w/ Iwamoto Flight)",
+       "type":6,
+       "icon":6
+    },
+    "157":{
+       "en":"Type 0 Fighter Model 53 (Iwamoto Squadron)",
+       "type":6,
+       "icon":6
+    },
+    "158":{
+       "en":"Bf 109T Kai",
+       "type":6,
+       "icon":6
+    },
+    "159":{
+       "en":"Fw 190T Kai",
+       "type":6,
+       "icon":6
+    },
+    "160":{
+       "en":"10.5cm Twin Gun Mount",
+       "type":4,
+       "icon":16
+    },
+    "161":{
+       "en":"16inch Triple Gun Mount Mk.7",
+       "type":3,
+       "icon":3
+    },
+    "162":{
+       "en":"203mm/53 Twin Gun Mount",
+       "type":2,
+       "icon":2
+    },
+    "163":{
+       "en":"Ro.43 Reconnaissance Seaplane",
+       "type":10,
+       "icon":10
+    },
+    "164":{
+       "en":"Ro.44 Seaplane Fighter",
+       "type":45,
+       "icon":43
+    },
+    "165":{
+       "en":"Type 2 Seaplane Fighter Kai",
+       "type":45,
+       "icon":43
+    },
+    "166":{
+       "en":"Daihatsu Landing Craft (Type 89 Medium Tank & Landing Force)",
+       "type":24,
+       "icon":20
+    },
+    "167":{
+       "en":"Special Type 2 Amphibious Tank",
+       "type":46,
+       "icon":36
+    },
+    "168":{
+       "en":"Type 96 Land-based Attack Aircraft",
+       "type":47,
+       "icon":37
+    },
+    "169":{
+       "en":"Type 1 Land-based Attack Aircraft",
+       "type":47,
+       "icon":37
+    },
+    "170":{
+       "en":"Type 1 Land-based Attack Aircraft (Nonaka Squadron)",
+       "type":47,
+       "icon":37
+    },
+    "171":{
+       "en":"OS2U",
+       "type":10,
+       "icon":10
+    },
+    "172":{
+       "en":"5inch Twin Gun Mount Mk.28 mod.2",
+       "type":4,
+       "icon":16
+    },
+    "173":{
+       "en":"Bofors 40mm Quadruple Autocannon Mount",
+       "type":21,
+       "icon":15
+    },
+    "174":{
+       "en":"53cm Twin Torpedo Mount",
+       "type":5,
+       "icon":5
+    },
+    "175":{
+       "en":"Raiden",
+       "type":48,
+       "icon":38
+    },
+    "176":{
+       "en":"Type 3 Fighter Hien",
+       "type":48,
+       "icon":44
+    },
+    "177":{
+       "en":"Type 3 Fighter Hien (244th Air Combat Group)",
+       "type":48,
+       "icon":44
+    },
+    "178":{
+       "en":"PBY-5A Catalina",
+       "type":41,
+       "icon":33
+    },
+    "179":{
+       "en":"Prototype 61cm Sextuple (Oxygen) Torpedo Mount",
+       "type":5,
+       "icon":5
+    },
+    "180":{
+       "en":"Type 1 Land-based Attack Aircraft Model 22A",
+       "type":47,
+       "icon":37
+    },
+    "181":{
+       "en":"Type 0 Fighter Model 32",
+       "type":6,
+       "icon":6
+    },
+    "182":{
+       "en":"Type 0 Fighter Model 32 (Skilled)",
+       "type":6,
+       "icon":6
+    },
+    "183":{
+       "en":"16inch Triple Gun Mount Mk.7 + GFCS",
+       "type":3,
+       "icon":3
+    },
+    "184":{
+       "en":"Re.2001 OR Kai",
+       "type":6,
+       "icon":6
+    },
+    "185":{
+       "en":"Type 3 Fighter Hien Model 1D",
+       "type":48,
+       "icon":44
+    },
+    "186":{
+       "en":"Type 1 Land-based Attack Aircraft Model 34",
+       "type":47,
+       "icon":37
+    },
+    "187":{
+       "en":"Ginga",
+       "type":47,
+       "icon":37
+    },
+    "188":{
+       "en":"Re.2001 G Kai",
+       "type":8,
+       "icon":8
+    },
+    "189":{
+       "en":"Re.2005 Kai",
+       "type":6,
+       "icon":6
+    },
+    "190":{
+       "en":"38.1cm Mk.I Twin Gun Mount",
+       "type":3,
+       "icon":3
+    },
+    "191":{
+       "en":"QF 2-pounder Octuple Pom-pom Gun Mount",
+       "type":21,
+       "icon":15
+    },
+    "192":{
+       "en":"38.1cm Mk.I/N Twin Gun Mount Kai",
+       "type":3,
+       "icon":3
+    },
+    "193":{
+       "en":"Toku Daihatsu Landing Craft",
+       "type":24,
+       "icon":20
+    },
+    "194":{
+       "en":"Laté 298B",
+       "type":11,
+       "icon":10
+    },
+    "195":{
+       "en":"SBD",
+       "type":7,
+       "icon":7
+    },
+    "196":{
+       "en":"TBD",
+       "type":8,
+       "icon":8
+    },
+    "197":{
+       "en":"F4F-3",
+       "type":6,
+       "icon":6
+    },
+    "198":{
+       "en":"F4F-4",
+       "type":6,
+       "icon":6
+    },
+    "199":{
+       "en":"Jet Keiun Kai",
+       "type":57,
+       "icon":39
+    },
+    "200":{
+       "en":"Kikka Kai",
+       "type":57,
+       "icon":40
+    },
+    "201":{
+       "en":"Shiden Model 11",
+       "type":48,
+       "icon":38
+    },
+    "202":{
+       "en":"Shiden Model 21 Shiden Kai",
+       "type":48,
+       "icon":38
+    },
+    "203":{
+       "en":"New Kanhon Design Anti-torpedo Bulge (Medium)",
+       "type":27,
+       "icon":23
+    },
+    "204":{
+       "en":"New Kanhon Design Anti-torpedo Bulge (Large)",
+       "type":28,
+       "icon":23
+    },
+    "205":{
+       "en":"F6F-3",
+       "type":6,
+       "icon":6
+    },
+    "206":{
+       "en":"F6F-5",
+       "type":6,
+       "icon":6
+    },
+    "207":{
+       "en":"Zuiun (631 Air Group)",
+       "type":11,
+       "icon":10
+    },
+    "208":{
+       "en":"Seiran (631 Air Group)",
+       "type":11,
+       "icon":10
+    },
+    "209":{
+       "en":"Saiun (Disassembled for Transport)",
+       "type":50,
+       "icon":41
+    },
+    "210":{
+       "en":"Submarine Radar & Waterproof Telescope",
+       "type":51,
+       "icon":42
+    },
+    "211":{
+       "en":"Submarine Radar & Passive Radiolocator (E27)",
+       "type":51,
+       "icon":42
+    },
+    "212":{
+       "en":"Saiun (Eastern Caroline Air Group)",
+       "type":9,
+       "icon":9
+    },
+    "213":{
+       "en":"Late Model Bow Torpedo Mount (6 tubes)",
+       "type":32,
+       "icon":5
+    },
+    "214":{
+       "en":"Skilled Sonar Personnel + Late Model Bow Torpedo Mount (6 tubes)",
+       "type":32,
+       "icon":5
+    },
+    "215":{
+       "en":"Ro.44 Seaplane Fighter bis",
+       "type":45,
+       "icon":43
+    },
+    "216":{
+       "en":"Type 2 Seaplane Fighter Kai (Skilled)",
+       "type":45,
+       "icon":43
+    },
+    "217":{
+       "en":"Kyoufuu Kai",
+       "type":45,
+       "icon":43
+    },
+    "218":{
+       "en":"Type 4 Fighter Hayate",
+       "type":48,
+       "icon":44
+    },
+    "219":{
+       "en":"Type 0 Fighter Model 63 (Fighter-bomber)",
+       "type":7,
+       "icon":7
+    },
+    "220":{
+       "en":"8cm High-angle Gun Kai + Additional Machine Guns",
+       "type":4,
+       "icon":16
+    },
+    "221":{
+       "en":"Type 1 Fighter Hayabusa Model II",
+       "type":48,
+       "icon":44
+    },
+    "222":{
+       "en":"Type 1 Fighter Hayabusa Model III A",
+       "type":48,
+       "icon":44
+    },
+    "223":{
+       "en":"Type 1 Fighter Hayabusa Model III A (54th Squadron)",
+       "type":48,
+       "icon":44
+    },
+    "224":{
+       "en":"Bomb-carrying Type 1 Fighter Hayabusa Model III Kai (55th Squadron)",
+       "type":47,
+       "icon":44
+    },
+    "225":{
+       "en":"Type 1 Fighter Hayabusa Model II (64th Squadron)",
+       "type":48,
+       "icon":44
+    },
+    "226":{
+       "en":"Type 95 Depth Charge",
+       "type":15,
+       "icon":17
+    },
+    "227":{
+       "en":"Type 2 Depth Charge",
+       "type":15,
+       "icon":17
+    },
+    "228":{
+       "en":"Type 96 Fighter Kai",
+       "type":6,
+       "icon":6
+    },
+    "229":{
+       "en":"12.7cm Single High-angle Gun Mount (Late Model)",
+       "type":1,
+       "icon":16
+    },
+    "230":{
+       "en":"Toku Daihatsu Landing Craft + 11th Tank Regiment",
+       "type":24,
+       "icon":20
+    },
+    "231":{
+       "en":"30.5cm Triple Gun Mount",
+       "type":3,
+       "icon":3
+    },
+    "232":{
+       "en":"30.5cm Triple Gun Mount Kai",
+       "type":3,
+       "icon":3
+    },
+    "233":{
+       "en":"F4U-1D",
+       "type":7,
+       "icon":7
+    },
+    "234":{
+       "en":"15.5cm Triple Secondary Gun Mount Kai",
+       "type":4,
+       "icon":4
+    },
+    "235":{
+       "en":"15.5cm Triple Gun Mount Kai",
+       "type":2,
+       "icon":2
+    },
+    "236":{
+       "en":"41cm Triple Gun Mount Kai",
+       "type":3,
+       "icon":3
+    },
+    "237":{
+       "en":"Zuiun (634 Air Group/Skilled)",
+       "type":11,
+       "icon":10
+    },
+    "238":{
+       "en":"Type 0 Reconnaissance Seaplane Model 11B",
+       "type":10,
+       "icon":10
+    },
+    "239":{
+       "en":"Type 0 Reconnaissance Seaplane Model 11B (Skilled)",
+       "type":10,
+       "icon":10
+    },
+    "240":{
+       "en":"Type 22 Surface Radar Kai 4 (Calibrated Late Model)",
+       "type":12,
+       "icon":11
+    },
+    "241":{
+       "en":"Combat Ration (Special Onigiri)",
+       "type":43,
+       "icon":34
+    },
+    "242":{
+       "en":"Swordfish",
+       "type":8,
+       "icon":8
+    },
+    "243":{
+       "en":"Swordfish Mk.II (Skilled)",
+       "type":8,
+       "icon":8
+    },
+    "244":{
+       "en":"Swordfish Mk.III (Skilled)",
+       "type":8,
+       "icon":8
+    },
+    "245":{
+       "en":"38cm Quadruple Gun Mount",
+       "type":3,
+       "icon":3
+    },
+    "246":{
+       "en":"38cm Quadruple Gun Mount Kai",
+       "type":3,
+       "icon":3
+    },
+    "247":{
+       "en":"15.2cm Triple Gun Mount",
+       "type":4,
+       "icon":4
+    },
+    "248":{
+       "en":"Skua",
+       "type":7,
+       "icon":7
+    },
+    "249":{
+       "en":"Fulmar",
+       "type":6,
+       "icon":6
+    },
+    "250":{
+       "en":"Spitfire Mk.I",
+       "type":48,
+       "icon":44
+    },
+    "251":{
+       "en":"Spitfire Mk.V",
+       "type":48,
+       "icon":44
+    },
+    "252":{
+       "en":"Seafire Mk.III Kai",
+       "type":6,
+       "icon":6
+    },
+    "253":{
+       "en":"Spitfire Mk.IX (Skilled)",
+       "type":48,
+       "icon":44
+    },
+    "254":{
+       "en":"F6F-3N",
+       "type":6,
+       "icon":45
+    },
+    "255":{
+       "en":"F6F-5N",
+       "type":6,
+       "icon":45
+    },
+    "256":{
+       "en":"TBF",
+       "type":8,
+       "icon":8
+    },
+    "257":{
+       "en":"TBM-3D",
+       "type":8,
+       "icon":46
+    },
+    "258":{
+       "en":"Night Operation Aviation Personnel",
+       "type":35,
+       "icon":29
+    },
+    "259":{
+       "en":"Night Operation Aviation Personnel + Skilled Deckhands",
+       "type":35,
+       "icon":29
+    },
+    "260":{
+       "en":"Type124 ASDIC",
+       "type":14,
+       "icon":18
+    },
+    "261":{
+       "en":"Type144/147 ASDIC",
+       "type":14,
+       "icon":18
+    },
+    "262":{
+       "en":"HF/DF + Type144/147 ASDIC",
+       "type":14,
+       "icon":18
+    },
+    "266":{
+       "en":"12.7cm Twin Gun Mount Model C Kai 2",
+       "type":1,
+       "icon":1
+    },
+    "267":{
+       "en":"12.7cm Twin Gun Mount Model D Kai 2",
+       "type":1,
+       "icon":1
+    },
+    "268":{
+       "en":"Arctic Camouflage (+ Arctic Equipment)",
+       "type":27,
+       "icon":23
+    },
+    "269":{
+       "en":"Prototype Toukai",
+       "type":47,
+       "icon":47
+    },
+    "270":{
+       "en":"Toukai (901 Air Group)",
+       "type":47,
+       "icon":47
+    },
+    "271":{
+       "en":"Shiden Kai 4",
+       "type":6,
+       "icon":6
+    },
+    "272":{
+       "en":"Striking Force Fleet Command Facility",
+       "type":34,
+       "icon":28
+    },
+    "273":{
+       "en":"Saiun (4th Recon Squad)",
+       "type":9,
+       "icon":9
+    },
+    "274":{
+       "en":"12cm 30-tube Rocket Launcher Kai Ni",
+       "type":21,
+       "icon":15
+    },
+    "276":{
+       "en":"46cm Triple Gun Mount Kai",
+       "type":3,
+       "icon":3
+    },
+    "277":{
+       "en":"FM-2",
+       "type":7,
+       "icon":7
+    }
+ }

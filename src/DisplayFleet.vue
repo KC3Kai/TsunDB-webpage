@@ -1,6 +1,6 @@
 <template>
     <div class="container" v-if="data != undefined">
-        <h2 class="subtitle">Route taken in {{map}}: {{formatRoute(data.edgeID)}}</h2>
+        <h2 class="subtitle">Route taken in {{map}} {{formatDiff(data.difficulty)}}: {{formatRoute(data.edgeID)}}</h2>
         <h2>Still working on the node and event types, feel free to ignore this.</h2>
         <h2>Node: {{data.eventId}} ({{checkNodeType(data.eventId)}}??)</h2>
         <h2>Event: {{data.eventKind}} ({{checkEventType(data.eventKind)}}??)</h2>
@@ -19,8 +19,12 @@
                 <td>{{ship.name}}</td>
                 <td>{{fleetComp(ship.type)}}</td>
                 <td>{{formatSpeed(ship.speed)}}</td>
-                <td v-for="value in ship.equip" :key="value">{{value}}</td>
-                <td>{{ship.exslot}}</td>
+                <td v-for="value in ship.equip" :key="value">
+                    <img :src="shipEquip(value)" style="width:40px; height:40px;" />
+                </td>
+                <td>
+                    <img :src="shipEquip(ship.exslot)" style="width:40px; height:40px;" />
+                </td>
             </tr>
             <template v-if="'fleet2' in data">
                 <tr>
@@ -37,8 +41,12 @@
                     <td>{{ship.name}}</td>
                     <td>{{fleetComp(ship.type)}}</td>
                     <td>{{formatSpeed(ship.speed)}}</td>
-                    <td v-for="value in ship.equip" :key="value">{{value}}</td>
-                    <td>{{ship.exslot}}</td>
+                    <td v-for="value in ship.equip" :key="value">
+                        <img :src="shipEquip(value)" style="width:40px; height:40px;" />
+                    </td>
+                    <td>
+                        <img :src="shipEquip(ship.exslot)" style="width:40px; height:40px;" />
+                    </td>
                 </tr>
             </template>
         </table>
@@ -50,81 +58,20 @@ export default {
     props:['map','data','ship'],
     data: function(){
         return {
-            edges: require('./data/edges.json')
+            edges: require('./data/edges.json'),
+            shiptype: require('./data/shiptype.json'),
+            equip: require('./data/equip.json'),
+            equiplink: require('./data/equiplink.json')
         }
     },
 	methods: {
+        shipEquip: function(id) {
+            if(id != -1){
+                return this.equiplink[String(this.equip[String(id)].icon)];
+            }
+        },
 		fleetComp: function(type) {
-			let returnStr = "";
-            switch(type){
-                case 1:
-                    returnStr = "DE";
-                    break;
-                case 2:
-                    returnStr = "DD";
-                    break;
-                case 3:
-                    returnStr = "CL";
-                    break;
-                case 4:
-                    returnStr = "CLT";
-                    break;
-                case 5:
-                    returnStr = "CA";
-                    break;
-                case 6:
-                    returnStr = "CAV";
-                    break;
-                case 7:
-                    returnStr = "CVL";
-                    break;
-                case 8:
-                    returnStr = "FBB";
-                    break;
-                case 9:
-                    returnStr = "BB";
-                    break;
-                case 10:
-                    returnStr = "BBV";
-                    break;
-                case 11:
-                    returnStr = "CV";
-                    break;
-                case 12:
-                    returnStr = "B";
-                    break;
-                case 13:
-                    returnStr = "SS";
-                    break;
-                case 14:
-                    returnStr = "SSV";
-                    break;
-                case 15:
-                    returnStr = "AP";
-                    break;
-                case 16:
-                    returnStr = "AV";
-                    break;
-                case 17:
-                    returnStr = "LHA";
-                    break;
-                case 18:
-                    returnStr = "CVB";
-                    break;
-                case 19:
-                    returnStr = "AR";
-                    break;
-                case 20:
-                    returnStr = "AS";
-                    break;
-                case 21:
-                    returnStr = "CT";
-                    break;
-                case 22:
-                    returnStr = "AO";
-                    break;
-			}
-			return returnStr;
+            return this.shiptype[String(type)];
         },
         formatSpeed: function(speed){
 			let returnStr = "";
@@ -223,6 +170,19 @@ export default {
                     break;
             }
             return returnStr;
+        },
+        formatDiff: function(diff){
+            switch(diff){
+                case 1:
+                    return " on 丙";
+                    break;
+                case 2:
+                    return " on 乙";
+                    break;
+                case 3:
+                    return " on 甲";
+                    break;
+            }
         }
 	}
 }
