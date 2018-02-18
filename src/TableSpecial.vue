@@ -18,7 +18,7 @@
 			<th>Gauge</th>
 			<th>Debuff</th>
 		</tr>
-		<tr v-for="sample in samples">
+		<tr v-for="sample in samples" :key="sample">
 			<a class="button is-small" @click="displayFleet(sample)">Info</a>
 			<routing-col :route="sample.edgeID" :map="map"></routing-col>
 			<clear-col :clear="sample.cleared"></clear-col>
@@ -27,7 +27,7 @@
 			<fleet-col :fleet="sample.fleet1"></fleet-col>
 			<fleet-col :fleet="sample.fleet2"></fleet-col>
 			<speed-col :speed="sample.fleetSpeed"></speed-col>
-			<los-col v-for="los in sample.los" :los="los.toFixed(2)"></los-col>
+			<los-col v-for="los in sample.los" :los="los.toFixed(2)" :key="los"></los-col>
 			<difficulty-col :diff="sample.difficulty"></difficulty-col>
 			<gaugetype-col :type="sample.gaugeType"></gaugetype-col>
 			<gauge-col :current="sample.currentMapHP" :max="sample.maxMapHP"></gauge-col>

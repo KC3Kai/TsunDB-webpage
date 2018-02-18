@@ -14,6 +14,7 @@
                 <th>#3</th>
                 <th>#4</th>
                 <th>#5</th>
+                <th>#6</th>
             </tr>
             <tr v-for="ship in data.fleet1" :key="ship">
                 <td>{{ship.name}}</td>
@@ -36,6 +37,7 @@
                     <th>#3</th>
                     <th>#4</th>
                     <th>#5</th>
+                    <th>#6</th>
                 </tr>
                 <tr v-for="ship in data.fleet2" :key="ship">
                     <td>{{ship.name}}</td>
@@ -66,7 +68,7 @@ export default {
     },
 	methods: {
         shipEquip: function(id) {
-            if(id != -1){
+            if(this.equip.hasOwnProperty(String(id))){
                 return this.equiplink[String(this.equip[String(id)].icon)];
             }
         },
@@ -174,12 +176,15 @@ export default {
         formatDiff: function(diff){
             switch(diff){
                 case 1:
-                    return " on 丙";
+                    return " on 丁";
                     break;
                 case 2:
-                    return " on 乙";
+                    return " on 丙";
                     break;
                 case 3:
+                    return " on 乙";
+                    break;
+                case 4:
                     return " on 甲";
                     break;
             }
