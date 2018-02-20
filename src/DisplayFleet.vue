@@ -17,15 +17,19 @@
                 <th>#6</th>
             </tr>
             <tr v-for="ship in data.fleet1" :key="ship">
-                <td>{{ship.name}}</td>
-                <td>{{fleetComp(ship.type)}}</td>
-                <td>{{formatSpeed(ship.speed)}}</td>
-                <td v-for="value in ship.equip" :key="value">
-                    <img :src="shipEquip(value)" style="width:40px; height:40px;" />
-                </td>
-                <td>
-                    <img :src="shipEquip(ship.exslot)" style="width:40px; height:40px;" />
-                </td>
+                    <td>
+                        <img :src="shipCard(ship)" :title="shipCardName(ship)" style="width:160px; height:40px;" />
+                    </td>
+                <template v-if="ship != -1">
+                    <td>{{fleetComp(ship.type)}}</td>
+                    <td>{{formatSpeed(ship.speed)}}</td>
+                    <td v-for="value in ship.equip" :key="value">
+                        <img :src="shipEquipIcon(value)" :title="shipEquipName(value)" style="width:40px; height:40px;" />
+                    </td>
+                    <td>
+                        <img :src="shipEquipIcon(ship.exslot)" :title="shipEquipName(ship.exslot)" style="width:40px; height:40px;" />
+                    </td>
+                </template>
             </tr>
             <template v-if="'fleet2' in data">
                 <tr>
@@ -40,15 +44,19 @@
                     <th>#6</th>
                 </tr>
                 <tr v-for="ship in data.fleet2" :key="ship">
-                    <td>{{ship.name}}</td>
-                    <td>{{fleetComp(ship.type)}}</td>
-                    <td>{{formatSpeed(ship.speed)}}</td>
-                    <td v-for="value in ship.equip" :key="value">
-                        <img :src="shipEquip(value)" style="width:40px; height:40px;" />
-                    </td>
                     <td>
-                        <img :src="shipEquip(ship.exslot)" style="width:40px; height:40px;" />
+                        <img :src="shipCard(ship)" :title="shipCardName(ship)" style="width:160px; height:40px;" />
                     </td>
+                    <template v-if="ship != -1">
+                        <td>{{fleetComp(ship.type)}}</td>
+                        <td>{{formatSpeed(ship.speed)}}</td>
+                        <td v-for="value in ship.equip" :key="value">
+                            <img :src="shipEquipIcon(value)" :title="shipEquipName(value)" style="width:40px; height:40px;" />
+                        </td>
+                        <td>
+                            <img :src="shipEquipIcon(ship.exslot)" :title="shipEquipName(ship.exslot)" style="width:40px; height:40px;" />
+                        </td>
+                    </template>
                 </tr>
             </template>
         </table>
@@ -61,15 +69,36 @@ export default {
     data: function(){
         return {
             edges: require('./data/edges.json'),
+            ships: require('./data/ship.json'),
             shiptype: require('./data/shiptype.json'),
-            equip: require('./data/equip.json'),
-            equiplink: require('./data/equiplink.json')
+            equip: require('./data/equip.json')
         }
     },
 	methods: {
-        shipEquip: function(id) {
+        shipCard: function(ship) {
+            if(ship == -1 || !this.ships.hasOwnProperty(String(ship.name))){
+                return './src/assets/shipcards/Catbomb.png';
+            }
+            else {
+                return `./src/assets/shipcards/${this.ships[String(ship.name)]}.png`;
+            }
+        },
+        shipCardName: function(ship){
+            if(ship == -1){
+                return 'Retreated/Sunk';
+            }
+            else{
+                return ship.name;
+            }
+        },
+        shipEquipIcon: function(id) {
             if(this.equip.hasOwnProperty(String(id))){
-                return this.equiplink[String(this.equip[String(id)].icon)];
+                return `./src/assets/icons/${this.equip[String(id)].icon}.png`;
+            }
+        },
+        shipEquipName: function(id) {
+            if(this.equip.hasOwnProperty(String(id))){
+                return this.equip[String(id)].en;
             }
         },
 		fleetComp: function(type) {

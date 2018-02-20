@@ -14,7 +14,12 @@ export default {
 		fleetComp: function(fleet) {
 			let returnStr = "";
 			for(let i = 0; i < fleet.length; i++){
-				returnStr += this.shiptype[String(fleet[i].type)];
+				if(fleet[i] == -1){
+					returnStr += '??';
+				}
+				else{
+					returnStr += this.shiptype[String(fleet[i].type)];
+				}
 				returnStr += "-";
 			}
 			if(returnStr != ""){
