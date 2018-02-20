@@ -77,10 +77,10 @@ export default {
 	methods: {
         shipCard: function(ship) {
             if(ship == -1 || !this.ships.hasOwnProperty(String(ship.name))){
-                return './src/assets/shipcards/Catbomb.png';
+                return './assets/shipcards/Catbomb.png';
             }
             else {
-                return `./src/assets/shipcards/${this.ships[String(ship.name)]}.png`;
+                return `./assets/shipcards/${this.ships[String(ship.name)]}.png`;
             }
         },
         shipCardName: function(ship){
@@ -93,7 +93,7 @@ export default {
         },
         shipEquipIcon: function(id) {
             if(this.equip.hasOwnProperty(String(id))){
-                return `./src/assets/icons/${this.equip[String(id)].icon}.png`;
+                return `./assets/icons/${this.equip[String(id)].icon}.png`;
             }
         },
         shipEquipName: function(id) {
