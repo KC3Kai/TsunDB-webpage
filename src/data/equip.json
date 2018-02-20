@@ -1363,5 +1363,35 @@
        "en":"FM-2",
        "type":7,
        "icon":7
+    },
+    "278":{
+        "en":"SK Radar",
+        "type":13,
+        "icon":11
+    },
+    "279":{
+        "en":"SK & SG Radar",
+        "type":13,
+        "icon":11
+    },
+    "280":{
+        "en":"QF 4.7inch Gun Mk.XII Kai",
+        "type":1,
+        "icon":1
+    },
+    "281":{
+        "en":"51cm Twin Gun Mount",
+        "type":3,
+        "icon":3
+    },
+    "282":{
+        "en":"130mm B-13 Twin Gun Mount",
+        "type":1,
+        "icon":1
+    },
+    "283":{
+        "en":"533mm Triple Torpedo Mount",
+        "type":5,
+        "icon":5
     }
  }
