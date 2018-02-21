@@ -18,7 +18,7 @@
             </tr>
             <tr v-for="ship in data.fleet1" :key="ship">
                     <td>
-                        <img :src="shipCard(ship)" :title="shipCardName(ship)" style="width:160px; height:40px;" />
+                        <img :src="shipCard(ship)" :alt="ship.name" :title="shipCardName(ship)" style="width:160px; height:40px;" />
                     </td>
                 <template v-if="ship != -1">
                     <td>{{fleetComp(ship.type)}}</td>
@@ -45,7 +45,7 @@
                 </tr>
                 <tr v-for="ship in data.fleet2" :key="ship">
                     <td>
-                        <img :src="shipCard(ship)" :title="shipCardName(ship)" style="width:160px; height:40px;" />
+                        <img :src="shipCard(ship)" :alt="ship.name" :title="shipCardName(ship)" style="width:160px; height:40px;" />
                     </td>
                     <template v-if="ship != -1">
                         <td>{{fleetComp(ship.type)}}</td>
