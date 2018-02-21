@@ -71,6 +71,7 @@ export default {
             edges: require('./data/edges.json'),
             ships: require('./data/ship.json'),
             shiptype: require('./data/shiptype.json'),
+            shipnames: require('./data/shipJPtoEN.json'),
             equip: require('./data/equip.json')
         }
     },
@@ -85,10 +86,15 @@ export default {
         },
         shipCardName: function(ship){
             if(ship == -1){
-                return 'Retreated/Sunk';
+                return '退避/撃沈 (Retreated/Sunk)';
             }
             else{
-                return ship.name;
+                if(ship.name == this.shipnames[ship.name]){
+                    return ship.name;
+                }
+                else {
+                    return `${ship.name} (${this.shipnames[ship.name]})`;
+                }
             }
         },
         shipEquipIcon: function(id) {
