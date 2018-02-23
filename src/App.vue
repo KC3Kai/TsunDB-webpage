@@ -92,7 +92,7 @@ export default {
         displayMap(map){
             let returnStr = "";
             if(this.eventMapId.hasOwnProperty(String(map.slice(0,2)))){
-                returnStr += `${this.eventMapId[String(map.slice(0,2))]} E-${map.slice(-1)}`;
+                returnStr += `${this.eventMapId[String(map.slice(0,2))].world} E-${map.slice(-1)}`;
             }
             else{
                 returnStr += `World ${map}`;

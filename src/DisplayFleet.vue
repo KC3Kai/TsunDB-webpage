@@ -6,7 +6,9 @@
         <h2>Event: {{data.eventKind}} ({{checkEventType(data.eventKind)}}??)</h2>
         <table class="table">
             <tr>
+                <th>Lvl</th>
                 <th>Ship</th>
+                <th>Tag</th>
                 <th>Type</th>
                 <th>Speed</th>
                 <th>#1</th>
@@ -18,7 +20,13 @@
             </tr>
             <tr v-for="ship in data.fleet1" :key="ship">
                     <td>
+                        {{showLevel(ship)}}
+                    </td>
+                    <td>
                         <img :src="shipCard(ship)" :alt="ship.name" :title="shipCardName(ship)" style="width:160px; height:40px;" />
+                    </td>
+                    <td>
+                        <img :src="tagIcon(ship)" :title="tagName(ship)" style="width:20px; height:40px;" />
                     </td>
                 <template v-if="ship != -1">
                     <td>{{fleetComp(ship.type)}}</td>
@@ -33,7 +41,9 @@
             </tr>
             <template v-if="'fleet2' in data">
                 <tr>
+                    <th>Lvl</th>
                     <th>Ship</th>
+                    <th>Tag</th>
                     <th>Type</th>
                     <th>Speed</th>
                     <th>#1</th>
@@ -45,7 +55,13 @@
                 </tr>
                 <tr v-for="ship in data.fleet2" :key="ship">
                     <td>
+                        {{showLevel(ship)}}
+                    </td>
+                    <td>
                         <img :src="shipCard(ship)" :alt="ship.name" :title="shipCardName(ship)" style="width:160px; height:40px;" />
+                    </td>
+                    <td>
+                        <img :src="tagIcon(ship)" :title="tagName(ship)" style="width:20px; height:40px;" />
                     </td>
                     <template v-if="ship != -1">
                         <td>{{fleetComp(ship.type)}}</td>
@@ -72,10 +88,29 @@ export default {
             ships: require('./data/ship.json'),
             shiptype: require('./data/shiptype.json'),
             shipnames: require('./data/shipJPtoEN.json'),
-            equip: require('./data/equip.json')
+            equip: require('./data/equip.json'),
+            eventMaps: require('./data/eventMaps.json')
         }
     },
 	methods: {
+        tagIcon: function(ship){
+            if(ship.shiplock == undefined){
+                return `./assets/main/unknown.png`;
+            }
+            else if(this.eventMaps.hasOwnProperty(String(this.map.slice(0,2))) && ship.shiplock != 0){
+                return `./assets/tags/${String(this.map.slice(0,2))}/${String(ship.shiplock)}.png`;
+            }
+        },
+        tagName: function(ship){
+            if(this.eventMaps.hasOwnProperty(String(this.map.slice(0,2))) && ship.shiplock != 0){
+                return this.eventMaps[String(this.map.slice(0,2))].tags[String(ship.shiplock)];
+            }
+        },
+        showLevel: function(ship){
+            if(ship.level != undefined){
+                return ship.level;
+            }
+        },
         shipCard: function(ship) {
             if(ship == -1 || !this.ships.hasOwnProperty(String(ship.name))){
                 return './assets/shipcards/Catbomb.png';
@@ -100,6 +135,9 @@ export default {
         shipEquipIcon: function(id) {
             if(this.equip.hasOwnProperty(String(id))){
                 return `./assets/icons/${this.equip[String(id)].icon}.png`;
+            }
+            else if(id != -1){
+                return `./assets/main/unknown.png`;
             }
         },
         shipEquipName: function(id) {
