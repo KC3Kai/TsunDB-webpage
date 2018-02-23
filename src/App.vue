@@ -1,17 +1,37 @@
 <template>
-<div>
+<div id="scroll">
     <navbar @mapIsSet="loadData($event)"></navbar>
     <div class="container" v-if="map == undefined">
-        <h2 class="subtitle">Select a world, you shitty admiral!</h2>
+        <p class="subtitle">
+            Select a world, you shitty admiral! 
+            <br />
+            <br />
+            <br />
+            <br />
+            <!--
+            <img src="./../assets/main/kasunuinui left.png" alt="" style="width:20%; height:20%;">
+            <img src="./../assets/main/kasunuinui right.png" alt="" style="width:20%; height:20%;">
+            -->
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </p>
     </div>
-    <div v-else>
-        <h1 class="title">Map {{map}}</h1>
-        <options class="container" @nextRouteToggled="nextRouteToggled($event)"></options>
-        <pagination :offset="offset" @pageChanged="updatePage($event)"></pagination>
-        <table-special class="container" v-if="eventselected" :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-special>
-        <table-normal class="container" v-else :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-normal>
-        <display-fleet :data="data" :map="map"></display-fleet>
-        <pagination :offset="offset" @pageChanged="updatePage($event)"></pagination>
+    <div class="container" v-else>
+        <h1 class="title">{{displayMap(map)}}</h1>
+        <span>
+            <options class="container" @nextRouteToggled="nextRouteToggled($event)"></options>
+            <pagination :offset="offset" @pageChanged="updatePage($event)"></pagination>
+            <table-special class="container" v-if="eventselected" :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-special>
+            <table-normal class="container" v-else :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-normal>
+            <display-fleet :data="data" :map="map"></display-fleet>
+            <pagination :offset="offset" @pageChanged="updatePage($event)"></pagination>
+        </span>
     </div>
 </div>
 </template>
@@ -31,7 +51,8 @@ export default {
             eventselected: false,
             samples: [],
             map: undefined,
-            data: undefined
+            data: undefined,
+            eventMapId: require('./data/eventMaps.json')
         };
     },
     methods: {
@@ -67,6 +88,16 @@ export default {
         updateData(data){
             console.log(data);
             this.data = data;
+        },
+        displayMap(map){
+            let returnStr = "";
+            if(this.eventMapId.hasOwnProperty(String(map.slice(0,2)))){
+                returnStr += `${this.eventMapId[String(map.slice(0,2))]} E-${map.slice(-1)}`;
+            }
+            else{
+                returnStr += `World ${map}`;
+            }
+            return returnStr;
         }
     }
 }
@@ -74,4 +105,12 @@ export default {
 
 <style lang="css">
     @import "../node_modules/bulma/css/bulma.css";
+    #scroll{
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    #scroll > .container{
+        margin-top:2%;
+        margin-left:5%;
+    }
 </style>
