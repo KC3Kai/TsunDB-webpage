@@ -8,10 +8,8 @@
             <br />
             <br />
             <br />
-            <!--
             <img src="./../assets/main/kasunuinui left.png" alt="" style="width:20%; height:20%;">
             <img src="./../assets/main/kasunuinui right.png" alt="" style="width:20%; height:20%;">
-            -->
             <br />
             <br />
             <br />
