@@ -23,7 +23,7 @@
     <div class="container" v-else>
         <h1 class="title">{{displayMap(map)}}</h1>
         <span>
-            <options class="container" :map="map" @nextRouteToggled="nextRouteToggled($event)" @filterDifficulty="filterDifficulty($event)"></options>
+            <options class="container" :map="map" @nextRouteToggled="nextRouteToggled($event)" @filterDifficulty="filterDifficulty($event)" @filterNodes="filterNodes($event)"></options>
             <pagination :offset="offset" @pageChanged="updatePage($event)"></pagination>
             <table-special class="container" v-if="eventselected" :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-special>
             <table-normal class="container" v-else :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-normal>
@@ -36,6 +36,7 @@
 
 <script>
 import axios from 'axios';
+import qs from 'qs';
 
 export default {
     data: function() {
@@ -60,7 +61,14 @@ export default {
                     offset: this.offset*this.limit,
                     limit: this.limit,
                     next_route: this.nextRoute,
-                    difficulty: this.difficulty
+                    difficulty: this.difficulty,
+                    edgeID: this.edge_id
+                },
+                paramsSerializer: function(params){
+                    return qs.stringify(params, {
+                        arrayFormat: 'brackets',
+                        encode: false
+                    })
                 }
             })
             .then(response => {
@@ -88,6 +96,10 @@ export default {
         },
         filterDifficulty(id){
             this.difficulty = id;
+            this.getJSON();
+        },
+        filterNodes(nodes){
+            this.edge_id = nodes;
             this.getJSON();
         },
         updatePage(offset){

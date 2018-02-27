@@ -27,7 +27,7 @@
         <div class="field-body">
             <div class="field">
                 <div class="control">
-                    <input class="input" id="shrink" type="text" placeholder="SoonTM" maxlength="1">
+                    <input class="input" id="shrink" type="text" placeholder="SoonTM" maxlength="1" @input="filterNodes">
                 </div>
             </div>
         </div>
@@ -62,12 +62,24 @@ export default {
             this.nextRoute = this.nextRoute ? 0 : 1;
             this.$emit("nextRouteToggled", this.nextRoute);
         },
-        filterDifficulty(id){
-            console.log();
-            this.$emit("filterDifficulty", id.target.value);
-        },
         eventMap(){
             return (this.map.slice(0,2) == 41) ? true : false;
+        },
+        filterDifficulty(id){
+            this.$emit("filterDifficulty", id.target.value);
+        },
+        filterNodes(node){
+            node = node.target.value;
+            let returnArray = [];
+            if(node.match(/[a-z]/i)){
+                node = node.toUpperCase();
+            }
+            for(let i = 1; i < Object.keys(this.edges[String(this.map)]).length; i++){
+                if(node == this.edges[String(this.map)][i][1]){
+                    returnArray.push(i);
+                }
+            }
+            this.$emit("filterNodes", returnArray);
         }
     }
 }
