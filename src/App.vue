@@ -23,7 +23,7 @@
     <div class="container" v-else>
         <h1 class="title">{{displayMap(map)}}</h1>
         <span>
-            <options class="container" @nextRouteToggled="nextRouteToggled($event)"></options>
+            <options class="container" :map="map" @nextRouteToggled="nextRouteToggled($event)" @filterDifficulty="filterDifficulty($event)"></options>
             <pagination :offset="offset" @pageChanged="updatePage($event)"></pagination>
             <table-special class="container" v-if="eventselected" :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-special>
             <table-normal class="container" v-else :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-normal>
@@ -44,7 +44,7 @@ export default {
             limit: 10,
             nextRoute: 0,
             edge_id: undefined,
-            difficulty: 1,
+            difficulty: undefined,
             cleared: 0,
             eventselected: false,
             samples: [],
@@ -55,7 +55,14 @@ export default {
     },
     methods: {
         getJSON () {
-            let data = axios.get(`http://kckai.cybersnets.com/api/routes/data/${this.map}?offset=${this.offset*this.limit}&limit=${this.limit}&next_route=${this.nextRoute}`)
+            let data = axios.get(`http://kckai.cybersnets.com/api/routes/data/${this.map}`, {
+                params: {
+                    offset: this.offset*this.limit,
+                    limit: this.limit,
+                    next_route: this.nextRoute,
+                    difficulty: this.difficulty
+                }
+            })
             .then(response => {
                 return response;
             })
@@ -77,6 +84,10 @@ export default {
         },
         nextRouteToggled(nextRoute){
             this.nextRoute = nextRoute;
+            this.getJSON();
+        },
+        filterDifficulty(id){
+            this.difficulty = id;
             this.getJSON();
         },
         updatePage(offset){
