@@ -62,7 +62,7 @@ export default {
                     limit: this.limit,
                     next_route: this.nextRoute,
                     difficulty: this.difficulty,
-                    edgeID: this.edge_id
+                    edge_id: this.edge_id
                 },
                 paramsSerializer: function(params){
                     return qs.stringify(params, {
