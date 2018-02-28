@@ -1,6 +1,6 @@
-# tsun
+# TsunDB Website
 
-> A Vue.js project
+> A website for men of culture
 
 ## Build Setup
 
