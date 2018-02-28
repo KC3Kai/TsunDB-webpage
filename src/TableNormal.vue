@@ -12,7 +12,7 @@
 			<th>LoS<br>Cn3</th>
 			<th>LoS<br>Cn4</th>
 		</tr>
-		<tr v-for="sample in samples" :key="sample">
+		<tr v-for="(sample, id) in samples" :key="id">
 			<a class="button is-small" @click="displayFleet(sample)">Info</a>
 			<routing-col :route="sample.edgeID" :map="map"></routing-col>
 			<clear-col :clear="sample.cleared"></clear-col>

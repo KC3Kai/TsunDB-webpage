@@ -18,7 +18,7 @@
                 <th>#5</th>
                 <th>#6</th>
             </tr>
-            <tr v-for="ship in data.fleet1" :key="ship">
+            <tr v-for="(ship, id) in data.fleet1" :key="id">
                     <td>
                         {{showLevel(ship)}}
                     </td>
@@ -31,7 +31,7 @@
                 <template v-if="ship != -1">
                     <td>{{fleetComp(ship.type)}}</td>
                     <td>{{formatSpeed(ship.speed)}}</td>
-                    <td v-for="value in ship.equip" :key="value">
+                    <td v-for="(value, id) in ship.equip" :key="id">
                         <img :src="shipEquipIcon(value)" :title="shipEquipName(value)" style="width:40px; height:40px;" />
                     </td>
                     <td>
@@ -53,7 +53,7 @@
                     <th>#5</th>
                     <th>#6</th>
                 </tr>
-                <tr v-for="ship in data.fleet2" :key="ship">
+                <tr v-for="(ship, id) in data.fleet2" :key="id">
                     <td>
                         {{showLevel(ship)}}
                     </td>
@@ -66,7 +66,7 @@
                     <template v-if="ship != -1">
                         <td>{{fleetComp(ship.type)}}</td>
                         <td>{{formatSpeed(ship.speed)}}</td>
-                        <td v-for="value in ship.equip" :key="value">
+                        <td v-for="(value, id) in ship.equip" :key="id">
                             <img :src="shipEquipIcon(value)" :title="shipEquipName(value)" style="width:40px; height:40px;" />
                         </td>
                         <td>

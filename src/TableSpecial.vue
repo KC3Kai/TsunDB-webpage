@@ -18,7 +18,7 @@
 			<th>Gauge</th>
 			<th>Debuff</th>
 		</tr>
-		<tr v-for="sample in samples" :key="sample">
+		<tr v-for="(sample, id) in samples" :key="id">
 			<a class="button is-small" @click="displayFleet(sample)">Info</a>
 			<routing-col :route="sample.edgeID" :map="map"></routing-col>
 			<clear-col :clear="sample.cleared"></clear-col>

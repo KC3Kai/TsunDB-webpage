@@ -43,6 +43,14 @@
                     </div>
                 </div>
                 <div class="control">
+                    <div class="select">
+                        <select @change="thirdNode" v-model="node3" disabled>
+                            <option :value="undefined" disabled style="display:none">and node...</option>
+                            <option v-for="node in nodes[this.map]" :key="node">{{node}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="control">
                     <div class="button is-dark" @click="resetNodes">
                         Clear Nodes
                     </div>
@@ -74,6 +82,7 @@ export default {
             nextRoute: 0,
             node1: undefined,
             node2: undefined,
+            node3: undefined,
             edges: require('./data/edges.json'),
             nodes: require('./data/nodes.json')
         };
@@ -98,24 +107,47 @@ export default {
                 this.filterNodes();
             }
         },
+        thirdNode(node){
+            this.node3 = node.target.value;
+            if(this.node2 != undefined){
+                this.filterNodes();
+            }
+        },
         resetNodes(){
             this.node1 = undefined;
             this.node2 = undefined;
+            this.node3 = undefined;
             this.filterNodes();
         },
         filterDifficulty(id){
             this.$emit("filterDifficulty", id.target.value);
         },
         filterNodes(){
+            let returnArray = [];
             if(this.node1 == undefined && this.node2 == undefined){
-                this.$emit("filterNodes", undefined);
+                this.$emit("filterNodes", returnArray);
             }
-            for(let i = 1; i <= Object.keys(this.edges[String(this.map)]).length; i++){
-                if(this.node1 == this.edges[String(this.map)][i][0]){
-                    if(this.node2 == this.edges[String(this.map)][i][1]){
-                        this.$emit("filterNodes", i);
+            else {
+                for(let i = 1; i <= Object.keys(this.edges[String(this.map)]).length; i++){
+                    if(this.node1 == this.edges[String(this.map)][i][0]){
+                        if(this.node2 == this.edges[String(this.map)][i][1]){
+                            returnArray = i;
+                            break;
+                        }
                     }
                 }
+                if(this.node2 != undefined && this.node3 != undefined){
+                    for(let i = 1; i <= Object.keys(this.edges[String(this.map)]).length; i++){
+                        if(this.node2 == this.edges[String(this.map)][i][0]){
+                            if(this.node3 == this.edges[String(this.map)][i][1]){
+                                returnArray.push(i);
+                                break;
+                            }
+                        }
+                    }
+                }
+                console.log(returnArray);
+                this.$emit("filterNodes", returnArray);
             }
         }
     }
