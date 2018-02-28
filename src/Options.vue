@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="container">
     <div v-if="eventMap()" class="field is-horizontal">
         <div class="field-label">
             <label class="label is-pulled-left">Difficulty: </label>
@@ -25,11 +25,29 @@
             <label class="label is-pulled-left">Single Node Filter: </label>
         </div>
         <div class="field-body">
-            <div class="field">
+            <form class="field">
                 <div class="control">
-                    <input class="input" id="shrink" type="text" placeholder="SoonTM" maxlength="1" @input="filterNodes">
+                    <div class="select">
+                        <select @change="firstNode" v-model="node1">
+                            <option :value="undefined" disabled style="display:none">From node...</option>
+                            <option v-for="node in nodes[this.map]" :key="node">{{node}}</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
+                <div class="control">
+                    <div class="select">
+                        <select @change="secondNode" v-model="node2">
+                            <option :value="undefined" disabled style="display:none">to node...</option>
+                            <option v-for="node in nodes[this.map]" :key="node">{{node}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="control">
+                    <div class="button is-dark" @click="resetNodes">
+                        Clear Nodes
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
     <div class="field is-horizontal">
@@ -54,7 +72,10 @@ export default {
     data: function() {
         return {
             nextRoute: 0,
-            edges: require('./data/edges.json')
+            node1: undefined,
+            node2: undefined,
+            edges: require('./data/edges.json'),
+            nodes: require('./data/nodes.json')
         };
     },
     methods:{
@@ -65,21 +86,37 @@ export default {
         eventMap(){
             return (this.map.slice(0,2) == 41) ? true : false;
         },
+        firstNode(node){
+            this.node1 = node.target.value;
+            if(this.node2 != undefined){
+                this.filterNodes();
+            }
+        },
+        secondNode(node){
+            this.node2 = node.target.value;
+            if(this.node1 != undefined){
+                this.filterNodes();
+            }
+        },
+        resetNodes(){
+            this.node1 = undefined;
+            this.node2 = undefined;
+            this.filterNodes();
+        },
         filterDifficulty(id){
             this.$emit("filterDifficulty", id.target.value);
         },
-        filterNodes(node){
-            node = node.target.value;
-            let returnArray = [];
-            if(node.match(/[a-z]/i)){
-                node = node.toUpperCase();
+        filterNodes(){
+            if(this.node1 == undefined && this.node2 == undefined){
+                this.$emit("filterNodes", undefined);
             }
-            for(let i = 1; i < Object.keys(this.edges[String(this.map)]).length; i++){
-                if(node == this.edges[String(this.map)][i][1]){
-                    returnArray.push(i);
+            for(let i = 1; i <= Object.keys(this.edges[String(this.map)]).length; i++){
+                if(this.node1 == this.edges[String(this.map)][i][0]){
+                    if(this.node2 == this.edges[String(this.map)][i][1]){
+                        this.$emit("filterNodes", i);
+                    }
                 }
             }
-            this.$emit("filterNodes", returnArray);
         }
     }
 }
