@@ -22,7 +22,7 @@
     </div>
     <div class="field is-horizontal">
         <div class="field-label">
-            <label class="label is-pulled-left">Single Node Filter: </label>
+            <label class="label is-pulled-left">Route Filter: </label>
         </div>
         <div class="field-body">
             <form class="field">
