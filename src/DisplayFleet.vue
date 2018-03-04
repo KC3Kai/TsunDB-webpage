@@ -1,9 +1,11 @@
 <template>
     <div class="container" v-if="data != undefined">
         <h2 class="subtitle">Route taken in {{map}} {{formatDiff(data.difficulty)}}: {{formatRoute(data.edgeID)}}</h2>
-        <h2>Still working on the node and event types, feel free to ignore this.</h2>
-        <h2>Node: {{data.eventId}} ({{checkNodeType(data.eventId)}}??)</h2>
-        <h2>Event: {{data.eventKind}} ({{checkEventType(data.eventKind)}}??)</h2>
+        <h2 style="vertical-align:middle;">
+            <strong>Node {{formatRoute(data.edgeID).slice(-1)}}:</strong>
+            <img :src="checkEvent(data.eventId, data.eventKind)" style="width:30px; height:30px; vertical-align:middle;" />
+            {{displayEvent(data.eventId, data.eventKind)}}
+        </h2>
         <table class="table">
             <tr>
                 <th>Lvl</th>
@@ -180,71 +182,123 @@ export default {
             }
             return returnStr;
         },
-        checkNodeType(node){
-            let returnStr = "";
-            switch(node){
-                case 0:
-                    returnStr = "Empty";
-                    break;
-                case 1:
-                    returnStr = "Day Battle";
-                    break;
-                case 2:
-                    returnStr = "Night Battle";
-                    break;
-                case 3: 
-                    returnStr = "Night Battle";
-                    break;
-                case 4: 
-                    returnStr = "Air Battle";
-                    break;
-                case 5:
-                    returnStr = "Boss Node";
-                    break;
-                case 6:
-                    returnStr = "Long Range Air Battle";
-                    break;
-            }
-            return returnStr;
-        },
-        checkEventType(event){
-            let returnStr = "";
+        checkEvent(event, kind){
+            let node = "";
             switch(event){
                 case 0:
-                    returnStr = "Start";
+                    node = "start";
                     break;
-                case 1:
-                    returnStr = "Empty";
-                    break;
-                case 2:
-                    returnStr = "Resource";
+                case 2: 
+                    node = "resource";
                     break;
                 case 3:
-                    returnStr = "Storm";
+                    node = "storm";
                     break;
-                case 4:
-                    returnStr = "Battle";
+                case 4: 
+                    switch(kind){
+                        case 1: 
+                            node = "battle";
+                            break;
+                        case 2: 
+                            node = "night";
+                            break;
+                        case 4: 
+                            node = "aerial";
+                            break;
+                        case 5:
+                            node = "battle";
+                            break;
+                        case 6: 
+                            node = "raid";
+                            break;
+                        case 7:
+                            node = "nightday";
+                            break;
+                    }
                     break;
-                case 5:
-                    returnStr = "Boss";
+                case 5: 
+                    node = "boss";
                     break;
-                case 6:
-                    returnStr = "Empty";
+                case 6: 
+                    node = "empty";
                     break;
                 case 7: 
-                    returnStr = "Air";
+                    node = "scout";
                     break;
-                case 8:
-                    returnStr = "Escort";
+                case 8: 
+                    node = "anchor";
                     break;
-                case 9:
-                    returnStr = "Escort";
-                    break;
-                case 10:
-                    returnStr = "Air Raid";
+                case 9: 
+                    node = "flag";
                     break;
             }
-            return returnStr;
+            return `./../assets/nodes/${node}.png`;
+        },
+        displayEvent(event, kind){
+            let node = "";
+            switch(event){
+                case 0:
+                    node = "Start";
+                    break;
+                case 2: 
+                    node = "Resource";
+                    break;
+                case 3:
+                    node = "Maelstrom";
+                    break;
+                case 4: 
+                    switch(kind){
+                        case 1: 
+                            node = "Normal Battle";
+                            break;
+                        case 2: 
+                            node = "Night Battle";
+                            break;
+                        case 4: 
+                            node = "Aerial Battle";
+                            break;
+                        case 5:
+                            node = "Combined Fleet Battle";
+                            break;
+                        case 6: 
+                            node = "Air Raid";
+                            break;
+                        case 7:
+                            node = "Night to Day Battle";
+                            break;
+                    }
+                    break;
+                case 5: 
+                    switch(kind){
+                        case 1: 
+                            node = "Boss (Normal)";
+                            break;
+                        case 5: 
+                            node = "Boss (Combined Fleet)";
+                            break;
+                    }
+                    break;
+                case 6: 
+                    switch(kind){
+                        case 2: 
+                            node = "Route Selection";
+                            break;
+                        default: 
+                            node = "Must be my imagination...";
+                            break;
+                    }
+                    break;
+                case 7: 
+                    node = "Resource Scout";
+                    break;
+                case 8: 
+                    node = "Anchor";
+                    break;
+                case 9: 
+                    node = "Transport offload point";
+                    break;
+            }
+            return node;
         },
         formatDiff: function(diff){
             switch(diff){
