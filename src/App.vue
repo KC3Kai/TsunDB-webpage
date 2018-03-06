@@ -23,12 +23,12 @@
     <div class="container" v-else>
         <h1 class="title">{{displayMap(map)}}</h1>
         <span>
-            <options class="container" :map="map" @nextRouteToggled="nextRouteToggled($event)" @filterDifficulty="filterDifficulty($event)" @filterNodes="filterNodes($event)"></options>
-            <pagination @pageChanged="updatePage($event)"></pagination>
+            <options class="container" :map="map" @clearedToggled="clearedToggled($event)" @nextRouteToggled="nextRouteToggled($event)" @filterDifficulty="filterDifficulty($event)" @filterNodes="filterNodes($event)"></options>
+            <pagination :page="this.offset" @pageChanged="updatePage($event)"></pagination>
             <table-special class="container" v-if="eventselected" :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-special>
             <table-normal class="container" v-else :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-normal>
+            <br />
             <display-fleet :data="data" :map="map"></display-fleet>
-            <pagination @pageChanged="updatePage($event)"></pagination>
         </span>
     </div>
 </div>
@@ -67,6 +67,9 @@ export default {
             if(this.edge_id != undefined){
                 container.edge_id = this.edge_id;
             }
+            // if(this.cleared){
+            //     container.cleared = this.cleared;
+            // }
             let data = axios.get(`http://kckai.cybersnets.com/api/routes/data/${this.map}`, {
                 params: container,
                 paramsSerializer: function(params){
@@ -93,6 +96,10 @@ export default {
         loadData([map, mapType]){
             this.eventselected = mapType;
             this.map = map;
+            this.getJSON();
+        },
+        clearedToggled(cleared){
+            this.cleared = cleared;
             this.getJSON();
         },
         nextRouteToggled(nextRoute){

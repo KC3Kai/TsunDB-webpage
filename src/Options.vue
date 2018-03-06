@@ -70,6 +70,18 @@
             </div>
         </div>
     </div>
+    <div class="field is-horizontal">
+        <div class="field-label">
+            <label class="label is-pulled-left">Show only post-clear: </label>
+        </div>
+        <div class="field-body">
+            <div class="field">
+                <div class="control">
+                    <input type="checkbox" :checked="cleared" @click="toggleCleared">
+                </div>
+            </div>
+        </div>
+    </div>
     <br />
 </div>
 </template>
@@ -80,6 +92,7 @@ export default {
     data: function() {
         return {
             nextRoute: 0,
+            cleared: false,
             node1: undefined,
             node2: undefined,
             node3: undefined,
@@ -88,6 +101,10 @@ export default {
         };
     },
     methods:{
+        toggleCleared(){
+            this.cleared = this.cleared ? false : true;
+            this.$emit("clearedToggled", this.cleared);
+        },
         toggleNextRoute(){
             this.nextRoute = this.nextRoute ? 0 : 1;
             this.$emit("nextRouteToggled", this.nextRoute);
