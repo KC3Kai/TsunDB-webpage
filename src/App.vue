@@ -56,14 +56,19 @@ export default {
     },
     methods: {
         getJSON () {
+            let container = {
+                offset: this.offset*this.limit,
+                limit: this.limit,
+                next_route: this.nextRoute,
+            }
+            if(this.difficulty != undefined){
+                container.difficulty = this.difficulty;
+            }
+            if(this.edge_id != undefined){
+                container.edge_id = this.edge_id;
+            }
             let data = axios.get(`http://kckai.cybersnets.com/api/routes/data/${this.map}`, {
-                params: {
-                    offset: this.offset*this.limit,
-                    limit: this.limit,
-                    next_route: this.nextRoute,
-                    difficulty: this.difficulty,
-                    edge_id: this.edge_id
-                },
+                params: container,
                 paramsSerializer: function(params){
                     return qs.stringify(params, {
                         arrayFormat: 'brackets',
