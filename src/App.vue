@@ -24,11 +24,11 @@
         <h1 class="title">{{displayMap(map)}}</h1>
         <span>
             <options class="container" :map="map" @nextRouteToggled="nextRouteToggled($event)" @filterDifficulty="filterDifficulty($event)" @filterNodes="filterNodes($event)"></options>
-            <pagination :page="offset + 1" @pageChanged="updatePage($event)"></pagination>
+            <pagination @pageChanged="updatePage($event)"></pagination>
             <table-special class="container" v-if="eventselected" :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-special>
             <table-normal class="container" v-else :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-normal>
             <display-fleet :data="data" :map="map"></display-fleet>
-            <pagination :page="offset + 1" @pageChanged="updatePage($event)"></pagination>
+            <pagination @pageChanged="updatePage($event)"></pagination>
         </span>
     </div>
 </div>
