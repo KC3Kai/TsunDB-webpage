@@ -67,9 +67,9 @@ export default {
             if(this.edge_id != undefined){
                 container.edge_id = this.edge_id;
             }
-            // if(this.cleared){
-            //     container.cleared = this.cleared;
-            // }
+            if(this.cleared){
+                container.cleared = this.cleared;
+            }
             let data = axios.get(`http://kckai.cybersnets.com/api/routes/data/${this.map}`, {
                 params: container,
                 paramsSerializer: function(params){
