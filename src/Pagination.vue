@@ -92,9 +92,10 @@ export default {
         },
         jumpPage(event){
             this.page = parseInt(event.target.value)-1;
-            if(this.page > 0){
-                this.$emit("pageChanged", this.page);
+            if(this.page < 0 || this.page == undefined || isNaN(this.page)){
+                this.page = 0;
             }
+            this.$emit("pageChanged", this.page);
         }
     }
 }
