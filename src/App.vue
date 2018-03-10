@@ -70,7 +70,7 @@ export default {
             if(this.cleared){
                 container.cleared = this.cleared;
             }
-            let data = axios.get(`http://kckai.cybersnets.com/api/routes/data/${this.map}`, {
+            let data = axios.get(`https://tsundb.kc3.moe/api/routes/data/${this.map}`, {
                 params: container,
                 paramsSerializer: function(params){
                     return qs.stringify(params, {
