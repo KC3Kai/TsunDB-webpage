@@ -7,7 +7,7 @@ export default {
 	props: ['fleet'],
     data: function(){
         return {
-			shiptype: require('./../data/shiptype.json')
+			shiptype: require('./../../data/shiptype.json')
 		}
     },
 	methods: {

@@ -9,7 +9,7 @@ export default {
     props: ['route','map'],
     data: function(){
         return {
-            edges: require('./../data/edges.json')
+            edges: require('./../../data/edges.json')
         }
     },
     methods: {

@@ -1398,5 +1398,10 @@
         "en":"533mm Triple Torpedo Mount",
         "type":5,
         "icon":5
+    },
+    "284":{
+        "en":"5inch Single Gun Mount Mk.30",
+        "type":1,
+        "icon":16
     }
  }

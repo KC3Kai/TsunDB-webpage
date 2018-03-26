@@ -26,9 +26,15 @@
 
 <script>
     export default {
-		props:['samples','map'],
+		props:['samples', 'map'],
+		data: function(){
+			return{
+
+			}
+		},
 		methods: {
 			displayFleet(data){
+				console.log(data);
 				this.$emit("fleetClicked", data);
      	   }
 		}

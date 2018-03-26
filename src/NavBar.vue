@@ -1,122 +1,27 @@
 <template>
 <nav class="navbar" id="app">
-    <a class="navbar-item" href="">
-        TsunShip
-    </a>
-    <div class="navbar" id="wrapper">
-        <div class="navbar-item has-dropdown is-hoverable" id="align">
-            <span class="navbar-item">
-                World 1
-            </span>
-            <div class="navbar-dropdown">
-                <a class="navbar-item" @click="setMap('1-1', false)">
-                    1-1
-                </a>
-                <a class="navbar-item" @click="setMap('1-2', false)">
-                    1-2
-                </a>
-                <a class="navbar-item" @click="setMap('1-3', false)">
-                    1-3
-                </a>
-                <a class="navbar-item" @click="setMap('1-4', false)">
-                    1-4
-                </a>
-                <a class="navbar-item" @click="setMap('1-5', false)">
-                    1-5
-                </a>
-                <a class="navbar-item" @click="setMap('1-6', false)">
-                    1-6
-                </a>
-            </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable" id="align">
-            <span class="navbar-item">
-                World 2
-            </span>
-            <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item" @click="setMap('2-1', false)">
-                    2-1
-                </a>
-                <a class="navbar-item" @click="setMap('2-2', false)">
-                    2-2
-                </a>
-                <a class="navbar-item" @click="setMap('2-3', false)">
-                    2-3
-                </a>
-                <a class="navbar-item" @click="setMap('2-4', false)">
-                    2-4
-                </a>
-                <a class="navbar-item" @click="setMap('2-5', false)">
-                    2-5
-                </a>
-            </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable" id="align">
-            <span class="navbar-item">
-                World 3
-            </span>
-            <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item" @click="setMap('3-1', false)">
-                    3-1
-                </a>
-                <a class="navbar-item" @click="setMap('3-2', false)">
-                    3-2
-                </a>
-                <a class="navbar-item" @click="setMap('3-3', false)">
-                    3-3
-                </a>
-                <a class="navbar-item" @click="setMap('3-4', false)">
-                    3-4
-                </a>
-                <a class="navbar-item" @click="setMap('3-5', false)">
-                    3-5
-                </a>
-            </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable" id="align">
-            <span class="navbar-item">
-                World 4
-            </span>
-            <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item" @click="setMap('4-1', false)">
-                    4-1
-                </a>
-                <a class="navbar-item" @click="setMap('4-2', false)">
-                    4-2
-                </a>
-                <a class="navbar-item" @click="setMap('4-3', false)">
-                    4-3
-                </a>
-                <a class="navbar-item" @click="setMap('4-4', false)">
-                    4-4
-                </a>
-                <a class="navbar-item" @click="setMap('4-5', false)">
-                    4-5
-                </a>
-            </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable" id="align">
-            <span class="navbar-item">
-                World 5
-            </span>
-            <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item" @click="setMap('5-1', false)">
-                    5-1
-                </a>
-                <a class="navbar-item" @click="setMap('5-2', false)">
-                    5-2
-                </a>
-                <a class="navbar-item" @click="setMap('5-3', false)">
-                    5-3
-                </a>
-                <a class="navbar-item" @click="setMap('5-4', false)">
-                    5-4
-                </a>
-                <a class="navbar-item" @click="setMap('5-5', false)">
-                    5-5
-                </a>
-            </div>
-        </div>
+        <a class="navbar-item" id="item" @click="setTool(0)">
+            Tsundere-database
+        </a>
+        <a class="navbar-item" id="item" @click="tool = setTool(1)">
+            Routing
+        </a>
+        <a class="navbar-item" id="item" @click="setTool(2)">
+            Drop
+        </a>
+        <a class="navbar-item" id="item" @click="setTool(3)">
+            Construction
+        </a>
+        <a class="navbar-item" id="item" @click="setTool(4)">
+            Development
+        </a>
+        <a class="navbar-item" id="item" @click="setTool(5)">
+            The Setting Tsun
+        </a>
+        <a class="navbar-item" id="item" @click="setTool(6)">
+            The Rising Tsun
+        </a>
+        <!--
         <div class="navbar-item has-dropdown is-hoverable" id="align">
             <span class="navbar-item">
                 World 6
@@ -136,25 +41,6 @@
                 </a>
                 <a class="navbar-item" @click="setMap('6-5', false)">
                     6-5
-                </a>
-            </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable" id="align">
-            <span class="navbar-item">
-                Fall 2017
-            </span>
-            <div class="navbar-dropdown is-boxed">
-                <a class="navbar-item" @click="setMap('40-1', true)">
-                    E-1
-                </a>
-                <a class="navbar-item" @click="setMap('40-2', true)">
-                    E-2
-                </a>
-                <a class="navbar-item" @click="setMap('40-3', true)">
-                    E-3
-                </a>
-                <a class="navbar-item" @click="setMap('40-4', true)">
-                    E-4
                 </a>
             </div>
         </div>
@@ -186,25 +72,35 @@
                 </a>
             </div>
         </div>
-    </div>
+        -->
 </nav>
 </template>
 <script>
 export default {
-  methods: {
-      setMap(map, mapType){
-          this.$emit("mapIsSet", [map,mapType]);
-      }
-  }
+    data: function() {
+        return {
+            tool: 0
+        };
+    },
+    methods: {
+        setTool(id){
+            this.tool = id;
+            this.$emit("toolIsSet", id);
+        }
+    }
 }
 </script>
 
 <style>
-    #wrapper{
-        display:flex;
-        flex-direction: row;
+    #item{
+        color:#999999;
     }
-    #wrapper > div{
-        width: 15%;
+    #item:hover{
+        color:#F0F0F0;
+        background-color:#222222;
+    }
+    #itemselected{
+        color:#999999;
+        background-color:#222222;
     }
 </style>

@@ -1,149 +1,48 @@
 <template>
 <div id="scroll">
-    <navbar @mapIsSet="loadData($event)"></navbar>
-    <div class="container" v-if="map == undefined">
-        <p class="subtitle">
-            Select a world, you shitty admiral! 
-            <br />
-            <br />
-            <br />
-            <br />
-            <img src="./../assets/main/kasunuinui left.png" alt="" style="width:20%; height:20%;">
-            <img src="./../assets/main/kasunuinui right.png" alt="" style="width:20%; height:20%;">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-        </p>
-    </div>
-    <div class="container" v-else>
-        <h1 class="title">{{displayMap(map)}}</h1>
-        <span>
-            <options class="container" :map="map" @clearedToggled="clearedToggled($event)" @nextRouteToggled="nextRouteToggled($event)" @filterDifficulty="filterDifficulty($event)" @filterNodes="filterNodes($event)"></options>
-            <pagination :page="this.offset" @pageChanged="updatePage($event)"></pagination>
-            <table-special class="container" v-if="eventselected" :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-special>
-            <table-normal class="container" v-else :samples="samples" :map="map" @fleetClicked="updateData($event)"></table-normal>
-            <br />
-            <display-fleet :data="data" :map="map"></display-fleet>
-        </span>
-    </div>
+    <navbar @toolIsSet="selectedTool = $event" id="navbar"></navbar>
+    <home v-if="selectedTool == 0"></home>
+    <routing v-else-if="selectedTool == 1"></routing>
+    <drop v-else-if="selectedTool == 2"></drop>
+    <construction v-else-if="selectedTool == 3"></construction>
+    <development v-else-if="selectedTool == 4"></development>
+    <dusk v-else-if="selectedTool == 5"></dusk>
+    <dawn v-else-if="selectedTool == 6"></dawn>
 </div>
 </template>
 
 <script>
-import axios from 'axios';
-import qs from 'qs';
-
 export default {
     data: function() {
         return {
-            offset: 0,
-            limit: 10,
-            nextRoute: 0,
-            edge_id: undefined,
-            difficulty: undefined,
-            cleared: 0,
-            eventselected: false,
-            samples: [],
-            map: undefined,
-            data: undefined,
-            eventMapId: require('./data/eventMaps.json')
+            selectedTool: 0,
         };
     },
     methods: {
-        getJSON () {
-            let container = {
-                offset: this.offset*this.limit,
-                limit: this.limit,
-                next_route: this.nextRoute,
-            }
-            if(this.difficulty != undefined){
-                container.difficulty = this.difficulty;
-            }
-            if(this.edge_id != undefined){
-                container.edge_id = this.edge_id;
-            }
-            if(this.cleared){
-                container.cleared = this.cleared;
-            }
-            let data = axios.get(`http://kckai.cybersnets.com/api/routes/data/${this.map}`, {
-                params: container,
-                paramsSerializer: function(params){
-                    return qs.stringify(params, {
-                        arrayFormat: 'brackets',
-                        encode: false
-                    })
-                }
-            })
-            .then(response => {
-                return response;
-            })
-            .then(data => {
-                this.samples = data.data;
-            })
-            .catch(err => console.error(err));
-        },
-        normalMapSelected () {
-            this.eventselected = false;
-        },
-        eventMapSelected () {
-            this.eventselected = true;
-        },
-        loadData([map, mapType]){
-            this.eventselected = mapType;
-            this.map = map;
-            this.getJSON();
-        },
-        clearedToggled(cleared){
-            this.cleared = cleared;
-            this.getJSON();
-        },
-        nextRouteToggled(nextRoute){
-            this.nextRoute = nextRoute;
-            this.getJSON();
-        },
-        filterDifficulty(id){
-            this.difficulty = id;
-            this.getJSON();
-        },
-        filterNodes(nodes){
-            this.edge_id = nodes;
-            this.getJSON();
-        },
-        updatePage(offset){
-            this.offset = offset;
-            this.getJSON();
-        },
-        updateData(data){
-            console.log(data);
-            this.data = data;
-        },
-        displayMap(map){
-            let returnStr = "";
-            if(this.eventMapId.hasOwnProperty(String(map.slice(0,2)))){
-                returnStr += `${this.eventMapId[String(map.slice(0,2))].world} E-${map.slice(-1)}`;
-            }
-            else{
-                returnStr += `World ${map}`;
-            }
-            return returnStr;
-        }
+
     }
 }
 </script>
 
-<style lang="css">
+<style>
     @import "../node_modules/bulma/css/bulma.css";
-    #scroll{
-        overflow-x: auto;
-        overflow-y: hidden;
+    #navbar {
+        background-color: #222222;
     }
-    #scroll > .container{
-        margin-top:2%;
-        margin-left:5%;
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #parent{
+        display: flex;
+    }
+
+    #left{
+        width: 50%;
+    }
+
+    #right{
+        flex: 1;
     }
 </style>

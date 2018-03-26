@@ -1,6 +1,7 @@
 <template>
-<div class="container">
-    <div v-if="eventMap()" class="field is-horizontal">
+<div class="container" v-if="map != undefined">
+    <br/>
+    <div class="field is-horizontal" v-if="checkEventMap(map) == true">
         <div class="field-label">
             <label class="label is-pulled-left">Difficulty: </label>
         </div>
@@ -82,7 +83,6 @@
             </div>
         </div>
     </div>
-    <br />
 </div>
 </template>
 
@@ -96,21 +96,14 @@ export default {
             node1: undefined,
             node2: undefined,
             node3: undefined,
-            edges: require('./data/edges.json'),
-            nodes: require('./data/nodes.json')
+            edges: require('./../data/edges.json'),
+            nodes: require('./../data/nodes.json'),
+            eventMaps: require('./../data/eventMaps.json')
         };
     },
     methods:{
-        toggleCleared(){
-            this.cleared = this.cleared ? false : true;
-            this.$emit("clearedToggled", this.cleared);
-        },
-        toggleNextRoute(){
-            this.nextRoute = this.nextRoute ? 0 : 1;
-            this.$emit("nextRouteToggled", this.nextRoute);
-        },
-        eventMap(){
-            return (this.map.slice(0,2) == 41) ? true : false;
+        checkEventMap(map){
+            return (this.eventMaps.hasOwnProperty(String(map.slice(0,2))));
         },
         firstNode(node){
             this.node1 = node.target.value;
@@ -137,12 +130,12 @@ export default {
             this.filterNodes();
         },
         filterDifficulty(id){
-            this.$emit("filterDifficulty", id.target.value);
+            this.$emit("filterChanged", ["difficulty",id.target.value]);
         },
         filterNodes(){
             let returnArray = [];
             if(this.node1 == undefined && this.node2 == undefined){
-                this.$emit("filterNodes", returnArray);
+                this.$emit("filterChanged", ["nodes", returnArray]);
             }
             else {
                 for(let i = 1; i <= Object.keys(this.edges[String(this.map)]).length; i++){
@@ -163,9 +156,16 @@ export default {
                         }
                     }
                 }
-                console.log(returnArray);
-                this.$emit("filterNodes", returnArray);
+                this.$emit("filterChanged", ["nodes", returnArray]);
             }
+        },
+        toggleCleared(){
+            this.cleared = this.cleared ? false : true;
+            this.$emit("filterChanged", ["cleared",this.cleared]);
+        },
+        toggleNextRoute(){
+            this.nextRoute = this.nextRoute ? 0 : 1;
+            this.$emit("filterChanged", ["deadend",this.nextRoute]);
         }
     }
 }
