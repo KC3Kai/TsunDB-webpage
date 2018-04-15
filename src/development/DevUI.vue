@@ -237,7 +237,7 @@ export default {
                     pool[value] = selectedPool[value];
                 }
                 else{
-                    pool['penguin'] += 1;
+                    pool['penguin'] += selectedPool[value];
                 }
             }
             switch(group){
