@@ -43,7 +43,7 @@
                 </span>
                 <div id="container">
                     <div>
-                        <input class="input" type="number" min="10" max="300" v-model="resources['fuel']" @input="setResourceInput($event.target.value,'fuel')">
+                        <input class="input" type="number" min="0" max="300" v-model="resources['fuel']" @input="setResourceInput($event.target.value,'fuel')">
                     </div>
                     <br />
                     <div id="dev-button-row">
@@ -72,7 +72,7 @@
                 </span>
                 <div id="container">
                     <div>
-                        <input class="input" type="number" min="10" max="300" v-model="resources['ammo']" @input="setResourceInput($event.target.value,'ammo')">
+                        <input class="input" type="number" min="0" max="300" v-model="resources['ammo']" @input="setResourceInput($event.target.value,'ammo')">
                     </div>
                     <br />
                     <div id="dev-button-row">
@@ -101,7 +101,7 @@
                 </span>
                 <div id="container">
                     <div>
-                        <input class="input" type="number" min="10" max="300" v-model="resources['steel']" @input="setResourceInput($event.target.value,'steel')">
+                        <input class="input" type="number" min="0" max="300" v-model="resources['steel']" @input="setResourceInput($event.target.value,'steel')">
                     </div>
                     <br />
                     <div id="dev-button-row">
@@ -130,7 +130,7 @@
                 </span>
                 <div id="container">
                     <div>
-                        <input class="input" type="number" min="10" max="300" v-model="resources['bauxite']" @input="setResourceInput($event.target.value,'bauxite')">
+                        <input class="input" type="number" min="0" max="300" v-model="resources['bauxite']" @input="setResourceInput($event.target.value,'bauxite')">
                     </div>
                     <br />
                     <div id="dev-button-row">
@@ -178,6 +178,10 @@ export default {
     methods: {
         calculatePool(){
             if(this.shiptype == undefined) return;
+            if(this.resources['fuel'] < 10) return;
+            if(this.resources['ammo'] < 10) return;
+            if(this.resources['steel'] < 10) return;
+            if(this.resources['bauxite'] < 10) return;
             this.devdata = {};
             let primary = undefined;
             let group = undefined;
@@ -271,8 +275,8 @@ export default {
         },
         changeResourceInput(value, type){
             this.resources[type] = this.resources[type] + value;
-            if(this.resources[type] < 10){
-                this.resources[type] = 10;
+            if(this.resources[type] < 0){
+                this.resources[type] = 0;
             }
             else if(this.resources[type] > 300){
                 this.resources[type] = 300;
@@ -285,8 +289,8 @@ export default {
         },
         setResourceInput(value, type){
             this.resources[type] = value;
-            if(this.resources[type] < 10){
-                this.resources[type] = 10;
+            if(this.resources[type] < 0){
+                this.resources[type] = 0;
             }
             else if(this.resources[type] > 300){
                 this.resources[type] = 300;
