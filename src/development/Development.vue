@@ -5,8 +5,9 @@
     </p>
     <p class="subtitle">
         <br />
-        WIP
+        The place where you get plenty of penguins.
     </p>
+    <dev-ui></dev-ui>
 </div>
 </template>
 

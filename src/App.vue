@@ -15,7 +15,7 @@
 export default {
     data: function() {
         return {
-            selectedTool: 0,
+            selectedTool: 0
         };
     },
     methods: {
@@ -26,6 +26,7 @@ export default {
 
 <style>
     @import "../node_modules/bulma/css/bulma.css";
+
     #navbar {
         background-color: #222222;
     }

@@ -2,20 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import NavBar from './NavBar.vue'
 import Home from './home/Home.vue'
-import Routing from './routing/Routing.vue'
-import Drop from './drop/Drop.vue'
-import Construction from './construction/Construction.vue'
-import Development from './development/Development.vue'
-import Dusk from './dusk/Dusk.vue'
-import Dawn from './dawn/Dawn.vue'
 Vue.component('navbar', NavBar);
 Vue.component('home', Home);
-Vue.component('routing', Routing);
-Vue.component('drop', Drop);
-Vue.component('construction', Construction);
-Vue.component('development', Development);
-Vue.component('dusk', Dusk);
-Vue.component('dawn', Dawn);
+
 
 //Common Components
 import MapSelection from './common components/MapSelection.vue'
@@ -26,6 +15,7 @@ Vue.component('displaymap', DisplayMap);
 Vue.component('pagination', Pagination);
 
 //Routing
+import Routing from './routing/Routing.vue'
 import RoutingOptions from './routing/RoutingOptions.vue'
 import TableSpecial from './routing/TableSpecial.vue'
 import TableNormal from './routing/TableNormal.vue'
@@ -36,6 +26,7 @@ Vue.component('table-special', TableSpecial);
 Vue.component('table-normal', TableNormal);
 Vue.component('display-fleet', DisplayFleet);
 Vue.component('display-fleet-title', DisplayFleetTitle);
+Vue.component('routing', Routing);
 
 import Boss from './routing/components/Boss.vue'
 import Clear from './routing/components/Clear.vue'
@@ -49,7 +40,6 @@ import HQ from './routing/components/HQ.vue'
 import LoS from './routing/components/LoS.vue'
 import Route from './routing/components/Route.vue'
 import Speed from './routing/components/Speed.vue'
-
 Vue.component('boss-col', Boss);
 Vue.component('clear-col', Clear);
 Vue.component('debuff-col', Debuff);
@@ -62,6 +52,34 @@ Vue.component('hq-col', HQ);
 Vue.component('los-col', LoS);
 Vue.component('routing-col', Route);
 Vue.component('speed-col', Speed);
+
+//Drop
+import Drop from './drop/Drop.vue'
+Vue.component('drop', Drop);
+
+//Construction
+import Construction from './construction/Construction.vue'
+Vue.component('construction', Construction);
+
+//Development
+import Development from './development/Development.vue'
+import DevUserInterface from './development/DevUI.vue'
+Vue.component('development', Development);
+Vue.component('dev-ui', DevUserInterface);
+
+//Dusk
+import Dusk from './dusk/Dusk.vue'
+import DuskSelection from './dusk/DuskSelection.vue'
+import DropListGen from './dusk/options/DropListGen.vue'
+import EnemyCompGen from './dusk/options/EnemyCompGen.vue'
+Vue.component('dusk', Dusk);
+Vue.component('dusk-selection', DuskSelection);
+Vue.component('droplist-gen', DropListGen);
+Vue.component('enemycomp-gen', EnemyCompGen);
+
+//Dawn
+import Dawn from './dawn/Dawn.vue'
+Vue.component('dawn', Dawn);
 
 new Vue({
   el: '#app',

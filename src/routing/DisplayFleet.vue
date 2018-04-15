@@ -85,10 +85,10 @@ export default {
         },
         shipEquipIcon(id) {
             if(this.equip.hasOwnProperty(String(id))){
-                return `./assets/icons/${this.equip[String(id)].icon}.png`;
+                return `./assets/icons/equip/${this.equip[String(id)].icon}.png`;
             }
             else if(id == -1){
-                return `./assets/icons/-1.png`;
+                return `./assets/icons/equip/-1.png`;
             }
         },
         shipEquipName(id) {
