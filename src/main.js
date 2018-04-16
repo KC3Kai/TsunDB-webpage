@@ -63,10 +63,15 @@ Vue.component('construction', Construction);
 
 //Development
 import Development from './development/Development.vue'
-import DevUserInterface from './development/DevUI.vue'
-import DevTable from './development/DevTable.vue'
+import DevUserInterface from './development/options/DevUI.vue'
+import DevPools from './development/options/DevPools.vue'
+import DevGuide from './development/options/DevGuide.vue'
 Vue.component('development', Development);
 Vue.component('dev-ui', DevUserInterface);
+Vue.component('dev-pools', DevPools);
+Vue.component('dev-guide', DevGuide);
+
+import DevTable from './development/components/DevTable.vue'
 Vue.component('dev-table', DevTable);
 
 //Dusk

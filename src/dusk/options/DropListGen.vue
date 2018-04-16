@@ -4,7 +4,7 @@
         <br />
         Generate the drop list which you can copy paste on wikia.
     </p>
-    <mapselection @mapIsSet="generateData($event)"></mapselection>
+    <!-- <mapselection @mapIsSet="generateData($event)"></mapselection> -->
 </div>
 </template>
 
@@ -21,7 +21,7 @@ export default {
         generateData(map){
             if(map == this.map) return;
             this.map = map;
-            getJSON();
+            this.getJSON();
         },
         getJSON() {
             let container = {
