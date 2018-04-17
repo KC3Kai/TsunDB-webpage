@@ -331,7 +331,7 @@ export default {
         margin: 2%;
         width: 90%;
         height:70%;
-        background: radial-gradient(#333333,#505050);
+        background: radial-gradient(#333333,#797979);
         border: 1px solid silver;
     }
     #dev-container{
@@ -341,21 +341,23 @@ export default {
         display:inline;
     }
     #dev-button{
-        background: radial-gradient(#239E9F, #A2D3C5);
+        background: radial-gradient(#156868, #79beab);
         margin-right: 5px;
         width:42%;
         height:10%;
         margin-bottom:5px;
+        border: 1px solid grey;
     }
     #special-dev-button{
-        background: radial-gradient(#239E9F, #A2D3C5);
+        background: radial-gradient(#156868, #79beab);
         margin-right: 5px;
         margin-bottom:5px;
         width: 92%;
         height:10%;
+        border: 1px solid grey;
     }
     #dev-button:hover, #special-dev-button:hover{
-        background: radial-gradient(rgb(28, 126, 126), rgb(112, 145, 135));
+        background: radial-gradient(#0f5050, #5e9485);
     }
     #white-text{
         color: #FFFFFF;

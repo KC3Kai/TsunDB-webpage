@@ -27,6 +27,18 @@ export default {
 <style>
     @import "../node_modules/bulma/css/bulma.css";
 
+    html{
+        background: #F5F5DC;
+    }
+
+    .table{
+        background: #F5F5DC;
+    }
+
+    .pagination-link{
+        background-color: white;
+    }
+
     #navbar {
         background-color: #222222;
     }

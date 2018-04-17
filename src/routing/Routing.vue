@@ -18,8 +18,8 @@
     </div>
     <pagination v-if="map != undefined" @pageChanged="changePage($event)"></pagination>
     <template v-if="map != undefined">
-        <table-special :samples="samples" :map="map" v-if="event == true" @fleetClicked="data=$event"></table-special>
-        <table-normal :samples="samples" :map="map" v-else @fleetClicked="data=$event"></table-normal>
+        <table-special :samples="samples" :map="map" :offset="parseInt(offset)" v-if="event == true" @fleetClicked="data=$event"></table-special>
+        <table-normal :samples="samples" :map="map" :offset="parseInt(offset)" v-else @fleetClicked="data=$event"></table-normal>
     </template>
     <display-fleet-title :data="data" :map="map"></display-fleet-title>
     <display-fleet v-if="data != undefined" :fleet="data.fleet1" :map="map"></display-fleet>

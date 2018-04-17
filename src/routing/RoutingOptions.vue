@@ -28,7 +28,7 @@
         <div class="field-body">
             <form class="field">
                 <div class="control">
-                    <div class="select">
+                    <div class="select" id="select-column">
                         <select @change="firstNode" v-model="node1">
                             <option :value="undefined" disabled style="display:none">From node...</option>
                             <option v-for="node in nodes[this.map]" :key="node">{{node}}</option>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="control">
-                    <div class="select">
+                    <div class="select" id="select-column">
                         <select @change="secondNode" v-model="node2">
                             <option :value="undefined" disabled style="display:none">to node...</option>
                             <option v-for="node in nodes[this.map]" :key="node">{{node}}</option>
@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="control">
-                    <div class="select">
+                    <div class="select" id="select-column">
                         <select @change="thirdNode" v-model="node3" disabled>
                             <option :value="undefined" disabled style="display:none">and node...</option>
                             <option v-for="node in nodes[this.map]" :key="node">{{node}}</option>
@@ -175,5 +175,9 @@ export default {
 <style>
 #shrink{
     width:10%;
+}
+
+#select-column{
+    margin-bottom:5px;
 }
 </style>
