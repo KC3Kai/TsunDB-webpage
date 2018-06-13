@@ -6,7 +6,7 @@
     <p class="subtitle">
         <br />
         While you are free to copy other people's comps, do not make the mistake of assuming that the comp you're copying is guaranteed to be good. <br/>
-        If you actually want to understand the mechanics, check out the <a href="http://kancolle.wikia.com" rel="noopener noreferrer" target="_blank">wikia</a> instead or head over to the <a href="https://www.reddit.com/r/kancolle/" rel="noopener noreferrer" target="_blank">reddit</a><a href="https://discord.gg/RtSadWM" rel="noopener noreferrer" target="_blank"> discord server</a>.
+        If you actually want to understand the mechanics, check out the <a href="http://kancolle.wikia.com" rel="noopener noreferrer" target="_blank">wikia</a> instead or head over to the <a href="https://www.reddit.com/r/kancolle/" rel="noopener noreferrer" target="_blank">subreddit</a> or <a href="https://discord.gg/RtSadWM" rel="noopener noreferrer" target="_blank"> discord server</a>.
         <br />
         <br />
         Click on Info to get more information about the fleet setup (scroll down if it's not visible).
