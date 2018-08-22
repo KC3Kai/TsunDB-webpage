@@ -15,6 +15,7 @@ export default {
     methods: {
         formatRoute(route){
             console.log(this.map);
+            console.log(route);
             let returnStr = "";
             if(this.map in this.edges){
                 returnStr = String(this.edges[this.map][route[0]].join("-") + "-");

@@ -14,11 +14,11 @@
 		</tr>
 		<tr v-for="(sample, id) in samples" :key="id">
 			<a :class="[clicked == calculateNumber(offset, id) ? 'button is-small is-info' : 'button is-small']" :value="calculateNumber(offset, id)" @click="displayFleet(sample, calculateNumber(offset, id))">Info</a>
-			<routing-col :route="sample.edgeID" :map="map"></routing-col>
+			<routing-col :route="sample.edgeid" :map="map"></routing-col>
 			<clear-col :clear="sample.cleared"></clear-col>
-			<hq-col :lvl="sample.hqLvl"></hq-col>
+			<hq-col :lvl="sample.hqlvl"></hq-col>
 			<fleet-col :fleet="sample.fleet1"></fleet-col>
-			<speed-col :speed="sample.fleetSpeed"></speed-col>
+			<speed-col :speed="sample.fleetspeed"></speed-col>
 			<los-col v-for="los in sample.los" :los="los.toFixed(2)" :key="los"></los-col>
 		</tr>
 	</table>
