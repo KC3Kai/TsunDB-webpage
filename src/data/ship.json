@@ -2039,6 +2039,10 @@
         "jp":"瑞鳳改二",
         "en":"Zuihou Kai Ni"
     },
+    "556":{
+        "jp":"浦風丁改",
+        "en":"Urakaze D Kai"
+    },
     "557":{
         "jp":"磯風乙改",
         "en":"Isokaze B Kai"
@@ -2050,6 +2054,14 @@
     "560":{
         "jp":"瑞鳳改二乙",
         "en":"Zuihou Kai Ni Otsu"
+    },
+    "561":{
+        "jp":"Samuel B. Roberts",
+        "en":"Samuel B. Roberts"
+    },
+    "566":{
+        "jp":"陽炎改二",
+        "en":"Kagerou Kai Ni"
     },
     "605":{
         "jp":"Luigi Torelli改",
@@ -2070,5 +2082,9 @@
     "680":{
         "jp":"浜波改",
         "en":"Hamanami Kai"
+    },
+    "681":{
+        "jp":"Samuel B.Roberts改",
+        "en":"Samuel B.Roberts Kai"
     }
 }
