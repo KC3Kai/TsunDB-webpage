@@ -1,26 +1,36 @@
 <template>
 <nav class="navbar" id="app">
-        <a class="navbar-item" id="item" @click="setTool(0)">
-            Tsundere-database
-        </a>
-        <a class="navbar-item" id="item" @click="tool = setTool(1)">
-            Routing
-        </a>
-        <a class="navbar-item" id="item" @click="setTool(2)">
-            Drop
-        </a>
-        <a class="navbar-item" id="item" @click="setTool(3)">
-            Construction
-        </a>
-        <a class="navbar-item" id="item" @click="setTool(4)">
-            Development
-        </a>
-        <a class="navbar-item" id="item" @click="setTool(5)">
-            The Setting Tsun
-        </a>
-        <a class="navbar-item" id="item" @click="setTool(6)">
-            The Rising Tsun
-        </a>
+        <div class="navbar-brand">
+            <a class="navbar-item" id="item" @click="setTool(0)">
+                <img src="/assets/icons/navicon.png" alt="TsunDB">
+            </a>
+            <span class="navbar-burger" data-target="navMenu" v-bind:class="{ 'is-active': navActive }" @click="toggleNavState()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+        <div id="navMenu" class="navbar-menu" v-bind:class="{ 'is-active': navActive }">
+            <a class="navbar-item" id="item" @click="setTool(1)">
+                Routing
+            </a>
+            <a class="navbar-item" id="item" @click="setTool(2)">
+                Drop
+            </a>
+            <a class="navbar-item" id="item" @click="setTool(3)">
+                Construction
+            </a>
+            <a class="navbar-item" id="item" @click="setTool(4)">
+                Development
+            </a>
+            <a class="navbar-item" id="item" @click="setTool(5)">
+                The Setting Tsun
+            </a>
+            <a class="navbar-item" id="item" @click="setTool(6)">
+                The Rising Tsun
+            </a>
+        </div>
+        
         <!--
         <div class="navbar-item has-dropdown is-hoverable" id="align">
             <span class="navbar-item">
@@ -75,17 +85,22 @@
         -->
 </nav>
 </template>
+
 <script>
 export default {
     data: function() {
         return {
-            tool: 0
+            tool: 0,
+            navActive: false
         };
     },
     methods: {
         setTool(id){
             this.tool = id;
             this.$emit("toolIsSet", id);
+        },
+        toggleNavState() {
+            this.navActive = !this.navActive
         }
     }
 }

@@ -208,6 +208,37 @@
                 </div>
             </div>
         </div>
+        <div class="dropdown is-active">
+            <div class="dropdown-trigger">
+                <button class="button" @click="toggleList(42)">
+                    <span>
+                        Early-Fall 2018
+                    </span>
+                    <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="dropdown-menu" v-if="world == 42">
+                <div class="dropdown-content">
+                    <a class="dropdown-item" @click="mapSelected('42-1')">
+                        42-1
+                    </a>
+                    <a class="dropdown-item" @click="mapSelected('42-2')">
+                        42-2
+                    </a>
+                    <a class="dropdown-item" @click="mapSelected('42-3')">
+                        42-3
+                    </a>
+                    <a class="dropdown-item" @click="mapSelected('42-4')">
+                        42-4
+                    </a>
+                    <a class="dropdown-item" @click="mapSelected('42-5')">
+                        42-5
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 

@@ -126,5 +126,25 @@
     "6-5": {
         "jp": "KW環礁沖海域",
         "en": "KW Atoll Sea"
+    },
+    "42-1":{
+        "jp": "作戦準備！後方兵站線確保",
+        "en": "Strategy preparations! Secure a rear supply line"
+    },
+    "42-2":{
+        "jp": "海峡奪還作戦",
+        "en": "Operation 'Reclaim the Strait'"
+    },
+    "42-3":{
+        "jp": "西方敵前線泊地を叩け！",
+        "en": "Crush the Enemy's Western Frontline Anchorage!"
+    },
+    "42-4":{
+        "jp": "ジェノヴァの風",
+        "en": "The Wind of Genova"
+    },
+    "42-5":{
+        "jp": "全力出撃！新ライン演習作戦",
+        "en": "Full-power Sortie! New Operation Rheinübung"
     }
 }

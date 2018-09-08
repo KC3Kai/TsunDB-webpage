@@ -3,8 +3,15 @@
         <h2 class="subtitle">Route taken in World {{map}} {{formatDiff(data.difficulty)}}: {{formatRoute(data.edgeid)}}</h2>
         <h2 style="vertical-align:middle;">
             <strong>Node {{formatRoute(data.edgeid).slice(-1)}}:</strong>
-            <img :src="checkEvent(data.eventid, data.eventkind)" style="width:30px; height:30px; vertical-align:middle;" />
-            {{displayEvent(data.eventid, data.eventkind)}}
+            <template v-if="checkEventMap(data.map)">
+                <img :src="checkEvent(data.nodeinfo.eventId, data.nodeinfo.eventKind)" style="width:30px; height:30px; vertical-align:middle;" />
+                {{displayEvent(data.nodeinfo.eventId, data.nodeinfo.eventKind)}}
+            </template>
+            <template v-else>
+                <img :src="checkEvent(data.eventid, data.eventkind)" style="width:30px; height:30px; vertical-align:middle;" />
+                {{displayEvent(data.eventid, data.eventkind)}}
+            </template>
+            
         </h2>
     </div>
 </template>
@@ -14,10 +21,14 @@ export default {
     props: ['data', 'map'],
     data: function(){
         return {
-            edges: require('./../data/edges.json')
+            edges: require('./../data/edges.json'),
+            eventMaps: require('./../data/eventMaps.json')
         }
     },
     methods: {
+        checkEventMap(map){
+            return (this.eventMaps.hasOwnProperty(String(map.slice(0,2))));
+        },
         formatDiff: function(diff){
             switch(diff){
                 case 1:

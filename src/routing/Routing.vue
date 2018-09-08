@@ -6,7 +6,7 @@
     <p class="subtitle">
         <br />
         While you are free to copy other people's comps, do not make the mistake of assuming that the comp you're copying is guaranteed to be good. <br/>
-        If you actually want to understand the mechanics, check out the <a href="http://kancolle.wikia.com" rel="noopener noreferrer" target="_blank">wikia</a> instead or head over to the <a href="https://www.reddit.com/r/kancolle/" rel="noopener noreferrer" target="_blank">subreddit's</a><a href="https://discord.gg/RtSadWM" rel="noopener noreferrer" target="_blank"> discord server</a>.
+        If you actually want to understand the mechanics, check out the <a href="http://kancolle.wikia.com" rel="noopener noreferrer" target="_blank">wikia</a> instead or head over to the <a href="https://www.reddit.com/r/kancolle/" rel="noopener noreferrer" target="_blank">subreddit</a>or their<a href="https://discord.gg/RtSadWM" rel="noopener noreferrer" target="_blank"> discord server</a>.
         <br />
         <br />
         Click on Info to get more information about the fleet setup (scroll down if it's not visible).
@@ -46,10 +46,13 @@ export default {
             samples: [],
             map: undefined,
             data: undefined,
-            eventMapId: require('./../data/eventMaps.json')
+            eventMaps: require('./../data/eventMaps.json')
         };
     },
     methods: {
+        checkEventMap(map){
+            return (this.eventMaps.hasOwnProperty(String(map.slice(0,2))));
+        },
         loadMap(map) {
             if(this.map == map) return;
             this.map = map;
@@ -93,7 +96,8 @@ export default {
             if(this.cleared){
                 container.cleared = this.cleared;
             }
-            let data = axios.get(`https://tsundb.kc3.moe/api/routing/${this.map}`, {
+            let type = this.checkEventMap(this.map) ? "eventrouting" : "routing";
+            let data = axios.get(`https://tsundb.kc3.moe/api/${type}/${this.map}`, {
                 params: container,
                 paramsSerializer: function(params){
                     return qs.stringify(params, {

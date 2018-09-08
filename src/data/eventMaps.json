@@ -18,5 +18,16 @@
             "4":"小沢 (Ozawa)",
             "5":"志摩 (Shima)"
         }
+    },
+    "42":{
+        "world":"Fall 2018",
+        "tags":{
+            "1":"Vanguard Force",
+            "2":"Straits Deployment Fleet",
+            "3":"Western Operations Unit",
+            "4":"European Special Service Fleet",
+            "5":"H Force",
+            "6":"Rhine Manoeuvres Unit"
+        }
     }
 }
