@@ -1811,6 +1811,10 @@
         "jp":"神風改",
         "en":"Kamikaze Kai"
     },
+    "477":{
+        "jp":"天龍改二",
+        "en":"Tenryuu Kai Ni"
+    },
     "478":{
         "jp":"龍田改二",
         "en":"Tatsuta Kai Ni"
@@ -1882,6 +1886,10 @@
     "496":{
         "jp":"Zara due",
         "en":"Zara due"
+    },
+    "497":{
+        "jp":"白露改二",
+        "en":"Shiratsuyu Kai Ni"
     },
     "498":{
         "jp":"村雨改二",
@@ -1995,6 +2003,10 @@
         "jp":"長門改二",
         "en":"Nagato Kai Ni"
     },
+    "542":{
+        "jp":"夕雲改二",
+        "en":"Yuugumo Kai Ni"
+    },
     "543":{
         "jp":"長波改二",
         "en":"Naganami Kai Ni"
@@ -2035,6 +2047,10 @@
         "jp":"大東",
         "en":"Daitou"
     },
+    "553":{
+        "jp":"伊勢改二",
+        "en":"Ise Kai Ni"
+    },
     "555":{
         "jp":"瑞鳳改二",
         "en":"Zuihou Kai Ni"
@@ -2059,9 +2075,21 @@
         "jp":"Samuel B. Roberts",
         "en":"Samuel B. Roberts"
     },
+    "565":{
+        "jp":"福江",
+        "en":"Fukae"
+    },
     "566":{
         "jp":"陽炎改二",
         "en":"Kagerou Kai Ni"
+    },
+    "567":{
+        "jp":"不知火改二",
+        "en":"Shiranui Kai Ni"
+    },
+    "568":{
+        "jp":"黒潮改二",
+        "en":"Kuroshio Kai Ni"
     },
     "605":{
         "jp":"Luigi Torelli改",
@@ -2086,5 +2114,9 @@
     "681":{
         "jp":"Samuel B.Roberts改",
         "en":"Samuel B.Roberts Kai"
+    },
+    "685":{
+        "jp":"福江改",
+        "en":"Fukae Kai"
     }
 }

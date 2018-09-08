@@ -1,10 +1,10 @@
 <template>
     <div class="container" v-if="data != undefined">
-        <h2 class="subtitle">Route taken in World {{map}} {{formatDiff(data.difficulty)}}: {{formatRoute(data.edgeID)}}</h2>
+        <h2 class="subtitle">Route taken in World {{map}} {{formatDiff(data.difficulty)}}: {{formatRoute(data.edgeid)}}</h2>
         <h2 style="vertical-align:middle;">
-            <strong>Node {{formatRoute(data.edgeID).slice(-1)}}:</strong>
-            <img :src="checkEvent(data.eventId, data.eventKind)" style="width:30px; height:30px; vertical-align:middle;" />
-            {{displayEvent(data.eventId, data.eventKind)}}
+            <strong>Node {{formatRoute(data.edgeid).slice(-1)}}:</strong>
+            <img :src="checkEvent(data.eventid, data.eventkind)" style="width:30px; height:30px; vertical-align:middle;" />
+            {{displayEvent(data.eventid, data.eventkind)}}
         </h2>
     </div>
 </template>

@@ -72,7 +72,7 @@ export default {
                 return './assets/shipcards/Catbomb.png';
             }
             else {
-                return `./assets/shipcards/${ship.id}.png`;
+                return `./assets/hd shipcards/${ship.id}_${ship.name}_banner.png`;
             }
         },
         shipCardName(ship){

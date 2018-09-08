@@ -3670,5 +3670,265 @@
             2
         ],
         "rare":3
+    },
+    "285":{
+        "en":"61cm Triple (Oxygen) Torpedo Mount Late Model",
+        "jp":"61cm三連装(酸素)魚雷後期型",
+        "type":5,
+        "icon":5,
+        "scrap":[
+            2,
+            2,
+            2,
+            1
+        ],
+        "rare":3
+    },
+    "286":{
+        "en":"61cm Quadruple (Oxygen) Torpedo Mount Late Model",
+        "jp":"61cm四連装(酸素)魚雷後期型",
+        "type":5,
+        "icon":5,
+        "scrap":[
+            2,
+            3,
+            2,
+            1
+        ],
+        "rare":3
+    },
+    "287":{
+        "en":"Type 3 Depth Charge Projector (Concentrated Deployment)",
+        "jp":"三式爆雷投射機 集中配備",
+        "type":15,
+        "icon":17,
+        "scrap":[
+            0,
+            6,
+            2,
+            2
+        ],
+        "rare":3
+    },
+    "288":{
+        "en":"Prototype 15cm 9-tube ASW Rocket Launcher",
+        "jp":"試製15cm9連装対潜噴進砲",
+        "type":15,
+        "icon":17,
+        "scrap":[
+            0,
+            9,
+            3,
+            2
+        ],
+        "rare":4
+    },
+    "289":{
+        "en":"35.6cm Triple Gun Mount Kai (Dazzle Camouflage)",
+        "jp":"35.6cm三連装砲改(ダズル迷彩仕様)",
+        "type":3,
+        "icon":3,
+        "scrap":[
+            0,
+            16,
+            20,
+            2
+        ],
+        "rare":4
+    },
+    "290":{
+        "en":"41cm Triple Gun Mount Kai Ni",
+        "jp":"41cm三連装砲改二",
+        "type":3,
+        "icon":3,
+        "scrap":[
+            0,
+            20,
+            22,
+            6
+        ],
+        "rare":5
+    },
+    "291":{
+        "en":"Suisei Model 22 (634 Air Group)",
+        "jp":"彗星二二型(六三四空)",
+        "type":7,
+        "icon":7,
+        "scrap":[
+            2,
+            4,
+            0,
+            3
+        ],
+        "rare":3
+    },
+    "292":{
+        "en":"Suisei Model 22 (634 Air Group/Skilled)",
+        "jp":"彗星二二型(六三四空/熟練)",
+        "type":7,
+        "icon":7,
+        "scrap":[
+            2,
+            5,
+            0,
+            3
+        ],
+        "rare":4
+    },
+    "293":{
+        "en":"12cm Single Gun Mount Kai 2",
+        "jp":"12cm単装砲改二",
+        "type":1,
+        "icon":1,
+        "scrap":[
+            0,
+            1,
+            1,
+            0
+        ],
+        "rare":2
+    },
+    "294":{
+        "en":"12.7cm Twin Gun Mount Model A Kai 2",
+        "jp":"12.7cm連装砲A型改二",
+        "type":1,
+        "icon":1,
+        "scrap":[
+            0,
+            1,
+            2,
+            0
+        ],
+        "rare":2
+    },
+    "295":{
+        "en":"12.7cm Twin Gun Mount Model A Kai 3 (Wartime Modification) + Anti-Aircraft Fire Director",
+        "jp":"12.7cm連装砲A型改三(戦時改修)+高射装置",
+        "type":1,
+        "icon":16,
+        "scrap":[
+            0,
+            2,
+            2,
+            2
+        ],
+        "rare":3
+    },
+    "296":{
+        "en":"12.7cm Twin Gun Mount Model B Kai 4 (Wartime Modification) + Anti-Aircraft Fire Director",
+        "jp":"12.7cm連装砲B型改四(戦時改修)+高射装置",
+        "type":1,
+        "icon":16,
+        "scrap":[
+            0,
+            3,
+            2,
+            2
+        ],
+        "rare":3
+    },
+    "297":{
+        "en":"12.7cm Twin Gun Mount Model A",
+        "jp":"12.7cm連装砲A型",
+        "type":1,
+        "icon":1,
+        "scrap":[
+            0,
+            1,
+            2,
+            0
+        ],
+        "rare":1
+    },
+    "298":{
+        "en":"16inch Mk.I Triple Gun Mount",
+        "jp":"16inch Mk.I三連装砲",
+        "type":3,
+        "icon":3,
+        "scrap":[
+            0,
+            15,
+            21,
+            1
+        ],
+        "rare":3
+    },
+    "299":{
+        "en":"16inch Mk.I Triple Gun Mount + AFCT Kai",
+        "jp":"16inch Mk.I三連装砲+AFCT改",
+        "type":3,
+        "icon":3,
+        "scrap":[
+            0,
+            15,
+            22,
+            2
+        ],
+        "rare":4
+    },
+    "300":{
+        "en":"16inch Mk.I Triple Gun Mount Kai + FCR Type 284",
+        "jp":"16inch Mk.I三連装砲改+FCR type284",
+        "type":3,
+        "icon":3,
+        "scrap":[
+            0,
+            16,
+            23,
+            4
+        ],
+        "rare":5
+    },
+    "301":{
+        "en":"20-tube 7inch UP Rocket Launchers",
+        "jp":"20連装7inch UP Rocket Launchers",
+        "type":21,
+        "icon":15,
+        "scrap":[
+            0,
+            4,
+            2,
+            4
+        ],
+        "rare":3
+    },
+    "303":{
+        "en":"Bofors 15.2cm Twin Gun Mount Model 1930",
+        "jp":"Bofors 15.2cm連装砲 Model 1930",
+        "type":2,
+        "icon":2,
+        "scrap":[
+            0,
+            2,
+            3,
+            1
+        ],
+        "rare":3
+    },
+    "304":{
+        "en":"S9 Osprey",
+        "jp":"S9 Osprey",
+        "type":10,
+        "icon":10,
+        "scrap":[
+            1,
+            1,
+            0,
+            2
+        ],
+        "rare":2
+    },
+    "305":{
+        "en":"Ju 87C Kai Ni (w/ KMX)",
+        "jp":"Ju87C改二(KMX搭載機)",
+        "type":7,
+        "icon":7,
+        "scrap":[
+            2,
+            5,
+            0,
+            7
+        ],
+        "rare":4
     }
 }

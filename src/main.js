@@ -86,7 +86,11 @@ Vue.component('enemycomp-gen', EnemyCompGen);
 
 //Dawn
 import Dawn from './dawn/Dawn.vue'
+import DawnSelection from './dawn/DawnSelection.vue'
+import SqlRoutingProcessor from './dawn/options/SqlRoutingProcessor.vue'
 Vue.component('dawn', Dawn);
+Vue.component('dawn-selection', DawnSelection);
+Vue.component('sql-routing-processor', SqlRoutingProcessor);
 
 new Vue({
   el: '#app',
