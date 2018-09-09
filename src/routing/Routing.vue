@@ -18,7 +18,7 @@
     </div>
     <pagination v-if="map != undefined" @pageChanged="changePage($event)"></pagination>
     <template v-if="map != undefined">
-        <table-special :samples="samples" :map="map" :offset="parseInt(offset)" v-if="event == true" @fleetClicked="data=$event"></table-special>
+        <table-special :samples="samples" :map="map" :offset="parseInt(offset)" v-if="checkEventMap(map)" @fleetClicked="data=$event"></table-special>
         <table-normal :samples="samples" :map="map" :offset="parseInt(offset)" v-else @fleetClicked="data=$event"></table-normal>
     </template>
     <display-fleet-title :data="data" :map="map"></display-fleet-title>
@@ -32,7 +32,6 @@ import axios from 'axios';
 import qs from 'qs';
 
 export default {
-    props: ['event'],
     data: function() {
         return {
             offset: 0,

@@ -21,7 +21,7 @@
                     <img :src="shipCard(ship)" :alt="ship.name" :title="shipCardName(ship)" style="width:160px; height:40px;" />
                 </td>
                 <td v-if="checkEventMap(map) == true">
-                    <img v-if="ship.shiplock != 0" :src="tagIcon(ship)" :title="tagName(ship)" style="width:20px; height:40px;" />
+                    <img v-if="ship.shiplock != 0" :src="tagIcon(ship)" :title="tagName(ship)" style="height:40px;" />
                 </td>
             <template v-if="ship != -1">
                 <td>{{fleetComp(ship.type)}}</td>
