@@ -16,6 +16,7 @@
 			<th>Difficulty</th>
 			<th>Type</th>
 			<th>Gauge</th>
+			<th>Phase</th>
 			<th>Debuff</th>
 		</tr>
 		<tr v-for="(sample, id) in samples" :key="id">
@@ -31,6 +32,7 @@
 			<difficulty-col :diff="sample.difficulty"></difficulty-col>
 			<gaugetype-col :type="sample.gaugetype"></gaugetype-col>
 			<gauge-col :current="sample.currentmaphp" :max="sample.maxmaphp"></gauge-col>
+			<phase-col :phase="sample.gaugenum"></phase-col>
 			<debuff-col :count="sample.debuffsound"></debuff-col>
 		</tr>
 	</table>
