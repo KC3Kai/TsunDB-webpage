@@ -1,26 +1,51 @@
 <template>
 <div class="container" v-if="map != undefined">
     <br/>
-    <div class="field is-horizontal" v-if="checkEventMap(map) == true">
-        <div class="field-label">
-            <label class="label is-pulled-left">Difficulty: </label>
-        </div>
-        <div class="field-body">
-            <div class="field">
-                <div class="control">
-                    <div class="select">
-                        <select @change="filterDifficulty">
-                            <option value="undefined">All</option>
-                            <option value="1">丁</option>
-                            <option value="2">丙</option>
-                            <option value="3">乙</option>
-                            <option value="4">甲</option>
-                        </select>
+    <template v-if="checkEventMap(map) == true">
+        <div class="field is-horizontal">
+            <div class="field-label">
+                <label class="label is-pulled-left">Difficulty: </label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <div class="control">
+                        <div class="select">
+                            <select @change="filterDifficulty">
+                                <option value="undefined">All</option>
+                                <option value="1">丁</option>
+                                <option value="2">丙</option>
+                                <option value="3">乙</option>
+                                <option value="4">甲</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div>
+            <div class="field is-horizontal">
+                <div class="field-label">
+                    <label class="label is-pulled-left">Phase: </label>
+                </div>
+                <div class="field-body">
+                    <div class="field">
+                        <div class="control">
+                            <div class="select">
+                                <select @change="updateGaugeNum">
+                                    <option value="undefined">All</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br />
+    </template>
     <div class="field is-horizontal">
         <div class="field-label">
             <label class="label is-pulled-left">Route Filter: </label>
@@ -92,6 +117,7 @@ export default {
     data: function() {
         return {
             nextRoute: 0,
+            gaugenum: undefined,
             cleared: false,
             node1: undefined,
             node2: undefined,
@@ -166,6 +192,9 @@ export default {
         toggleNextRoute(){
             this.nextRoute = this.nextRoute ? 0 : 1;
             this.$emit("filterChanged", ["deadend",this.nextRoute]);
+        },
+        updateGaugeNum(event){
+            this.$emit("filterChanged", ["gaugenum",event.target.value]);
         }
     }
 }

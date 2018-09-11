@@ -40,6 +40,7 @@ export default {
             nextRoute: 0,
             edge_id: undefined,
             difficulty: undefined,
+            gaugenum: undefined,
             cleared: 0,
             eventselected: false,
             samples: [],
@@ -74,6 +75,9 @@ export default {
                 case "difficulty":
                     this.difficulty = value;
                     break;
+                case "gaugenum":
+                    this.gaugenum = value;
+                    break;
                 case "nodes": 
                     this.edge_id = value;
                     break;
@@ -88,6 +92,9 @@ export default {
             }
             if(this.difficulty != undefined){
                 container.difficulty = this.difficulty;
+            }
+            if(this.gaugenum != undefined){
+                container.gaugenum = this.gaugenum;
             }
             if(this.edge_id != undefined){
                 container.edge_id = this.edge_id;
