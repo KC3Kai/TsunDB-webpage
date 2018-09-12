@@ -48,7 +48,7 @@
 		},
 		methods: {
 			displayFleet(data,id){
-                console.log(data);
+				console.log(data);
                 this.clicked = id;
 				this.$emit("fleetClicked", data);
             },

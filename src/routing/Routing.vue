@@ -66,6 +66,7 @@ export default {
             this.getJSON();
         },
         filterChanged([type, value]){
+            if(value == 'undefined') value = undefined;
             switch(type){
                 case "cleared": 
                     this.cleared = value;
