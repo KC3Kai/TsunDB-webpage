@@ -35,10 +35,11 @@ export default {
     data: function() {
         return {
             offset: 0,
-            limit: 10,
+            limit: 20,
             map: undefined,
             nextRoute: 0,
             edge_id: undefined,
+            fleettype: undefined,
             difficulty: undefined,
             gaugenum: undefined,
             cleared: 0,
@@ -78,6 +79,9 @@ export default {
                 case "gaugenum":
                     this.gaugenum = value;
                     break;
+                case 'fleettype':
+                    this.fleettype = value;
+                    break;
                 case "nodes": 
                     this.edge_id = value;
                     break;
@@ -88,10 +92,13 @@ export default {
             let container = {
                 offset: this.offset*this.limit,
                 limit: this.limit,
-                next_route: this.nextRoute,
-            }
+                next_route: this.nextRoute
+            };
             if(this.difficulty != undefined){
                 container.difficulty = this.difficulty;
+            }
+            if(this.fleettype != undefined){
+                container.fleettype = this.fleettype;
             }
             if(this.gaugenum != undefined){
                 container.gaugenum = this.gaugenum;

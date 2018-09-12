@@ -22,6 +22,26 @@
                 </div>
             </div>
         </div>
+        <div class="field is-horizontal">
+            <div class="field-label">
+                <label class="label is-pulled-left">Fleet Type: </label>
+            </div>
+            <div class="field-body">
+                <div class="field">
+                    <div class="control">
+                        <div class="select">
+                            <select @change="filterFleetType">
+                                <option value="undefined">All</option>
+                                <option value="0">Single/Strike Force</option>
+                                <option value="1">Carrier Task Force</option>
+                                <option value="2">Surface Task Force</option>
+                                <option value="3">Transport Escort</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div>
             <div class="field is-horizontal">
                 <div class="field-label">
@@ -31,7 +51,7 @@
                     <div class="field">
                         <div class="control">
                             <div class="select">
-                                <select @change="updateGaugeNum">
+                                <select @change="filterGaugeNum">
                                     <option value="undefined">All</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -185,6 +205,12 @@ export default {
                 this.$emit("filterChanged", ["nodes", returnArray]);
             }
         },
+        filterFleetType(event){
+            this.$emit("filterChanged", ["fleettype",event.target.value]);
+        },
+        filterGaugeNum(event){
+            this.$emit("filterChanged", ["gaugenum",event.target.value]);
+        },
         toggleCleared(){
             this.cleared = this.cleared ? false : true;
             this.$emit("filterChanged", ["cleared",this.cleared]);
@@ -192,9 +218,6 @@ export default {
         toggleNextRoute(){
             this.nextRoute = this.nextRoute ? 0 : 1;
             this.$emit("filterChanged", ["deadend",this.nextRoute]);
-        },
-        updateGaugeNum(event){
-            this.$emit("filterChanged", ["gaugenum",event.target.value]);
         }
     }
 }
