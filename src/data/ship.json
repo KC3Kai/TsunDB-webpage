@@ -1443,6 +1443,10 @@
         "jp":"大鷹改",
         "en":"Taiyou Kai"
     },
+    "381":{
+        "jp":"神鷹改",
+        "en":"Shinyou Kai"
+    },
     "383":{
         "jp":"択捉改",
         "en":"Etorofu Kai"
@@ -1967,6 +1971,10 @@
         "jp":"大鷹",
         "en":"Taiyou"
     },
+    "527":{
+        "jp":"岸波",
+        "en":"Kishinami"
+    },
     "529":{
         "jp":"大鷹改二",
         "en":"Taiyou Kai Ni"
@@ -1983,9 +1991,17 @@
         "jp":"涼月",
         "en":"Suzutsuki"
     },
+    "534":{
+        "jp":"神鷹",
+        "en":"Shinyou"
+    },
     "535":{
         "jp":"Luigi Torelli",
         "en":"Luigi Torelli"
+    },
+    "536":{
+        "jp":"神鷹改二",
+        "en":"Shinyou Kai Ni"
     },
     "537":{
         "jp":"涼月改",
@@ -2091,6 +2107,30 @@
         "jp":"黒潮改二",
         "en":"Kuroshio Kai Ni"
     },
+    "571":{
+        "jp":"Nelson",
+        "en":"Nelson"
+    },
+    "574":{
+        "jp":"Gotland",
+        "en":"Gotland"
+    },
+    "575":{
+        "jp":"Maestrale",
+        "en":"Maestrale"
+    },
+    "576":{
+        "jp":"Nelson改",
+        "en":"Nelson Kai"
+    },
+    "579":{
+        "jp":"Gotland改",
+        "en":"Gotland Kai"
+    },
+    "580":{
+        "jp":"Maestrale改",
+        "en":"Maestrale Kai"
+    },
     "605":{
         "jp":"Luigi Torelli改",
         "en":"Luigi Torelli Kai"
@@ -2118,5 +2158,9 @@
     "685":{
         "jp":"福江改",
         "en":"Fukae Kai"
+    },
+    "686":{
+        "jp":"岸波改",
+        "en":"Kishinami Kai"
     }
 }

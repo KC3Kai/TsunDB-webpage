@@ -38,6 +38,7 @@ import Gauge from './routing/components/Gauge.vue'
 import GaugeType from './routing/components/GaugeType.vue'
 import HQ from './routing/components/HQ.vue'
 import LoS from './routing/components/LoS.vue'
+import NodesAmount from './routing/components/NodesAmount.vue'
 import Phase from './routing/components/Phase.vue'
 import Route from './routing/components/Route.vue'
 import Speed from './routing/components/Speed.vue'
@@ -51,6 +52,7 @@ Vue.component('gauge-col', Gauge);
 Vue.component('gaugetype-col', GaugeType);
 Vue.component('hq-col', HQ);
 Vue.component('los-col', LoS);
+Vue.component('nodesamount-col', NodesAmount);
 Vue.component('phase-col', Phase);
 Vue.component('routing-col', Route);
 Vue.component('speed-col', Speed);

@@ -17,6 +17,7 @@
 			<th>Type</th>
 			<th>Gauge</th>
 			<th>Phase</th>
+			<th>Edges</th>
 			<th>Debuff</th>
 		</tr>
 		<tr v-for="(sample, id) in samples" :key="id">
@@ -33,6 +34,7 @@
 			<gaugetype-col :type="sample.gaugetype"></gaugetype-col>
 			<gauge-col :current="sample.currentmaphp" :max="sample.maxmaphp"></gauge-col>
 			<phase-col :phase="sample.gaugenum"></phase-col>
+			<nodesamount-col :nodesamount="sample.nodeinfo.amountOfNodes"></nodesamount-col>
 			<debuff-col :count="sample.debuffsound"></debuff-col>
 		</tr>
 	</table>

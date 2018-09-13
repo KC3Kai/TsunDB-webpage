@@ -106,6 +106,18 @@
     </div>
     <div class="field is-horizontal">
         <div class="field-label">
+            <label class="label is-pulled-left">Show everything!: </label>
+        </div>
+        <div class="field-body">
+            <div class="field">
+                <div class="control">
+                    <input type="checkbox" :checked="cleared" @click="toggleNextRoute">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="field is-horizontal">
+        <div class="field-label">
             <label class="label is-pulled-left">Show only post-clear: </label>
         </div>
         <div class="field-body">
@@ -124,6 +136,7 @@ export default {
     props: ['map'],
     data: function() {
         return {
+            nextRoute: 0,
             gaugenum: undefined,
             cleared: false,
             node1: undefined,
@@ -168,7 +181,6 @@ export default {
         filterNodes(){
             let returnArray = [];
             if(this.node1 == undefined && this.node2 == undefined){
-                this.toggleNextRoute(0);
                 this.$emit("filterChanged", ["nodes", returnArray]);
             }
             else {
@@ -190,7 +202,6 @@ export default {
                         }
                     }
                 }
-                this.toggleNextRoute(1);
                 this.$emit("filterChanged", ["nodes", returnArray]);
             }
         },
@@ -204,8 +215,9 @@ export default {
             this.cleared = this.cleared ? false : true;
             this.$emit("filterChanged", ["cleared",this.cleared]);
         },
-        toggleNextRoute(event){
-            this.$emit("deadend", event);
+        toggleNextRoute(){
+            this.nextRoute = this.nextRoute ? 0 : 1;
+            this.$emit("filterChanged", ["deadend",this.nextRoute]);
         }
     }
 }
