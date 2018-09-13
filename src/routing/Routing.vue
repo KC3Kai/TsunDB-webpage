@@ -13,7 +13,7 @@
     </p>
     <mapselection @mapIsSet="loadMap($event)"></mapselection>
     <div id="parent">
-        <routingoptions id="left" :map="map" @filterChanged="filterChanged($event)"></routingoptions>
+        <routingoptions id="left" :map="map" @filterChanged="filterChanged($event)" @deadend="nextRoute = $event"></routingoptions>
         <displaymap id="right" :map="map"></displaymap>
     </div>
     <pagination v-if="map != undefined" @pageChanged="changePage($event)"></pagination>
