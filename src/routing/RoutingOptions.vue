@@ -111,7 +111,7 @@
         <div class="field-body">
             <div class="field">
                 <div class="control">
-                    <input type="checkbox" :checked="cleared" @click="toggleNextRoute">
+                    <input type="checkbox" :checked="nextRoute" @click="toggleNextRoute">
                 </div>
             </div>
         </div>
