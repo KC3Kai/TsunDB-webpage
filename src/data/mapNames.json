@@ -67,6 +67,10 @@
         "jp": "ブルネイ泊地沖",
         "en": "Brunei Anchorage"
     },
+    "7-2": {
+        "jp": "タウイタウイ泊地沖",
+        "en": "Tawi-Tawi Anchorage"
+    },
     "4-1": {
         "jp": "ジャム島攻略作戦",
         "en": "Battle of Jam Island"
@@ -146,5 +150,17 @@
     "42-5":{
         "jp": "全力出撃！新ライン演習作戦",
         "en": "Full-power Sortie! New Operation Rheinübung"
+    },
+    "43-1":{
+        "jp": "中部ソロモン海域鼠輸送",
+        "en": "Central Solomon Seas Tokyo Express"
+    },
+    "43-2":{
+        "jp": "六〇三作戦",
+        "en": "Operation 603"
+    },
+    "43-3":{
+        "jp": "南西第四守備隊輸送作戦",
+        "en": "Southwest 4th Garrison Force Transport Operation"
     }
 }

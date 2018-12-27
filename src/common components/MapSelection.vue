@@ -112,6 +112,9 @@
                     <a class="dropdown-item" @click="mapSelected('7-1')">
                         7-1
                     </a>
+                    <a class="dropdown-item" @click="mapSelected('7-2')">
+                        7-2
+                    </a>
                 </div>
             </div>
         </div>
@@ -235,6 +238,31 @@
                     </a>
                     <a class="dropdown-item" @click="mapSelected('42-5')">
                         42-5
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="dropdown is-active">
+            <div class="dropdown-trigger">
+                <button class="button" @click="toggleList(43)">
+                    <span>
+                        Winter 2019
+                    </span>
+                    <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="dropdown-menu" v-if="world == 43">
+                <div class="dropdown-content">
+                    <a class="dropdown-item" @click="mapSelected('43-1')">
+                        43-1
+                    </a>
+                    <a class="dropdown-item" @click="mapSelected('43-2')">
+                        43-2
+                    </a>
+                    <a class="dropdown-item" @click="mapSelected('43-3')">
+                        43-3
                     </a>
                 </div>
             </div>
