@@ -91,6 +91,9 @@ export default {
                         case 7:
                             node = "nightday";
                             break;
+                        case 8:
+                            node = "ambush";
+                            break;
                     }
                     break;
                 case 5: 
@@ -142,6 +145,9 @@ export default {
                             break;
                         case 7:
                             node = "Night to Day Battle";
+                            break;
+                        case 8:
+                            node = "Ambushed!";
                             break;
                     }
                     break;
