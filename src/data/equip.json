@@ -3932,6 +3932,133 @@
         "rare":4
     },
     "306":{
-        
+        "en":"Ju 87C Kai Ni (w/ KMX/Skilled)",
+        "jp":"Ju87C改二(KMX搭載機/熟練)",
+        "type":7,
+        "icon":7,
+        "scrap":[
+            2,
+            5,
+            0,
+            7
+        ],
+        "rare":5
+    },
+    "307":{
+        "en":"GFCS Mk.37",
+        "jp":"GFCS Mk.37",
+        "type":12,
+        "icon":11,
+        "scrap":[
+            0,
+            0,
+            20,
+            24
+        ],
+        "rare":4
+    },
+    "308":{
+        "en":"5inch Single Gun Mount Mk.30 Kai + GFCS Mk.37",
+        "jp":"5inch単装砲 Mk.30改+GFCS Mk.37",
+        "type":1,
+        "icon":16,
+        "scrap":[
+            0,
+            2,
+            22,
+            28
+        ],
+        "rare":5
+    },
+    "309":{
+        "en":"Type C Kouhyouteki",
+        "jp":"甲標的 丙型",
+        "type":22,
+        "icon":5,
+        "scrap":[
+            2,
+            8,
+            8,
+            3
+        ],
+        "rare":3
+    },
+    "310":{
+        "en":"14cm Twin Gun Mount Kai",
+        "jp":"14cm連装砲改",
+        "type":2,
+        "icon":2,
+        "scrap":[
+            0,
+            3,
+            2,
+            1
+        ],
+        "rare":2
+    },
+    "311":{
+        "en":"Type 2 Land-based Reconnaissance Aircraft",
+        "jp":"二式陸上偵察機",
+        "type":49,
+        "icon":9,
+        "scrap":[
+            4,
+            2,
+            0,
+            12
+        ],
+        "rare":2
+    },
+    "312":{
+        "en":"Type 2 Land-based Reconnaissance Aircraft (Skilled)",
+        "jp":"二式陸上偵察機(熟練)",
+        "type":49,
+        "icon":9,
+        "scrap":[
+            5,
+            2,
+            0,
+            13
+        ],
+        "rare":3
+    },
+    "313":{
+        "en":"5inch Single Gun Mount Mk.30 Kai",
+        "jp":"5inch単装砲 Mk.30改",
+        "type":1,
+        "icon":16,
+        "scrap":[
+            0,
+            2,
+            2,
+            3
+        ],
+        "rare":4
+    },
+    "314":{
+        "en":"533mm Quintuple Torpedo Mount (Initial Model)",
+        "jp":"533mm五連装魚雷(初期型)",
+        "type":5,
+        "icon":5,
+        "scrap":[
+            1,
+            3,
+            2,
+            2
+        ],
+        "rare":2
+    },
+    "315":{
+        "en":"SG Radar (Initial Model)",
+        "jp":"SG レーダー(初期型)",
+        "type":12,
+        "icon":11,
+        "scrap":[
+            0,
+            0,
+            15,
+            20
+        ],
+        "rare":4
     }
 }
