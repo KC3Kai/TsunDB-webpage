@@ -3892,6 +3892,19 @@
         ],
         "rare":3
     },
+    "302":{
+        "en":"Type 97 Torpedo Bomber (931 Air Group/Skilled)",
+        "jp":"九七式艦攻(九三一空/熟練)",
+        "type":8,
+        "icon":8,
+        "scrap":[
+            2,
+            3,
+            0,
+            4
+        ],
+        "rare":3
+    },
     "303":{
         "en":"Bofors 15.2cm Twin Gun Mount Model 1930",
         "jp":"Bofors 15.2cm連装砲 Model 1930",
