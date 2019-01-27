@@ -1,2170 +1,3630 @@
 {
-    "1":{
-        "jp":"睦月",
-        "en":"Mutsuki"
-    },
-    "2":{
-        "jp":"如月",
-        "en":"Kisaragi"
-    },
-    "6":{
-        "jp":"長月",
-        "en":"Nagatsuki"
-    },
-    "7":{
-        "jp":"三日月",
-        "en":"Mikazuki"
-    },
-    "9":{
-        "jp":"吹雪",
-        "en":"Fubuki"
-    },
-    "10":{
-        "jp":"白雪",
-        "en":"Shirayuki"
-    },
-    "11":{
-        "jp":"深雪",
-        "en":"Miyuki"
-    },
-    "12":{
-        "jp":"磯波",
-        "en":"Isonami"
-    },
-    "13":{
-        "jp":"綾波",
-        "en":"Ayanami"
-    },
-    "14":{
-        "jp":"敷波",
-        "en":"Shikinami"
-    },
-    "15":{
-        "jp":"曙",
-        "en":"Akebono"
-    },
-    "16":{
-        "jp":"潮",
-        "en":"Ushio"
-    },
-    "17":{
-        "jp":"陽炎",
-        "en":"Kagerou"
-    },
-    "18":{
-        "jp":"不知火",
-        "en":"Shiranui"
-    },
-    "19":{
-        "jp":"黒潮",
-        "en":"Kuroshio"
-    },
-    "20":{
-        "jp":"雪風",
-        "en":"Yukikaze"
-    },
-    "21":{
-        "jp":"長良",
-        "en":"Nagara"
-    },
-    "22":{
-        "jp":"五十鈴",
-        "en":"Isuzu"
-    },
-    "23":{
-        "jp":"由良",
-        "en":"Yura"
-    },
-    "24":{
-        "jp":"大井",
-        "en":"Ooi"
-    },
-    "25":{
-        "jp":"北上",
-        "en":"Kitakami"
-    },
-    "26":{
-        "jp":"扶桑",
-        "en":"Fusou"
-    },
-    "27":{
-        "jp":"山城",
-        "en":"Yamashiro"
-    },
-    "28":{
-        "jp":"皐月",
-        "en":"Satsuki"
-    },
-    "29":{
-        "jp":"文月",
-        "en":"Fumizuki"
-    },
-    "30":{
-        "jp":"菊月",
-        "en":"Kikazuki"
-    },
-    "31":{
-        "jp":"望月",
-        "en":"Mochizuki"
-    },
-    "32":{
-        "jp":"初雪",
-        "en":"Hatsuyuki"
-    },
-    "33":{
-        "jp":"叢雲",
-        "en":"Murakumo"
-    },
-    "34":{
-        "jp":"暁",
-        "en":"Akatsuki"
-    },
-    "35":{
-        "jp":"響",
-        "en":"Hibiki"
-    },
-    "36":{
-        "jp":"雷",
-        "en":"Ikazuchi"
-    },
-    "37":{
-        "jp":"電",
-        "en":"Inazuma"
-    },
-    "38":{
-        "jp":"初春",
-        "en":"Hatsuharu"
-    },
-    "39":{
-        "jp":"子日",
-        "en":"Nenohi"
-    },
-    "40":{
-        "jp":"若葉",
-        "en":"Wakaba"
-    },
-    "41":{
-        "jp":"初霜",
-        "en":"Hatsushimo"
-    },
-    "42":{
-        "jp":"白露",
-        "en":"Shiratsuyu"
-    },
-    "43":{
-        "jp":"時雨",
-        "en":"Shigure"
-    },
-    "44":{
-        "jp":"村雨",
-        "en":"Murasama"
-    },
-    "45":{
-        "jp":"夕立",
-        "en":"Yuudachi"
-    },
-    "46":{
-        "jp":"五月雨",
-        "en":"Samidare"
-    },
-    "47":{
-        "jp":"涼風",
-        "en":"Suzukaze"
-    },
-    "48":{
-        "jp":"霰",
-        "en":"Arare"
-    },
-    "49":{
-        "jp":"霞",
-        "en":"Kachumi"
-    },
-    "50":{
-        "jp":"島風",
-        "en":"Shimakaze"
-    },
-    "51":{
-        "jp":"天龍",
-        "en":"Tenryuu"
-    },
-    "52":{
-        "jp":"龍田",
-        "en":"Tatsuta"
-    },
-    "53":{
-        "jp":"名取",
-        "en":"Natori"
-    },
-    "54":{
-        "jp":"川内",
-        "en":"Sendai"
-    },
-    "55":{
-        "jp":"神通",
-        "en":"Jintsuu"
-    },
-    "56":{
-        "jp":"那珂",
-        "en":"Naka"
-    },
-    "57":{
-        "jp":"大井改",
-        "en":"Ooi Kai"
-    },
-    "58":{
-        "jp":"北上改",
-        "en":"Kitakami Kai"
-    },
-    "59":{
-        "jp":"古鷹",
-        "en":"Furutaka"
-    },
-    "60":{
-        "jp":"加古",
-        "en":"Kako"
-    },
-    "61":{
-        "jp":"青葉",
-        "en":"Aoba"
-    },
-    "62":{
-        "jp":"妙高",
-        "en":"Myoukou"
-    },
-    "63":{
-        "jp":"那智",
-        "en":"Nachi"
-    },
-    "64":{
-        "jp":"足柄",
-        "en":"Ashigara"
-    },
-    "65":{
-        "jp":"羽黒",
-        "en":"Haguro"
-    },
-    "66":{
-        "jp":"高雄",
-        "en":"Takao"
-    },
-    "67":{
-        "jp":"愛宕",
-        "en":"Atago"
-    },
-    "68":{
-        "jp":"摩耶",
-        "en":"Maya"
-    },
-    "69":{
-        "jp":"鳥海",
-        "en":"Choukai"
-    },
-    "70":{
-        "jp":"最上",
-        "en":"Mogami"
-    },
-    "71":{
-        "jp":"利根",
-        "en":"Tone"
-    },
-    "72":{
-        "jp":"筑摩",
-        "en":"Chikuma"
-    },
-    "73":{
-        "jp":"最上改",
-        "en":"Mogami Kai"
-    },
-    "74":{
-        "jp":"祥鳳",
-        "en":"Shouhou"
-    },
-    "75":{
-        "jp":"飛鷹",
-        "en":"Hiyou"
-    },
-    "76":{
-        "jp":"龍驤",
-        "en":"Ryuujou"
-    },
-    "77":{
-        "jp":"伊勢",
-        "en":"Ise"
-    },
-    "78":{
-        "jp":"金剛",
-        "en":"Kongou"
-    },
-    "79":{
-        "jp":"榛名",
-        "en":"Haruna"
-    },
-    "80":{
-        "jp":"長門",
-        "en":"Nagato"
-    },
-    "81":{
-        "jp":"陸奥",
-        "en":"Mutsu"
-    },
-    "82":{
-        "jp":"伊勢改",
-        "en":"Ise Kai"
-    },
-    "83":{
-        "jp":"赤城",
-        "en":"Akagi"
-    },
-    "84":{
-        "jp":"加賀",
-        "en":"Kaga"
-    },
-    "85":{
-        "jp":"霧島",
-        "en":"Kirishima"
-    },
-    "86":{
-        "jp":"比叡",
-        "en":"Hiei"
-    },
-    "87":{
-        "jp":"日向",
-        "en":"Hyuuga"
-    },
-    "88":{
-        "jp":"日向改",
-        "en":"Hyuuga Kai"
-    },
-    "89":{
-        "jp":"鳳翔",
-        "en":"Houshou"
-    },
-    "90":{
-        "jp":"蒼龍",
-        "en":"Souryuu"
-    },
-    "91":{
-        "jp":"飛龍",
-        "en":"Hiryuu"
-    },
-    "92":{
-        "jp":"隼鷹",
-        "en":"Junyou"
-    },
-    "93":{
-        "jp":"朧",
-        "en":"Oboro"
-    },
-    "94":{
-        "jp":"漣",
-        "en":"Sazanami"
-    },
-    "95":{
-        "jp":"朝潮",
-        "en":"Asashio"
-    },
-    "96":{
-        "jp":"大潮",
-        "en":"Ooshio"
-    },
-    "97":{
-        "jp":"満潮",
-        "en":"Michishio"
-    },
-    "98":{
-        "jp":"荒潮",
-        "en":"Arashio"
-    },
-    "99":{
-        "jp":"球磨",
-        "en":"Kuma"
-    },
-    "100":{
-        "jp":"多摩",
-        "en":"Tama"
-    },
-    "101":{
-        "jp":"木曾",
-        "en":"Kiso"
-    },
-    "102":{
-        "jp":"千歳",
-        "en":"Chitose"
-    },
-    "103":{
-        "jp":"千代田",
-        "en":"Chiyoda"
-    },
-    "104":{
-        "jp":"千歳改",
-        "en":"Chitose Kai"
-    },
-    "105":{
-        "jp":"千代田改",
-        "en":"Chiyoda Kai"
-    },
-    "106":{
-        "jp":"千歳甲",
-        "en":"Chitose Kou"
-    },
-    "107":{
-        "jp":"千代田甲",
-        "en":"Chiyoda Kou"
-    },
-    "108":{
-        "jp":"千歳航",
-        "en":"Chitose Carrier"
-    },
-    "109":{
-        "jp":"千代田航",
-        "en":"Chiyoda Carrier"
-    },
-    "110":{
-        "jp":"翔鶴",
-        "en":"Shoukaku"
-    },
-    "111":{
-        "jp":"瑞鶴",
-        "en":"Zuikaku"
-    },
-    "112":{
-        "jp":"瑞鶴改",
-        "en":"Zuikaku Kai"
-    },
-    "113":{
-        "jp":"鬼怒",
-        "en":"Kinu"
-    },
-    "114":{
-        "jp":"阿武隈",
-        "en":"Abukuma"
-    },
-    "115":{
-        "jp":"夕張",
-        "en":"Yuubari"
-    },
-    "116":{
-        "jp":"瑞鳳",
-        "en":"Zuihou"
-    },
-    "117":{
-        "jp":"瑞鳳改",
-        "en":"Zuihou Kai"
-    },
-    "118":{
-        "jp":"大井改二",
-        "en":"Ooi Kai Ni"
-    },
-    "119":{
-        "jp":"北上改二",
-        "en":"Kitakami Kai Ni"
-    },
-    "120":{
-        "jp":"三隈",
-        "en":"Mikuma"
-    },
-    "121":{
-        "jp":"三隈改",
-        "en":"Mikuma Kai"
-    },
-    "122":{
-        "jp":"舞風",
-        "en":"Maikaze"
-    },
-    "123":{
-        "jp":"衣笠",
-        "en":"Kinugasa"
-    },
-    "124":{
-        "jp":"鈴谷",
-        "en":"Suzuya"
-    },
-    "125":{
-        "jp":"熊野",
-        "en":"Kumano"
-    },
-    "126":{
-        "jp":"伊168",
-        "en":"Imuya"
-    },
-    "127":{
-        "jp":"伊58",
-        "en":"Goya"
-    },
-    "128":{
-        "jp":"伊8",
-        "en":"Hachi"
-    },
-    "129":{
-        "jp":"鈴谷改",
-        "en":"Suzuya Kai"
-    },
-    "130":{
-        "jp":"熊野改",
-        "en":"Kumano Kai"
-    },
-    "131":{
-        "jp":"大和",
-        "en":"Yamato"
-    },
-    "132":{
-        "jp":"秋雲",
-        "en":"Akigumo"
-    },
-    "133":{
-        "jp":"夕雲",
-        "en":"Yuugumo"
-    },
-    "134":{
-        "jp":"巻雲",
-        "en":"Makigumo"
-    },
-    "135":{
-        "jp":"長波",
-        "en":"Naganami"
-    },
-    "136":{
-        "jp":"大和改",
-        "en":"Yamato Kai"
-    },
-    "137":{
-        "jp":"阿賀野",
-        "en":"Agano"
-    },
-    "138":{
-        "jp":"能代",
-        "en":"Noshiro"
-    },
-    "139":{
-        "jp":"矢矧",
-        "en":"Yahagi"
-    },
-    "140":{
-        "jp":"酒匂",
-        "en":"Sakawa"
-    },
-    "141":{
-        "jp":"五十鈴改二",
-        "en":"Isuzu Kai Ni"
-    },
-    "142":{
-        "jp":"衣笠改二",
-        "en":"Kinugasa Kai Ni"
-    },
-    "143":{
-        "jp":"武蔵",
-        "en":"Musashi"
-    },
-    "144":{
-        "jp":"夕立改二",
-        "en":"Yuudachi Kai Ni"
-    },
-    "145":{
-        "jp":"時雨改二",
-        "en":"Shigure Kai Ni"
-    },
-    "146":{
-        "jp":"木曾改二",
-        "en":"Kiso Kai Ni"
-    },
-    "147":{
-        "jp":"Верный",
-        "en":"Verniy"
-    },
-    "148":{
-        "jp":"武蔵改",
-        "en":"Musashi Kai"
-    },
-    "149":{
-        "jp":"金剛改二",
-        "en":"Kongou Kai Ni"
-    },
-    "150":{
-        "jp":"比叡改二",
-        "en":"Hiei Kai Ni"
-    },
-    "151":{
-        "jp":"榛名改二",
-        "en":"Haruna Kai Ni"
-    },
-    "152":{
-        "jp":"霧島改二",
-        "en":"Kirishima Kai Ni"
-    },
-    "153":{
-        "jp":"大鳳",
-        "en":"Taihou"
-    },
-    "154":{
-        "jp":"香取",
-        "en":"Katori"
-    },
-    "155":{
-        "jp":"伊401",
-        "en":"Shioi"
-    },
-    "156":{
-        "jp":"大鳳改",
-        "en":"Taihou Kai"
-    },
-    "157":{
-        "jp":"龍驤改二",
-        "en":"Ryuujou Kai Ni"
-    },
-    "158":{
-        "jp":"川内改二",
-        "en":"Sendai Kai Ni"
-    },
-    "159":{
-        "jp":"神通改二",
-        "en":"Jintsuu Kai Ni"
-    },
-    "160":{
-        "jp":"那珂改二",
-        "en":"Naka Kai Ni"
-    },
-    "161":{
-        "jp":"あきつ丸",
-        "en":"Akitsu Maru"
-    },
-    "162":{
-        "jp":"神威",
-        "en":"Kamoi"
-    },
-    "163":{
-        "jp":"まるゆ",
-        "en":"Maruyu"
-    },
-    "164":{
-        "jp":"弥生",
-        "en":"Yayoi"
-    },
-    "165":{
-        "jp":"卯月",
-        "en":"Uzuki"
-    },
-    "166":{
-        "jp":"あきつ丸改",
-        "en":"Akitsu Maru Kai"
-    },
-    "167":{
-        "jp":"磯風",
-        "en":"Isokaze"
-    },
-    "168":{
-        "jp":"浦風",
-        "en":"Urakaze"
-    },
-    "169":{
-        "jp":"谷風",
-        "en":"Tanikaze"
-    },
-    "170":{
-        "jp":"浜風",
-        "en":"Hamakaze"
-    },
-    "171":{
-        "jp":"Bismarck",
-        "en":"Bismarck"
-    },
-    "172":{
-        "jp":"Bismarck改",
-        "en":"Bismarck Kai"
-    },
-    "173":{
-        "jp":"Bismarck zwei",
-        "en":"Bismarck zwei"
-    },
-    "174":{
-        "jp":"Z1",
-        "en":"Z1"
-    },
-    "175":{
-        "jp":"Z3",
-        "en":"Z1"
-    },
-    "176":{
-        "jp":"Prinz Eugen",
-        "en":"Prinz Eugen"
-    },
-    "177":{
-        "jp":"Prinz Eugen改",
-        "en":"Prinz Eugen Kai"
-    },
-    "178":{
-        "jp":"Bismarck drei",
-        "en":"Bismarck drei"
-    },
-    "179":{
-        "jp":"Z1 zwei",
-        "en":"Z1 zwei"
-    },
-    "180":{
-        "jp":"Z3 zwei",
-        "en":"Z3 zwei"
-    },
-    "181":{
-        "jp":"天津風",
-        "en":"Amatsukaze"
-    },
-    "182":{
-        "jp":"明石",
-        "en":"Akashi"
-    },
-    "183":{
-        "jp":"大淀",
-        "en":"Ooyodo"
-    },
-    "184":{
-        "jp":"大鯨",
-        "en":"Taigei"
-    },
-    "185":{
-        "jp":"龍鳳",
-        "en":"Ryuuhou"
-    },
-    "186":{
-        "jp":"時津風",
-        "en":"Tokitsukaze"
-    },
-    "187":{
-        "jp":"明石改",
-        "en":"Akashi Kai"
-    },
-    "188":{
-        "jp":"利根改二",
-        "en":"Tone Kai Ni"
-    },
-    "189":{
-        "jp":"筑摩改二",
-        "en":"Chikuma Kai Ni"
-    },
-    "190":{
-        "jp":"初風",
-        "en":"Hatsukaze"
-    },
-    "191":{
-        "jp":"伊19",
-        "en":"Iku"
-    },
-    "192":{
-        "jp":"那智改二",
-        "en":"Nachi Kai Ni"
-    },
-    "193":{
-        "jp":"足柄改二",
-        "en":"Ashigara Kai Ni"
-    },
-    "194":{
-        "jp":"羽黒改二",
-        "en":"Haguro Kai Ni"
-    },
-    "195":{
-        "jp":"綾波改二",
-        "en":"Ayanami Kai Ni"
-    },
-    "196":{
-        "jp":"飛龍改二",
-        "en":"Hiryuu Kai Ni"
-    },
-    "197":{
-        "jp":"蒼龍改二",
-        "en":"Souryuu Kai Ni"
-    },
-    "198":{
-        "jp":"霰改二",
-        "en":"Arare Kai Ni"
-    },
-    "199":{
-        "jp":"大潮改二",
-        "en":"Ooshio Kai Ni"
-    },
-    "200":{
-        "jp":"阿武隈改二",
-        "en":"Abukuma Kai Ni"
-    },
-    "201":{
-        "jp":"吹雪改",
-        "en":"Fubuki Kai"
-    },
-    "202":{
-        "jp":"白雪改",
-        "en":"Shirayuki Kai"
-    },
-    "203":{
-        "jp":"初雪改",
-        "en":"Hatsuyuki Kai"
-    },
-    "204":{
-        "jp":"深雪改",
-        "en":"Miyuki Kai"
-    },
-    "205":{
-        "jp":"叢雲改",
-        "en":"Murakumo Kai"
-    },
-    "206":{
-        "jp":"磯波改",
-        "en":"Isonami Kai"
-    },
-    "207":{
-        "jp":"綾波改",
-        "en":"Ayanami Kai"
-    },
-    "208":{
-        "jp":"敷波改",
-        "en":"Shikinami Kai"
-    },
-    "209":{
-        "jp":"金剛改",
-        "en":"Kongou Kai"
-    },
-    "210":{
-        "jp":"比叡改",
-        "en":"Hiei Kai"
-    },
-    "211":{
-        "jp":"榛名改",
-        "en":"Haruna Kai"
-    },
-    "212":{
-        "jp":"霧島改",
-        "en":"Kirishima Kai"
-    },
-    "213":{
-        "jp":"天龍改",
-        "en":"Tenryuu Kai"
-    },
-    "214":{
-        "jp":"龍田改",
-        "en":"Tatsuta Kai"
-    },
-    "215":{
-        "jp":"球磨改",
-        "en":"Kuma Kai"
-    },
-    "216":{
-        "jp":"多摩改",
-        "en":"Tama Kai"
-    },
-    "217":{
-        "jp":"木曾改",
-        "en":"Kiso Kai"
-    },
-    "218":{
-        "jp":"長良改",
-        "en":"Nagara Kai"
-    },
-    "219":{
-        "jp":"五十鈴改",
-        "en":"Isuzu Kai"
-    },
-    "220":{
-        "jp":"由良改",
-        "en":"Yura Kai"
-    },
-    "221":{
-        "jp":"名取改",
-        "en":"Natori Kai"
-    },
-    "222":{
-        "jp":"川内改",
-        "en":"Sendai Kai"
-    },
-    "223":{
-        "jp":"神通改",
-        "en":"Jintsuu Kai"
-    },
-    "224":{
-        "jp":"那珂改",
-        "en":"Naka Kai"
-    },
-    "225":{
-        "jp":"陽炎改",
-        "en":"Kagerou Kai"
-    },
-    "226":{
-        "jp":"不知火改",
-        "en":"Shiranui Kai"
-    },
-    "227":{
-        "jp":"黒潮改",
-        "en":"Kuroshio Kai"
-    },
-    "228":{
-        "jp":"雪風改",
-        "en":"Yukikaze Kai"
-    },
-    "229":{
-        "jp":"島風改",
-        "en":"Shimakaze Kai"
-    },
-    "230":{
-        "jp":"朧改",
-        "en":"Oboro Kai"
-    },
-    "231":{
-        "jp":"曙改",
-        "en":"Akebono Kai"
-    },
-    "232":{
-        "jp":"漣改",
-        "en":"Sazanami Kai"
-    },
-    "233":{
-        "jp":"潮改",
-        "en":"Ushio Kai"
-    },
-    "234":{
-        "jp":"暁改",
-        "en":"Akatsuki Kai"
-    },
-    "235":{
-        "jp":"響改",
-        "en":"Hibiki Kai"
-    },
-    "236":{
-        "jp":"雷改",
-        "en":"Ikazuchi Kai"
-    },
-    "237":{
-        "jp":"電改",
-        "en":"Inazuma Kai"
-    },
-    "238":{
-        "jp":"初春改",
-        "en":"Hatsuharu Kai"
-    },
-    "239":{
-        "jp":"子日改",
-        "en":"Nenohi Kai"
-    },
-    "240":{
-        "jp":"若葉改",
-        "en":"Wakaba Kai"
-    },
-    "241":{
-        "jp":"初霜改",
-        "en":"Hatsushimo Kai"
-    },
-    "242":{
-        "jp":"白露改",
-        "en":"Shiratsuyu Kai"
-    },
-    "243":{
-        "jp":"時雨改",
-        "en":"Shigure Kai"
-    },
-    "244":{
-        "jp":"村雨改",
-        "en":"Murasama Kai"
-    },
-    "245":{
-        "jp":"夕立改",
-        "en":"Yuudachi Kai"
-    },
-    "246":{
-        "jp":"五月雨改",
-        "en":"Samidare Kai"
-    },
-    "247":{
-        "jp":"涼風改",
-        "en":"Suzukaze"
-    },
-    "248":{
-        "jp":"朝潮改",
-        "en":"Asashio Kai"
-    },
-    "249":{
-        "jp":"大潮改",
-        "en":"Ooshio Kai"
-    },
-    "250":{
-        "jp":"満潮改",
-        "en":"Michishio Kai"
-    },
-    "251":{
-        "jp":"荒潮改",
-        "en":"Arashio Kai"
-    },
-    "252":{
-        "jp":"霰改",
-        "en":"Arare Kai"
-    },
-    "253":{
-        "jp":"霞改",
-        "en":"Kachumi Kai"
-    },
-    "254":{
-        "jp":"睦月改",
-        "en":"Mutsuki Kai"
-    },
-    "255":{
-        "jp":"如月改",
-        "en":"Kisaragi Kai"
-    },
-    "256":{
-        "jp":"皐月改",
-        "en":"Satsuki Kai"
-    },
-    "257":{
-        "jp":"文月改",
-        "en":"Fumizuki Kai"
-    },
-    "258":{
-        "jp":"長月改",
-        "en":"Nagatsuki Kai"
-    },
-    "259":{
-        "jp":"菊月改",
-        "en":"Kikuzuki Kai"
-    },
-    "260":{
-        "jp":"三日月改",
-        "en":"Mikazuki Kai"
-    },
-    "261":{
-        "jp":"望月改",
-        "en":"Mochizuki Kai"
-    },
-    "262":{
-        "jp":"古鷹改",
-        "en":"Furutaka Kai"
-    },
-    "263":{
-        "jp":"加古改",
-        "en":"Kako Kai"
-    },
-    "264":{
-        "jp":"青葉改",
-        "en":"Aoba Kai"
-    },
-    "265":{
-        "jp":"妙高改",
-        "en":"Myoukou Kai"
-    },
-    "266":{
-        "jp":"那智改",
-        "en":"Nachi Kai"
-    },
-    "267":{
-        "jp":"足柄改",
-        "en":"Ashigara Kai"
-    },
-    "268":{
-        "jp":"羽黒改",
-        "en":"Haguro Kai"
-    },
-    "269":{
-        "jp":"高雄改",
-        "en":"Takao Kai"
-    },
-    "270":{
-        "jp":"愛宕改",
-        "en":"Atago Kai"
-    },
-    "271":{
-        "jp":"摩耶改",
-        "en":"Maya Kai"
-    },
-    "272":{
-        "jp":"鳥海改",
-        "en":"Choukai Kai"
-    },
-    "273":{
-        "jp":"利根改",
-        "en":"Tone Kai"
-    },
-    "274":{
-        "jp":"筑摩改",
-        "en":"Chikuma Kai"
-    },
-    "275":{
-        "jp":"長門改",
-        "en":"Nagato Kai"
-    },
-    "276":{
-        "jp":"陸奥改",
-        "en":"Mutsu Kai"
-    },
-    "277":{
-        "jp":"赤城改",
-        "en":"Akagi Kai"
-    },
-    "278":{
-        "jp":"加賀改",
-        "en":"Kaga Kai"
-    },
-    "279":{
-        "jp":"蒼龍改",
-        "en":"Souryuu Kai"
-    },
-    "280":{
-        "jp":"飛龍改",
-        "en":"Hiryuu Kai"
-    },
-    "281":{
-        "jp":"龍驤改",
-        "en":"Ryuujou Kai"
-    },
-    "282":{
-        "jp":"祥鳳改",
-        "en":"Shouhou Kai"
-    },
-    "283":{
-        "jp":"飛鷹改",
-        "en":"Hiyou Kai"
-    },
-    "284":{
-        "jp":"隼鷹改",
-        "en":"Junyou Kai"
-    },
-    "285":{
-        "jp":"鳳翔改",
-        "en":"Houshou Kai"
-    },
-    "286":{
-        "jp":"扶桑改",
-        "en":"Fusou Kai"
-    },
-    "287":{
-        "jp":"山城改",
-        "en":"Yamashiro Kai"
-    },
-    "288":{
-        "jp":"翔鶴改",
-        "en":"Shoukaku Kai"
-    },
-    "289":{
-        "jp":"鬼怒改",
-        "en":"Kinu Kai"
-    },
-    "290":{
-        "jp":"阿武隈改",
-        "en":"Abukuma Kai"
-    },
-    "291":{
-        "jp":"千歳航改",
-        "en":"Chitose Carrier Kai"
-    },
-    "292":{
-        "jp":"千代田航改",
-        "en":"Chiyoda Carrier Kai"
-    },
-    "293":{
-        "jp":"夕張改",
-        "en":"Yuubari Kai"
-    },
-    "294":{
-        "jp":"舞風改",
-        "en":"Maikaze Kai"
-    },
-    "295":{
-        "jp":"衣笠改",
-        "en":"Kinugasa Kai"
-    },
-    "296":{
-        "jp":"千歳航改二",
-        "en":"Chitose Carrier Kai Ni"
-    },
-    "297":{
-        "jp":"千代田航改二",
-        "en":"Chiyoda Carrier Kai Ni"
-    },
-    "300":{
-        "jp":"初風改",
-        "en":"Hatsukaze Kai"
-    },
-    "301":{
-        "jp":"秋雲改",
-        "en":"Akigumo Kai"
-    },
-    "302":{
-        "jp":"夕雲改",
-        "en":"Yuugumo Kai"
-    },
-    "303":{
-        "jp":"巻雲改",
-        "en":"Makigumo Kai"
-    },
-    "304":{
-        "jp":"長波改",
-        "en":"Naganami Kai"
-    },
-    "305":{
-        "jp":"阿賀野改",
-        "en":"Agano Kai"
-    },
-    "306":{
-        "jp":"能代改",
-        "en":"Noshiro Kai"
-    },
-    "307":{
-        "jp":"矢矧改",
-        "en":"Yahagi Kai"
-    },
-    "308":{
-        "jp":"弥生改",
-        "en":"Yayoi Kai"
-    },
-    "309":{
-        "jp":"卯月改",
-        "en":"Uzuki Kai"
-    },
-    "310":{
-        "jp":"Z1改",
-        "en":"Z1 Kai"
-    },
-    "311":{
-        "jp":"Z3改",
-        "en":"Z3 Kai"
-    },
-    "312":{
-        "jp":"浜風改",
-        "en":"Hamakaze Kai"
-    },
-    "313":{
-        "jp":"谷風改",
-        "en":"Tanikaze Kai"
-    },
-    "314":{
-        "jp":"酒匂改",
-        "en":"Sakawa Kai"
-    },
-    "316":{
-        "jp":"天津風改",
-        "en":"Amatsukaze Kai"
-    },
-    "317":{
-        "jp":"浦風改",
-        "en":"Urakaze Kai"
-    },
-    "318":{
-        "jp":"龍鳳改",
-        "en":"Ryuuhou Kai"
-    },
-    "319":{
-        "jp":"妙高改二",
-        "en":"Myoukou Kai Ni"
-    },
-    "320":{
-        "jp":"磯風改",
-        "en":"Isokaze Kai"
-    },
-    "321":{
-        "jp":"大淀改",
-        "en":"Ooyodo Kai"
-    },
-    "322":{
-        "jp":"時津風改",
-        "en":"Tokitsukaze Kai"
-    },
-    "323":{
-        "jp":"春雨改",
-        "en":"Harusame Kai"
-    },
-    "324":{
-        "jp":"早霜改",
-        "en":"Hayashimo Kai"
-    },
-    "325":{
-        "jp":"清霜改",
-        "en":"Kiyoshimo Kai"
-    },
-    "326":{
-        "jp":"初春改二",
-        "en":"Hatsuharu Kai Ni"
-    },
-    "327":{
-        "jp":"朝雲改",
-        "en":"Asagumo Kai"
-    },
-    "328":{
-        "jp":"山雲改",
-        "en":"Yamagumo Kai"
-    },
-    "329":{
-        "jp":"野分改",
-        "en":"Nowaki Kai"
-    },
-    "330":{
-        "jp":"秋月改",
-        "en":"Akizuki Kai"
-    },
-    "331":{
-        "jp":"天城",
-        "en":"Amagi"
-    },
-    "332":{
-        "jp":"葛城",
-        "en":"Katsuragi"
-    },
-    "334":{
-        "jp":"U-511改",
-        "en":"Yuu Kai"
-    },
-    "343":{
-        "jp":"香取改",
-        "en":"Katori Kai"
-    },
-    "344":{
-        "jp":"朝霜改",
-        "en":"Asashimo Kai"
-    },
-    "345":{
-        "jp":"高波改",
-        "en":"Takanami Kai"
-    },
-    "346":{
-        "jp":"照月改",
-        "en":"Teruzuki Kai"
-    },
-    "347":{
-        "jp":"Libeccio改",
-        "en":"Libeccio Kai"
-    },
-    "348":{
-        "jp":"瑞穂改",
-        "en":"Mizuho Kai"
-    },
-    "349":{
-        "jp":"風雲改",
-        "en":"Kazagumo Kai"
-    },
-    "350":{
-        "jp":"海風改",
-        "en":"Umikaze Kai"
-    },
-    "351":{
-        "jp":"江風改",
-        "en":"Kawakaze Kai"
-    },
-    "352":{
-        "jp":"速吸改",
-        "en":"Hayasui Kai"
-    },
-    "353":{
-        "jp":"Graf Zeppelin改",
-        "en":"Graf Zeppelin Kai"
-    },
-    "354":{
-        "jp":"嵐改",
-        "en":"Arashi Kai"
-    },
-    "355":{
-        "jp":"萩風改",
-        "en":"Hagikaze Kai"
-    },
-    "356":{
-        "jp":"鹿島改",
-        "en":"Kashima Kai"
-    },
-    "357":{
-        "jp":"初月改",
-        "en":"Hatsuzuki Kai"
-    },
-    "358":{
-        "jp":"Zara改",
-        "en":"Zara Kai"
-    },
-    "359":{
-        "jp":"沖波改",
-        "en":"Okinami Kai"
-    },
-    "360":{
-        "jp":"Iowa改",
-        "en":"Iowa Kai"
-    },
-    "361":{
-        "jp":"Pola改",
-        "en":"Pola Kai"
-    },
-    "362":{
-        "jp":"親潮改",
-        "en":"Oyashio Kai"
-    },
-    "363":{
-        "jp":"春風改",
-        "en":"Hatsukaze Kai"
-    },
-    "364":{
-        "jp":"Warspite改",
-        "en":"Warspite Kai"
-    },
-    "365":{
-        "jp":"Aquila改",
-        "en":"Aquila Kai"
-    },
-    "366":{
-        "jp":"水無月改",
-        "en":"Minazuki Kai"
-    },
-    "367":{
-        "jp":"伊26改",
-        "en":"Nimu Kai"
-    },
-    "368":{
-        "jp":"浦波改",
-        "en":"Uranami Kai"
-    },
-    "369":{
-        "jp":"山風改",
-        "en":"Yamakaze Kai"
-    },
-    "370":{
-        "jp":"朝風改",
-        "en":"Asakaze Kai"
-    },
-    "371":{
-        "jp":"松風改",
-        "en":"Matsukaze Kai"
-    },
-    "372":{
-        "jp":"Commandant Teste改",
-        "en":"Commandant Teste Kai"
-    },
-    "373":{
-        "jp":"藤波改",
-        "en":"Fujinami Kai"
-    },
-    "374":{
-        "jp":"伊13改",
-        "en":"Hitomi"
-    },
-    "375":{
-        "jp":"伊14改",
-        "en":"Iyo"
-    },
-    "376":{
-        "jp":"占守改",
-        "en":"Shimushu Kai"
-    },
-    "377":{
-        "jp":"国後改",
-        "en":"Kunashiri Kai"
-    },
-    "380":{
-        "jp":"大鷹改",
-        "en":"Taiyou Kai"
-    },
-    "381":{
-        "jp":"神鷹改",
-        "en":"Shinyou Kai"
-    },
-    "383":{
-        "jp":"択捉改",
-        "en":"Etorofu Kai"
-    },
-    "384":{
-        "jp":"松輪改",
-        "en":"Matsuwa Kai"
-    },
-    "385":{
-        "jp":"佐渡改",
-        "en":"Sado Kai"
-    },
-    "386":{
-        "jp":"対馬改",
-        "en":"Tsushima Kai"
-    },
-    "387":{
-        "jp":"旗風改",
-        "en":"Hatakaze Kai"
-    },
-    "390":{
-        "jp":"天霧改",
-        "en":"Amagiri Kai"
-    },
-    "391":{
-        "jp":"狭霧改",
-        "en":"Sagiri Kai"
-    },
-    "392":{
-        "jp":"Richelieu改",
-        "en":"Richelieu Kai"
-    },
-    "393":{
-        "jp":"Ark Royal改",
-        "en":"Ark Royal Kai"
-    },
-    "394":{
-        "jp":"Jervis改",
-        "en":"Jervis Kai"
-    },
-    "395":{
-        "jp":"Ташкент改",
-        "en":"Tashkent Kai"
-    },
-    "396":{
-        "jp":"Gambier Bay改",
-        "en":"Gambier Bay Kai"
-    },
-    "397":{
-        "jp":"Intrepid改",
-        "en":"Intrepid Kai"
-    },
-    "398":{
-        "jp":"伊168改",
-        "en":"Imuya Kai"
-    },
-    "399":{
-        "jp":"伊58改",
-        "en":"Goya Kai"
-    },
-    "400":{
-        "jp":"伊8改",
-        "en":"Hachi Kai"
-    },
-    "401":{
-        "jp":"伊19改",
-        "en":"Iku Kai"
-    },
-    "402":{
-        "jp":"まるゆ改",
-        "en":"Maruyu Kai"
-    },
-    "403":{
-        "jp":"伊401改",
-        "en":"Shioi Kai"
-    },
-    "404":{
-        "jp":"雲龍",
-        "en":"Unryuu"
-    },
-    "405":{
-        "jp":"春雨",
-        "en":"Harusame"
-    },
-    "406":{
-        "jp":"雲龍改",
-        "en":"Unryuu Kai"
-    },
-    "407":{
-        "jp":"潮改二",
-        "en":"Ushio Kai Ni"
-    },
-    "408":{
-        "jp":"隼鷹改二",
-        "en":"Junyou Kai Ni"
-    },
-    "409":{
-        "jp":"早霜",
-        "en":"Hayashimo"
-    },
-    "410":{
-        "jp":"清霜",
-        "en":"Kiyoshimo"
-    },
-    "411":{
-        "jp":"扶桑改二",
-        "en":"Fusou Kai Ni"
-    },
-    "412":{
-        "jp":"山城改二",
-        "en":"Yamashiro Kai Ni"
-    },
-    "413":{
-        "jp":"朝雲",
-        "en":"Asagumo"
-    },
-    "414":{
-        "jp":"山雲",
-        "en":"Yamagumo"
-    },
-    "415":{
-        "jp":"野分",
-        "en":"Nowaki"
-    },
-    "416":{
-        "jp":"古鷹改二",
-        "en":"Furutaka Kai Ni"
-    },
-    "417":{
-        "jp":"加古改二",
-        "en":"Kako Kai Ni"
-    },
-    "418":{
-        "jp":"皐月改二",
-        "en":"Satsuki Kai Ni"
-    },
-    "419":{
-        "jp":"初霜改二",
-        "en":"Hatsushimo Kai Ni"
-    },
-    "420":{
-        "jp":"叢雲改二",
-        "en":"Murakumo Kai Ni"
-    },
-    "421":{
-        "jp":"秋月",
-        "en":"Akizuki"
-    },
-    "422":{
-        "jp":"照月",
-        "en":"Teruzuki"
-    },
-    "423":{
-        "jp":"初月",
-        "en":"Hatsuzuki"
-    },
-    "424":{
-        "jp":"高波",
-        "en":"Takanami"
-    },
-    "425":{
-        "jp":"朝霜",
-        "en":"Asashimo"
-    },
-    "426":{
-        "jp":"吹雪改二",
-        "en":"Fubuki Kai Ni"
-    },
-    "427":{
-        "jp":"鳥海改二",
-        "en":"Choukai Kai Ni"
-    },
-    "428":{
-        "jp":"摩耶改二",
-        "en":"Maya Kai Ni"
-    },
-    "429":{
-        "jp":"天城改",
-        "en":"Amagi Kai"
-    },
-    "430":{
-        "jp":"葛城改",
-        "en":"Katsuragi Kai"
-    },
-    "431":{
-        "jp":"U-511",
-        "en":"Yuu"
-    },
-    "432":{
-        "jp":"Graf Zeppelin",
-        "en":"Graf Zeppelin"
-    },
-    "433":{
-        "jp":"Saratoga",
-        "en":"Saratoga"
-    },
-    "434":{
-        "jp":"睦月改二",
-        "en":"Mutsuki Kai Ni"
-    },
-    "435":{
-        "jp":"如月改二",
-        "en":"Kisaragi Kai Ni"
-    },
-    "436":{
-        "jp":"呂500",
-        "en":"Ro"
-    },
-    "437":{
-        "jp":"暁改二",
-        "en":"Akatsuki Kai Ni"
-    },
-    "438":{
-        "jp":"Saratoga改",
-        "en":"Saratoga Kai"
-    },
-    "439":{
-        "jp":"Warspite",
-        "en":"Warspite"
-    },
-    "440":{
-        "jp":"Iowa",
-        "en":"Iowa"
-    },
-    "441":{
-        "jp":"Littorio",
-        "en":"Littorio"
-    },
-    "442":{
-        "jp":"Roma",
-        "en":"Roma"
-    },
-    "443":{
-        "jp":"Libeccio",
-        "en":"Libeccio"
-    },
-    "444":{
-        "jp":"Aquila",
-        "en":"Aquila"
-    },
-    "445":{
-        "jp":"秋津洲",
-        "en":"Akitsushima"
-    },
-    "446":{
-        "jp":"Italia",
-        "en":"Italia"
-    },
-    "447":{
-        "jp":"Roma改",
-        "en":"Roma Kai"
-    },
-    "448":{
-        "jp":"Zara",
-        "en":"Zara"
-    },
-    "449":{
-        "jp":"Pola",
-        "en":"Pola"
-    },
-    "450":{
-        "jp":"秋津洲改",
-        "en":"Akitsushima Kai"
-    },
-    "451":{
-        "jp":"瑞穂",
-        "en":"Mizuho"
-    },
-    "452":{
-        "jp":"沖波",
-        "en":"Okinami"
-    },
-    "453":{
-        "jp":"風雲",
-        "en":"Kazagumo"
-    },
-    "454":{
-        "jp":"嵐",
-        "en":"Arashi"
-    },
-    "455":{
-        "jp":"萩風",
-        "en":"Hagikaze"
-    },
-    "456":{
-        "jp":"親潮",
-        "en":"Oyashio"
-    },
-    "457":{
-        "jp":"山風",
-        "en":"Yamakaze"
-    },
-    "458":{
-        "jp":"海風",
-        "en":"Umikaze"
-    },
-    "459":{
-        "jp":"江風",
-        "en":"Kawakaze"
-    },
-    "460":{
-        "jp":"速吸",
-        "en":"Hayasui"
-    },
-    "461":{
-        "jp":"翔鶴改二",
-        "en":"Shoukaku Kai Ni"
-    },
-    "462":{
-        "jp":"瑞鶴改二",
-        "en":"Zuikaku Kai Ni"
-    },
-    "463":{
-        "jp":"朝潮改二",
-        "en":"Asashio Kai Ni"
-    },
-    "464":{
-        "jp":"霞改二",
-        "en":"Kachumi Kai Ni"
-    },
-    "465":{
-        "jp":"鹿島",
-        "en":"Kashima"
-    },
-    "466":{
-        "jp":"翔鶴改二甲",
-        "en":"Shoukaku Kai Ni Kou"
-    },
-    "467":{
-        "jp":"瑞鶴改二甲",
-        "en":"Zuikaku Kai Ni Kou"
-    },
-    "468":{
-        "jp":"朝潮改二丁",
-        "en":"Asashio Kai Ni Tei"
-    },
-    "469":{
-        "jp":"江風改二",
-        "en":"Kawakaze Kai Ni"
-    },
-    "470":{
-        "jp":"霞改二乙",
-        "en":"Kachumi Kai Ni Otsu"
-    },
-    "471":{
-        "jp":"神風",
-        "en":"Kamikaze"
-    },
-    "472":{
-        "jp":"朝風",
-        "en":"Asakaze"
-    },
-    "473":{
-        "jp":"春風",
-        "en":"Harukaze"
-    },
-    "474":{
-        "jp":"松風",
-        "en":"Matsukaze"
-    },
-    "475":{
-        "jp":"旗風",
-        "en":"Hatakaze"
-    },
-    "476":{
-        "jp":"神風改",
-        "en":"Kamikaze Kai"
-    },
-    "477":{
-        "jp":"天龍改二",
-        "en":"Tenryuu Kai Ni"
-    },
-    "478":{
-        "jp":"龍田改二",
-        "en":"Tatsuta Kai Ni"
-    },
-    "479":{
-        "jp":"天霧",
-        "en":"Amagiri"
-    },
-    "480":{
-        "jp":"狭霧",
-        "en":"Sagiri"
-    },
-    "481":{
-        "jp":"水無月",
-        "en":"Minazuki"
-    },
-    "483":{
-        "jp":"伊26",
-        "en":"Nimu"
-    },
-    "484":{
-        "jp":"浜波",
-        "en":"Hamanami"
-    },
-    "485":{
-        "jp":"藤波",
-        "en":"Fujinami"
-    },
-    "486":{
-        "jp":"浦波",
-        "en":"Uranami"
-    },
-    "487":{
-        "jp":"鬼怒改二",
-        "en":"Kinu Kai Ni"
-    },
-    "488":{
-        "jp":"由良改二",
-        "en":"Yura Kai Ni"
-    },
-    "489":{
-        "jp":"満潮改二",
-        "en":"Michishio Kai Ni"
-    },
-    "490":{
-        "jp":"荒潮改二",
-        "en":"Arashio Kai Ni"
-    },
-    "491":{
-        "jp":"Commandant Teste",
-        "en":"Commandant Teste"
-    },
-    "492":{
-        "jp":"Richelieu",
-        "en":"Richelieu"
-    },
-    "493":{
-        "jp":"伊400",
-        "en":"Shion"
-    },
-    "494":{
-        "jp":"伊13",
-        "en":"Hitomi"
-    },
-    "495":{
-        "jp":"伊14",
-        "en":"Iyo"
-    },
-    "496":{
-        "jp":"Zara due",
-        "en":"Zara due"
-    },
-    "497":{
-        "jp":"白露改二",
-        "en":"Shiratsuyu Kai Ni"
-    },
-    "498":{
-        "jp":"村雨改二",
-        "en":"Murasame Kai Ni"
-    },
-    "499":{
-        "jp":"神威改",
-        "en":"Kamoi Kai"
-    },
-    "500":{
-        "jp":"神威改母",
-        "en":"Kamoi Kai Bo"
-    },
-    "503":{
-        "jp":"鈴谷改二",
-        "en":"Suzuya Kai Ni"
-    },
-    "504":{
-        "jp":"熊野改二",
-        "en":"Kumano Kai Ni"
-    },
-    "508":{
-        "jp":"鈴谷航改二",
-        "en":"Suzuya Carrier Kai Ni"
-    },
-    "509":{
-        "jp":"熊野航改二",
-        "en":"Kumano Carrier Kai Ni"
-    },
-    "511":{
-        "jp":"Гангут",
-        "en":"Gangut"
-    },
-    "512":{
-        "jp":"Октябрьская революция",
-        "en":"Oktyabrskaya Revolyutsiya"
-    },
-    "513":{
-        "jp":"Гангут два",
-        "en":"Gangut dva"
-    },
-    "515":{
-        "jp":"Ark Royal",
-        "en":"Ark Royal"
-    },
-    "516":{
-        "jp":"Ташкент",
-        "en":"Tashkent"
-    },
-    "517":{
-        "jp":"占守",
-        "en":"Shimushu"
-    },
-    "518":{
-        "jp":"国後",
-        "en":"Kunashiri"
-    },
-    "519":{
-        "jp":"Jervis",
-        "en":"Jervis"
-    },
-    "521":{
-        "jp":"春日丸",
-        "en":"Kasuga Maru"
-    },
-    "524":{
-        "jp":"択捉",
-        "en":"Etorofu"
-    },
-    "525":{
-        "jp":"松輪",
-        "en":"Matsuwa"
-    },
-    "526":{
-        "jp":"大鷹",
-        "en":"Taiyou"
-    },
-    "527":{
-        "jp":"岸波",
-        "en":"Kishinami"
-    },
-    "529":{
-        "jp":"大鷹改二",
-        "en":"Taiyou Kai Ni"
-    },
-    "530":{
-        "jp":"伊504",
-        "en":"I-504"
-    },
-    "531":{
-        "jp":"佐渡",
-        "en":"Sado"
-    },
-    "532":{
-        "jp":"涼月",
-        "en":"Suzutsuki"
-    },
-    "534":{
-        "jp":"神鷹",
-        "en":"Shinyou"
-    },
-    "535":{
-        "jp":"Luigi Torelli",
-        "en":"Luigi Torelli"
-    },
-    "536":{
-        "jp":"神鷹改二",
-        "en":"Shinyou Kai Ni"
-    },
-    "537":{
-        "jp":"涼月改",
-        "en":"Suzutsuki Kai"
-    },
-    "539":{
-        "jp":"UIT-25",
-        "en":"UIT-25"
-    },
-    "540":{
-        "jp":"対馬",
-        "en":"Tsushima"
-    },
-    "541":{
-        "jp":"長門改二",
-        "en":"Nagato Kai Ni"
-    },
-    "542":{
-        "jp":"夕雲改二",
-        "en":"Yuugumo Kai Ni"
-    },
-    "543":{
-        "jp":"長波改二",
-        "en":"Naganami Kai Ni"
-    },
-    "544":{
-        "jp":"Gambier Bay",
-        "en":"Gambier Bay"
-    },
-    "545":{
-        "jp":"Saratoga Mk.II",
-        "en":"Saratoga Mk.II"
-    },
-    "546":{
-        "jp":"武蔵改二",
-        "en":"Musashi Kai Ni"
-    },
-    "547":{
-        "jp":"多摩改二",
-        "en":"Tama Kai Ni"
-    },
-    "548":{
-        "jp":"文月改二",
-        "en":"Fumizuki Kai Ni"
-    },
-    "549":{
-        "jp":"Intrepid",
-        "en":"Intrepid"
-    },
-    "550":{
-        "jp":"Saratoga Mk.II Mod.2",
-        "en":"Saratoga Mk.II Mod.2"
-    },
-    "551":{
-        "jp":"日振",
-        "en":"Hiburi"
-    },
-    "552":{
-        "jp":"大東",
-        "en":"Daitou"
-    },
-    "553":{
-        "jp":"伊勢改二",
-        "en":"Ise Kai Ni"
-    },
-    "555":{
-        "jp":"瑞鳳改二",
-        "en":"Zuihou Kai Ni"
-    },
-    "556":{
-        "jp":"浦風丁改",
-        "en":"Urakaze D Kai"
-    },
-    "557":{
-        "jp":"磯風乙改",
-        "en":"Isokaze B Kai"
-    },
-    "558":{
-        "jp":"浜風乙改",
-        "en":"Hamakaze B Kai"
-    },
-    "560":{
-        "jp":"瑞鳳改二乙",
-        "en":"Zuihou Kai Ni Otsu"
-    },
-    "561":{
-        "jp":"Samuel B. Roberts",
-        "en":"Samuel B. Roberts"
-    },
-    "565":{
-        "jp":"福江",
-        "en":"Fukae"
-    },
-    "566":{
-        "jp":"陽炎改二",
-        "en":"Kagerou Kai Ni"
-    },
-    "567":{
-        "jp":"不知火改二",
-        "en":"Shiranui Kai Ni"
-    },
-    "568":{
-        "jp":"黒潮改二",
-        "en":"Kuroshio Kai Ni"
-    },
-    "571":{
-        "jp":"Nelson",
-        "en":"Nelson"
-    },
-    "574":{
-        "jp":"Gotland",
-        "en":"Gotland"
-    },
-    "575":{
-        "jp":"Maestrale",
-        "en":"Maestrale"
-    },
-    "576":{
-        "jp":"Nelson改",
-        "en":"Nelson Kai"
-    },
-    "579":{
-        "jp":"Gotland改",
-        "en":"Gotland Kai"
-    },
-    "580":{
-        "jp":"Maestrale改",
-        "en":"Maestrale Kai"
-    },
-    "605":{
-        "jp":"Luigi Torelli改",
-        "en":"Luigi Torelli Kai"
-    },
-    "606":{
-        "jp":"伊400改",
-        "en":"Shion Kai"
-    },
-    "678":{
-        "jp":"日振改",
-        "en":"Hiburi Kai"
-    },
-    "679":{
-        "jp":"大東改",
-        "en":"Daitou Kai"
-    },
-    "680":{
-        "jp":"浜波改",
-        "en":"Hamanami Kai"
-    },
-    "681":{
-        "jp":"Samuel B.Roberts改",
-        "en":"Samuel B.Roberts Kai"
-    },
-    "685":{
-        "jp":"福江改",
-        "en":"Fukae Kai"
-    },
-    "686":{
-        "jp":"岸波改",
-        "en":"Kishinami Kai"
+    "1": {
+        "jp": "睦月",
+        "en": "Mutsuki"
+    },
+    "2": {
+        "jp": "如月",
+        "en": "Kisaragi"
+    },
+    "6": {
+        "jp": "長月",
+        "en": "Nagatsuki"
+    },
+    "7": {
+        "jp": "三日月",
+        "en": "Mikazuki"
+    },
+    "9": {
+        "jp": "吹雪",
+        "en": "Fubuki"
+    },
+    "10": {
+        "jp": "白雪",
+        "en": "Shirayuki"
+    },
+    "11": {
+        "jp": "深雪",
+        "en": "Miyuki"
+    },
+    "12": {
+        "jp": "磯波",
+        "en": "Isonami"
+    },
+    "13": {
+        "jp": "綾波",
+        "en": "Ayanami"
+    },
+    "14": {
+        "jp": "敷波",
+        "en": "Shikinami"
+    },
+    "15": {
+        "jp": "曙",
+        "en": "Akebono"
+    },
+    "16": {
+        "jp": "潮",
+        "en": "Ushio"
+    },
+    "17": {
+        "jp": "陽炎",
+        "en": "Kagerou"
+    },
+    "18": {
+        "jp": "不知火",
+        "en": "Shiranui"
+    },
+    "19": {
+        "jp": "黒潮",
+        "en": "Kuroshio"
+    },
+    "20": {
+        "jp": "雪風",
+        "en": "Yukikaze"
+    },
+    "21": {
+        "jp": "長良",
+        "en": "Nagara"
+    },
+    "22": {
+        "jp": "五十鈴",
+        "en": "Isuzu"
+    },
+    "23": {
+        "jp": "由良",
+        "en": "Yura"
+    },
+    "24": {
+        "jp": "大井",
+        "en": "Ooi"
+    },
+    "25": {
+        "jp": "北上",
+        "en": "Kitakami"
+    },
+    "26": {
+        "jp": "扶桑",
+        "en": "Fusou"
+    },
+    "27": {
+        "jp": "山城",
+        "en": "Yamashiro"
+    },
+    "28": {
+        "jp": "皐月",
+        "en": "Satsuki"
+    },
+    "29": {
+        "jp": "文月",
+        "en": "Fumizuki"
+    },
+    "30": {
+        "jp": "菊月",
+        "en": "Kikuzuki"
+    },
+    "31": {
+        "jp": "望月",
+        "en": "Mochizuki"
+    },
+    "32": {
+        "jp": "初雪",
+        "en": "Hatsuyuki"
+    },
+    "33": {
+        "jp": "叢雲",
+        "en": "Murakumo"
+    },
+    "34": {
+        "jp": "暁",
+        "en": "Akatsuki"
+    },
+    "35": {
+        "jp": "響",
+        "en": "Hibiki"
+    },
+    "36": {
+        "jp": "雷",
+        "en": "Ikazuchi"
+    },
+    "37": {
+        "jp": "電",
+        "en": "Inazuma"
+    },
+    "38": {
+        "jp": "初春",
+        "en": "Hatsuharu"
+    },
+    "39": {
+        "jp": "子日",
+        "en": "Nenohi"
+    },
+    "40": {
+        "jp": "若葉",
+        "en": "Wakaba"
+    },
+    "41": {
+        "jp": "初霜",
+        "en": "Hatsushimo"
+    },
+    "42": {
+        "jp": "白露",
+        "en": "Shiratsuyu"
+    },
+    "43": {
+        "jp": "時雨",
+        "en": "Shigure"
+    },
+    "44": {
+        "jp": "村雨",
+        "en": "Murasame"
+    },
+    "45": {
+        "jp": "夕立",
+        "en": "Yuudachi"
+    },
+    "46": {
+        "jp": "五月雨",
+        "en": "Samidare"
+    },
+    "47": {
+        "jp": "涼風",
+        "en": "Suzukaze"
+    },
+    "48": {
+        "jp": "霰",
+        "en": "Arare"
+    },
+    "49": {
+        "jp": "霞",
+        "en": "Kasumi"
+    },
+    "50": {
+        "jp": "島風",
+        "en": "Shimakaze"
+    },
+    "51": {
+        "jp": "天龍",
+        "en": "Tenryuu"
+    },
+    "52": {
+        "jp": "龍田",
+        "en": "Tatsuta"
+    },
+    "53": {
+        "jp": "名取",
+        "en": "Natori"
+    },
+    "54": {
+        "jp": "川内",
+        "en": "Sendai"
+    },
+    "55": {
+        "jp": "神通",
+        "en": "Jintsuu"
+    },
+    "56": {
+        "jp": "那珂",
+        "en": "Naka"
+    },
+    "57": {
+        "jp": "大井改",
+        "en": "Ooi Kai"
+    },
+    "58": {
+        "jp": "北上改",
+        "en": "Kitakami Kai"
+    },
+    "59": {
+        "jp": "古鷹",
+        "en": "Furutaka"
+    },
+    "60": {
+        "jp": "加古",
+        "en": "Kako"
+    },
+    "61": {
+        "jp": "青葉",
+        "en": "Aoba"
+    },
+    "62": {
+        "jp": "妙高",
+        "en": "Myoukou"
+    },
+    "63": {
+        "jp": "那智",
+        "en": "Nachi"
+    },
+    "64": {
+        "jp": "足柄",
+        "en": "Ashigara"
+    },
+    "65": {
+        "jp": "羽黒",
+        "en": "Haguro"
+    },
+    "66": {
+        "jp": "高雄",
+        "en": "Takao"
+    },
+    "67": {
+        "jp": "愛宕",
+        "en": "Atago"
+    },
+    "68": {
+        "jp": "摩耶",
+        "en": "Maya"
+    },
+    "69": {
+        "jp": "鳥海",
+        "en": "Choukai"
+    },
+    "70": {
+        "jp": "最上",
+        "en": "Mogami"
+    },
+    "71": {
+        "jp": "利根",
+        "en": "Tone"
+    },
+    "72": {
+        "jp": "筑摩",
+        "en": "Chikuma"
+    },
+    "73": {
+        "jp": "最上改",
+        "en": "Mogami Kai"
+    },
+    "74": {
+        "jp": "祥鳳",
+        "en": "Shouhou"
+    },
+    "75": {
+        "jp": "飛鷹",
+        "en": "Hiyou"
+    },
+    "76": {
+        "jp": "龍驤",
+        "en": "Ryuujou"
+    },
+    "77": {
+        "jp": "伊勢",
+        "en": "Ise"
+    },
+    "78": {
+        "jp": "金剛",
+        "en": "Kongou"
+    },
+    "79": {
+        "jp": "榛名",
+        "en": "Haruna"
+    },
+    "80": {
+        "jp": "長門",
+        "en": "Nagato"
+    },
+    "81": {
+        "jp": "陸奥",
+        "en": "Mutsu"
+    },
+    "82": {
+        "jp": "伊勢改",
+        "en": "Ise Kai"
+    },
+    "83": {
+        "jp": "赤城",
+        "en": "Akagi"
+    },
+    "84": {
+        "jp": "加賀",
+        "en": "Kaga"
+    },
+    "85": {
+        "jp": "霧島",
+        "en": "Kirishima"
+    },
+    "86": {
+        "jp": "比叡",
+        "en": "Hiei"
+    },
+    "87": {
+        "jp": "日向",
+        "en": "Hyuuga"
+    },
+    "88": {
+        "jp": "日向改",
+        "en": "Hyuuga Kai"
+    },
+    "89": {
+        "jp": "鳳翔",
+        "en": "Houshou"
+    },
+    "90": {
+        "jp": "蒼龍",
+        "en": "Souryuu"
+    },
+    "91": {
+        "jp": "飛龍",
+        "en": "Hiryuu"
+    },
+    "92": {
+        "jp": "隼鷹",
+        "en": "Junyou"
+    },
+    "93": {
+        "jp": "朧",
+        "en": "Oboro"
+    },
+    "94": {
+        "jp": "漣",
+        "en": "Sazanami"
+    },
+    "95": {
+        "jp": "朝潮",
+        "en": "Asashio"
+    },
+    "96": {
+        "jp": "大潮",
+        "en": "Ooshio"
+    },
+    "97": {
+        "jp": "満潮",
+        "en": "Michishio"
+    },
+    "98": {
+        "jp": "荒潮",
+        "en": "Arashio"
+    },
+    "99": {
+        "jp": "球磨",
+        "en": "Kuma"
+    },
+    "100": {
+        "jp": "多摩",
+        "en": "Tama"
+    },
+    "101": {
+        "jp": "木曾",
+        "en": "Kiso"
+    },
+    "102": {
+        "jp": "千歳",
+        "en": "Chitose"
+    },
+    "103": {
+        "jp": "千代田",
+        "en": "Chiyoda"
+    },
+    "104": {
+        "jp": "千歳改",
+        "en": "Chitose Kai"
+    },
+    "105": {
+        "jp": "千代田改",
+        "en": "Chiyoda Kai"
+    },
+    "106": {
+        "jp": "千歳甲",
+        "en": "Chitose Kou"
+    },
+    "107": {
+        "jp": "千代田甲",
+        "en": "Chiyoda Kou"
+    },
+    "108": {
+        "jp": "千歳航",
+        "en": "Chitose Carrier"
+    },
+    "109": {
+        "jp": "千代田航",
+        "en": "Chiyoda Carrier"
+    },
+    "110": {
+        "jp": "翔鶴",
+        "en": "Shoukaku"
+    },
+    "111": {
+        "jp": "瑞鶴",
+        "en": "Zuikaku"
+    },
+    "112": {
+        "jp": "瑞鶴改",
+        "en": "Zuikaku Kai"
+    },
+    "113": {
+        "jp": "鬼怒",
+        "en": "Kinu"
+    },
+    "114": {
+        "jp": "阿武隈",
+        "en": "Abukuma"
+    },
+    "115": {
+        "jp": "夕張",
+        "en": "Yuubari"
+    },
+    "116": {
+        "jp": "瑞鳳",
+        "en": "Zuihou"
+    },
+    "117": {
+        "jp": "瑞鳳改",
+        "en": "Zuihou Kai"
+    },
+    "118": {
+        "jp": "大井改二",
+        "en": "Ooi Kai Ni"
+    },
+    "119": {
+        "jp": "北上改二",
+        "en": "Kitakami Kai Ni"
+    },
+    "120": {
+        "jp": "三隈",
+        "en": "Mikuma"
+    },
+    "121": {
+        "jp": "三隈改",
+        "en": "Mikuma Kai"
+    },
+    "122": {
+        "jp": "舞風",
+        "en": "Maikaze"
+    },
+    "123": {
+        "jp": "衣笠",
+        "en": "Kinugasa"
+    },
+    "124": {
+        "jp": "鈴谷",
+        "en": "Suzuya"
+    },
+    "125": {
+        "jp": "熊野",
+        "en": "Kumano"
+    },
+    "126": {
+        "jp": "伊168",
+        "en": "I-168"
+    },
+    "127": {
+        "jp": "伊58",
+        "en": "I-58"
+    },
+    "128": {
+        "jp": "伊8",
+        "en": "I-8"
+    },
+    "129": {
+        "jp": "鈴谷改",
+        "en": "Suzuya Kai"
+    },
+    "130": {
+        "jp": "熊野改",
+        "en": "Kumano Kai"
+    },
+    "131": {
+        "jp": "大和",
+        "en": "Yamato"
+    },
+    "132": {
+        "jp": "秋雲",
+        "en": "Akigumo"
+    },
+    "133": {
+        "jp": "夕雲",
+        "en": "Yuugumo"
+    },
+    "134": {
+        "jp": "巻雲",
+        "en": "Makigumo"
+    },
+    "135": {
+        "jp": "長波",
+        "en": "Naganami"
+    },
+    "136": {
+        "jp": "大和改",
+        "en": "Yamato Kai"
+    },
+    "137": {
+        "jp": "阿賀野",
+        "en": "Agano"
+    },
+    "138": {
+        "jp": "能代",
+        "en": "Noshiro"
+    },
+    "139": {
+        "jp": "矢矧",
+        "en": "Yahagi"
+    },
+    "140": {
+        "jp": "酒匂",
+        "en": "Sakawa"
+    },
+    "141": {
+        "jp": "五十鈴改二",
+        "en": "Isuzu Kai Ni"
+    },
+    "142": {
+        "jp": "衣笠改二",
+        "en": "Kinugasa Kai Ni"
+    },
+    "143": {
+        "jp": "武蔵",
+        "en": "Musashi"
+    },
+    "144": {
+        "jp": "夕立改二",
+        "en": "Yuudachi Kai Ni"
+    },
+    "145": {
+        "jp": "時雨改二",
+        "en": "Shigure Kai Ni"
+    },
+    "146": {
+        "jp": "木曾改二",
+        "en": "Kiso Kai Ni"
+    },
+    "147": {
+        "jp": "Верный",
+        "en": "Verniy"
+    },
+    "148": {
+        "jp": "武蔵改",
+        "en": "Musashi Kai"
+    },
+    "149": {
+        "jp": "金剛改二",
+        "en": "Kongou Kai Ni"
+    },
+    "150": {
+        "jp": "比叡改二",
+        "en": "Hiei Kai Ni"
+    },
+    "151": {
+        "jp": "榛名改二",
+        "en": "Haruna Kai Ni"
+    },
+    "152": {
+        "jp": "霧島改二",
+        "en": "Kirishima Kai Ni"
+    },
+    "153": {
+        "jp": "大鳳",
+        "en": "Taihou"
+    },
+    "154": {
+        "jp": "香取",
+        "en": "Katori"
+    },
+    "155": {
+        "jp": "伊401",
+        "en": "I-401"
+    },
+    "156": {
+        "jp": "大鳳改",
+        "en": "Taihou Kai"
+    },
+    "157": {
+        "jp": "龍驤改二",
+        "en": "Ryuujou Kai Ni"
+    },
+    "158": {
+        "jp": "川内改二",
+        "en": "Sendai Kai Ni"
+    },
+    "159": {
+        "jp": "神通改二",
+        "en": "Jintsuu Kai Ni"
+    },
+    "160": {
+        "jp": "那珂改二",
+        "en": "Naka Kai Ni"
+    },
+    "161": {
+        "jp": "あきつ丸",
+        "en": "Akitsumaru"
+    },
+    "162": {
+        "jp": "神威",
+        "en": "Kamoi"
+    },
+    "163": {
+        "jp": "まるゆ",
+        "en": "Maruyu"
+    },
+    "164": {
+        "jp": "弥生",
+        "en": "Yayoi"
+    },
+    "165": {
+        "jp": "卯月",
+        "en": "Uzuki"
+    },
+    "166": {
+        "jp": "あきつ丸改",
+        "en": "Akitsumaru Kai"
+    },
+    "167": {
+        "jp": "磯風",
+        "en": "Isokaze"
+    },
+    "168": {
+        "jp": "浦風",
+        "en": "Urakaze"
+    },
+    "169": {
+        "jp": "谷風",
+        "en": "Tanikaze"
+    },
+    "170": {
+        "jp": "浜風",
+        "en": "Hamakaze"
+    },
+    "171": {
+        "jp": "Bismarck",
+        "en": "Bismarck"
+    },
+    "172": {
+        "jp": "Bismarck改",
+        "en": "Bismarck Kai"
+    },
+    "173": {
+        "jp": "Bismarck zwei",
+        "en": "Bismarck Zwei"
+    },
+    "174": {
+        "jp": "Z1",
+        "en": "Z1"
+    },
+    "175": {
+        "jp": "Z3",
+        "en": "Z3"
+    },
+    "176": {
+        "jp": "Prinz Eugen",
+        "en": "Prinz Eugen"
+    },
+    "177": {
+        "jp": "Prinz Eugen改",
+        "en": "Prinz Eugen Kai"
+    },
+    "178": {
+        "jp": "Bismarck drei",
+        "en": "Bismarck Drei"
+    },
+    "179": {
+        "jp": "Z1 zwei",
+        "en": "Z1 Zwei"
+    },
+    "180": {
+        "jp": "Z3 zwei",
+        "en": "Z3 Zwei"
+    },
+    "181": {
+        "jp": "天津風",
+        "en": "Amatsukaze"
+    },
+    "182": {
+        "jp": "明石",
+        "en": "Akashi"
+    },
+    "183": {
+        "jp": "大淀",
+        "en": "Ooyodo"
+    },
+    "184": {
+        "jp": "大鯨",
+        "en": "Taigei"
+    },
+    "185": {
+        "jp": "龍鳳",
+        "en": "Ryuuhou"
+    },
+    "186": {
+        "jp": "時津風",
+        "en": "Tokitsukaze"
+    },
+    "187": {
+        "jp": "明石改",
+        "en": "Akashi Kai"
+    },
+    "188": {
+        "jp": "利根改二",
+        "en": "Tone Kai Ni"
+    },
+    "189": {
+        "jp": "筑摩改二",
+        "en": "Chikuma Kai Ni"
+    },
+    "190": {
+        "jp": "初風",
+        "en": "Hatsukaze"
+    },
+    "191": {
+        "jp": "伊19",
+        "en": "I-19"
+    },
+    "192": {
+        "jp": "那智改二",
+        "en": "Nachi Kai Ni"
+    },
+    "193": {
+        "jp": "足柄改二",
+        "en": "Ashigara Kai Ni"
+    },
+    "194": {
+        "jp": "羽黒改二",
+        "en": "Haguro Kai Ni"
+    },
+    "195": {
+        "jp": "綾波改二",
+        "en": "Ayanami Kai Ni"
+    },
+    "196": {
+        "jp": "飛龍改二",
+        "en": "Hiryuu Kai Ni"
+    },
+    "197": {
+        "jp": "蒼龍改二",
+        "en": "Souryuu Kai Ni"
+    },
+    "198": {
+        "jp": "霰改二",
+        "en": "Arare Kai Ni"
+    },
+    "199": {
+        "jp": "大潮改二",
+        "en": "Ooshio Kai Ni"
+    },
+    "200": {
+        "jp": "阿武隈改二",
+        "en": "Abukuma Kai Ni"
+    },
+    "201": {
+        "jp": "吹雪改",
+        "en": "Fubuki Kai"
+    },
+    "202": {
+        "jp": "白雪改",
+        "en": "Shirayuki Kai"
+    },
+    "203": {
+        "jp": "初雪改",
+        "en": "Hatsuyuki Kai"
+    },
+    "204": {
+        "jp": "深雪改",
+        "en": "Miyuki Kai"
+    },
+    "205": {
+        "jp": "叢雲改",
+        "en": "Murakumo Kai"
+    },
+    "206": {
+        "jp": "磯波改",
+        "en": "Isonami Kai"
+    },
+    "207": {
+        "jp": "綾波改",
+        "en": "Ayanami Kai"
+    },
+    "208": {
+        "jp": "敷波改",
+        "en": "Shikinami Kai"
+    },
+    "209": {
+        "jp": "金剛改",
+        "en": "Kongou Kai"
+    },
+    "210": {
+        "jp": "比叡改",
+        "en": "Hiei Kai"
+    },
+    "211": {
+        "jp": "榛名改",
+        "en": "Haruna Kai"
+    },
+    "212": {
+        "jp": "霧島改",
+        "en": "Kirishima Kai"
+    },
+    "213": {
+        "jp": "天龍改",
+        "en": "Tenryuu Kai"
+    },
+    "214": {
+        "jp": "龍田改",
+        "en": "Tatsuta Kai"
+    },
+    "215": {
+        "jp": "球磨改",
+        "en": "Kuma Kai"
+    },
+    "216": {
+        "jp": "多摩改",
+        "en": "Tama Kai"
+    },
+    "217": {
+        "jp": "木曾改",
+        "en": "Kiso Kai"
+    },
+    "218": {
+        "jp": "長良改",
+        "en": "Nagara Kai"
+    },
+    "219": {
+        "jp": "五十鈴改",
+        "en": "Isuzu Kai"
+    },
+    "220": {
+        "jp": "由良改",
+        "en": "Yura Kai"
+    },
+    "221": {
+        "jp": "名取改",
+        "en": "Natori Kai"
+    },
+    "222": {
+        "jp": "川内改",
+        "en": "Sendai Kai"
+    },
+    "223": {
+        "jp": "神通改",
+        "en": "Jintsuu Kai"
+    },
+    "224": {
+        "jp": "那珂改",
+        "en": "Naka Kai"
+    },
+    "225": {
+        "jp": "陽炎改",
+        "en": "Kagerou Kai"
+    },
+    "226": {
+        "jp": "不知火改",
+        "en": "Shiranui Kai"
+    },
+    "227": {
+        "jp": "黒潮改",
+        "en": "Kuroshio Kai"
+    },
+    "228": {
+        "jp": "雪風改",
+        "en": "Yukikaze Kai"
+    },
+    "229": {
+        "jp": "島風改",
+        "en": "Shimakaze Kai"
+    },
+    "230": {
+        "jp": "朧改",
+        "en": "Oboro Kai"
+    },
+    "231": {
+        "jp": "曙改",
+        "en": "Akebono Kai"
+    },
+    "232": {
+        "jp": "漣改",
+        "en": "Sazanami Kai"
+    },
+    "233": {
+        "jp": "潮改",
+        "en": "Ushio Kai"
+    },
+    "234": {
+        "jp": "暁改",
+        "en": "Akatsuki Kai"
+    },
+    "235": {
+        "jp": "響改",
+        "en": "Hibiki Kai"
+    },
+    "236": {
+        "jp": "雷改",
+        "en": "Ikazuchi Kai"
+    },
+    "237": {
+        "jp": "電改",
+        "en": "Inazuma Kai"
+    },
+    "238": {
+        "jp": "初春改",
+        "en": "Hatsuharu Kai"
+    },
+    "239": {
+        "jp": "子日改",
+        "en": "Nenohi Kai"
+    },
+    "240": {
+        "jp": "若葉改",
+        "en": "Wakaba Kai"
+    },
+    "241": {
+        "jp": "初霜改",
+        "en": "Hatsushimo Kai"
+    },
+    "242": {
+        "jp": "白露改",
+        "en": "Shiratsuyu Kai"
+    },
+    "243": {
+        "jp": "時雨改",
+        "en": "Shigure Kai"
+    },
+    "244": {
+        "jp": "村雨改",
+        "en": "Murasame Kai"
+    },
+    "245": {
+        "jp": "夕立改",
+        "en": "Yuudachi Kai"
+    },
+    "246": {
+        "jp": "五月雨改",
+        "en": "Samidare Kai"
+    },
+    "247": {
+        "jp": "涼風改",
+        "en": "Suzukaze Kai"
+    },
+    "248": {
+        "jp": "朝潮改",
+        "en": "Asashio Kai"
+    },
+    "249": {
+        "jp": "大潮改",
+        "en": "Ooshio Kai"
+    },
+    "250": {
+        "jp": "満潮改",
+        "en": "Michishio Kai"
+    },
+    "251": {
+        "jp": "荒潮改",
+        "en": "Arashio Kai"
+    },
+    "252": {
+        "jp": "霰改",
+        "en": "Arare Kai"
+    },
+    "253": {
+        "jp": "霞改",
+        "en": "Kasumi Kai"
+    },
+    "254": {
+        "jp": "睦月改",
+        "en": "Mutsuki Kai"
+    },
+    "255": {
+        "jp": "如月改",
+        "en": "Kisaragi Kai"
+    },
+    "256": {
+        "jp": "皐月改",
+        "en": "Satsuki Kai"
+    },
+    "257": {
+        "jp": "文月改",
+        "en": "Fumizuki Kai"
+    },
+    "258": {
+        "jp": "長月改",
+        "en": "Nagatsuki Kai"
+    },
+    "259": {
+        "jp": "菊月改",
+        "en": "Kikuzuki Kai"
+    },
+    "260": {
+        "jp": "三日月改",
+        "en": "Mikazuki Kai"
+    },
+    "261": {
+        "jp": "望月改",
+        "en": "Mochizuki Kai"
+    },
+    "262": {
+        "jp": "古鷹改",
+        "en": "Furutaka Kai"
+    },
+    "263": {
+        "jp": "加古改",
+        "en": "Kako Kai"
+    },
+    "264": {
+        "jp": "青葉改",
+        "en": "Aoba Kai"
+    },
+    "265": {
+        "jp": "妙高改",
+        "en": "Myoukou Kai"
+    },
+    "266": {
+        "jp": "那智改",
+        "en": "Nachi Kai"
+    },
+    "267": {
+        "jp": "足柄改",
+        "en": "Ashigara Kai"
+    },
+    "268": {
+        "jp": "羽黒改",
+        "en": "Haguro Kai"
+    },
+    "269": {
+        "jp": "高雄改",
+        "en": "Takao Kai"
+    },
+    "270": {
+        "jp": "愛宕改",
+        "en": "Atago Kai"
+    },
+    "271": {
+        "jp": "摩耶改",
+        "en": "Maya Kai"
+    },
+    "272": {
+        "jp": "鳥海改",
+        "en": "Choukai Kai"
+    },
+    "273": {
+        "jp": "利根改",
+        "en": "Tone Kai"
+    },
+    "274": {
+        "jp": "筑摩改",
+        "en": "Chikuma Kai"
+    },
+    "275": {
+        "jp": "長門改",
+        "en": "Nagato Kai"
+    },
+    "276": {
+        "jp": "陸奥改",
+        "en": "Mutsu Kai"
+    },
+    "277": {
+        "jp": "赤城改",
+        "en": "Akagi Kai"
+    },
+    "278": {
+        "jp": "加賀改",
+        "en": "Kaga Kai"
+    },
+    "279": {
+        "jp": "蒼龍改",
+        "en": "Souryuu Kai"
+    },
+    "280": {
+        "jp": "飛龍改",
+        "en": "Hiryuu Kai"
+    },
+    "281": {
+        "jp": "龍驤改",
+        "en": "Ryuujou Kai"
+    },
+    "282": {
+        "jp": "祥鳳改",
+        "en": "Shouhou Kai"
+    },
+    "283": {
+        "jp": "飛鷹改",
+        "en": "Hiyou Kai"
+    },
+    "284": {
+        "jp": "隼鷹改",
+        "en": "Junyou Kai"
+    },
+    "285": {
+        "jp": "鳳翔改",
+        "en": "Houshou Kai"
+    },
+    "286": {
+        "jp": "扶桑改",
+        "en": "Fusou Kai"
+    },
+    "287": {
+        "jp": "山城改",
+        "en": "Yamashiro Kai"
+    },
+    "288": {
+        "jp": "翔鶴改",
+        "en": "Shoukaku Kai"
+    },
+    "289": {
+        "jp": "鬼怒改",
+        "en": "Kinu Kai"
+    },
+    "290": {
+        "jp": "阿武隈改",
+        "en": "Abukuma Kai"
+    },
+    "291": {
+        "jp": "千歳航改",
+        "en": "Chitose Carrier Kai"
+    },
+    "292": {
+        "jp": "千代田航改",
+        "en": "Chiyoda Carrier Kai"
+    },
+    "293": {
+        "jp": "夕張改",
+        "en": "Yuubari Kai"
+    },
+    "294": {
+        "jp": "舞風改",
+        "en": "Maikaze Kai"
+    },
+    "295": {
+        "jp": "衣笠改",
+        "en": "Kinugasa Kai"
+    },
+    "296": {
+        "jp": "千歳航改二",
+        "en": "Chitose Carrier Kai Ni"
+    },
+    "297": {
+        "jp": "千代田航改二",
+        "en": "Chiyoda Carrier Kai Ni"
+    },
+    "300": {
+        "jp": "初風改",
+        "en": "Hatsukaze Kai"
+    },
+    "301": {
+        "jp": "秋雲改",
+        "en": "Akigumo Kai"
+    },
+    "302": {
+        "jp": "夕雲改",
+        "en": "Yuugumo Kai"
+    },
+    "303": {
+        "jp": "巻雲改",
+        "en": "Makigumo Kai"
+    },
+    "304": {
+        "jp": "長波改",
+        "en": "Naganami Kai"
+    },
+    "305": {
+        "jp": "阿賀野改",
+        "en": "Agano Kai"
+    },
+    "306": {
+        "jp": "能代改",
+        "en": "Noshiro Kai"
+    },
+    "307": {
+        "jp": "矢矧改",
+        "en": "Yahagi Kai"
+    },
+    "308": {
+        "jp": "弥生改",
+        "en": "Yayoi Kai"
+    },
+    "309": {
+        "jp": "卯月改",
+        "en": "Uzuki Kai"
+    },
+    "310": {
+        "jp": "Z1改",
+        "en": "Z1 Kai"
+    },
+    "311": {
+        "jp": "Z3改",
+        "en": "Z3 Kai"
+    },
+    "312": {
+        "jp": "浜風改",
+        "en": "Hamakaze Kai"
+    },
+    "313": {
+        "jp": "谷風改",
+        "en": "Tanikaze Kai"
+    },
+    "314": {
+        "jp": "酒匂改",
+        "en": "Sakawa Kai"
+    },
+    "316": {
+        "jp": "天津風改",
+        "en": "Amatsukaze Kai"
+    },
+    "317": {
+        "jp": "浦風改",
+        "en": "Urakaze Kai"
+    },
+    "318": {
+        "jp": "龍鳳改",
+        "en": "Ryuuhou Kai"
+    },
+    "319": {
+        "jp": "妙高改二",
+        "en": "Myoukou Kai Ni"
+    },
+    "320": {
+        "jp": "磯風改",
+        "en": "Isokaze Kai"
+    },
+    "321": {
+        "jp": "大淀改",
+        "en": "Ooyodo Kai"
+    },
+    "322": {
+        "jp": "時津風改",
+        "en": "Tokitsukaze Kai"
+    },
+    "323": {
+        "jp": "春雨改",
+        "en": "Harusame Kai"
+    },
+    "324": {
+        "jp": "早霜改",
+        "en": "Hayashimo Kai"
+    },
+    "325": {
+        "jp": "清霜改",
+        "en": "Kiyoshimo Kai"
+    },
+    "326": {
+        "jp": "初春改二",
+        "en": "Hatsuharu Kai Ni"
+    },
+    "327": {
+        "jp": "朝雲改",
+        "en": "Asagumo Kai"
+    },
+    "328": {
+        "jp": "山雲改",
+        "en": "Yamagumo Kai"
+    },
+    "329": {
+        "jp": "野分改",
+        "en": "Nowaki Kai"
+    },
+    "330": {
+        "jp": "秋月改",
+        "en": "Akizuki Kai"
+    },
+    "331": {
+        "jp": "天城",
+        "en": "Amagi"
+    },
+    "332": {
+        "jp": "葛城",
+        "en": "Katsuragi"
+    },
+    "334": {
+        "jp": "U-511改",
+        "en": "U-511 Kai"
+    },
+    "343": {
+        "jp": "香取改",
+        "en": "Katori Kai"
+    },
+    "344": {
+        "jp": "朝霜改",
+        "en": "Asashimo Kai"
+    },
+    "345": {
+        "jp": "高波改",
+        "en": "Takanami Kai"
+    },
+    "346": {
+        "jp": "照月改",
+        "en": "Teruzuki Kai"
+    },
+    "347": {
+        "jp": "Libeccio改",
+        "en": "Libeccio Kai"
+    },
+    "348": {
+        "jp": "瑞穂改",
+        "en": "Mizuho Kai"
+    },
+    "349": {
+        "jp": "風雲改",
+        "en": "Kazagumo Kai"
+    },
+    "350": {
+        "jp": "海風改",
+        "en": "Umikaze Kai"
+    },
+    "351": {
+        "jp": "江風改",
+        "en": "Kawakaze Kai"
+    },
+    "352": {
+        "jp": "速吸改",
+        "en": "Hayasui Kai"
+    },
+    "353": {
+        "jp": "Graf Zeppelin改",
+        "en": "Graf Zeppelin Kai"
+    },
+    "354": {
+        "jp": "嵐改",
+        "en": "Arashi Kai"
+    },
+    "355": {
+        "jp": "萩風改",
+        "en": "Hagikaze Kai"
+    },
+    "356": {
+        "jp": "鹿島改",
+        "en": "Kashima Kai"
+    },
+    "357": {
+        "jp": "初月改",
+        "en": "Hatsuzuki Kai"
+    },
+    "358": {
+        "jp": "Zara改",
+        "en": "Zara Kai"
+    },
+    "359": {
+        "jp": "沖波改",
+        "en": "Okinami Kai"
+    },
+    "360": {
+        "jp": "Iowa改",
+        "en": "Iowa Kai"
+    },
+    "361": {
+        "jp": "Pola改",
+        "en": "Pola Kai"
+    },
+    "362": {
+        "jp": "親潮改",
+        "en": "Oyashio Kai"
+    },
+    "363": {
+        "jp": "春風改",
+        "en": "Harukaze Kai"
+    },
+    "364": {
+        "jp": "Warspite改",
+        "en": "Warspite Kai"
+    },
+    "365": {
+        "jp": "Aquila改",
+        "en": "Aquila Kai"
+    },
+    "366": {
+        "jp": "水無月改",
+        "en": "Minazuki Kai"
+    },
+    "367": {
+        "jp": "伊26改",
+        "en": "I-26 Kai"
+    },
+    "368": {
+        "jp": "浦波改",
+        "en": "Uranami Kai"
+    },
+    "369": {
+        "jp": "山風改",
+        "en": "Yamakaze Kai"
+    },
+    "370": {
+        "jp": "朝風改",
+        "en": "Asakaze Kai"
+    },
+    "371": {
+        "jp": "松風改",
+        "en": "Matsukaze Kai"
+    },
+    "372": {
+        "jp": "Commandant Teste改",
+        "en": "Commandant Teste Kai"
+    },
+    "373": {
+        "jp": "藤波改",
+        "en": "Fujinami Kai"
+    },
+    "374": {
+        "jp": "伊13改",
+        "en": "I-13 Kai"
+    },
+    "375": {
+        "jp": "伊14改",
+        "en": "I-14 Kai"
+    },
+    "376": {
+        "jp": "占守改",
+        "en": "Shimushu Kai"
+    },
+    "377": {
+        "jp": "国後改",
+        "en": "Kunashiri Kai"
+    },
+    "380": {
+        "jp": "大鷹改",
+        "en": "Taiyou Kai"
+    },
+    "381": {
+        "jp": "神鷹改",
+        "en": "Shinyou Kai"
+    },
+    "383": {
+        "jp": "択捉改",
+        "en": "Etorofu Kai"
+    },
+    "384": {
+        "jp": "松輪改",
+        "en": "Matsuwa Kai"
+    },
+    "385": {
+        "jp": "佐渡改",
+        "en": "Sado Kai"
+    },
+    "386": {
+        "jp": "対馬改",
+        "en": "Tsushima Kai"
+    },
+    "387": {
+        "jp": "旗風改",
+        "en": "Hatakaze Kai"
+    },
+    "390": {
+        "jp": "天霧改",
+        "en": "Amagiri Kai"
+    },
+    "391": {
+        "jp": "狭霧改",
+        "en": "Sagiri Kai"
+    },
+    "392": {
+        "jp": "Richelieu改",
+        "en": "Richelieu Kai"
+    },
+    "393": {
+        "jp": "Ark Royal改",
+        "en": "Ark Royal Kai"
+    },
+    "394": {
+        "jp": "Jervis改",
+        "en": "Jervis Kai"
+    },
+    "395": {
+        "jp": "Ташкент改",
+        "en": "Tashkent Kai"
+    },
+    "396": {
+        "jp": "Gambier Bay改",
+        "en": "Gambier Bay Kai"
+    },
+    "397": {
+        "jp": "Intrepid改",
+        "en": "Intrepid Kai"
+    },
+    "398": {
+        "jp": "伊168改",
+        "en": "I-168 Kai"
+    },
+    "399": {
+        "jp": "伊58改",
+        "en": "I-58 Kai"
+    },
+    "400": {
+        "jp": "伊8改",
+        "en": "I-8 Kai"
+    },
+    "401": {
+        "jp": "伊19改",
+        "en": "I-19 Kai"
+    },
+    "402": {
+        "jp": "まるゆ改",
+        "en": "Maruyu Kai"
+    },
+    "403": {
+        "jp": "伊401改",
+        "en": "I-401 Kai"
+    },
+    "404": {
+        "jp": "雲龍",
+        "en": "Unryuu"
+    },
+    "405": {
+        "jp": "春雨",
+        "en": "Harusame"
+    },
+    "406": {
+        "jp": "雲龍改",
+        "en": "Unryuu Kai"
+    },
+    "407": {
+        "jp": "潮改二",
+        "en": "Ushio Kai Ni"
+    },
+    "408": {
+        "jp": "隼鷹改二",
+        "en": "Junyou Kai Ni"
+    },
+    "409": {
+        "jp": "早霜",
+        "en": "Hayashimo"
+    },
+    "410": {
+        "jp": "清霜",
+        "en": "Kiyoshimo"
+    },
+    "411": {
+        "jp": "扶桑改二",
+        "en": "Fusou Kai Ni"
+    },
+    "412": {
+        "jp": "山城改二",
+        "en": "Yamashiro Kai Ni"
+    },
+    "413": {
+        "jp": "朝雲",
+        "en": "Asagumo"
+    },
+    "414": {
+        "jp": "山雲",
+        "en": "Yamagumo"
+    },
+    "415": {
+        "jp": "野分",
+        "en": "Nowaki"
+    },
+    "416": {
+        "jp": "古鷹改二",
+        "en": "Furutaka Kai Ni"
+    },
+    "417": {
+        "jp": "加古改二",
+        "en": "Kako Kai Ni"
+    },
+    "418": {
+        "jp": "皐月改二",
+        "en": "Satsuki Kai Ni"
+    },
+    "419": {
+        "jp": "初霜改二",
+        "en": "Hatsushimo Kai Ni"
+    },
+    "420": {
+        "jp": "叢雲改二",
+        "en": "Murakumo Kai Ni"
+    },
+    "421": {
+        "jp": "秋月",
+        "en": "Akizuki"
+    },
+    "422": {
+        "jp": "照月",
+        "en": "Teruzuki"
+    },
+    "423": {
+        "jp": "初月",
+        "en": "Hatsuzuki"
+    },
+    "424": {
+        "jp": "高波",
+        "en": "Takanami"
+    },
+    "425": {
+        "jp": "朝霜",
+        "en": "Asashimo"
+    },
+    "426": {
+        "jp": "吹雪改二",
+        "en": "Fubuki Kai Ni"
+    },
+    "427": {
+        "jp": "鳥海改二",
+        "en": "Choukai Kai Ni"
+    },
+    "428": {
+        "jp": "摩耶改二",
+        "en": "Maya Kai Ni"
+    },
+    "429": {
+        "jp": "天城改",
+        "en": "Amagi Kai"
+    },
+    "430": {
+        "jp": "葛城改",
+        "en": "Katsuragi Kai"
+    },
+    "431": {
+        "jp": "U-511",
+        "en": "U-511"
+    },
+    "432": {
+        "jp": "Graf Zeppelin",
+        "en": "Graf Zeppelin"
+    },
+    "433": {
+        "jp": "Saratoga",
+        "en": "Saratoga"
+    },
+    "434": {
+        "jp": "睦月改二",
+        "en": "Mutsuki Kai Ni"
+    },
+    "435": {
+        "jp": "如月改二",
+        "en": "Kisaragi Kai Ni"
+    },
+    "436": {
+        "jp": "呂500",
+        "en": "RO-500"
+    },
+    "437": {
+        "jp": "暁改二",
+        "en": "Akatsuki Kai Ni"
+    },
+    "438": {
+        "jp": "Saratoga改",
+        "en": "Saratoga Kai"
+    },
+    "439": {
+        "jp": "Warspite",
+        "en": "Warspite"
+    },
+    "440": {
+        "jp": "Iowa",
+        "en": "Iowa"
+    },
+    "441": {
+        "jp": "Littorio",
+        "en": "Littorio"
+    },
+    "442": {
+        "jp": "Roma",
+        "en": "Roma"
+    },
+    "443": {
+        "jp": "Libeccio",
+        "en": "Libeccio"
+    },
+    "444": {
+        "jp": "Aquila",
+        "en": "Aquila"
+    },
+    "445": {
+        "jp": "秋津洲",
+        "en": "Akitsushima"
+    },
+    "446": {
+        "jp": "Italia",
+        "en": "Italia"
+    },
+    "447": {
+        "jp": "Roma改",
+        "en": "Roma Kai"
+    },
+    "448": {
+        "jp": "Zara",
+        "en": "Zara"
+    },
+    "449": {
+        "jp": "Pola",
+        "en": "Pola"
+    },
+    "450": {
+        "jp": "秋津洲改",
+        "en": "Akitsushima Kai"
+    },
+    "451": {
+        "jp": "瑞穂",
+        "en": "Mizuho"
+    },
+    "452": {
+        "jp": "沖波",
+        "en": "Okinami"
+    },
+    "453": {
+        "jp": "風雲",
+        "en": "Kazagumo"
+    },
+    "454": {
+        "jp": "嵐",
+        "en": "Arashi"
+    },
+    "455": {
+        "jp": "萩風",
+        "en": "Hagikaze"
+    },
+    "456": {
+        "jp": "親潮",
+        "en": "Oyashio"
+    },
+    "457": {
+        "jp": "山風",
+        "en": "Yamakaze"
+    },
+    "458": {
+        "jp": "海風",
+        "en": "Umikaze"
+    },
+    "459": {
+        "jp": "江風",
+        "en": "Kawakaze"
+    },
+    "460": {
+        "jp": "速吸",
+        "en": "Hayasui"
+    },
+    "461": {
+        "jp": "翔鶴改二",
+        "en": "Shoukaku Kai Ni"
+    },
+    "462": {
+        "jp": "瑞鶴改二",
+        "en": "Zuikaku Kai Ni"
+    },
+    "463": {
+        "jp": "朝潮改二",
+        "en": "Asashio Kai Ni"
+    },
+    "464": {
+        "jp": "霞改二",
+        "en": "Kasumi Kai Ni"
+    },
+    "465": {
+        "jp": "鹿島",
+        "en": "Kashima"
+    },
+    "466": {
+        "jp": "翔鶴改二甲",
+        "en": "Shoukaku Kai Ni Kou"
+    },
+    "467": {
+        "jp": "瑞鶴改二甲",
+        "en": "Zuikaku Kai Ni Kou"
+    },
+    "468": {
+        "jp": "朝潮改二丁",
+        "en": "Asashio Kai Ni Tei"
+    },
+    "469": {
+        "jp": "江風改二",
+        "en": "Kawakaze Kai Ni"
+    },
+    "470": {
+        "jp": "霞改二乙",
+        "en": "Kasumi Kai Ni Otsu"
+    },
+    "471": {
+        "jp": "神風",
+        "en": "Kamikaze"
+    },
+    "472": {
+        "jp": "朝風",
+        "en": "Asakaze"
+    },
+    "473": {
+        "jp": "春風",
+        "en": "Harukaze"
+    },
+    "474": {
+        "jp": "松風",
+        "en": "Matsukaze"
+    },
+    "475": {
+        "jp": "旗風",
+        "en": "Hatakaze"
+    },
+    "476": {
+        "jp": "神風改",
+        "en": "Kamikaze Kai"
+    },
+    "477": {
+        "jp": "天龍改二",
+        "en": "Tenryuu Kai Ni"
+    },
+    "478": {
+        "jp": "龍田改二",
+        "en": "Tatsuta Kai Ni"
+    },
+    "479": {
+        "jp": "天霧",
+        "en": "Amagiri"
+    },
+    "480": {
+        "jp": "狭霧",
+        "en": "Sagiri"
+    },
+    "481": {
+        "jp": "水無月",
+        "en": "Minazuki"
+    },
+    "483": {
+        "jp": "伊26",
+        "en": "I-26"
+    },
+    "484": {
+        "jp": "浜波",
+        "en": "Hamanami"
+    },
+    "485": {
+        "jp": "藤波",
+        "en": "Fujinami"
+    },
+    "486": {
+        "jp": "浦波",
+        "en": "Uranami"
+    },
+    "487": {
+        "jp": "鬼怒改二",
+        "en": "Kinu Kai Ni"
+    },
+    "488": {
+        "jp": "由良改二",
+        "en": "Yura Kai Ni"
+    },
+    "489": {
+        "jp": "満潮改二",
+        "en": "Michishio Kai Ni"
+    },
+    "490": {
+        "jp": "荒潮改二",
+        "en": "Arashio Kai Ni"
+    },
+    "491": {
+        "jp": "Commandant Teste",
+        "en": "Commandant Teste"
+    },
+    "492": {
+        "jp": "Richelieu",
+        "en": "Richelieu"
+    },
+    "493": {
+        "jp": "伊400",
+        "en": "I-400"
+    },
+    "494": {
+        "jp": "伊13",
+        "en": "I-13"
+    },
+    "495": {
+        "jp": "伊14",
+        "en": "I-14"
+    },
+    "496": {
+        "jp": "Zara due",
+        "en": "Zara Due"
+    },
+    "497": {
+        "jp": "白露改二",
+        "en": "Shiratsuyu Kai Ni"
+    },
+    "498": {
+        "jp": "村雨改二",
+        "en": "Murasame Kai Ni"
+    },
+    "499": {
+        "jp": "神威改",
+        "en": "Kamoi Kai"
+    },
+    "500": {
+        "jp": "神威改母",
+        "en": "Kamoi Kai Bo"
+    },
+    "503": {
+        "jp": "鈴谷改二",
+        "en": "Suzuya Kai Ni"
+    },
+    "504": {
+        "jp": "熊野改二",
+        "en": "Kumano Kai Ni"
+    },
+    "508": {
+        "jp": "鈴谷航改二",
+        "en": "Suzuya Carrier Kai Ni"
+    },
+    "509": {
+        "jp": "熊野航改二",
+        "en": "Kumano Carrier Kai Ni"
+    },
+    "511": {
+        "jp": "Гангут",
+        "en": "Gangut"
+    },
+    "512": {
+        "jp": "Октябрьская революция",
+        "en": "Oktyabrskaya Revolyutsiya"
+    },
+    "513": {
+        "jp": "Гангут два",
+        "en": "Gangut Dva"
+    },
+    "515": {
+        "jp": "Ark Royal",
+        "en": "Ark Royal"
+    },
+    "516": {
+        "jp": "Ташкент",
+        "en": "Tashkent"
+    },
+    "517": {
+        "jp": "占守",
+        "en": "Shimushu"
+    },
+    "518": {
+        "jp": "国後",
+        "en": "Kunashiri"
+    },
+    "519": {
+        "jp": "Jervis",
+        "en": "Jervis"
+    },
+    "521": {
+        "jp": "春日丸",
+        "en": "Kasugamaru"
+    },
+    "524": {
+        "jp": "択捉",
+        "en": "Etorofu"
+    },
+    "525": {
+        "jp": "松輪",
+        "en": "Matsuwa"
+    },
+    "526": {
+        "jp": "大鷹",
+        "en": "Taiyou"
+    },
+    "527": {
+        "jp": "岸波",
+        "en": "Kishinami"
+    },
+    "528": {
+        "jp": "早波",
+        "en": "Hayanami"
+    },
+    "529": {
+        "jp": "大鷹改二",
+        "en": "Taiyou Kai Ni"
+    },
+    "530": {
+        "jp": "伊504",
+        "en": "I-504"
+    },
+    "531": {
+        "jp": "佐渡",
+        "en": "Sado"
+    },
+    "532": {
+        "jp": "涼月",
+        "en": "Suzutsuki"
+    },
+    "534": {
+        "jp": "神鷹",
+        "en": "Shinyou"
+    },
+    "535": {
+        "jp": "Luigi Torelli",
+        "en": "Luigi Torelli"
+    },
+    "536": {
+        "jp": "神鷹改二",
+        "en": "Shinyou Kai Ni"
+    },
+    "537": {
+        "jp": "涼月改",
+        "en": "Suzutsuki Kai"
+    },
+    "539": {
+        "jp": "UIT-25",
+        "en": "UIT-25"
+    },
+    "540": {
+        "jp": "対馬",
+        "en": "Tsushima"
+    },
+    "541": {
+        "jp": "長門改二",
+        "en": "Nagato Kai Ni"
+    },
+    "542": {
+        "jp": "夕雲改二",
+        "en": "Yuugumo Kai Ni"
+    },
+    "543": {
+        "jp": "長波改二",
+        "en": "Naganami Kai Ni"
+    },
+    "544": {
+        "jp": "Gambier Bay",
+        "en": "Gambier Bay"
+    },
+    "545": {
+        "jp": "Saratoga Mk.II",
+        "en": "Saratoga Mk.II"
+    },
+    "546": {
+        "jp": "武蔵改二",
+        "en": "Musashi Kai Ni"
+    },
+    "547": {
+        "jp": "多摩改二",
+        "en": "Tama Kai Ni"
+    },
+    "548": {
+        "jp": "文月改二",
+        "en": "Fumizuki Kai Ni"
+    },
+    "549": {
+        "jp": "Intrepid",
+        "en": "Intrepid"
+    },
+    "550": {
+        "jp": "Saratoga Mk.II Mod.2",
+        "en": "Saratoga Mk.II Mod.2"
+    },
+    "551": {
+        "jp": "日振",
+        "en": "Hiburi"
+    },
+    "552": {
+        "jp": "大東",
+        "en": "Daitou"
+    },
+    "553": {
+        "jp": "伊勢改二",
+        "en": "Ise Kai Ni"
+    },
+    "555": {
+        "jp": "瑞鳳改二",
+        "en": "Zuihou Kai Ni"
+    },
+    "556": {
+        "jp": "浦風丁改",
+        "en": "Urakaze D Kai"
+    },
+    "557": {
+        "jp": "磯風乙改",
+        "en": "Isokaze B Kai"
+    },
+    "558": {
+        "jp": "浜風乙改",
+        "en": "Hamakaze B Kai"
+    },
+    "559": {
+        "jp": "谷風丁改",
+        "en": "Tanikaze D Kai"
+    },
+    "560": {
+        "jp": "瑞鳳改二乙",
+        "en": "Zuihou Kai Ni Otsu"
+    },
+    "561": {
+        "jp": "Samuel B.Roberts",
+        "en": "Samuel B.Roberts"
+    },
+    "562": {
+        "jp": "Johnston",
+        "en": "Johnston"
+    },
+    "563": {
+        "jp": "巻雲改二",
+        "en": "Makigumo Kai Ni"
+    },
+    "565": {
+        "jp": "福江",
+        "en": "Fukae"
+    },
+    "566": {
+        "jp": "陽炎改二",
+        "en": "Kagerou Kai Ni"
+    },
+    "567": {
+        "jp": "不知火改二",
+        "en": "Shiranui Kai Ni"
+    },
+    "568": {
+        "jp": "黒潮改二",
+        "en": "Kuroshio Kai Ni"
+    },
+    "571": {
+        "jp": "Nelson",
+        "en": "Nelson"
+    },
+    "574": {
+        "jp": "Gotland",
+        "en": "Gotland"
+    },
+    "575": {
+        "jp": "Maestrale",
+        "en": "Maestrale"
+    },
+    "576": {
+        "jp": "Nelson改",
+        "en": "Nelson Kai"
+    },
+    "579": {
+        "jp": "Gotland改",
+        "en": "Gotland Kai"
+    },
+    "580": {
+        "jp": "Maestrale改",
+        "en": "Maestrale Kai"
+    },
+    "581": {
+        "jp": "日進",
+        "en": "Nisshin"
+    },
+    "583": {
+        "jp": "峯雲",
+        "en": "Minegumo"
+    },
+    "586": {
+        "jp": "日進甲",
+        "en": "Nisshin Kou"
+    },
+    "605": {
+        "jp": "Luigi Torelli改",
+        "en": "Luigi Torelli Kai"
+    },
+    "606": {
+        "jp": "伊400改",
+        "en": "I-400 Kai"
+    },
+    "678": {
+        "jp": "日振改",
+        "en": "Hiburi Kai"
+    },
+    "679": {
+        "jp": "大東改",
+        "en": "Daitou Kai"
+    },
+    "680": {
+        "jp": "浜波改",
+        "en": "Hamanami Kai"
+    },
+    "681": {
+        "jp": "Samuel B.Roberts改",
+        "en": "Samuel B.Roberts Kai"
+    },
+    "685": {
+        "jp": "福江改",
+        "en": "Fukae Kai"
+    },
+    "686": {
+        "jp": "岸波改",
+        "en": "Kishinami Kai"
+    },
+    "687": {
+        "jp": "峯雲改",
+        "en": "Minegumo Kai"
+    },
+    "688": {
+        "jp": "早波改",
+        "en": "Hayanami Kai"
+    },
+    "689": {
+        "jp": "Johnston改",
+        "en": "Johnston Kai"
+    },
+    "690": {
+        "jp": "日進改",
+        "en": "Nisshin Kai"
+    },
+    "1501": {
+        "jp": "駆逐イ級",
+        "en": "I-Class Destroyer"
+    },
+    "1502": {
+        "jp": "駆逐ロ級",
+        "en": "Ro-Class Destroyer"
+    },
+    "1503": {
+        "jp": "駆逐ハ級",
+        "en": "Ha-Class Destroyer"
+    },
+    "1504": {
+        "jp": "駆逐ニ級",
+        "en": "Ni-Class Destroyer"
+    },
+    "1505": {
+        "jp": "軽巡ホ級",
+        "en": "Ho-Class Light Cruiser"
+    },
+    "1506": {
+        "jp": "軽巡ヘ級",
+        "en": "He-Class Light Cruiser"
+    },
+    "1507": {
+        "jp": "軽巡ト級",
+        "en": "To-Class Light Cruiser"
+    },
+    "1508": {
+        "jp": "雷巡チ級",
+        "en": "Chi-Class Torpedo Cruiser"
+    },
+    "1509": {
+        "jp": "重巡リ級",
+        "en": "Ri-Class Heavy Cruiser"
+    },
+    "1510": {
+        "jp": "軽母ヌ級",
+        "en": "Nu-Class Light Carrier"
+    },
+    "1511": {
+        "jp": "戦艦ル級",
+        "en": "Ru-Class Battleship"
+    },
+    "1512": {
+        "jp": "空母ヲ級",
+        "en": "Wo-Class Standard Carrier"
+    },
+    "1513": {
+        "jp": "輸送ワ級",
+        "en": "Wa-Class Transport Ship"
+    },
+    "1514": {
+        "jp": "駆逐イ級",
+        "en": "I-Class Destroyer"
+    },
+    "1515": {
+        "jp": "駆逐ロ級",
+        "en": "Ro-Class Destroyer"
+    },
+    "1516": {
+        "jp": "駆逐ハ級",
+        "en": "Ha-Class Destroyer"
+    },
+    "1517": {
+        "jp": "駆逐ニ級",
+        "en": "Ni-Class Destroyer"
+    },
+    "1518": {
+        "jp": "軽巡ホ級",
+        "en": "Ho-Class Light Cruiser"
+    },
+    "1519": {
+        "jp": "軽巡ヘ級",
+        "en": "He-Class Light Cruiser"
+    },
+    "1520": {
+        "jp": "軽巡ト級",
+        "en": "To-Class Light Cruiser"
+    },
+    "1521": {
+        "jp": "雷巡チ級",
+        "en": "Chi-Class Torpedo Cruiser"
+    },
+    "1522": {
+        "jp": "重巡リ級",
+        "en": "Ri-Class Heavy Cruiser"
+    },
+    "1523": {
+        "jp": "軽母ヌ級",
+        "en": "Nu-Class Light Carrier"
+    },
+    "1524": {
+        "jp": "戦艦ル級",
+        "en": "Ru-Class Battleship"
+    },
+    "1525": {
+        "jp": "空母ヲ級",
+        "en": "Wo-Class Standard Carrier"
+    },
+    "1526": {
+        "jp": "輸送ワ級",
+        "en": "Wa-Class Transport Ship"
+    },
+    "1527": {
+        "jp": "重巡リ級",
+        "en": "Ri-Class Heavy Cruiser"
+    },
+    "1528": {
+        "jp": "空母ヲ級",
+        "en": "Wo-Class Standard Carrier"
+    },
+    "1529": {
+        "jp": "戦艦ル級",
+        "en": "Ru-Class Battleship"
+    },
+    "1530": {
+        "jp": "潜水カ級",
+        "en": "Ka-Class Submarine"
+    },
+    "1531": {
+        "jp": "潜水ヨ級",
+        "en": "Yo-Class Submarine"
+    },
+    "1532": {
+        "jp": "潜水カ級",
+        "en": "Ka-Class Submarine"
+    },
+    "1533": {
+        "jp": "潜水ヨ級",
+        "en": "Yo-Class Submarine"
+    },
+    "1534": {
+        "jp": "潜水カ級",
+        "en": "Ka-Class Submarine"
+    },
+    "1535": {
+        "jp": "潜水ヨ級",
+        "en": "Yo-Class Submarine"
+    },
+    "1536": {
+        "jp": "浮遊要塞",
+        "en": "Floating Fortress"
+    },
+    "1537": {
+        "jp": "浮遊要塞",
+        "en": "Floating Fortress"
+    },
+    "1538": {
+        "jp": "浮遊要塞",
+        "en": "Floating Fortress"
+    },
+    "1539": {
+        "jp": "泊地棲鬼",
+        "en": "Anchorage Demon"
+    },
+    "1540": {
+        "jp": "泊地棲姫",
+        "en": "Anchorage Princess"
+    },
+    "1541": {
+        "jp": "戦艦タ級",
+        "en": "Ta-Class Battleship"
+    },
+    "1542": {
+        "jp": "戦艦タ級",
+        "en": "Ta-Class Battleship"
+    },
+    "1543": {
+        "jp": "戦艦タ級",
+        "en": "Ta-Class Battleship"
+    },
+    "1544": {
+        "jp": "装甲空母鬼",
+        "en": "Armored Carrier Demon"
+    },
+    "1545": {
+        "jp": "装甲空母姫",
+        "en": "Armored Carrier Princess"
+    },
+    "1546": {
+        "jp": "南方棲鬼",
+        "en": "Southern Demon"
+    },
+    "1547": {
+        "jp": "南方棲戦鬼",
+        "en": "Southern War Demon"
+    },
+    "1548": {
+        "jp": "南方棲戦姫",
+        "en": "Southern War Princess"
+    },
+    "1549": {
+        "jp": "護衛要塞",
+        "en": "Escort Fortress"
+    },
+    "1550": {
+        "jp": "護衛要塞",
+        "en": "Escort Fortress"
+    },
+    "1551": {
+        "jp": "護衛要塞",
+        "en": "Escort Fortress"
+    },
+    "1552": {
+        "jp": "駆逐ロ級",
+        "en": "Ro-Class Destroyer"
+    },
+    "1553": {
+        "jp": "駆逐ハ級",
+        "en": "Ha-Class Destroyer"
+    },
+    "1554": {
+        "jp": "軽巡ホ級",
+        "en": "Ho-Class Light Cruiser"
+    },
+    "1555": {
+        "jp": "軽巡ヘ級",
+        "en": "He-Class Light Cruiser"
+    },
+    "1556": {
+        "jp": "飛行場姫",
+        "en": "Airfield Princess"
+    },
+    "1557": {
+        "jp": "戦艦棲姫",
+        "en": "Battleship Princess"
+    },
+    "1558": {
+        "jp": "輸送ワ級",
+        "en": "Wa-Class Transport Ship"
+    },
+    "1559": {
+        "jp": "雷巡チ級",
+        "en": "Chi-Class Torpedo Cruiser"
+    },
+    "1560": {
+        "jp": "軽母ヌ級",
+        "en": "Nu-Class Light Carrier"
+    },
+    "1561": {
+        "jp": "戦艦レ級",
+        "en": "Re-Class Battleship"
+    },
+    "1562": {
+        "jp": "戦艦レ級",
+        "en": "Re-Class Battleship"
+    },
+    "1564": {
+        "jp": "駆逐イ級",
+        "en": "I-Class Destroyer"
+    },
+    "1565": {
+        "jp": "空母ヲ級改",
+        "en": "Wo-Class Standard Carrier Kai"
+    },
+    "1566": {
+        "jp": "重巡リ級改",
+        "en": "Ri-Class Heavy Cruiser Kai"
+    },
+    "1567": {
+        "jp": "戦艦ル級改",
+        "en": "Ru-Class Battleship Kai"
+    },
+    "1570": {
+        "jp": "潜水ソ級",
+        "en": "So-Class Submarine"
+    },
+    "1571": {
+        "jp": "潜水ソ級",
+        "en": "So-Class Submarine"
+    },
+    "1572": {
+        "jp": "潜水ソ級",
+        "en": "So-Class Submarine"
+    },
+    "1573": {
+        "jp": "港湾棲姫",
+        "en": "Harbor Princess"
+    },
+    "1574": {
+        "jp": "離島棲鬼",
+        "en": "Isolated Island Demon"
+    },
+    "1575": {
+        "jp": "駆逐イ級後期型",
+        "en": "I-Class Destroyer Late Model"
+    },
+    "1576": {
+        "jp": "駆逐ロ級後期型",
+        "en": "Ro-Class Destroyer Late Model"
+    },
+    "1577": {
+        "jp": "駆逐ハ級後期型",
+        "en": "Ha-Class Destroyer Late Model"
+    },
+    "1578": {
+        "jp": "駆逐ニ級後期型",
+        "en": "Ni-Class Destroyer Late Model"
+    },
+    "1579": {
+        "jp": "空母ヲ級",
+        "en": "Wo-Class Standard Carrier"
+    },
+    "1581": {
+        "jp": "北方棲姫",
+        "en": "Northern Princess"
+    },
+    "1582": {
+        "jp": "北方棲姫",
+        "en": "Northern Princess"
+    },
+    "1583": {
+        "jp": "中間棲姫",
+        "en": "Midway Princess"
+    },
+    "1584": {
+        "jp": "中間棲姫",
+        "en": "Midway Princess"
+    },
+    "1585": {
+        "jp": "空母棲鬼",
+        "en": "Aircraft Carrier Demon"
+    },
+    "1586": {
+        "jp": "空母棲姫",
+        "en": "Aircraft Carrier Princess"
+    },
+    "1587": {
+        "jp": "北方棲姫",
+        "en": "Northern Princess"
+    },
+    "1588": {
+        "jp": "北方棲姫",
+        "en": "Northern Princess"
+    },
+    "1589": {
+        "jp": "北方棲姫",
+        "en": "Northern Princess"
+    },
+    "1590": {
+        "jp": "北方棲姫",
+        "en": "Northern Princess"
+    },
+    "1591": {
+        "jp": "軽巡ツ級",
+        "en": "Tsu-Class Light Cruiser"
+    },
+    "1592": {
+        "jp": "軽巡ツ級",
+        "en": "Tsu-Class Light Cruiser"
+    },
+    "1594": {
+        "jp": "重巡ネ級",
+        "en": "Ne-Class Heavy Cruiser"
+    },
+    "1595": {
+        "jp": "重巡ネ級",
+        "en": "Ne-Class Heavy Cruiser"
+    },
+    "1597": {
+        "jp": "駆逐棲姫",
+        "en": "Destroyer Princess"
+    },
+    "1598": {
+        "jp": "駆逐棲姫",
+        "en": "Destroyer Princess"
+    },
+    "1599": {
+        "jp": "空母水鬼",
+        "en": "Aircraft Carrier Water Demon"
+    },
+    "1600": {
+        "jp": "空母水鬼",
+        "en": "Aircraft Carrier Water Demon"
+    },
+    "1601": {
+        "jp": "軽巡棲鬼",
+        "en": "Light Cruiser Demon"
+    },
+    "1602": {
+        "jp": "軽巡棲鬼",
+        "en": "Light Cruiser Demon"
+    },
+    "1603": {
+        "jp": "戦艦水鬼",
+        "en": "Battleship Water Demon"
+    },
+    "1604": {
+        "jp": "戦艦水鬼",
+        "en": "Battleship Water Demon"
+    },
+    "1605": {
+        "jp": "港湾水鬼",
+        "en": "Harbor Water Demon"
+    },
+    "1606": {
+        "jp": "港湾水鬼",
+        "en": "Harbor Water Demon"
+    },
+    "1607": {
+        "jp": "港湾水鬼",
+        "en": "Harbor Water Demon"
+    },
+    "1608": {
+        "jp": "港湾水鬼",
+        "en": "Harbor Water Demon"
+    },
+    "1609": {
+        "jp": "泊地水鬼",
+        "en": "Anchorage Water Demon"
+    },
+    "1610": {
+        "jp": "泊地水鬼",
+        "en": "Anchorage Water Demon"
+    },
+    "1611": {
+        "jp": "泊地水鬼",
+        "en": "Anchorage Water Demon"
+    },
+    "1612": {
+        "jp": "泊地水鬼",
+        "en": "Anchorage Water Demon"
+    },
+    "1613": {
+        "jp": "港湾棲姫",
+        "en": "Harbor Princess"
+    },
+    "1614": {
+        "jp": "空母ヲ級",
+        "en": "Wo-Class Standard Carrier"
+    },
+    "1615": {
+        "jp": "空母ヲ級",
+        "en": "Wo-Class Standard Carrier"
+    },
+    "1616": {
+        "jp": "空母ヲ級改",
+        "en": "Wo-Class Standard Carrier Kai"
+    },
+    "1617": {
+        "jp": "空母ヲ級改",
+        "en": "Wo-Class Standard Carrier Kai"
+    },
+    "1618": {
+        "jp": "空母ヲ級改",
+        "en": "Wo-Class Standard Carrier Kai"
+    },
+    "1619": {
+        "jp": "空母棲鬼",
+        "en": "Aircraft Carrier Demon"
+    },
+    "1620": {
+        "jp": "空母棲姫",
+        "en": "Aircraft Carrier Princess"
+    },
+    "1621": {
+        "jp": "駆逐イ級後期型",
+        "en": "I-Class Destroyer Late Model"
+    },
+    "1622": {
+        "jp": "駆逐ロ級後期型",
+        "en": "Ro-Class Destroyer Late Model"
+    },
+    "1623": {
+        "jp": "駆逐ハ級後期型",
+        "en": "Ha-Class Destroyer Late Model"
+    },
+    "1624": {
+        "jp": "駆逐ニ級後期型",
+        "en": "Ni-Class Destroyer Late Model"
+    },
+    "1625": {
+        "jp": "水母棲姫",
+        "en": "Seaplane Tender Princess"
+    },
+    "1626": {
+        "jp": "水母棲姫",
+        "en": "Seaplane Tender Princess"
+    },
+    "1627": {
+        "jp": "水母棲姫",
+        "en": "Seaplane Tender Princess"
+    },
+    "1628": {
+        "jp": "防空棲姫",
+        "en": "Air Defense Princess"
+    },
+    "1629": {
+        "jp": "防空棲姫",
+        "en": "Air Defense Princess"
+    },
+    "1630": {
+        "jp": "防空棲姫",
+        "en": "Air Defense Princess"
+    },
+    "1631": {
+        "jp": "飛行場姫",
+        "en": "Airfield Princess"
+    },
+    "1632": {
+        "jp": "飛行場姫",
+        "en": "Airfield Princess"
+    },
+    "1633": {
+        "jp": "飛行場姫",
+        "en": "Airfield Princess"
+    },
+    "1634": {
+        "jp": "離島棲鬼",
+        "en": "Isolated Island Demon"
+    },
+    "1635": {
+        "jp": "離島棲鬼",
+        "en": "Isolated Island Demon"
+    },
+    "1636": {
+        "jp": "離島棲鬼",
+        "en": "Isolated Island Demon"
+    },
+    "1637": {
+        "jp": "PT小鬼群",
+        "en": "PT Imp Pack"
+    },
+    "1638": {
+        "jp": "PT小鬼群",
+        "en": "PT Imp Pack"
+    },
+    "1639": {
+        "jp": "PT小鬼群",
+        "en": "PT Imp Pack"
+    },
+    "1640": {
+        "jp": "PT小鬼群",
+        "en": "PT Imp Pack"
+    },
+    "1641": {
+        "jp": "軽巡棲姫",
+        "en": "Light Cruiser Princess"
+    },
+    "1642": {
+        "jp": "軽巡棲姫",
+        "en": "Light Cruiser Princess"
+    },
+    "1643": {
+        "jp": "軽巡棲姫",
+        "en": "Light Cruiser Princess"
+    },
+    "1644": {
+        "jp": "潜水棲姫",
+        "en": "Submarine Princess"
+    },
+    "1645": {
+        "jp": "潜水棲姫",
+        "en": "Submarine Princess"
+    },
+    "1646": {
+        "jp": "潜水棲姫",
+        "en": "Submarine Princess"
+    },
+    "1647": {
+        "jp": "駆逐水鬼",
+        "en": "Destroyer Water Demon"
+    },
+    "1648": {
+        "jp": "駆逐水鬼",
+        "en": "Destroyer Water Demon"
+    },
+    "1649": {
+        "jp": "駆逐水鬼",
+        "en": "Destroyer Water Demon"
+    },
+    "1650": {
+        "jp": "飛行場姫",
+        "en": "Airfield Princess"
+    },
+    "1651": {
+        "jp": "飛行場姫",
+        "en": "Airfield Princess"
+    },
+    "1652": {
+        "jp": "飛行場姫",
+        "en": "Airfield Princess"
+    },
+    "1653": {
+        "jp": "集積地棲姫",
+        "en": "Supply Depot Princess"
+    },
+    "1654": {
+        "jp": "集積地棲姫",
+        "en": "Supply Depot Princess"
+    },
+    "1655": {
+        "jp": "集積地棲姫",
+        "en": "Supply Depot Princess"
+    },
+    "1656": {
+        "jp": "集積地棲姫-壊",
+        "en": "Supply Depot Princess (Damaged)"
+    },
+    "1657": {
+        "jp": "集積地棲姫-壊",
+        "en": "Supply Depot Princess (Damaged)"
+    },
+    "1658": {
+        "jp": "集積地棲姫-壊",
+        "en": "Supply Depot Princess (Damaged)"
+    },
+    "1659": {
+        "jp": "重巡棲姫",
+        "en": "Heavy Cruiser Princess"
+    },
+    "1660": {
+        "jp": "重巡棲姫",
+        "en": "Heavy Cruiser Princess"
+    },
+    "1661": {
+        "jp": "重巡棲姫",
+        "en": "Heavy Cruiser Princess"
+    },
+    "1662": {
+        "jp": "重巡棲姫",
+        "en": "Heavy Cruiser Princess"
+    },
+    "1663": {
+        "jp": "重巡棲姫",
+        "en": "Heavy Cruiser Princess"
+    },
+    "1664": {
+        "jp": "重巡棲姫",
+        "en": "Heavy Cruiser Princess"
+    },
+    "1665": {
+        "jp": "砲台小鬼",
+        "en": "Artillery Imp"
+    },
+    "1666": {
+        "jp": "砲台小鬼",
+        "en": "Artillery Imp"
+    },
+    "1667": {
+        "jp": "砲台小鬼",
+        "en": "Artillery Imp"
+    },
+    "1668": {
+        "jp": "離島棲姫",
+        "en": "Isolated Island Princess"
+    },
+    "1669": {
+        "jp": "離島棲姫",
+        "en": "Isolated Island Princess"
+    },
+    "1670": {
+        "jp": "離島棲姫",
+        "en": "Isolated Island Princess"
+    },
+    "1671": {
+        "jp": "離島棲姫",
+        "en": "Isolated Island Princess"
+    },
+    "1672": {
+        "jp": "離島棲姫",
+        "en": "Isolated Island Princess"
+    },
+    "1673": {
+        "jp": "駆逐古鬼",
+        "en": "Old Destroyer Demon"
+    },
+    "1674": {
+        "jp": "駆逐古鬼",
+        "en": "Old Destroyer Demon"
+    },
+    "1675": {
+        "jp": "駆逐古鬼",
+        "en": "Old Destroyer Demon"
+    },
+    "1676": {
+        "jp": "駆逐水鬼",
+        "en": "Destroyer Water Demon"
+    },
+    "1677": {
+        "jp": "駆逐水鬼",
+        "en": "Destroyer Water Demon"
+    },
+    "1678": {
+        "jp": "駆逐水鬼",
+        "en": "Destroyer Water Demon"
+    },
+    "1679": {
+        "jp": "リコリス棲姫",
+        "en": "Lycoris Princess"
+    },
+    "1680": {
+        "jp": "リコリス棲姫",
+        "en": "Lycoris Princess"
+    },
+    "1681": {
+        "jp": "リコリス棲姫",
+        "en": "Lycoris Princess"
+    },
+    "1682": {
+        "jp": "リコリス棲姫",
+        "en": "Lycoris Princess"
+    },
+    "1683": {
+        "jp": "リコリス棲姫",
+        "en": "Lycoris Princess"
+    },
+    "1684": {
+        "jp": "中枢棲姫",
+        "en": "Central Princess"
+    },
+    "1685": {
+        "jp": "中枢棲姫",
+        "en": "Central Princess"
+    },
+    "1686": {
+        "jp": "中枢棲姫",
+        "en": "Central Princess"
+    },
+    "1687": {
+        "jp": "中枢棲姫-壊",
+        "en": "Central Princess (Damaged)"
+    },
+    "1688": {
+        "jp": "中枢棲姫-壊",
+        "en": "Central Princess (Damaged)"
+    },
+    "1689": {
+        "jp": "中枢棲姫-壊",
+        "en": "Central Princess (Damaged)"
+    },
+    "1690": {
+        "jp": "駆逐古姫",
+        "en": "Old Destroyer Princess"
+    },
+    "1691": {
+        "jp": "駆逐古姫",
+        "en": "Old Destroyer Princess"
+    },
+    "1692": {
+        "jp": "駆逐古姫",
+        "en": "Old Destroyer Princess"
+    },
+    "1693": {
+        "jp": "潜水夏姫",
+        "en": "Summer Submarine Princess"
+    },
+    "1694": {
+        "jp": "潜水夏姫",
+        "en": "Summer Submarine Princess"
+    },
+    "1695": {
+        "jp": "潜水夏姫",
+        "en": "Summer Submarine Princess"
+    },
+    "1696": {
+        "jp": "戦艦夏姫",
+        "en": "Summer Battleship Princess"
+    },
+    "1697": {
+        "jp": "戦艦夏姫",
+        "en": "Summer Battleship Princess"
+    },
+    "1698": {
+        "jp": "戦艦夏姫",
+        "en": "Summer Battleship Princess"
+    },
+    "1699": {
+        "jp": "港湾夏姫",
+        "en": "Summer Harbor Princess"
+    },
+    "1700": {
+        "jp": "港湾夏姫",
+        "en": "Summer Harbor Princess"
+    },
+    "1701": {
+        "jp": "港湾夏姫",
+        "en": "Summer Harbor Princess"
+    },
+    "1702": {
+        "jp": "港湾夏姫-壊",
+        "en": "Summer Harbor Princess (Damaged)"
+    },
+    "1703": {
+        "jp": "港湾夏姫-壊",
+        "en": "Summer Harbor Princess (Damaged)"
+    },
+    "1704": {
+        "jp": "港湾夏姫-壊",
+        "en": "Summer Harbor Princess (Damaged)"
+    },
+    "1705": {
+        "jp": "重巡夏姫",
+        "en": "Summer Heavy Cruiser Princess"
+    },
+    "1706": {
+        "jp": "重巡夏姫",
+        "en": "Summer Heavy Cruiser Princess"
+    },
+    "1707": {
+        "jp": "重巡夏姫",
+        "en": "Summer Heavy Cruiser Princess"
+    },
+    "1708": {
+        "jp": "水母水姫",
+        "en": "Seaplane Tender Water Princess"
+    },
+    "1709": {
+        "jp": "水母水姫",
+        "en": "Seaplane Tender Water Princess"
+    },
+    "1710": {
+        "jp": "水母水姫",
+        "en": "Seaplane Tender Water Princess"
+    },
+    "1711": {
+        "jp": "深海海月姫",
+        "en": "Abyssal Jellyfish Princess"
+    },
+    "1712": {
+        "jp": "深海海月姫",
+        "en": "Abyssal Jellyfish Princess"
+    },
+    "1713": {
+        "jp": "深海海月姫",
+        "en": "Abyssal Jellyfish Princess"
+    },
+    "1714": {
+        "jp": "空母ヲ級改",
+        "en": "Wo-Class Standard Carrier Kai"
+    },
+    "1715": {
+        "jp": "空母ヲ級改",
+        "en": "Wo-Class Standard Carrier Kai"
+    },
+    "1716": {
+        "jp": "深海双子棲姫",
+        "en": "Abyssal Twin Princesses"
+    },
+    "1717": {
+        "jp": "深海双子棲姫",
+        "en": "Abyssal Twin Princesses"
+    },
+    "1718": {
+        "jp": "深海双子棲姫",
+        "en": "Abyssal Twin Princesses"
+    },
+    "1719": {
+        "jp": "深海双子棲姫-壊",
+        "en": "Abyssal Twin Princesses (Damaged)"
+    },
+    "1720": {
+        "jp": "深海双子棲姫-壊",
+        "en": "Abyssal Twin Princesses (Damaged)"
+    },
+    "1721": {
+        "jp": "深海双子棲姫-壊",
+        "en": "Abyssal Twin Princesses (Damaged)"
+    },
+    "1722": {
+        "jp": "護衛棲姫",
+        "en": "Escort Princess"
+    },
+    "1723": {
+        "jp": "護衛棲姫",
+        "en": "Escort Princess"
+    },
+    "1724": {
+        "jp": "護衛棲姫",
+        "en": "Escort Princess"
+    },
+    "1725": {
+        "jp": "北端上陸姫",
+        "en": "Northernmost Landing Princess"
+    },
+    "1726": {
+        "jp": "北端上陸姫",
+        "en": "Northernmost Landing Princess"
+    },
+    "1727": {
+        "jp": "北端上陸姫",
+        "en": "Northernmost Landing Princess"
+    },
+    "1728": {
+        "jp": "北方水姫",
+        "en": "Northern Water Princess"
+    },
+    "1729": {
+        "jp": "北方水姫",
+        "en": "Northern Water Princess"
+    },
+    "1730": {
+        "jp": "北方水姫",
+        "en": "Northern Water Princess"
+    },
+    "1731": {
+        "jp": "北方水姫-壊",
+        "en": "Northern Water Princess (Damaged)"
+    },
+    "1732": {
+        "jp": "北方水姫-壊",
+        "en": "Northern Water Princess (Damaged)"
+    },
+    "1733": {
+        "jp": "北方水姫-壊",
+        "en": "Northern Water Princess (Damaged)"
+    },
+    "1734": {
+        "jp": "軽母ヌ級改",
+        "en": "Nu-Class Light Carrier Kai"
+    },
+    "1735": {
+        "jp": "軽母ヌ級改",
+        "en": "Nu-Class Light Carrier Kai"
+    },
+    "1736": {
+        "jp": "潜水新棲姫",
+        "en": "New Submarine Princess"
+    },
+    "1737": {
+        "jp": "潜水新棲姫",
+        "en": "New Submarine Princess"
+    },
+    "1738": {
+        "jp": "潜水新棲姫",
+        "en": "New Submarine Princess"
+    },
+    "1739": {
+        "jp": "駆逐ナ級",
+        "en": "Na-Class Destroyer"
+    },
+    "1740": {
+        "jp": "駆逐ナ級",
+        "en": "Na-Class Destroyer"
+    },
+    "1741": {
+        "jp": "駆逐ナ級",
+        "en": "Na-Class Destroyer"
+    },
+    "1742": {
+        "jp": "駆逐ナ級後期型",
+        "en": "Na-Class Destroyer Late Model"
+    },
+    "1743": {
+        "jp": "駆逐ナ級後期型",
+        "en": "Na-Class Destroyer Late Model"
+    },
+    "1744": {
+        "jp": "駆逐ナ級後期型",
+        "en": "Na-Class Destroyer Late Model"
+    },
+    "1745": {
+        "jp": "戦艦仏棲姫",
+        "en": "French Battleship Princess"
+    },
+    "1746": {
+        "jp": "戦艦仏棲姫",
+        "en": "French Battleship Princess"
+    },
+    "1747": {
+        "jp": "戦艦仏棲姫",
+        "en": "French Battleship Princess"
+    },
+    "1748": {
+        "jp": "戦艦仏棲姫-壊",
+        "en": "French Battleship Princess (Damaged)"
+    },
+    "1749": {
+        "jp": "戦艦仏棲姫-壊",
+        "en": "French Battleship Princess (Damaged)"
+    },
+    "1750": {
+        "jp": "戦艦仏棲姫-壊",
+        "en": "French Battleship Princess (Damaged)"
+    },
+    "1751": {
+        "jp": "空母夏鬼",
+        "en": "Summer Aircraft Carrier Demon"
+    },
+    "1752": {
+        "jp": "空母夏姫",
+        "en": "Summer Aircraft Carrier Princess"
+    },
+    "1753": {
+        "jp": "集積地夏姫",
+        "en": "Summer Supply Depot Princess"
+    },
+    "1754": {
+        "jp": "集積地夏姫",
+        "en": "Summer Supply Depot Princess"
+    },
+    "1755": {
+        "jp": "欧州棲姫",
+        "en": "European Princess"
+    },
+    "1756": {
+        "jp": "欧州棲姫",
+        "en": "European Princess"
+    },
+    "1757": {
+        "jp": "欧州棲姫",
+        "en": "European Princess"
+    },
+    "1758": {
+        "jp": "欧州棲姫-壊",
+        "en": "European Princess (Damaged)"
+    },
+    "1759": {
+        "jp": "欧州棲姫-壊",
+        "en": "European Princess (Damaged)"
+    },
+    "1760": {
+        "jp": "欧州棲姫-壊",
+        "en": "European Princess (Damaged)"
+    },
+    "1761": {
+        "jp": "重巡ネ級",
+        "en": "Ne-Class Heavy Cruiser"
+    },
+    "1762": {
+        "jp": "軽母ヌ級",
+        "en": "Nu-Class Light Carrier"
+    },
+    "1763": {
+        "jp": "軽母ヌ級",
+        "en": "Nu-Class Light Carrier"
+    },
+    "1764": {
+        "jp": "軽母ヌ級",
+        "en": "Nu-Class Light Carrier"
+    },
+    "1765": {
+        "jp": "軽母ヌ級改",
+        "en": "Nu-Class Light Carrier Kai"
+    },
+    "1766": {
+        "jp": "軽母ヌ級改",
+        "en": "Nu-Class Light Carrier Kai"
+    },
+    "1767": {
+        "jp": "海峡夜棲姫",
+        "en": "Night Strait Princesses"
+    },
+    "1768": {
+        "jp": "海峡夜棲姫",
+        "en": "Night Strait Princesses"
+    },
+    "1769": {
+        "jp": "海峡夜棲姫",
+        "en": "Night Strait Princesses"
+    },
+    "1770": {
+        "jp": "海峡夜棲姫-壊",
+        "en": "Night Strait Princesses (Damaged)"
+    },
+    "1771": {
+        "jp": "海峡夜棲姫-壊",
+        "en": "Night Strait Princesses (Damaged)"
+    },
+    "1772": {
+        "jp": "海峡夜棲姫-壊",
+        "en": "Night Strait Princesses (Damaged)"
+    },
+    "1773": {
+        "jp": "防空埋護姫",
+        "en": "Confined Air Defense Princess"
+    },
+    "1774": {
+        "jp": "防空埋護姫",
+        "en": "Confined Air Defense Princess"
+    },
+    "1775": {
+        "jp": "防空埋護姫",
+        "en": "Confined Air Defense Princess"
+    },
+    "1776": {
+        "jp": "軽母ヌ級",
+        "en": "Nu-Class Light Carrier"
+    },
+    "1777": {
+        "jp": "軽母ヌ級",
+        "en": "Nu-Class Light Carrier"
+    },
+    "1778": {
+        "jp": "軽母ヌ級改",
+        "en": "Nu-Class Light Carrier Kai"
+    },
+    "1779": {
+        "jp": "軽母ヌ級改",
+        "en": "Nu-Class Light Carrier Kai"
+    },
+    "1780": {
+        "jp": "軽母ヌ級改",
+        "en": "Nu-Class Light Carrier Kai"
+    },
+    "1781": {
+        "jp": "空母棲姫",
+        "en": "Aircraft Carrier Princess"
+    },
+    "1782": {
+        "jp": "空母棲姫",
+        "en": "Aircraft Carrier Princess"
+    },
+    "1783": {
+        "jp": "護衛棲水姫",
+        "en": "Escort Water Princess"
+    },
+    "1784": {
+        "jp": "護衛棲水姫",
+        "en": "Escort Water Princess"
+    },
+    "1785": {
+        "jp": "護衛棲水姫",
+        "en": "Escort Water Princess"
+    },
+    "1786": {
+        "jp": "護衛棲水姫-壊",
+        "en": "Escort Water Princess (Damaged)"
+    },
+    "1787": {
+        "jp": "護衛棲水姫-壊",
+        "en": "Escort Water Princess (Damaged)"
+    },
+    "1788": {
+        "jp": "護衛棲水姫-壊",
+        "en": "Escort Water Princess (Damaged)"
+    },
+    "1789": {
+        "jp": "潜水新棲姫",
+        "en": "New Submarine Princess"
+    },
+    "1790": {
+        "jp": "戦艦棲姫改",
+        "en": "Battleship Princess Kai"
+    },
+    "1791": {
+        "jp": "戦艦棲姫改",
+        "en": "Battleship Princess Kai"
+    },
+    "1792": {
+        "jp": "戦艦棲姫改",
+        "en": "Battleship Princess Kai"
+    },
+    "1793": {
+        "jp": "戦艦水鬼改",
+        "en": "Battleship Water Demon Kai"
+    },
+    "1794": {
+        "jp": "戦艦水鬼改",
+        "en": "Battleship Water Demon Kai"
+    },
+    "1795": {
+        "jp": "戦艦水鬼改",
+        "en": "Battleship Water Demon Kai"
+    },
+    "1796": {
+        "jp": "戦艦水鬼改-壊",
+        "en": "Battleship Water Demon Kai (Damaged)"
+    },
+    "1797": {
+        "jp": "戦艦水鬼改-壊",
+        "en": "Battleship Water Demon Kai (Damaged)"
+    },
+    "1798": {
+        "jp": "戦艦水鬼改-壊",
+        "en": "Battleship Water Demon Kai (Damaged)"
+    },
+    "1799": {
+        "jp": "深海鶴棲姫",
+        "en": "Abyssal Crane Princess"
+    },
+    "1800": {
+        "jp": "深海鶴棲姫",
+        "en": "Abyssal Crane Princess"
+    },
+    "1801": {
+        "jp": "深海鶴棲姫",
+        "en": "Abyssal Crane Princess"
+    },
+    "1802": {
+        "jp": "深海鶴棲姫-壊",
+        "en": "Abyssal Crane Princess (Damaged)"
+    },
+    "1803": {
+        "jp": "深海鶴棲姫-壊",
+        "en": "Abyssal Crane Princess (Damaged)"
+    },
+    "1804": {
+        "jp": "深海鶴棲姫-壊",
+        "en": "Abyssal Crane Princess (Damaged)"
+    },
+    "1805": {
+        "jp": "潜水新棲姫 バカンスmode",
+        "en": "New Submarine Princess Vacation Mode"
+    },
+    "1806": {
+        "jp": "潜水新棲姫 バカンスmode",
+        "en": "New Submarine Princess Vacation Mode"
+    },
+    "1807": {
+        "jp": "潜水新棲姫 バカンスmode",
+        "en": "New Submarine Princess Vacation Mode"
+    },
+    "1808": {
+        "jp": "潜水新棲姫 バカンスmode",
+        "en": "New Submarine Princess Vacation Mode"
+    },
+    "1809": {
+        "jp": "集積地棲姫 バカンスmode",
+        "en": "Supply Depot Princess Vacation Mode"
+    },
+    "1810": {
+        "jp": "集積地棲姫 バカンスmode",
+        "en": "Supply Depot Princess Vacation Mode"
+    },
+    "1811": {
+        "jp": "集積地棲姫 バカンスmode",
+        "en": "Supply Depot Princess Vacation Mode"
+    },
+    "1812": {
+        "jp": "集積地棲姫 バカンスmode-壊",
+        "en": "Supply Depot Princess Vacation Mode (Damaged)"
+    },
+    "1813": {
+        "jp": "集積地棲姫 バカンスmode-壊",
+        "en": "Supply Depot Princess Vacation Mode (Damaged)"
+    },
+    "1814": {
+        "jp": "集積地棲姫 バカンスmode-壊",
+        "en": "Supply Depot Princess Vacation Mode (Damaged)"
+    },
+    "1815": {
+        "jp": "泊地水鬼 バカンスmode",
+        "en": "Anchorage Water Demon Vacation Mode"
+    },
+    "1816": {
+        "jp": "泊地水鬼 バカンスmode",
+        "en": "Anchorage Water Demon Vacation Mode"
+    },
+    "1817": {
+        "jp": "泊地水鬼 バカンスmode",
+        "en": "Anchorage Water Demon Vacation Mode"
+    },
+    "1818": {
+        "jp": "泊地水鬼 バカンスmode",
+        "en": "Anchorage Water Demon Vacation Mode"
+    },
+    "1819": {
+        "jp": "泊地水鬼 バカンスmode",
+        "en": "Anchorage Water Demon Vacation Mode"
+    },
+    "1820": {
+        "jp": "泊地水鬼 バカンスmode",
+        "en": "Anchorage Water Demon Vacation Mode"
+    },
+    "1821": {
+        "jp": "護衛独還姫",
+        "en": "German Escort Princess"
+    },
+    "1822": {
+        "jp": "護衛独還姫",
+        "en": "German Escort Princess"
+    },
+    "1823": {
+        "jp": "護衛独還姫",
+        "en": "German Escort Princess"
+    },
+    "1824": {
+        "jp": "護衛独還姫-壊",
+        "en": "German Escort Princess (Damaged)"
+    },
+    "1825": {
+        "jp": "護衛独還姫-壊",
+        "en": "German Escort Princess (Damaged)"
+    },
+    "1826": {
+        "jp": "護衛独還姫-壊",
+        "en": "German Escort Princess (Damaged)"
+    },
+    "1827": {
+        "jp": "船渠棲姫",
+        "en": "Dock Princess"
+    },
+    "1828": {
+        "jp": "船渠棲姫",
+        "en": "Dock Princess"
+    },
+    "1829": {
+        "jp": "船渠棲姫",
+        "en": "Dock Princess"
+    },
+    "1830": {
+        "jp": "船渠棲姫-壊",
+        "en": "Dock Princess (Damaged)"
+    },
+    "1831": {
+        "jp": "船渠棲姫-壊",
+        "en": "Dock Princess (Damaged)"
+    },
+    "1832": {
+        "jp": "船渠棲姫-壊",
+        "en": "Dock Princess (Damaged)"
+    },
+    "1834": {
+        "jp": "戦艦仏棲姫 バカンスmode",
+        "en": "French Battleship Princess Vacation Mode"
+    },
+    "1835": {
+        "jp": "戦艦仏棲姫 バカンスmode",
+        "en": "French Battleship Princess Vacation Mode"
+    },
+    "1836": {
+        "jp": "戦艦仏棲姫 バカンスmode",
+        "en": "French Battleship Princess Vacation Mode"
+    },
+    "1837": {
+        "jp": "戦艦仏棲姫-壊 バカンスmode",
+        "en": "French Battleship Princess Vacation Mode (Damaged)"
+    },
+    "1838": {
+        "jp": "戦艦仏棲姫-壊 バカンスmode",
+        "en": "French Battleship Princess Vacation Mode (Damaged)"
+    },
+    "1839": {
+        "jp": "戦艦仏棲姫-壊 バカンスmode",
+        "en": "French Battleship Princess Vacation Mode (Damaged)"
+    },
+    "1840": {
+        "jp": "欧州水姫",
+        "en": "European Water Princess"
+    },
+    "1841": {
+        "jp": "欧州水姫",
+        "en": "European Water Princess"
+    },
+    "1842": {
+        "jp": "欧州水姫",
+        "en": "European Water Princess"
+    },
+    "1843": {
+        "jp": "欧州水姫-壊",
+        "en": "European Water Princess (Damaged)"
+    },
+    "1844": {
+        "jp": "欧州水姫-壊",
+        "en": "European Water Princess (Damaged)"
+    },
+    "1845": {
+        "jp": "欧州水姫-壊",
+        "en": "European Water Princess (Damaged)"
+    },
+    "1846": {
+        "jp": "深海雨雲姫",
+        "en": "Abyssal Nimbus Princess"
+    },
+    "1847": {
+        "jp": "深海雨雲姫",
+        "en": "Abyssal Nimbus Princess"
+    },
+    "1848": {
+        "jp": "深海雨雲姫",
+        "en": "Abyssal Nimbus Princess"
+    },
+    "1849": {
+        "jp": "深海雨雲姫-壊",
+        "en": "Abyssal Nimbus Princess (Damaged)"
+    },
+    "1850": {
+        "jp": "深海雨雲姫-壊",
+        "en": "Abyssal Nimbus Princess (Damaged)"
+    },
+    "1851": {
+        "jp": "深海雨雲姫-壊",
+        "en": "Abyssal Nimbus Princess (Damaged)"
+    },
+    "1852": {
+        "jp": "深海日棲姫",
+        "en": "Abyssal Sun Princess"
+    },
+    "1853": {
+        "jp": "深海日棲姫",
+        "en": "Abyssal Sun Princess"
+    },
+    "1854": {
+        "jp": "深海日棲姫",
+        "en": "Abyssal Sun Princess"
+    },
+    "1855": {
+        "jp": "深海日棲姫-壊",
+        "en": "Abyssal Sun Princess (Damaged)"
+    },
+    "1856": {
+        "jp": "深海日棲姫-壊",
+        "en": "Abyssal Sun Princess (Damaged)"
+    },
+    "1857": {
+        "jp": "深海日棲姫-壊",
+        "en": "Abyssal Sun Princess (Damaged)"
+    },
+    "1858": {
+        "jp": "駆逐ニ級改",
+        "en": "Ni-Class Destroyer Kai"
+    },
+    "1859": {
+        "jp": "駆逐ニ級改後期型",
+        "en": "Ni-Class Destroyer Kai Late Model"
+    },
+    "1860": {
+        "jp": "駆逐ニ級改後期型",
+        "en": "Ni-Class Destroyer Kai Late Model"
+    },
+    "1861": {
+        "jp": "駆逐ニ級改後期型",
+        "en": "Ni-Class Destroyer Kai Late Model"
     }
 }
