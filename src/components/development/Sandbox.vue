@@ -195,6 +195,12 @@
                                         T91+T3 Shells
                                     </span>
                                 </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-body">
+                            <div class="field has-addons">
                                 <span class="control">
                                     <span :class="selectedFlavour == 'saiun' ? 'button is-info' : 'button'" @click="toggleFlavour('saiun')">
                                         General Planes+Saiun
