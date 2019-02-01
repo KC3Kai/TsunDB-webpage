@@ -197,7 +197,7 @@
                                 </span>
                                 <span class="control">
                                     <span :class="selectedFlavour == 'saiun' ? 'button is-info' : 'button'" @click="toggleFlavour('saiun')">
-                                        Planes+Saiun
+                                        General Planes+Saiun
                                     </span>
                                 </span>
                                 <span class="control">
