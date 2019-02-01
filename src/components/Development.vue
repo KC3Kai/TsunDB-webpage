@@ -47,8 +47,8 @@
             Special equipment like Ro.43 or the Type 96 Land-Base Attack Aircraft are normally not included in the pool and requires fulfilling some specific requirements in order to include them.<br />
             The following equipment are known cases:
             <ul>
-                <li><strong>Ro.43</strong> - Requires an Italian ship secretary.</li>
-                <li><strong>Type 96 Land-Based Aircraft</strong> - At least 240+ fuel, 260+ ammo and 250+ bauxite.</li>
+                <li><strong>Ro.43</strong> - Requires an Italian ship secretary and Bauxite Primary.</li>
+                <li><strong>Type 96 Land-Based Aircraft</strong> - At least 240+ fuel, 260+ ammo and 250+ bauxite. Ammo or Bauxite Primary in category 3.</li>
             </ul>
             <strong>Warning:</strong><br /> As a pool can never exceed 50 items, including these special equipment into the pool will effectively overwrite some existing items instead. This is usually negligible, but keep in mind that some equipment can possibly stop appearing as a result due to this.
         </p>
