@@ -1,0 +1,75 @@
+<template>
+    <nav class="navbar is-transparent" role="navigiation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <router-link class="navbar-item" to="/">
+                <img src="./../../../assets/icons/navicon.png" alt="TsunDB">
+            </router-link>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+                <router-link class="navbar-item" :to="{ path: '/routing' }">
+                    Routing
+                </router-link>
+                <router-link class="navbar-item" :to="{ path: '/drop' }">
+                    Drop
+                </router-link>
+                <router-link class="navbar-item" :to="{ path: '/construction' }">
+                    Construction
+                </router-link>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <router-link class="navbar-item" :to="{ path: '/development' }">
+                        Development
+                    </router-link>
+                    <div class="navbar-dropdown" is-boxed>
+                        <router-link class="navbar-item" :to="{ path: '/development' }">
+                            How it works
+                        </router-link>
+                        <router-link class="navbar-item" :to="{ path: '/development/pools' }">
+                            Development Pools
+                        </router-link>
+                        <router-link class="navbar-item" :to="{ path: '/development/sandbox' }">
+                            Development Sandbox
+                        </router-link>
+                    </div>
+                </div>
+                <router-link class="navbar-item" :to="{ path: '/dusk' }">
+                    The Setting Tsun
+                </router-link>
+                <router-link class="navbar-item" :to="{ path: '/dawn' }">
+                    The Rising Tsun
+                </router-link>
+            </div>
+        </div>
+    </nav>
+</template>
+
+<script>
+export default {
+    data: function() {
+        return {
+            
+        };
+    },
+    methods: {
+        
+    }
+}
+</script>
+
+<style scope>
+    .navbar{
+        background-color: #222222;
+    }
+    .navbar-item{
+        color:#999999;
+    }
+    .navbar-item:hover{
+        color:#F0F0F0;
+        background-color:#222222;
+    }
+</style>

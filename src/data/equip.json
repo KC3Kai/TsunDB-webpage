@@ -5251,7 +5251,14 @@
     "penguin": {
         "en": "Penguin",
         "jp": "失敗ペンギン",
+        "type": "penguin",
         "icon": "penguin",
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
         "rare": 0
     }
 }
