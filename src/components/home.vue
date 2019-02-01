@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-    <p class="title">
+    <p class="title is-spaced">
         Tsundere Database
     </p>
     <p class="subtitle">
@@ -10,7 +10,7 @@
     <p class="subtitle">
         The current TsunDB version is <strong>Kasumi</strong>.
     </p>
-    <p class="title">
+    <p class="title is-spaced">
         How do I submit data to the Tsundere Database (TsunDB)?
     </p>
     <p class="subtitle">
