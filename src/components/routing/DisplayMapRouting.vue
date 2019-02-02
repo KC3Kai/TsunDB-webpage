@@ -84,9 +84,9 @@
                             <label class="label is-pulled-left">Cleared? </label>
                         </div>
                         <div class="field-body">
-                            <a v-if="cleared==true" class="button is-info" @click="toggleCleared(false)">True</a>
-                            <a v-else-if="cleared==false" class="button is-dark" @click="toggleCleared(undefined)">False</a>
-                            <a v-else class="button" @click="toggleCleared(true)">Show All</a>
+                            <a v-if="cleared==1" class="button is-info" @click="toggleCleared(0)">True</a>
+                            <a v-else-if="cleared==0" class="button is-dark" @click="toggleCleared(undefined)">False</a>
+                            <a v-else class="button" @click="toggleCleared(1)">Show All</a>
                         </div>
                     </div>
                     <div class="field is-horizontal">
