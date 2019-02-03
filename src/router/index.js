@@ -32,6 +32,9 @@ Vue.use(Router)
 
 export default new Router({
   mode: 'history',
+  history: true,
+  hashbang: false,
+  linkActiveClass: "active",
   routes: [
     {
       path: '/',
@@ -78,6 +81,10 @@ export default new Router({
       path: '/dawn',
       name: 'Dawn',
       component: Dawn
+    },
+    { 
+      path: '*',
+      redirect: '/'
     }
   ]
 })
