@@ -138,6 +138,7 @@ export default {
             return `${Number(value)*2}%`;
         },
         getData(){
+            if(this.selectedType == undefined) return;
             let data = this.devTableData[`group${this.selectedType}`][this.selectedPool];
             let pool = {};
             for(let id in data){
