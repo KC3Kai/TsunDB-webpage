@@ -363,7 +363,7 @@ export default {
                 params: container,
                 paramsSerializer: function(params){
                     return qs.stringify(params, {
-                        arrayFormat: 'brackets',
+                        arrayFormat: 'repeat',
                         encode: false
                     })
                 }
