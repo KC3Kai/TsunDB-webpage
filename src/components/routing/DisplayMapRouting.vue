@@ -304,7 +304,6 @@
 <script>
 import axios from 'axios';
 import qs from 'qs';
-import { isNullOrUndefined } from 'util';
 
 export default {
     props: ['map'],

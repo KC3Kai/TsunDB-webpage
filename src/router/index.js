@@ -10,6 +10,7 @@ import Construction from '@/components/Construction'
 import Development from '@/components/Development'
 import Dusk from '@/components/Dusk'
 import Dawn from '@/components/Dawn'
+import ToDo from '@/components/ToDo'
 
 //Common Components
 import NavBar from '@/components/common/NavBar'
@@ -20,6 +21,10 @@ Vue.component('mapselection', MapSelection);
 //Routing
 import DisplayMapRouting from '@/components/routing/DisplayMapRouting'
 Vue.component('displaymaprouting', DisplayMapRouting);
+
+//Drop
+import DisplayMapDrop from '@/components/drop/DisplayMapDrop'
+Vue.component('displaymapdrop', DisplayMapDrop);
 
 //Development
 import Pools from '@/components/development/Pools'
@@ -50,7 +55,8 @@ export default new Router({
     {
       path: '/drop',
       name: 'Drop',
-      component: Drop
+      component: Drop,
+      props: (route) => ({ map: route.query.map })
     },
     {
       path: '/construction',
@@ -81,6 +87,11 @@ export default new Router({
       path: '/dawn',
       name: 'Dawn',
       component: Dawn
+    },
+    {
+      path: '/todo',
+      name: 'To-Do',
+      component: ToDo
     },
     { 
       path: '*',

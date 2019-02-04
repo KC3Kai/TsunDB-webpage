@@ -4,13 +4,14 @@
             <router-link class="navbar-item" to="/">
                 <img src="./../../../assets/icons/navicon.png" alt="TsunDB">
             </router-link>
-            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" v-on:click="showNav = !showNav" :class="{'is-active' : showNav}">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
         </div>
-        <div id="navMenu" class="navbar-menu">
+
+        <div id="navMenu" class="navbar-menu" :class="{'is-active' : showNav}">
             <div class="navbar-start">
                 <router-link class="navbar-item" :to="{ path: '/routing' }">
                     Routing
@@ -45,6 +46,11 @@
                 </router-link>
             </div>
         </div>
+        <div class="navbar-end">
+            <router-link class="navbar-item" :to="{ path: '/todo' }">
+                To-Do List
+            </router-link>
+        </div>
     </nav>
 </template>
 
@@ -52,7 +58,7 @@
 export default {
     data: function() {
         return {
-            
+            showNav: false
         };
     },
     methods: {
@@ -71,5 +77,12 @@ export default {
     .navbar-item:hover{
         color:#F0F0F0;
         background-color:#222222;
+    }
+    #nav-toggle-state {
+    display: none;
+    }
+
+    #nav-toggle-state:checked ~ .nav-menu {
+    display: block;
     }
 </style>
