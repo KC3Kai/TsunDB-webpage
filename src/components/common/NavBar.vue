@@ -41,9 +41,16 @@
                 <router-link class="navbar-item" :to="{ path: '/dusk' }">
                     The Setting Tsun
                 </router-link>
-                <router-link class="navbar-item" :to="{ path: '/dawn' }">
-                    The Rising Tsun
-                </router-link>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <router-link class="navbar-item" :to="{ path: '/dawn' }">
+                        The Rising Tsun
+                    </router-link>
+                    <div class="navbar-dropdown" is-boxed>
+                        <router-link class="navbar-item" :to="{ path: '/dawn/id_tl' }">
+                            Ship/Equip ID Translation
+                        </router-link>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="navbar-end">

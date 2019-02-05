@@ -30,7 +30,8 @@ Vue.component('displaymapdrop', DisplayMapDrop);
 import Pools from '@/components/development/Pools'
 import DevSandbox from '@/components/development/Sandbox'
 
-
+//Dawn
+import ShipEquipID from '@/components/dawn/ShipEquipID'
 
 
 Vue.use(Router)
@@ -87,6 +88,11 @@ export default new Router({
       path: '/dawn',
       name: 'Dawn',
       component: Dawn
+    },
+    {
+      path: '/dawn/id_tl',
+      name: 'API ID Translation',
+      component: ShipEquipID
     },
     {
       path: '/todo',
