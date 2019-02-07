@@ -348,9 +348,9 @@ export default {
         async getData(map){
             let container = {
                 offset: this.offset*this.limit,
-                limit: this.limit,
-                next_route: this.nextRoute
+                limit: this.limit
             };
+            if(this.edge_id == undefined) container.next_route = this.nextRoute;
             if(this.difficulty != undefined && this.difficulty != "undefined") container.difficulty = this.difficulty;
             if(this.fleettype != undefined && this.fleettype != "undefined") container.fleettype = this.fleettype;
             if(this.phase != undefined && this.phase != "undefined") container.gaugenum = this.gaugenum;
