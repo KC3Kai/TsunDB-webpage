@@ -127,10 +127,10 @@
                                 <span class="control">
                                     <span class="select">
                                         <select @change="toggleLosType">
-                                            <option value="0">Cn1</option>
-                                            <option value="1">Cn2</option>
-                                            <option value="2">Cn3</option>
-                                            <option value="3">Cn4</option>
+                                            <option value="1">Cn1</option>
+                                            <option value="2">Cn2</option>
+                                            <option value="3">Cn3</option>
+                                            <option value="4">Cn4</option>
                                         </select>
                                     </span>
                                 </span>
@@ -328,7 +328,7 @@ export default {
             edge_id: undefined,
             fleettype: undefined,
             phase: undefined,
-            los: [0, undefined]
+            los: [1, undefined]
         }
     },
     created(){
