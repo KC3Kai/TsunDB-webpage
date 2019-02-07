@@ -11,9 +11,11 @@
                         </div>
                         <div class="field-body">
                             <div class="field">
-                                <span :class="selectedNode == node ? 'button is-info' : 'button'" @click="toggleNode(node)" v-for="node in nodesData[map]" :key="node">
-                                    &nbsp;{{node}}&nbsp;&nbsp;
-                                </span>
+                                <template v-for="node in nodesData[map]">
+                                    <span :class="selectedNode == node ? 'button is-info' : 'button'" v-if="isNaN(node)" @click="toggleNode(node)" :key="node">
+                                        &nbsp;{{node}}&nbsp;&nbsp;
+                                    </span>
+                                </template>
                             </div>
                         </div>
                     </div>
@@ -62,6 +64,21 @@
                             </div>
                         </div>
                     </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label">
+                            <label class="label is-pulled-left">Common</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <span v-if="hideCommon" class="button is-danger" @click="toggleHide(false)">
+                                    Hidden
+                                </span>
+                                <span v-else class="button is-success" @click="toggleHide(true)">
+                                    Shown
+                                </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -74,47 +91,45 @@
             </div>
         </div>
     </div>
+    <div class="content">
+        <p class="title">
+            Node {{selectedNode}}{{parseDifficulty(selectedDifficulty)}}
+        </p>
+    </div>
     <table class="table is-striped is-hoverable box">
         <thead>
             <tr>
                 <th>Ship</th>
                 <th>名前</th>
                 <th>Name</th>
-                <th>S-Count</th>
                 <th>S-%</th>
-                <th>A-Count</th>
                 <th>A-%</th>
-                <th>B-Count</th>
                 <th>B-%</th>
                 <th>Total-Count</th>
                 <th>Total-%</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+            <template v-for="(ship, id) in this.data">
+                <tr v-if="filterCommonShip(id, map)" :key="id">
+                    <td><img :src="getShipBanner(id)" :title="getShipName(id)" style="width:160px; height:40px;"></td>
+                    <td :style="checkCommonShip(id, map) ? 'color:black;' : 'color:red;'">{{getShipName(id, "jp")}}</td>
+                    <td :style="checkCommonShip(id, map) ? 'color:black;' : 'color:red;'">{{getShipName(id, "en")}}</td>
+                    <td><abbr :title="parseCount(ship.S)">{{calculateRate(ship.S, "S")}}</abbr></td>
+                    <td><abbr :title="parseCount(ship.A)">{{calculateRate(ship.A, "A")}}</abbr></td>
+                    <td><abbr :title="parseCount(ship.B)">{{calculateRate(ship.B, "B")}}</abbr></td>
+                    <td>{{parseTotalCount(ship)}}</td>
+                    <td>{{calculateTotalRate(ship)}}</td>
+                </tr>
+            </template>
         </tbody>
         <tfoot>
             <tr>
                 <th>Ship</th>
                 <th>名前</th>
                 <th>Name</th>
-                <th>S-Count</th>
                 <th>S-%</th>
-                <th>A-Count</th>
                 <th>A-%</th>
-                <th>B-Count</th>
                 <th>B-%</th>
                 <th>Total-Count</th>
                 <th>Total-%</th>
@@ -132,6 +147,7 @@ export default {
     props: ['map'],
     data: function(){
         return{
+            commonShipData: require('./../../data/commonShip.json'),
             edgesData: require('./../../data/edges.json'),
             eventMapsData: require('./../../data/eventMaps.json'),
             mapNamesData: require('./../../data/mapNames.json'),
@@ -139,18 +155,57 @@ export default {
             shipData: require('./../../data/ship.json'),
             shipTypeData: require('./../../data/shiptype.json'),
             data: undefined,
-            selectedDifficulty: 0,
-            selectedNode: undefined,
-            selectedRanks: "SAB"
+            rankCount: {
+                "S": 0,
+                "A": 0,
+                "B": 0
+            },
+            selectedDifficulty: 4,
+            selectedNode: "A",
+            selectedRanks: "SAB",
+            hideCommon: false,
         }
     },
+    mounted: function() {
+        this.$nextTick(function () {
+            this.getData(this.$route.query.map);
+        })
+    },
     methods:{
+        calculateRate(value, rank){
+            if(value == 0 || value == undefined) return "0.00%";
+            return `${this.floorTwoDecimal(Number(value/this.rankCount[rank])*100)}%`;
+        },
+        calculateTotalRate(ship){
+            let totalCount = this.parseTotalCount(ship);
+            let total = this.rankCount["S"]+this.rankCount["A"]+this.rankCount["B"];
+            return `${this.floorTwoDecimal(Number(totalCount/total)*100)}%`;
+        },
         checkIsEventMap(map){
             if(this.eventMapsData.hasOwnProperty(String(map.slice(0,2)))){
-                this.selectedDifficulty = 4;
                 return true;
             }
-            return false;
+            else{
+                this.selectedDifficulty = 0;
+                return false;
+            }
+        },
+        checkCommonShip(id, map){
+            if(this.checkIsEventMap(map)){
+                return this.commonShipData.event.includes(Number(id));
+            }
+            else{
+                return this.commonShipData.normal.includes(Number(id));
+            }
+        },
+        filterCommonShip(id, map){
+            if(this.hideCommon){
+                if(this.checkCommonShip(id, map)) return false;
+            }
+            return true;
+        },
+        floorTwoDecimal(value){
+            return Math.floor(Number(value) * 100) / 100;
         },
         async getData(map){
             let container = {
@@ -171,6 +226,16 @@ export default {
             .then(response => response.data)
             .then(data => this.data = data)
             .catch(err => console.error(err));
+            this.rankCount = {
+                "S": 0,
+                "A": 0,
+                "B": 0
+            };
+            for(let x in this.data){
+                this.rankCount["S"] += this.data[x].S;
+                this.rankCount["A"] += this.data[x].A;
+                this.rankCount["B"] += this.data[x].B;
+            }
             console.log(this.data);
             return await this.data;
         },
@@ -179,6 +244,25 @@ export default {
         },
         getMapFile(map){
             return require(`./../../../assets/maps/${map}.png`);
+        },
+        getShipBanner(id){
+            return require(`./../../../assets/shipcards/${id}.png`);
+        },
+        getShipName(id, lang = "en"){
+            if(this.shipData.hasOwnProperty(id)) return this.shipData[id][lang];
+        },
+        parseCount(value){
+            return (value != undefined) ? value : 0;
+        },
+        parseDifficulty(value){
+            let returnStr = "";
+            switch(value){
+                case 1: returnStr = "丁"; break;
+                case 2: returnStr = "丙"; break;
+                case 3: returnStr = "乙"; break;
+                case 4: returnStr = "甲"; break;
+            }
+            return returnStr;
         },
         parseNode(map){
             let arr = [];
@@ -198,9 +282,19 @@ export default {
             }
             return value;
         },
+        parseTotalCount(ship){
+            let returnValue = 0;
+            for(let x in ship){
+                returnValue += ship[x];
+            }
+            return returnValue;
+        },
         toggleDifficulty(value){
-            this.selectedDifficulty = value;
+            this.selectedDifficulty = Number(value);
             this.getData(this.$route.query.map);
+        },
+        toggleHide(value){
+            this.hideCommon = value;
         },
         toggleNode(value){
             this.selectedNode = value;

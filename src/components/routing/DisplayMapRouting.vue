@@ -450,7 +450,12 @@ export default {
             return node;
         },
         getShipBanner(id){
-            return require(`./../../../assets/shipcards/${id}.png`);
+            try{
+                return require(`./../../../assets/shipcards/${id}.png`);
+            }
+            catch(err){
+                return require(`./../../../assets/shipcards/-1.png`);
+            }
         },
         getShipName(id){
             if(this.shipData.hasOwnProperty(id)) return `${this.shipData[id].jp} (${this.shipData[id].en})`;

@@ -4,7 +4,8 @@
         Ship Drop
     </p>
     <p class="subtitle">
-        Beware that the accuracy of the drop rate may vary.
+        Beware that the accuracy of the drop rate may vary.<br />
+        All rare ships are marked with a red color, keep in mind that the rarity changes depending on whether its an event map or not.
     </p>
     <div class="container">
         <mapselection :path="'drop'"/>

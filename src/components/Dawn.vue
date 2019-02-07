@@ -4,7 +4,7 @@
         The Rising Tsun
     </p>
     <p class="subtitle">
-        Under Construction
+        Welcome to my hidden cottage, enjoy your stay!
     </p>
 </div>
 </template>

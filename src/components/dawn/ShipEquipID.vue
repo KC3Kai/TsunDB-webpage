@@ -90,12 +90,11 @@ export default {
                     count++;
                     if(count > limit) return this.output = this.input;
                     try{
-                        let reg = new RegExp(`${match[0]}`, "g");
                         if(this.type == "ship"){
-                            stringValue = stringValue.replace(reg, this.shipData[match[0]][this.language]);
+                            stringValue = stringValue.replace(match[0], this.shipData[match[0]][this.language]);
                         }
                         else{
-                            stringValue = stringValue.replace(reg, this.equipData[match[0]][this.language]);
+                            stringValue = stringValue.replace(match[0], this.equipData[match[0]][this.language]);
                         }
                     }
                     catch(err){
@@ -124,7 +123,7 @@ export default {
                         for(let x of stringArray){
                             for(let y in this.equipData){
                                 if(this.equipData[y].en == x || this.equipData[y].jp == x){
-                                    stringValue = stringValue.replace(reg, y);
+                                    stringValue = stringValue.replace(x, y);
                                     break;
                                 }
                             }
