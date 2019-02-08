@@ -1,2215 +1,2773 @@
 {
     "1": {
         "jp": "睦月",
-        "en": "Mutsuki"
+        "en": "Mutsuki",
+        "rarity": 3
     },
     "2": {
         "jp": "如月",
-        "en": "Kisaragi"
+        "en": "Kisaragi",
+        "rarity": 2
     },
     "6": {
         "jp": "長月",
-        "en": "Nagatsuki"
+        "en": "Nagatsuki",
+        "rarity": 2
     },
     "7": {
         "jp": "三日月",
-        "en": "Mikazuki"
+        "en": "Mikazuki",
+        "rarity": 1
     },
     "9": {
         "jp": "吹雪",
-        "en": "Fubuki"
+        "en": "Fubuki",
+        "rarity": 3
     },
     "10": {
         "jp": "白雪",
-        "en": "Shirayuki"
+        "en": "Shirayuki",
+        "rarity": 2
     },
     "11": {
         "jp": "深雪",
-        "en": "Miyuki"
+        "en": "Miyuki",
+        "rarity": 2
     },
     "12": {
         "jp": "磯波",
-        "en": "Isonami"
+        "en": "Isonami",
+        "rarity": 1
     },
     "13": {
         "jp": "綾波",
-        "en": "Ayanami"
+        "en": "Ayanami",
+        "rarity": 3
     },
     "14": {
         "jp": "敷波",
-        "en": "Shikinami"
+        "en": "Shikinami",
+        "rarity": 2
     },
     "15": {
         "jp": "曙",
-        "en": "Akebono"
+        "en": "Akebono",
+        "rarity": 1
     },
     "16": {
         "jp": "潮",
-        "en": "Ushio"
+        "en": "Ushio",
+        "rarity": 1
     },
     "17": {
         "jp": "陽炎",
-        "en": "Kagerou"
+        "en": "Kagerou",
+        "rarity": 3
     },
     "18": {
         "jp": "不知火",
-        "en": "Shiranui"
+        "en": "Shiranui",
+        "rarity": 2
     },
     "19": {
         "jp": "黒潮",
-        "en": "Kuroshio"
+        "en": "Kuroshio",
+        "rarity": 1
     },
     "20": {
         "jp": "雪風",
-        "en": "Yukikaze"
+        "en": "Yukikaze",
+        "rarity": 6
     },
     "21": {
         "jp": "長良",
-        "en": "Nagara"
+        "en": "Nagara",
+        "rarity": 4
     },
     "22": {
         "jp": "五十鈴",
-        "en": "Isuzu"
+        "en": "Isuzu",
+        "rarity": 2
     },
     "23": {
         "jp": "由良",
-        "en": "Yura"
+        "en": "Yura",
+        "rarity": 1
     },
     "24": {
         "jp": "大井",
-        "en": "Ooi"
+        "en": "Ooi",
+        "rarity": 5
     },
     "25": {
         "jp": "北上",
-        "en": "Kitakami"
+        "en": "Kitakami",
+        "rarity": 4
     },
     "26": {
         "jp": "扶桑",
-        "en": "Fusou"
+        "en": "Fusou",
+        "rarity": 4
     },
     "27": {
         "jp": "山城",
-        "en": "Yamashiro"
+        "en": "Yamashiro",
+        "rarity": 4
     },
     "28": {
         "jp": "皐月",
-        "en": "Satsuki"
+        "en": "Satsuki",
+        "rarity": 2
     },
     "29": {
         "jp": "文月",
-        "en": "Fumizuki"
+        "en": "Fumizuki",
+        "rarity": 2
     },
     "30": {
         "jp": "菊月",
-        "en": "Kikuzuki"
+        "en": "Kikuzuki",
+        "rarity": 1
     },
     "31": {
         "jp": "望月",
-        "en": "Mochizuki"
+        "en": "Mochizuki",
+        "rarity": 1
     },
     "32": {
         "jp": "初雪",
-        "en": "Hatsuyuki"
+        "en": "Hatsuyuki",
+        "rarity": 1
     },
     "33": {
         "jp": "叢雲",
-        "en": "Murakumo"
+        "en": "Murakumo",
+        "rarity": 2
     },
     "34": {
         "jp": "暁",
-        "en": "Akatsuki"
+        "en": "Akatsuki",
+        "rarity": 3
     },
     "35": {
         "jp": "響",
-        "en": "Hibiki"
+        "en": "Hibiki",
+        "rarity": 2
     },
     "36": {
         "jp": "雷",
-        "en": "Ikazuchi"
+        "en": "Ikazuchi",
+        "rarity": 1
     },
     "37": {
         "jp": "電",
-        "en": "Inazuma"
+        "en": "Inazuma",
+        "rarity": 1
     },
     "38": {
         "jp": "初春",
-        "en": "Hatsuharu"
+        "en": "Hatsuharu",
+        "rarity": 3
     },
     "39": {
         "jp": "子日",
-        "en": "Nenohi"
+        "en": "Nenohi",
+        "rarity": 1
     },
     "40": {
         "jp": "若葉",
-        "en": "Wakaba"
+        "en": "Wakaba",
+        "rarity": 2
     },
     "41": {
         "jp": "初霜",
-        "en": "Hatsushimo"
+        "en": "Hatsushimo",
+        "rarity": 2
     },
     "42": {
         "jp": "白露",
-        "en": "Shiratsuyu"
+        "en": "Shiratsuyu",
+        "rarity": 3
     },
     "43": {
         "jp": "時雨",
-        "en": "Shigure"
+        "en": "Shigure",
+        "rarity": 2
     },
     "44": {
         "jp": "村雨",
-        "en": "Murasame"
+        "en": "Murasame",
+        "rarity": 2
     },
     "45": {
         "jp": "夕立",
-        "en": "Yuudachi"
+        "en": "Yuudachi",
+        "rarity": 2
     },
     "46": {
         "jp": "五月雨",
-        "en": "Samidare"
+        "en": "Samidare",
+        "rarity": 2
     },
     "47": {
         "jp": "涼風",
-        "en": "Suzukaze"
+        "en": "Suzukaze",
+        "rarity": 3
     },
     "48": {
         "jp": "霰",
-        "en": "Arare"
+        "en": "Arare",
+        "rarity": 1
     },
     "49": {
         "jp": "霞",
-        "en": "Kasumi"
+        "en": "Kasumi",
+        "rarity": 2
     },
     "50": {
         "jp": "島風",
-        "en": "Shimakaze"
+        "en": "Shimakaze",
+        "rarity": 6
     },
     "51": {
         "jp": "天龍",
-        "en": "Tenryuu"
+        "en": "Tenryuu",
+        "rarity": 3
     },
     "52": {
         "jp": "龍田",
-        "en": "Tatsuta"
+        "en": "Tatsuta",
+        "rarity": 3
     },
     "53": {
         "jp": "名取",
-        "en": "Natori"
+        "en": "Natori",
+        "rarity": 2
     },
     "54": {
         "jp": "川内",
-        "en": "Sendai"
+        "en": "Sendai",
+        "rarity": 4
     },
     "55": {
         "jp": "神通",
-        "en": "Jintsuu"
+        "en": "Jintsuu",
+        "rarity": 1
     },
     "56": {
         "jp": "那珂",
-        "en": "Naka"
+        "en": "Naka",
+        "rarity": 2
     },
     "57": {
         "jp": "大井改",
-        "en": "Ooi Kai"
+        "en": "Ooi Kai",
+        "rarity": 6
     },
     "58": {
         "jp": "北上改",
-        "en": "Kitakami Kai"
+        "en": "Kitakami Kai",
+        "rarity": 6
     },
     "59": {
         "jp": "古鷹",
-        "en": "Furutaka"
+        "en": "Furutaka",
+        "rarity": 3
     },
     "60": {
         "jp": "加古",
-        "en": "Kako"
+        "en": "Kako",
+        "rarity": 1
     },
     "61": {
         "jp": "青葉",
-        "en": "Aoba"
+        "en": "Aoba",
+        "rarity": 3
     },
     "62": {
         "jp": "妙高",
-        "en": "Myoukou"
+        "en": "Myoukou",
+        "rarity": 4
     },
     "63": {
         "jp": "那智",
-        "en": "Nachi"
+        "en": "Nachi",
+        "rarity": 1
     },
     "64": {
         "jp": "足柄",
-        "en": "Ashigara"
+        "en": "Ashigara",
+        "rarity": 2
     },
     "65": {
         "jp": "羽黒",
-        "en": "Haguro"
+        "en": "Haguro",
+        "rarity": 1
     },
     "66": {
         "jp": "高雄",
-        "en": "Takao"
+        "en": "Takao",
+        "rarity": 4
     },
     "67": {
         "jp": "愛宕",
-        "en": "Atago"
+        "en": "Atago",
+        "rarity": 4
     },
     "68": {
         "jp": "摩耶",
-        "en": "Maya"
+        "en": "Maya",
+        "rarity": 1
     },
     "69": {
         "jp": "鳥海",
-        "en": "Choukai"
+        "en": "Choukai",
+        "rarity": 1
     },
     "70": {
         "jp": "最上",
-        "en": "Mogami"
+        "en": "Mogami",
+        "rarity": 4
     },
     "71": {
         "jp": "利根",
-        "en": "Tone"
+        "en": "Tone",
+        "rarity": 4
     },
     "72": {
         "jp": "筑摩",
-        "en": "Chikuma"
+        "en": "Chikuma",
+        "rarity": 4
     },
     "73": {
         "jp": "最上改",
-        "en": "Mogami Kai"
+        "en": "Mogami Kai",
+        "rarity": 6
     },
     "74": {
         "jp": "祥鳳",
-        "en": "Shouhou"
+        "en": "Shouhou",
+        "rarity": 4
     },
     "75": {
         "jp": "飛鷹",
-        "en": "Hiyou"
+        "en": "Hiyou",
+        "rarity": 4
     },
     "76": {
         "jp": "龍驤",
-        "en": "Ryuujou"
+        "en": "Ryuujou",
+        "rarity": 4
     },
     "77": {
         "jp": "伊勢",
-        "en": "Ise"
+        "en": "Ise",
+        "rarity": 5
     },
     "78": {
         "jp": "金剛",
-        "en": "Kongou"
+        "en": "Kongou",
+        "rarity": 5
     },
     "79": {
         "jp": "榛名",
-        "en": "Haruna"
+        "en": "Haruna",
+        "rarity": 5
     },
     "80": {
         "jp": "長門",
-        "en": "Nagato"
+        "en": "Nagato",
+        "rarity": 7
     },
     "81": {
         "jp": "陸奥",
-        "en": "Mutsu"
+        "en": "Mutsu",
+        "rarity": 7
     },
     "82": {
         "jp": "伊勢改",
-        "en": "Ise Kai"
+        "en": "Ise Kai",
+        "rarity": 6
     },
     "83": {
         "jp": "赤城",
-        "en": "Akagi"
+        "en": "Akagi",
+        "rarity": 6
     },
     "84": {
         "jp": "加賀",
-        "en": "Kaga"
+        "en": "Kaga",
+        "rarity": 5
     },
     "85": {
         "jp": "霧島",
-        "en": "Kirishima"
+        "en": "Kirishima",
+        "rarity": 5
     },
     "86": {
         "jp": "比叡",
-        "en": "Hiei"
+        "en": "Hiei",
+        "rarity": 5
     },
     "87": {
         "jp": "日向",
-        "en": "Hyuuga"
+        "en": "Hyuuga",
+        "rarity": 5
     },
     "88": {
         "jp": "日向改",
-        "en": "Hyuuga Kai"
+        "en": "Hyuuga Kai",
+        "rarity": 6
     },
     "89": {
         "jp": "鳳翔",
-        "en": "Houshou"
+        "en": "Houshou",
+        "rarity": 3
     },
     "90": {
         "jp": "蒼龍",
-        "en": "Souryuu"
+        "en": "Souryuu",
+        "rarity": 5
     },
     "91": {
         "jp": "飛龍",
-        "en": "Hiryuu"
+        "en": "Hiryuu",
+        "rarity": 6
     },
     "92": {
         "jp": "隼鷹",
-        "en": "Junyou"
+        "en": "Junyou",
+        "rarity": 4
     },
     "93": {
         "jp": "朧",
-        "en": "Oboro"
+        "en": "Oboro",
+        "rarity": 1
     },
     "94": {
         "jp": "漣",
-        "en": "Sazanami"
+        "en": "Sazanami",
+        "rarity": 2
     },
     "95": {
         "jp": "朝潮",
-        "en": "Asashio"
+        "en": "Asashio",
+        "rarity": 3
     },
     "96": {
         "jp": "大潮",
-        "en": "Ooshio"
+        "en": "Ooshio",
+        "rarity": 1
     },
     "97": {
         "jp": "満潮",
-        "en": "Michishio"
+        "en": "Michishio",
+        "rarity": 1
     },
     "98": {
         "jp": "荒潮",
-        "en": "Arashio"
+        "en": "Arashio",
+        "rarity": 1
     },
     "99": {
         "jp": "球磨",
-        "en": "Kuma"
+        "en": "Kuma",
+        "rarity": 4
     },
     "100": {
         "jp": "多摩",
-        "en": "Tama"
+        "en": "Tama",
+        "rarity": 2
     },
     "101": {
         "jp": "木曾",
-        "en": "Kiso"
+        "en": "Kiso",
+        "rarity": 1
     },
     "102": {
         "jp": "千歳",
-        "en": "Chitose"
+        "en": "Chitose",
+        "rarity": 2
     },
     "103": {
         "jp": "千代田",
-        "en": "Chiyoda"
+        "en": "Chiyoda",
+        "rarity": 1
     },
     "104": {
         "jp": "千歳改",
-        "en": "Chitose Kai"
+        "en": "Chitose Kai",
+        "rarity": 3
     },
     "105": {
         "jp": "千代田改",
-        "en": "Chiyoda Kai"
+        "en": "Chiyoda Kai",
+        "rarity": 3
     },
     "106": {
         "jp": "千歳甲",
-        "en": "Chitose Kou"
+        "en": "Chitose Kou",
+        "rarity": 3
     },
     "107": {
         "jp": "千代田甲",
-        "en": "Chiyoda Kou"
+        "en": "Chiyoda Kou",
+        "rarity": 3
     },
     "108": {
         "jp": "千歳航",
-        "en": "Chitose Carrier"
+        "en": "Chitose Carrier",
+        "rarity": 4
     },
     "109": {
         "jp": "千代田航",
-        "en": "Chiyoda Carrier"
+        "en": "Chiyoda Carrier",
+        "rarity": 4
     },
     "110": {
         "jp": "翔鶴",
-        "en": "Shoukaku"
+        "en": "Shoukaku",
+        "rarity": 5
     },
     "111": {
         "jp": "瑞鶴",
-        "en": "Zuikaku"
+        "en": "Zuikaku",
+        "rarity": 6
     },
     "112": {
         "jp": "瑞鶴改",
-        "en": "Zuikaku Kai"
+        "en": "Zuikaku Kai",
+        "rarity": 7
     },
     "113": {
         "jp": "鬼怒",
-        "en": "Kinu"
+        "en": "Kinu",
+        "rarity": 4
     },
     "114": {
         "jp": "阿武隈",
-        "en": "Abukuma"
+        "en": "Abukuma",
+        "rarity": 5
     },
     "115": {
         "jp": "夕張",
-        "en": "Yuubari"
+        "en": "Yuubari",
+        "rarity": 5
     },
     "116": {
         "jp": "瑞鳳",
-        "en": "Zuihou"
+        "en": "Zuihou",
+        "rarity": 5
     },
     "117": {
         "jp": "瑞鳳改",
-        "en": "Zuihou Kai"
+        "en": "Zuihou Kai",
+        "rarity": 6
     },
     "118": {
         "jp": "大井改二",
-        "en": "Ooi Kai Ni"
+        "en": "Ooi Kai Ni",
+        "rarity": 7
     },
     "119": {
         "jp": "北上改二",
-        "en": "Kitakami Kai Ni"
+        "en": "Kitakami Kai Ni",
+        "rarity": 7
     },
     "120": {
         "jp": "三隈",
-        "en": "Mikuma"
+        "en": "Mikuma",
+        "rarity": 5
     },
     "121": {
         "jp": "三隈改",
-        "en": "Mikuma Kai"
+        "en": "Mikuma Kai",
+        "rarity": 6
     },
     "122": {
         "jp": "舞風",
-        "en": "Maikaze"
+        "en": "Maikaze",
+        "rarity": 4
     },
     "123": {
         "jp": "衣笠",
-        "en": "Kinugasa"
+        "en": "Kinugasa",
+        "rarity": 4
     },
     "124": {
         "jp": "鈴谷",
-        "en": "Suzuya"
+        "en": "Suzuya",
+        "rarity": 4
     },
     "125": {
         "jp": "熊野",
-        "en": "Kumano"
+        "en": "Kumano",
+        "rarity": 4
     },
     "126": {
         "jp": "伊168",
-        "en": "I-168"
+        "en": "I-168",
+        "rarity": 3
     },
     "127": {
         "jp": "伊58",
-        "en": "I-58"
+        "en": "I-58",
+        "rarity": 4
     },
     "128": {
         "jp": "伊8",
-        "en": "I-8"
+        "en": "I-8",
+        "rarity": 5
     },
     "129": {
         "jp": "鈴谷改",
-        "en": "Suzuya Kai"
+        "en": "Suzuya Kai",
+        "rarity": 5
     },
     "130": {
         "jp": "熊野改",
-        "en": "Kumano Kai"
+        "en": "Kumano Kai",
+        "rarity": 5
     },
     "131": {
         "jp": "大和",
-        "en": "Yamato"
+        "en": "Yamato",
+        "rarity": 8
     },
     "132": {
         "jp": "秋雲",
-        "en": "Akigumo"
+        "en": "Akigumo",
+        "rarity": 4
     },
     "133": {
         "jp": "夕雲",
-        "en": "Yuugumo"
+        "en": "Yuugumo",
+        "rarity": 4
     },
     "134": {
         "jp": "巻雲",
-        "en": "Makigumo"
+        "en": "Makigumo",
+        "rarity": 4
     },
     "135": {
         "jp": "長波",
-        "en": "Naganami"
+        "en": "Naganami",
+        "rarity": 4
     },
     "136": {
         "jp": "大和改",
-        "en": "Yamato Kai"
+        "en": "Yamato Kai",
+        "rarity": 8
     },
     "137": {
         "jp": "阿賀野",
-        "en": "Agano"
+        "en": "Agano",
+        "rarity": 5
     },
     "138": {
         "jp": "能代",
-        "en": "Noshiro"
+        "en": "Noshiro",
+        "rarity": 5
     },
     "139": {
         "jp": "矢矧",
-        "en": "Yahagi"
+        "en": "Yahagi",
+        "rarity": 6
     },
     "140": {
         "jp": "酒匂",
-        "en": "Sakawa"
+        "en": "Sakawa",
+        "rarity": 5
     },
     "141": {
         "jp": "五十鈴改二",
-        "en": "Isuzu Kai Ni"
+        "en": "Isuzu Kai Ni",
+        "rarity": 5
     },
     "142": {
         "jp": "衣笠改二",
-        "en": "Kinugasa Kai Ni"
+        "en": "Kinugasa Kai Ni",
+        "rarity": 6
     },
     "143": {
         "jp": "武蔵",
-        "en": "Musashi"
+        "en": "Musashi",
+        "rarity": 7
     },
     "144": {
         "jp": "夕立改二",
-        "en": "Yuudachi Kai Ni"
+        "en": "Yuudachi Kai Ni",
+        "rarity": 6
     },
     "145": {
         "jp": "時雨改二",
-        "en": "Shigure Kai Ni"
+        "en": "Shigure Kai Ni",
+        "rarity": 6
     },
     "146": {
         "jp": "木曾改二",
-        "en": "Kiso Kai Ni"
+        "en": "Kiso Kai Ni",
+        "rarity": 6
     },
     "147": {
         "jp": "Верный",
-        "en": "Verniy"
+        "en": "Verniy",
+        "rarity": 6
     },
     "148": {
         "jp": "武蔵改",
-        "en": "Musashi Kai"
+        "en": "Musashi Kai",
+        "rarity": 7
     },
     "149": {
         "jp": "金剛改二",
-        "en": "Kongou Kai Ni"
+        "en": "Kongou Kai Ni",
+        "rarity": 7
     },
     "150": {
         "jp": "比叡改二",
-        "en": "Hiei Kai Ni"
+        "en": "Hiei Kai Ni",
+        "rarity": 7
     },
     "151": {
         "jp": "榛名改二",
-        "en": "Haruna Kai Ni"
+        "en": "Haruna Kai Ni",
+        "rarity": 7
     },
     "152": {
         "jp": "霧島改二",
-        "en": "Kirishima Kai Ni"
+        "en": "Kirishima Kai Ni",
+        "rarity": 7
     },
     "153": {
         "jp": "大鳳",
-        "en": "Taihou"
+        "en": "Taihou",
+        "rarity": 7
     },
     "154": {
         "jp": "香取",
-        "en": "Katori"
+        "en": "Katori",
+        "rarity": 4
     },
     "155": {
         "jp": "伊401",
-        "en": "I-401"
+        "en": "I-401",
+        "rarity": 6
     },
     "156": {
         "jp": "大鳳改",
-        "en": "Taihou Kai"
+        "en": "Taihou Kai",
+        "rarity": 7
     },
     "157": {
         "jp": "龍驤改二",
-        "en": "Ryuujou Kai Ni"
+        "en": "Ryuujou Kai Ni",
+        "rarity": 6
     },
     "158": {
         "jp": "川内改二",
-        "en": "Sendai Kai Ni"
+        "en": "Sendai Kai Ni",
+        "rarity": 6
     },
     "159": {
         "jp": "神通改二",
-        "en": "Jintsuu Kai Ni"
+        "en": "Jintsuu Kai Ni",
+        "rarity": 6
     },
     "160": {
         "jp": "那珂改二",
-        "en": "Naka Kai Ni"
+        "en": "Naka Kai Ni",
+        "rarity": 6
     },
     "161": {
         "jp": "あきつ丸",
-        "en": "Akitsumaru"
+        "en": "Akitsumaru",
+        "rarity": 5
     },
     "162": {
         "jp": "神威",
-        "en": "Kamoi"
+        "en": "Kamoi",
+        "rarity": 4
     },
     "163": {
         "jp": "まるゆ",
-        "en": "Maruyu"
+        "en": "Maruyu",
+        "rarity": 5
     },
     "164": {
         "jp": "弥生",
-        "en": "Yayoi"
+        "en": "Yayoi",
+        "rarity": 4
     },
     "165": {
         "jp": "卯月",
-        "en": "Uzuki"
+        "en": "Uzuki",
+        "rarity": 4
     },
     "166": {
         "jp": "あきつ丸改",
-        "en": "Akitsumaru Kai"
+        "en": "Akitsumaru Kai",
+        "rarity": 6
     },
     "167": {
         "jp": "磯風",
-        "en": "Isokaze"
+        "en": "Isokaze",
+        "rarity": 5
     },
     "168": {
         "jp": "浦風",
-        "en": "Urakaze"
+        "en": "Urakaze",
+        "rarity": 4
     },
     "169": {
         "jp": "谷風",
-        "en": "Tanikaze"
+        "en": "Tanikaze",
+        "rarity": 4
     },
     "170": {
         "jp": "浜風",
-        "en": "Hamakaze"
+        "en": "Hamakaze",
+        "rarity": 4
     },
     "171": {
         "jp": "Bismarck",
-        "en": "Bismarck"
+        "en": "Bismarck",
+        "rarity": 7
     },
     "172": {
         "jp": "Bismarck改",
-        "en": "Bismarck Kai"
+        "en": "Bismarck Kai",
+        "rarity": 7
     },
     "173": {
         "jp": "Bismarck zwei",
-        "en": "Bismarck Zwei"
+        "en": "Bismarck Zwei",
+        "rarity": 7
     },
     "174": {
         "jp": "Z1",
-        "en": "Z1"
+        "en": "Z1",
+        "rarity": 5
     },
     "175": {
         "jp": "Z3",
-        "en": "Z3"
+        "en": "Z3",
+        "rarity": 5
     },
     "176": {
         "jp": "Prinz Eugen",
-        "en": "Prinz Eugen"
+        "en": "Prinz Eugen",
+        "rarity": 6
     },
     "177": {
         "jp": "Prinz Eugen改",
-        "en": "Prinz Eugen Kai"
+        "en": "Prinz Eugen Kai",
+        "rarity": 7
     },
     "178": {
         "jp": "Bismarck drei",
-        "en": "Bismarck Drei"
+        "en": "Bismarck Drei",
+        "rarity": 7
     },
     "179": {
         "jp": "Z1 zwei",
-        "en": "Z1 Zwei"
+        "en": "Z1 Zwei",
+        "rarity": 7
     },
     "180": {
         "jp": "Z3 zwei",
-        "en": "Z3 Zwei"
+        "en": "Z3 Zwei",
+        "rarity": 7
     },
     "181": {
         "jp": "天津風",
-        "en": "Amatsukaze"
+        "en": "Amatsukaze",
+        "rarity": 6
     },
     "182": {
         "jp": "明石",
-        "en": "Akashi"
+        "en": "Akashi",
+        "rarity": 6
     },
     "183": {
         "jp": "大淀",
-        "en": "Ooyodo"
+        "en": "Ooyodo",
+        "rarity": 6
     },
     "184": {
         "jp": "大鯨",
-        "en": "Taigei"
+        "en": "Taigei",
+        "rarity": 4
     },
     "185": {
         "jp": "龍鳳",
-        "en": "Ryuuhou"
+        "en": "Ryuuhou",
+        "rarity": 5
     },
     "186": {
         "jp": "時津風",
-        "en": "Tokitsukaze"
+        "en": "Tokitsukaze",
+        "rarity": 5
     },
     "187": {
         "jp": "明石改",
-        "en": "Akashi Kai"
+        "en": "Akashi Kai",
+        "rarity": 7
     },
     "188": {
         "jp": "利根改二",
-        "en": "Tone Kai Ni"
+        "en": "Tone Kai Ni",
+        "rarity": 7
     },
     "189": {
         "jp": "筑摩改二",
-        "en": "Chikuma Kai Ni"
+        "en": "Chikuma Kai Ni",
+        "rarity": 7
     },
     "190": {
         "jp": "初風",
-        "en": "Hatsukaze"
+        "en": "Hatsukaze",
+        "rarity": 4
     },
     "191": {
         "jp": "伊19",
-        "en": "I-19"
+        "en": "I-19",
+        "rarity": 4
     },
     "192": {
         "jp": "那智改二",
-        "en": "Nachi Kai Ni"
+        "en": "Nachi Kai Ni",
+        "rarity": 6
     },
     "193": {
         "jp": "足柄改二",
-        "en": "Ashigara Kai Ni"
+        "en": "Ashigara Kai Ni",
+        "rarity": 6
     },
     "194": {
         "jp": "羽黒改二",
-        "en": "Haguro Kai Ni"
+        "en": "Haguro Kai Ni",
+        "rarity": 5
     },
     "195": {
         "jp": "綾波改二",
-        "en": "Ayanami Kai Ni"
+        "en": "Ayanami Kai Ni",
+        "rarity": 6
     },
     "196": {
         "jp": "飛龍改二",
-        "en": "Hiryuu Kai Ni"
+        "en": "Hiryuu Kai Ni",
+        "rarity": 8
     },
     "197": {
         "jp": "蒼龍改二",
-        "en": "Souryuu Kai Ni"
+        "en": "Souryuu Kai Ni",
+        "rarity": 8
     },
     "198": {
         "jp": "霰改二",
-        "en": "Arare Kai Ni"
+        "en": "Arare Kai Ni",
+        "rarity": 6
     },
     "199": {
         "jp": "大潮改二",
-        "en": "Ooshio Kai Ni"
+        "en": "Ooshio Kai Ni",
+        "rarity": 6
     },
     "200": {
         "jp": "阿武隈改二",
-        "en": "Abukuma Kai Ni"
+        "en": "Abukuma Kai Ni",
+        "rarity": 7
     },
     "201": {
         "jp": "吹雪改",
-        "en": "Fubuki Kai"
+        "en": "Fubuki Kai",
+        "rarity": 4
     },
     "202": {
         "jp": "白雪改",
-        "en": "Shirayuki Kai"
+        "en": "Shirayuki Kai",
+        "rarity": 4
     },
     "203": {
         "jp": "初雪改",
-        "en": "Hatsuyuki Kai"
+        "en": "Hatsuyuki Kai",
+        "rarity": 4
     },
     "204": {
         "jp": "深雪改",
-        "en": "Miyuki Kai"
+        "en": "Miyuki Kai",
+        "rarity": 4
     },
     "205": {
         "jp": "叢雲改",
-        "en": "Murakumo Kai"
+        "en": "Murakumo Kai",
+        "rarity": 4
     },
     "206": {
         "jp": "磯波改",
-        "en": "Isonami Kai"
+        "en": "Isonami Kai",
+        "rarity": 4
     },
     "207": {
         "jp": "綾波改",
-        "en": "Ayanami Kai"
+        "en": "Ayanami Kai",
+        "rarity": 4
     },
     "208": {
         "jp": "敷波改",
-        "en": "Shikinami Kai"
+        "en": "Shikinami Kai",
+        "rarity": 4
     },
     "209": {
         "jp": "金剛改",
-        "en": "Kongou Kai"
+        "en": "Kongou Kai",
+        "rarity": 6
     },
     "210": {
         "jp": "比叡改",
-        "en": "Hiei Kai"
+        "en": "Hiei Kai",
+        "rarity": 6
     },
     "211": {
         "jp": "榛名改",
-        "en": "Haruna Kai"
+        "en": "Haruna Kai",
+        "rarity": 6
     },
     "212": {
         "jp": "霧島改",
-        "en": "Kirishima Kai"
+        "en": "Kirishima Kai",
+        "rarity": 6
     },
     "213": {
         "jp": "天龍改",
-        "en": "Tenryuu Kai"
+        "en": "Tenryuu Kai",
+        "rarity": 4
     },
     "214": {
         "jp": "龍田改",
-        "en": "Tatsuta Kai"
+        "en": "Tatsuta Kai",
+        "rarity": 4
     },
     "215": {
         "jp": "球磨改",
-        "en": "Kuma Kai"
+        "en": "Kuma Kai",
+        "rarity": 5
     },
     "216": {
         "jp": "多摩改",
-        "en": "Tama Kai"
+        "en": "Tama Kai",
+        "rarity": 4
     },
     "217": {
         "jp": "木曾改",
-        "en": "Kiso Kai"
+        "en": "Kiso Kai",
+        "rarity": 4
     },
     "218": {
         "jp": "長良改",
-        "en": "Nagara Kai"
+        "en": "Nagara Kai",
+        "rarity": 5
     },
     "219": {
         "jp": "五十鈴改",
-        "en": "Isuzu Kai"
+        "en": "Isuzu Kai",
+        "rarity": 4
     },
     "220": {
         "jp": "由良改",
-        "en": "Yura Kai"
+        "en": "Yura Kai",
+        "rarity": 4
     },
     "221": {
         "jp": "名取改",
-        "en": "Natori Kai"
+        "en": "Natori Kai",
+        "rarity": 4
     },
     "222": {
         "jp": "川内改",
-        "en": "Sendai Kai"
+        "en": "Sendai Kai",
+        "rarity": 5
     },
     "223": {
         "jp": "神通改",
-        "en": "Jintsuu Kai"
+        "en": "Jintsuu Kai",
+        "rarity": 4
     },
     "224": {
         "jp": "那珂改",
-        "en": "Naka Kai"
+        "en": "Naka Kai",
+        "rarity": 4
     },
     "225": {
         "jp": "陽炎改",
-        "en": "Kagerou Kai"
+        "en": "Kagerou Kai",
+        "rarity": 4
     },
     "226": {
         "jp": "不知火改",
-        "en": "Shiranui Kai"
+        "en": "Shiranui Kai",
+        "rarity": 4
     },
     "227": {
         "jp": "黒潮改",
-        "en": "Kuroshio Kai"
+        "en": "Kuroshio Kai",
+        "rarity": 4
     },
     "228": {
         "jp": "雪風改",
-        "en": "Yukikaze Kai"
+        "en": "Yukikaze Kai",
+        "rarity": 6
     },
     "229": {
         "jp": "島風改",
-        "en": "Shimakaze Kai"
+        "en": "Shimakaze Kai",
+        "rarity": 6
     },
     "230": {
         "jp": "朧改",
-        "en": "Oboro Kai"
+        "en": "Oboro Kai",
+        "rarity": 4
     },
     "231": {
         "jp": "曙改",
-        "en": "Akebono Kai"
+        "en": "Akebono Kai",
+        "rarity": 4
     },
     "232": {
         "jp": "漣改",
-        "en": "Sazanami Kai"
+        "en": "Sazanami Kai",
+        "rarity": 4
     },
     "233": {
         "jp": "潮改",
-        "en": "Ushio Kai"
+        "en": "Ushio Kai",
+        "rarity": 4
     },
     "234": {
         "jp": "暁改",
-        "en": "Akatsuki Kai"
+        "en": "Akatsuki Kai",
+        "rarity": 4
     },
     "235": {
         "jp": "響改",
-        "en": "Hibiki Kai"
+        "en": "Hibiki Kai",
+        "rarity": 4
     },
     "236": {
         "jp": "雷改",
-        "en": "Ikazuchi Kai"
+        "en": "Ikazuchi Kai",
+        "rarity": 4
     },
     "237": {
         "jp": "電改",
-        "en": "Inazuma Kai"
+        "en": "Inazuma Kai",
+        "rarity": 4
     },
     "238": {
         "jp": "初春改",
-        "en": "Hatsuharu Kai"
+        "en": "Hatsuharu Kai",
+        "rarity": 4
     },
     "239": {
         "jp": "子日改",
-        "en": "Nenohi Kai"
+        "en": "Nenohi Kai",
+        "rarity": 4
     },
     "240": {
         "jp": "若葉改",
-        "en": "Wakaba Kai"
+        "en": "Wakaba Kai",
+        "rarity": 4
     },
     "241": {
         "jp": "初霜改",
-        "en": "Hatsushimo Kai"
+        "en": "Hatsushimo Kai",
+        "rarity": 4
     },
     "242": {
         "jp": "白露改",
-        "en": "Shiratsuyu Kai"
+        "en": "Shiratsuyu Kai",
+        "rarity": 4
     },
     "243": {
         "jp": "時雨改",
-        "en": "Shigure Kai"
+        "en": "Shigure Kai",
+        "rarity": 4
     },
     "244": {
         "jp": "村雨改",
-        "en": "Murasame Kai"
+        "en": "Murasame Kai",
+        "rarity": 4
     },
     "245": {
         "jp": "夕立改",
-        "en": "Yuudachi Kai"
+        "en": "Yuudachi Kai",
+        "rarity": 4
     },
     "246": {
         "jp": "五月雨改",
-        "en": "Samidare Kai"
+        "en": "Samidare Kai",
+        "rarity": 4
     },
     "247": {
         "jp": "涼風改",
-        "en": "Suzukaze Kai"
+        "en": "Suzukaze Kai",
+        "rarity": 4
     },
     "248": {
         "jp": "朝潮改",
-        "en": "Asashio Kai"
+        "en": "Asashio Kai",
+        "rarity": 4
     },
     "249": {
         "jp": "大潮改",
-        "en": "Ooshio Kai"
+        "en": "Ooshio Kai",
+        "rarity": 4
     },
     "250": {
         "jp": "満潮改",
-        "en": "Michishio Kai"
+        "en": "Michishio Kai",
+        "rarity": 4
     },
     "251": {
         "jp": "荒潮改",
-        "en": "Arashio Kai"
+        "en": "Arashio Kai",
+        "rarity": 4
     },
     "252": {
         "jp": "霰改",
-        "en": "Arare Kai"
+        "en": "Arare Kai",
+        "rarity": 4
     },
     "253": {
         "jp": "霞改",
-        "en": "Kasumi Kai"
+        "en": "Kasumi Kai",
+        "rarity": 4
     },
     "254": {
         "jp": "睦月改",
-        "en": "Mutsuki Kai"
+        "en": "Mutsuki Kai",
+        "rarity": 4
     },
     "255": {
         "jp": "如月改",
-        "en": "Kisaragi Kai"
+        "en": "Kisaragi Kai",
+        "rarity": 4
     },
     "256": {
         "jp": "皐月改",
-        "en": "Satsuki Kai"
+        "en": "Satsuki Kai",
+        "rarity": 4
     },
     "257": {
         "jp": "文月改",
-        "en": "Fumizuki Kai"
+        "en": "Fumizuki Kai",
+        "rarity": 4
     },
     "258": {
         "jp": "長月改",
-        "en": "Nagatsuki Kai"
+        "en": "Nagatsuki Kai",
+        "rarity": 4
     },
     "259": {
         "jp": "菊月改",
-        "en": "Kikuzuki Kai"
+        "en": "Kikuzuki Kai",
+        "rarity": 4
     },
     "260": {
         "jp": "三日月改",
-        "en": "Mikazuki Kai"
+        "en": "Mikazuki Kai",
+        "rarity": 4
     },
     "261": {
         "jp": "望月改",
-        "en": "Mochizuki Kai"
+        "en": "Mochizuki Kai",
+        "rarity": 4
     },
     "262": {
         "jp": "古鷹改",
-        "en": "Furutaka Kai"
+        "en": "Furutaka Kai",
+        "rarity": 4
     },
     "263": {
         "jp": "加古改",
-        "en": "Kako Kai"
+        "en": "Kako Kai",
+        "rarity": 4
     },
     "264": {
         "jp": "青葉改",
-        "en": "Aoba Kai"
+        "en": "Aoba Kai",
+        "rarity": 4
     },
     "265": {
         "jp": "妙高改",
-        "en": "Myoukou Kai"
+        "en": "Myoukou Kai",
+        "rarity": 5
     },
     "266": {
         "jp": "那智改",
-        "en": "Nachi Kai"
+        "en": "Nachi Kai",
+        "rarity": 4
     },
     "267": {
         "jp": "足柄改",
-        "en": "Ashigara Kai"
+        "en": "Ashigara Kai",
+        "rarity": 4
     },
     "268": {
         "jp": "羽黒改",
-        "en": "Haguro Kai"
+        "en": "Haguro Kai",
+        "rarity": 4
     },
     "269": {
         "jp": "高雄改",
-        "en": "Takao Kai"
+        "en": "Takao Kai",
+        "rarity": 5
     },
     "270": {
         "jp": "愛宕改",
-        "en": "Atago Kai"
+        "en": "Atago Kai",
+        "rarity": 5
     },
     "271": {
         "jp": "摩耶改",
-        "en": "Maya Kai"
+        "en": "Maya Kai",
+        "rarity": 4
     },
     "272": {
         "jp": "鳥海改",
-        "en": "Choukai Kai"
+        "en": "Choukai Kai",
+        "rarity": 4
     },
     "273": {
         "jp": "利根改",
-        "en": "Tone Kai"
+        "en": "Tone Kai",
+        "rarity": 5
     },
     "274": {
         "jp": "筑摩改",
-        "en": "Chikuma Kai"
+        "en": "Chikuma Kai",
+        "rarity": 5
     },
     "275": {
         "jp": "長門改",
-        "en": "Nagato Kai"
+        "en": "Nagato Kai",
+        "rarity": 7
     },
     "276": {
         "jp": "陸奥改",
-        "en": "Mutsu Kai"
+        "en": "Mutsu Kai",
+        "rarity": 7
     },
     "277": {
         "jp": "赤城改",
-        "en": "Akagi Kai"
+        "en": "Akagi Kai",
+        "rarity": 7
     },
     "278": {
         "jp": "加賀改",
-        "en": "Kaga Kai"
+        "en": "Kaga Kai",
+        "rarity": 6
     },
     "279": {
         "jp": "蒼龍改",
-        "en": "Souryuu Kai"
+        "en": "Souryuu Kai",
+        "rarity": 6
     },
     "280": {
         "jp": "飛龍改",
-        "en": "Hiryuu Kai"
+        "en": "Hiryuu Kai",
+        "rarity": 7
     },
     "281": {
         "jp": "龍驤改",
-        "en": "Ryuujou Kai"
+        "en": "Ryuujou Kai",
+        "rarity": 5
     },
     "282": {
         "jp": "祥鳳改",
-        "en": "Shouhou Kai"
+        "en": "Shouhou Kai",
+        "rarity": 5
     },
     "283": {
         "jp": "飛鷹改",
-        "en": "Hiyou Kai"
+        "en": "Hiyou Kai",
+        "rarity": 5
     },
     "284": {
         "jp": "隼鷹改",
-        "en": "Junyou Kai"
+        "en": "Junyou Kai",
+        "rarity": 5
     },
     "285": {
         "jp": "鳳翔改",
-        "en": "Houshou Kai"
+        "en": "Houshou Kai",
+        "rarity": 4
     },
     "286": {
         "jp": "扶桑改",
-        "en": "Fusou Kai"
+        "en": "Fusou Kai",
+        "rarity": 5
     },
     "287": {
         "jp": "山城改",
-        "en": "Yamashiro Kai"
+        "en": "Yamashiro Kai",
+        "rarity": 5
     },
     "288": {
         "jp": "翔鶴改",
-        "en": "Shoukaku Kai"
+        "en": "Shoukaku Kai",
+        "rarity": 6
     },
     "289": {
         "jp": "鬼怒改",
-        "en": "Kinu Kai"
+        "en": "Kinu Kai",
+        "rarity": 5
     },
     "290": {
         "jp": "阿武隈改",
-        "en": "Abukuma Kai"
+        "en": "Abukuma Kai",
+        "rarity": 6
     },
     "291": {
         "jp": "千歳航改",
-        "en": "Chitose Carrier Kai"
+        "en": "Chitose Carrier Kai",
+        "rarity": 5
     },
     "292": {
         "jp": "千代田航改",
-        "en": "Chiyoda Carrier Kai"
+        "en": "Chiyoda Carrier Kai",
+        "rarity": 5
     },
     "293": {
         "jp": "夕張改",
-        "en": "Yuubari Kai"
+        "en": "Yuubari Kai",
+        "rarity": 6
     },
     "294": {
         "jp": "舞風改",
-        "en": "Maikaze Kai"
+        "en": "Maikaze Kai",
+        "rarity": 5
     },
     "295": {
         "jp": "衣笠改",
-        "en": "Kinugasa Kai"
+        "en": "Kinugasa Kai",
+        "rarity": 5
     },
     "296": {
         "jp": "千歳航改二",
-        "en": "Chitose Carrier Kai Ni"
+        "en": "Chitose Carrier Kai Ni",
+        "rarity": 6
     },
     "297": {
         "jp": "千代田航改二",
-        "en": "Chiyoda Carrier Kai Ni"
+        "en": "Chiyoda Carrier Kai Ni",
+        "rarity": 6
     },
     "300": {
         "jp": "初風改",
-        "en": "Hatsukaze Kai"
+        "en": "Hatsukaze Kai",
+        "rarity": 5
     },
     "301": {
         "jp": "秋雲改",
-        "en": "Akigumo Kai"
+        "en": "Akigumo Kai",
+        "rarity": 5
     },
     "302": {
         "jp": "夕雲改",
-        "en": "Yuugumo Kai"
+        "en": "Yuugumo Kai",
+        "rarity": 5
     },
     "303": {
         "jp": "巻雲改",
-        "en": "Makigumo Kai"
+        "en": "Makigumo Kai",
+        "rarity": 5
     },
     "304": {
         "jp": "長波改",
-        "en": "Naganami Kai"
+        "en": "Naganami Kai",
+        "rarity": 5
     },
     "305": {
         "jp": "阿賀野改",
-        "en": "Agano Kai"
+        "en": "Agano Kai",
+        "rarity": 6
     },
     "306": {
         "jp": "能代改",
-        "en": "Noshiro Kai"
+        "en": "Noshiro Kai",
+        "rarity": 6
     },
     "307": {
         "jp": "矢矧改",
-        "en": "Yahagi Kai"
+        "en": "Yahagi Kai",
+        "rarity": 8
     },
     "308": {
         "jp": "弥生改",
-        "en": "Yayoi Kai"
+        "en": "Yayoi Kai",
+        "rarity": 5
     },
     "309": {
         "jp": "卯月改",
-        "en": "Uzuki Kai"
+        "en": "Uzuki Kai",
+        "rarity": 5
     },
     "310": {
         "jp": "Z1改",
-        "en": "Z1 Kai"
+        "en": "Z1 Kai",
+        "rarity": 6
     },
     "311": {
         "jp": "Z3改",
-        "en": "Z3 Kai"
+        "en": "Z3 Kai",
+        "rarity": 6
     },
     "312": {
         "jp": "浜風改",
-        "en": "Hamakaze Kai"
+        "en": "Hamakaze Kai",
+        "rarity": 5
     },
     "313": {
         "jp": "谷風改",
-        "en": "Tanikaze Kai"
+        "en": "Tanikaze Kai",
+        "rarity": 5
     },
     "314": {
         "jp": "酒匂改",
-        "en": "Sakawa Kai"
+        "en": "Sakawa Kai",
+        "rarity": 6
     },
     "316": {
         "jp": "天津風改",
-        "en": "Amatsukaze Kai"
+        "en": "Amatsukaze Kai",
+        "rarity": 7
     },
     "317": {
         "jp": "浦風改",
-        "en": "Urakaze Kai"
+        "en": "Urakaze Kai",
+        "rarity": 5
     },
     "318": {
         "jp": "龍鳳改",
-        "en": "Ryuuhou Kai"
+        "en": "Ryuuhou Kai",
+        "rarity": 6
     },
     "319": {
         "jp": "妙高改二",
-        "en": "Myoukou Kai Ni"
+        "en": "Myoukou Kai Ni",
+        "rarity": 6
     },
     "320": {
         "jp": "磯風改",
-        "en": "Isokaze Kai"
+        "en": "Isokaze Kai",
+        "rarity": 6
     },
     "321": {
         "jp": "大淀改",
-        "en": "Ooyodo Kai"
+        "en": "Ooyodo Kai",
+        "rarity": 7
     },
     "322": {
         "jp": "時津風改",
-        "en": "Tokitsukaze Kai"
+        "en": "Tokitsukaze Kai",
+        "rarity": 6
     },
     "323": {
         "jp": "春雨改",
-        "en": "Harusame Kai"
+        "en": "Harusame Kai",
+        "rarity": 5
     },
     "324": {
         "jp": "早霜改",
-        "en": "Hayashimo Kai"
+        "en": "Hayashimo Kai",
+        "rarity": 5
     },
     "325": {
         "jp": "清霜改",
-        "en": "Kiyoshimo Kai"
+        "en": "Kiyoshimo Kai",
+        "rarity": 5
     },
     "326": {
         "jp": "初春改二",
-        "en": "Hatsuharu Kai Ni"
+        "en": "Hatsuharu Kai Ni",
+        "rarity": 6
     },
     "327": {
         "jp": "朝雲改",
-        "en": "Asagumo Kai"
+        "en": "Asagumo Kai",
+        "rarity": 5
     },
     "328": {
         "jp": "山雲改",
-        "en": "Yamagumo Kai"
+        "en": "Yamagumo Kai",
+        "rarity": 5
     },
     "329": {
         "jp": "野分改",
-        "en": "Nowaki Kai"
+        "en": "Nowaki Kai",
+        "rarity": 6
     },
     "330": {
         "jp": "秋月改",
-        "en": "Akizuki Kai"
+        "en": "Akizuki Kai",
+        "rarity": 7
     },
     "331": {
         "jp": "天城",
-        "en": "Amagi"
+        "en": "Amagi",
+        "rarity": 6
     },
     "332": {
         "jp": "葛城",
-        "en": "Katsuragi"
+        "en": "Katsuragi",
+        "rarity": 6
     },
     "334": {
         "jp": "U-511改",
-        "en": "U-511 Kai"
+        "en": "U-511 Kai",
+        "rarity": 6
     },
     "343": {
         "jp": "香取改",
-        "en": "Katori Kai"
+        "en": "Katori Kai",
+        "rarity": 5
     },
     "344": {
         "jp": "朝霜改",
-        "en": "Asashimo Kai"
+        "en": "Asashimo Kai",
+        "rarity": 5
     },
     "345": {
         "jp": "高波改",
-        "en": "Takanami Kai"
+        "en": "Takanami Kai",
+        "rarity": 5
     },
     "346": {
         "jp": "照月改",
-        "en": "Teruzuki Kai"
+        "en": "Teruzuki Kai",
+        "rarity": 7
     },
     "347": {
         "jp": "Libeccio改",
-        "en": "Libeccio Kai"
+        "en": "Libeccio Kai",
+        "rarity": 7
     },
     "348": {
         "jp": "瑞穂改",
-        "en": "Mizuho Kai"
+        "en": "Mizuho Kai",
+        "rarity": 5
     },
     "349": {
         "jp": "風雲改",
-        "en": "Kazagumo Kai"
+        "en": "Kazagumo Kai",
+        "rarity": 5
     },
     "350": {
         "jp": "海風改",
-        "en": "Umikaze Kai"
+        "en": "Umikaze Kai",
+        "rarity": 4
     },
     "351": {
         "jp": "江風改",
-        "en": "Kawakaze Kai"
+        "en": "Kawakaze Kai",
+        "rarity": 5
     },
     "352": {
         "jp": "速吸改",
-        "en": "Hayasui Kai"
+        "en": "Hayasui Kai",
+        "rarity": 7
     },
     "353": {
         "jp": "Graf Zeppelin改",
-        "en": "Graf Zeppelin Kai"
+        "en": "Graf Zeppelin Kai",
+        "rarity": 7
     },
     "354": {
         "jp": "嵐改",
-        "en": "Arashi Kai"
+        "en": "Arashi Kai",
+        "rarity": 6
     },
     "355": {
         "jp": "萩風改",
-        "en": "Hagikaze Kai"
+        "en": "Hagikaze Kai",
+        "rarity": 6
     },
     "356": {
         "jp": "鹿島改",
-        "en": "Kashima Kai"
+        "en": "Kashima Kai",
+        "rarity": 5
     },
     "357": {
         "jp": "初月改",
-        "en": "Hatsuzuki Kai"
+        "en": "Hatsuzuki Kai",
+        "rarity": 7
     },
     "358": {
         "jp": "Zara改",
-        "en": "Zara Kai"
+        "en": "Zara Kai",
+        "rarity": 7
     },
     "359": {
         "jp": "沖波改",
-        "en": "Okinami Kai"
+        "en": "Okinami Kai",
+        "rarity": 5
     },
     "360": {
         "jp": "Iowa改",
-        "en": "Iowa Kai"
+        "en": "Iowa Kai",
+        "rarity": 8
     },
     "361": {
         "jp": "Pola改",
-        "en": "Pola Kai"
+        "en": "Pola Kai",
+        "rarity": 7
     },
     "362": {
         "jp": "親潮改",
-        "en": "Oyashio Kai"
+        "en": "Oyashio Kai",
+        "rarity": 6
     },
     "363": {
         "jp": "春風改",
-        "en": "Harukaze Kai"
+        "en": "Harukaze Kai",
+        "rarity": 5
     },
     "364": {
         "jp": "Warspite改",
-        "en": "Warspite Kai"
+        "en": "Warspite Kai",
+        "rarity": 8
     },
     "365": {
         "jp": "Aquila改",
-        "en": "Aquila Kai"
+        "en": "Aquila Kai",
+        "rarity": 8
     },
     "366": {
         "jp": "水無月改",
-        "en": "Minazuki Kai"
+        "en": "Minazuki Kai",
+        "rarity": 5
     },
     "367": {
         "jp": "伊26改",
-        "en": "I-26 Kai"
+        "en": "I-26 Kai",
+        "rarity": 5
     },
     "368": {
         "jp": "浦波改",
-        "en": "Uranami Kai"
+        "en": "Uranami Kai",
+        "rarity": 5
     },
     "369": {
         "jp": "山風改",
-        "en": "Yamakaze Kai"
+        "en": "Yamakaze Kai",
+        "rarity": 5
     },
     "370": {
         "jp": "朝風改",
-        "en": "Asakaze Kai"
+        "en": "Asakaze Kai",
+        "rarity": 5
     },
     "371": {
         "jp": "松風改",
-        "en": "Matsukaze Kai"
+        "en": "Matsukaze Kai",
+        "rarity": 5
     },
     "372": {
         "jp": "Commandant Teste改",
-        "en": "Commandant Teste Kai"
+        "en": "Commandant Teste Kai",
+        "rarity": 7
     },
     "373": {
         "jp": "藤波改",
-        "en": "Fujinami Kai"
+        "en": "Fujinami Kai",
+        "rarity": 5
     },
     "374": {
         "jp": "伊13改",
-        "en": "I-13 Kai"
+        "en": "I-13 Kai",
+        "rarity": 7
     },
     "375": {
         "jp": "伊14改",
-        "en": "I-14 Kai"
+        "en": "I-14 Kai",
+        "rarity": 7
     },
     "376": {
         "jp": "占守改",
-        "en": "Shimushu Kai"
+        "en": "Shimushu Kai",
+        "rarity": 5
     },
     "377": {
         "jp": "国後改",
-        "en": "Kunashiri Kai"
+        "en": "Kunashiri Kai",
+        "rarity": 5
     },
     "380": {
         "jp": "大鷹改",
-        "en": "Taiyou Kai"
+        "en": "Taiyou Kai",
+        "rarity": 6
     },
     "381": {
         "jp": "神鷹改",
-        "en": "Shinyou Kai"
+        "en": "Shinyou Kai",
+        "rarity": 6
     },
     "383": {
         "jp": "択捉改",
-        "en": "Etorofu Kai"
+        "en": "Etorofu Kai",
+        "rarity": 5
     },
     "384": {
         "jp": "松輪改",
-        "en": "Matsuwa Kai"
+        "en": "Matsuwa Kai",
+        "rarity": 4
     },
     "385": {
         "jp": "佐渡改",
-        "en": "Sado Kai"
+        "en": "Sado Kai",
+        "rarity": 5
     },
     "386": {
         "jp": "対馬改",
-        "en": "Tsushima Kai"
+        "en": "Tsushima Kai",
+        "rarity": 5
     },
     "387": {
         "jp": "旗風改",
-        "en": "Hatakaze Kai"
+        "en": "Hatakaze Kai",
+        "rarity": 5
     },
     "390": {
         "jp": "天霧改",
-        "en": "Amagiri Kai"
+        "en": "Amagiri Kai",
+        "rarity": 6
     },
     "391": {
         "jp": "狭霧改",
-        "en": "Sagiri Kai"
+        "en": "Sagiri Kai",
+        "rarity": 5
     },
     "392": {
         "jp": "Richelieu改",
-        "en": "Richelieu Kai"
+        "en": "Richelieu Kai",
+        "rarity": 8
     },
     "393": {
         "jp": "Ark Royal改",
-        "en": "Ark Royal Kai"
+        "en": "Ark Royal Kai",
+        "rarity": 8
     },
     "394": {
         "jp": "Jervis改",
-        "en": "Jervis Kai"
+        "en": "Jervis Kai",
+        "rarity": 7
     },
     "395": {
         "jp": "Ташкент改",
-        "en": "Tashkent Kai"
+        "en": "Tashkent Kai",
+        "rarity": 7
     },
     "396": {
         "jp": "Gambier Bay改",
-        "en": "Gambier Bay Kai"
+        "en": "Gambier Bay Kai",
+        "rarity": 6
     },
     "397": {
         "jp": "Intrepid改",
-        "en": "Intrepid Kai"
+        "en": "Intrepid Kai",
+        "rarity": 8
     },
     "398": {
         "jp": "伊168改",
-        "en": "I-168 Kai"
+        "en": "I-168 Kai",
+        "rarity": 4
     },
     "399": {
         "jp": "伊58改",
-        "en": "I-58 Kai"
+        "en": "I-58 Kai",
+        "rarity": 5
     },
     "400": {
         "jp": "伊8改",
-        "en": "I-8 Kai"
+        "en": "I-8 Kai",
+        "rarity": 6
     },
     "401": {
         "jp": "伊19改",
-        "en": "I-19 Kai"
+        "en": "I-19 Kai",
+        "rarity": 5
     },
     "402": {
         "jp": "まるゆ改",
-        "en": "Maruyu Kai"
+        "en": "Maruyu Kai",
+        "rarity": 6
     },
     "403": {
         "jp": "伊401改",
-        "en": "I-401 Kai"
+        "en": "I-401 Kai",
+        "rarity": 7
     },
     "404": {
         "jp": "雲龍",
-        "en": "Unryuu"
+        "en": "Unryuu",
+        "rarity": 6
     },
     "405": {
         "jp": "春雨",
-        "en": "Harusame"
+        "en": "Harusame",
+        "rarity": 4
     },
     "406": {
         "jp": "雲龍改",
-        "en": "Unryuu Kai"
+        "en": "Unryuu Kai",
+        "rarity": 7
     },
     "407": {
         "jp": "潮改二",
-        "en": "Ushio Kai Ni"
+        "en": "Ushio Kai Ni",
+        "rarity": 6
     },
     "408": {
         "jp": "隼鷹改二",
-        "en": "Junyou Kai Ni"
+        "en": "Junyou Kai Ni",
+        "rarity": 6
     },
     "409": {
         "jp": "早霜",
-        "en": "Hayashimo"
+        "en": "Hayashimo",
+        "rarity": 4
     },
     "410": {
         "jp": "清霜",
-        "en": "Kiyoshimo"
+        "en": "Kiyoshimo",
+        "rarity": 4
     },
     "411": {
         "jp": "扶桑改二",
-        "en": "Fusou Kai Ni"
+        "en": "Fusou Kai Ni",
+        "rarity": 6
     },
     "412": {
         "jp": "山城改二",
-        "en": "Yamashiro Kai Ni"
+        "en": "Yamashiro Kai Ni",
+        "rarity": 6
     },
     "413": {
         "jp": "朝雲",
-        "en": "Asagumo"
+        "en": "Asagumo",
+        "rarity": 4
     },
     "414": {
         "jp": "山雲",
-        "en": "Yamagumo"
+        "en": "Yamagumo",
+        "rarity": 4
     },
     "415": {
         "jp": "野分",
-        "en": "Nowaki"
+        "en": "Nowaki",
+        "rarity": 5
     },
     "416": {
         "jp": "古鷹改二",
-        "en": "Furutaka Kai Ni"
+        "en": "Furutaka Kai Ni",
+        "rarity": 6
     },
     "417": {
         "jp": "加古改二",
-        "en": "Kako Kai Ni"
+        "en": "Kako Kai Ni",
+        "rarity": 6
     },
     "418": {
         "jp": "皐月改二",
-        "en": "Satsuki Kai Ni"
+        "en": "Satsuki Kai Ni",
+        "rarity": 6
     },
     "419": {
         "jp": "初霜改二",
-        "en": "Hatsushimo Kai Ni"
+        "en": "Hatsushimo Kai Ni",
+        "rarity": 6
     },
     "420": {
         "jp": "叢雲改二",
-        "en": "Murakumo Kai Ni"
+        "en": "Murakumo Kai Ni",
+        "rarity": 6
     },
     "421": {
         "jp": "秋月",
-        "en": "Akizuki"
+        "en": "Akizuki",
+        "rarity": 6
     },
     "422": {
         "jp": "照月",
-        "en": "Teruzuki"
+        "en": "Teruzuki",
+        "rarity": 6
     },
     "423": {
         "jp": "初月",
-        "en": "Hatsuzuki"
+        "en": "Hatsuzuki",
+        "rarity": 6
     },
     "424": {
         "jp": "高波",
-        "en": "Takanami"
+        "en": "Takanami",
+        "rarity": 4
     },
     "425": {
         "jp": "朝霜",
-        "en": "Asashimo"
+        "en": "Asashimo",
+        "rarity": 4
     },
     "426": {
         "jp": "吹雪改二",
-        "en": "Fubuki Kai Ni"
+        "en": "Fubuki Kai Ni",
+        "rarity": 6
     },
     "427": {
         "jp": "鳥海改二",
-        "en": "Choukai Kai Ni"
+        "en": "Choukai Kai Ni",
+        "rarity": 6
     },
     "428": {
         "jp": "摩耶改二",
-        "en": "Maya Kai Ni"
+        "en": "Maya Kai Ni",
+        "rarity": 6
     },
     "429": {
         "jp": "天城改",
-        "en": "Amagi Kai"
+        "en": "Amagi Kai",
+        "rarity": 7
     },
     "430": {
         "jp": "葛城改",
-        "en": "Katsuragi Kai"
+        "en": "Katsuragi Kai",
+        "rarity": 7
     },
     "431": {
         "jp": "U-511",
-        "en": "U-511"
+        "en": "U-511",
+        "rarity": 5
     },
     "432": {
         "jp": "Graf Zeppelin",
-        "en": "Graf Zeppelin"
+        "en": "Graf Zeppelin",
+        "rarity": 7
     },
     "433": {
         "jp": "Saratoga",
-        "en": "Saratoga"
+        "en": "Saratoga",
+        "rarity": 6
     },
     "434": {
         "jp": "睦月改二",
-        "en": "Mutsuki Kai Ni"
+        "en": "Mutsuki Kai Ni",
+        "rarity": 6
     },
     "435": {
         "jp": "如月改二",
-        "en": "Kisaragi Kai Ni"
+        "en": "Kisaragi Kai Ni",
+        "rarity": 6
     },
     "436": {
         "jp": "呂500",
-        "en": "RO-500"
+        "en": "RO-500",
+        "rarity": 7
     },
     "437": {
         "jp": "暁改二",
-        "en": "Akatsuki Kai Ni"
+        "en": "Akatsuki Kai Ni",
+        "rarity": 6
     },
     "438": {
         "jp": "Saratoga改",
-        "en": "Saratoga Kai"
+        "en": "Saratoga Kai",
+        "rarity": 7
     },
     "439": {
         "jp": "Warspite",
-        "en": "Warspite"
+        "en": "Warspite",
+        "rarity": 7
     },
     "440": {
         "jp": "Iowa",
-        "en": "Iowa"
+        "en": "Iowa",
+        "rarity": 7
     },
     "441": {
         "jp": "Littorio",
-        "en": "Littorio"
+        "en": "Littorio",
+        "rarity": 6
     },
     "442": {
         "jp": "Roma",
-        "en": "Roma"
+        "en": "Roma",
+        "rarity": 6
     },
     "443": {
         "jp": "Libeccio",
-        "en": "Libeccio"
+        "en": "Libeccio",
+        "rarity": 6
     },
     "444": {
         "jp": "Aquila",
-        "en": "Aquila"
+        "en": "Aquila",
+        "rarity": 7
     },
     "445": {
         "jp": "秋津洲",
-        "en": "Akitsushima"
+        "en": "Akitsushima",
+        "rarity": 7
     },
     "446": {
         "jp": "Italia",
-        "en": "Italia"
+        "en": "Italia",
+        "rarity": 7
     },
     "447": {
         "jp": "Roma改",
-        "en": "Roma Kai"
+        "en": "Roma Kai",
+        "rarity": 7
     },
     "448": {
         "jp": "Zara",
-        "en": "Zara"
+        "en": "Zara",
+        "rarity": 6
     },
     "449": {
         "jp": "Pola",
-        "en": "Pola"
+        "en": "Pola",
+        "rarity": 6
     },
     "450": {
         "jp": "秋津洲改",
-        "en": "Akitsushima Kai"
+        "en": "Akitsushima Kai",
+        "rarity": 8
     },
     "451": {
         "jp": "瑞穂",
-        "en": "Mizuho"
+        "en": "Mizuho",
+        "rarity": 5
     },
     "452": {
         "jp": "沖波",
-        "en": "Okinami"
+        "en": "Okinami",
+        "rarity": 4
     },
     "453": {
         "jp": "風雲",
-        "en": "Kazagumo"
+        "en": "Kazagumo",
+        "rarity": 4
     },
     "454": {
         "jp": "嵐",
-        "en": "Arashi"
+        "en": "Arashi",
+        "rarity": 5
     },
     "455": {
         "jp": "萩風",
-        "en": "Hagikaze"
+        "en": "Hagikaze",
+        "rarity": 5
     },
     "456": {
         "jp": "親潮",
-        "en": "Oyashio"
+        "en": "Oyashio",
+        "rarity": 5
     },
     "457": {
         "jp": "山風",
-        "en": "Yamakaze"
+        "en": "Yamakaze",
+        "rarity": 4
     },
     "458": {
         "jp": "海風",
-        "en": "Umikaze"
+        "en": "Umikaze",
+        "rarity": 4
     },
     "459": {
         "jp": "江風",
-        "en": "Kawakaze"
+        "en": "Kawakaze",
+        "rarity": 4
     },
     "460": {
         "jp": "速吸",
-        "en": "Hayasui"
+        "en": "Hayasui",
+        "rarity": 6
     },
     "461": {
         "jp": "翔鶴改二",
-        "en": "Shoukaku Kai Ni"
+        "en": "Shoukaku Kai Ni",
+        "rarity": 8
     },
     "462": {
         "jp": "瑞鶴改二",
-        "en": "Zuikaku Kai Ni"
+        "en": "Zuikaku Kai Ni",
+        "rarity": 8
     },
     "463": {
         "jp": "朝潮改二",
-        "en": "Asashio Kai Ni"
+        "en": "Asashio Kai Ni",
+        "rarity": 6
     },
     "464": {
         "jp": "霞改二",
-        "en": "Kasumi Kai Ni"
+        "en": "Kasumi Kai Ni",
+        "rarity": 6
     },
     "465": {
         "jp": "鹿島",
-        "en": "Kashima"
+        "en": "Kashima",
+        "rarity": 3
     },
     "466": {
         "jp": "翔鶴改二甲",
-        "en": "Shoukaku Kai Ni Kou"
+        "en": "Shoukaku Kai Ni Kou",
+        "rarity": 8
     },
     "467": {
         "jp": "瑞鶴改二甲",
-        "en": "Zuikaku Kai Ni Kou"
+        "en": "Zuikaku Kai Ni Kou",
+        "rarity": 8
     },
     "468": {
         "jp": "朝潮改二丁",
-        "en": "Asashio Kai Ni Tei"
+        "en": "Asashio Kai Ni Tei",
+        "rarity": 7
     },
     "469": {
         "jp": "江風改二",
-        "en": "Kawakaze Kai Ni"
+        "en": "Kawakaze Kai Ni",
+        "rarity": 6
     },
     "470": {
         "jp": "霞改二乙",
-        "en": "Kasumi Kai Ni Otsu"
+        "en": "Kasumi Kai Ni Otsu",
+        "rarity": 7
     },
     "471": {
         "jp": "神風",
-        "en": "Kamikaze"
+        "en": "Kamikaze",
+        "rarity": 4
     },
     "472": {
         "jp": "朝風",
-        "en": "Asakaze"
+        "en": "Asakaze",
+        "rarity": 4
     },
     "473": {
         "jp": "春風",
-        "en": "Harukaze"
+        "en": "Harukaze",
+        "rarity": 4
     },
     "474": {
         "jp": "松風",
-        "en": "Matsukaze"
+        "en": "Matsukaze",
+        "rarity": 4
     },
     "475": {
         "jp": "旗風",
-        "en": "Hatakaze"
+        "en": "Hatakaze",
+        "rarity": 4
     },
     "476": {
         "jp": "神風改",
-        "en": "Kamikaze Kai"
+        "en": "Kamikaze Kai",
+        "rarity": 6
     },
     "477": {
         "jp": "天龍改二",
-        "en": "Tenryuu Kai Ni"
+        "en": "Tenryuu Kai Ni",
+        "rarity": 7
     },
     "478": {
         "jp": "龍田改二",
-        "en": "Tatsuta Kai Ni"
+        "en": "Tatsuta Kai Ni",
+        "rarity": 7
     },
     "479": {
         "jp": "天霧",
-        "en": "Amagiri"
+        "en": "Amagiri",
+        "rarity": 4
     },
     "480": {
         "jp": "狭霧",
-        "en": "Sagiri"
+        "en": "Sagiri",
+        "rarity": 4
     },
     "481": {
         "jp": "水無月",
-        "en": "Minazuki"
+        "en": "Minazuki",
+        "rarity": 4
     },
     "483": {
         "jp": "伊26",
-        "en": "I-26"
+        "en": "I-26",
+        "rarity": 4
     },
     "484": {
         "jp": "浜波",
-        "en": "Hamanami"
+        "en": "Hamanami",
+        "rarity": 4
     },
     "485": {
         "jp": "藤波",
-        "en": "Fujinami"
+        "en": "Fujinami",
+        "rarity": 4
     },
     "486": {
         "jp": "浦波",
-        "en": "Uranami"
+        "en": "Uranami",
+        "rarity": 4
     },
     "487": {
         "jp": "鬼怒改二",
-        "en": "Kinu Kai Ni"
+        "en": "Kinu Kai Ni",
+        "rarity": 7
     },
     "488": {
         "jp": "由良改二",
-        "en": "Yura Kai Ni"
+        "en": "Yura Kai Ni",
+        "rarity": 7
     },
     "489": {
         "jp": "満潮改二",
-        "en": "Michishio Kai Ni"
+        "en": "Michishio Kai Ni",
+        "rarity": 7
     },
     "490": {
         "jp": "荒潮改二",
-        "en": "Arashio Kai Ni"
+        "en": "Arashio Kai Ni",
+        "rarity": 4
     },
     "491": {
         "jp": "Commandant Teste",
-        "en": "Commandant Teste"
+        "en": "Commandant Teste",
+        "rarity": 6
     },
     "492": {
         "jp": "Richelieu",
-        "en": "Richelieu"
+        "en": "Richelieu",
+        "rarity": 7
     },
     "493": {
         "jp": "伊400",
-        "en": "I-400"
+        "en": "I-400",
+        "rarity": 6
     },
     "494": {
         "jp": "伊13",
-        "en": "I-13"
+        "en": "I-13",
+        "rarity": 5
     },
     "495": {
         "jp": "伊14",
-        "en": "I-14"
+        "en": "I-14",
+        "rarity": 6
     },
     "496": {
         "jp": "Zara due",
-        "en": "Zara Due"
+        "en": "Zara Due",
+        "rarity": 8
     },
     "497": {
         "jp": "白露改二",
-        "en": "Shiratsuyu Kai Ni"
+        "en": "Shiratsuyu Kai Ni",
+        "rarity": 7
     },
     "498": {
         "jp": "村雨改二",
-        "en": "Murasame Kai Ni"
+        "en": "Murasame Kai Ni",
+        "rarity": 7
     },
     "499": {
         "jp": "神威改",
-        "en": "Kamoi Kai"
+        "en": "Kamoi Kai",
+        "rarity": 5
     },
     "500": {
         "jp": "神威改母",
-        "en": "Kamoi Kai Bo"
+        "en": "Kamoi Kai Bo",
+        "rarity": 6
     },
     "503": {
         "jp": "鈴谷改二",
-        "en": "Suzuya Kai Ni"
+        "en": "Suzuya Kai Ni",
+        "rarity": 7
     },
     "504": {
         "jp": "熊野改二",
-        "en": "Kumano Kai Ni"
+        "en": "Kumano Kai Ni",
+        "rarity": 7
     },
     "508": {
         "jp": "鈴谷航改二",
-        "en": "Suzuya Carrier Kai Ni"
+        "en": "Suzuya Carrier Kai Ni",
+        "rarity": 8
     },
     "509": {
         "jp": "熊野航改二",
-        "en": "Kumano Carrier Kai Ni"
+        "en": "Kumano Carrier Kai Ni",
+        "rarity": 8
     },
     "511": {
         "jp": "Гангут",
-        "en": "Gangut"
+        "en": "Gangut",
+        "rarity": 5
     },
     "512": {
         "jp": "Октябрьская революция",
-        "en": "Oktyabrskaya Revolyutsiya"
+        "en": "Oktyabrskaya Revolyutsiya",
+        "rarity": 6
     },
     "513": {
         "jp": "Гангут два",
-        "en": "Gangut Dva"
+        "en": "Gangut Dva",
+        "rarity": 7
     },
     "515": {
         "jp": "Ark Royal",
-        "en": "Ark Royal"
+        "en": "Ark Royal",
+        "rarity": 7
     },
     "516": {
         "jp": "Ташкент",
-        "en": "Tashkent"
+        "en": "Tashkent",
+        "rarity": 6
     },
     "517": {
         "jp": "占守",
-        "en": "Shimushu"
+        "en": "Shimushu",
+        "rarity": 4
     },
     "518": {
         "jp": "国後",
-        "en": "Kunashiri"
+        "en": "Kunashiri",
+        "rarity": 4
     },
     "519": {
         "jp": "Jervis",
-        "en": "Jervis"
+        "en": "Jervis",
+        "rarity": 6
     },
     "521": {
         "jp": "春日丸",
-        "en": "Kasugamaru"
+        "en": "Kasugamaru",
+        "rarity": 4
     },
     "524": {
         "jp": "択捉",
-        "en": "Etorofu"
+        "en": "Etorofu",
+        "rarity": 4
     },
     "525": {
         "jp": "松輪",
-        "en": "Matsuwa"
+        "en": "Matsuwa",
+        "rarity": 4
     },
     "526": {
         "jp": "大鷹",
-        "en": "Taiyou"
+        "en": "Taiyou",
+        "rarity": 5
     },
     "527": {
         "jp": "岸波",
-        "en": "Kishinami"
+        "en": "Kishinami",
+        "rarity": 4
     },
     "528": {
         "jp": "早波",
-        "en": "Hayanami"
+        "en": "Hayanami",
+        "rarity": 4
     },
     "529": {
         "jp": "大鷹改二",
-        "en": "Taiyou Kai Ni"
+        "en": "Taiyou Kai Ni",
+        "rarity": 7
     },
     "530": {
         "jp": "伊504",
-        "en": "I-504"
+        "en": "I-504",
+        "rarity": 7
     },
     "531": {
         "jp": "佐渡",
-        "en": "Sado"
+        "en": "Sado",
+        "rarity": 4
     },
     "532": {
         "jp": "涼月",
-        "en": "Suzutsuki"
+        "en": "Suzutsuki",
+        "rarity": 6
     },
     "534": {
         "jp": "神鷹",
-        "en": "Shinyou"
+        "en": "Shinyou",
+        "rarity": 4
     },
     "535": {
         "jp": "Luigi Torelli",
-        "en": "Luigi Torelli"
+        "en": "Luigi Torelli",
+        "rarity": 4
     },
     "536": {
         "jp": "神鷹改二",
-        "en": "Shinyou Kai Ni"
+        "en": "Shinyou Kai Ni",
+        "rarity": 7
     },
     "537": {
         "jp": "涼月改",
-        "en": "Suzutsuki Kai"
+        "en": "Suzutsuki Kai",
+        "rarity": 7
     },
     "539": {
         "jp": "UIT-25",
-        "en": "UIT-25"
+        "en": "UIT-25",
+        "rarity": 6
     },
     "540": {
         "jp": "対馬",
-        "en": "Tsushima"
+        "en": "Tsushima",
+        "rarity": 4
     },
     "541": {
         "jp": "長門改二",
-        "en": "Nagato Kai Ni"
+        "en": "Nagato Kai Ni",
+        "rarity": 8
     },
     "542": {
         "jp": "夕雲改二",
-        "en": "Yuugumo Kai Ni"
+        "en": "Yuugumo Kai Ni",
+        "rarity": 7
     },
     "543": {
         "jp": "長波改二",
-        "en": "Naganami Kai Ni"
+        "en": "Naganami Kai Ni",
+        "rarity": 7
     },
     "544": {
         "jp": "Gambier Bay",
-        "en": "Gambier Bay"
+        "en": "Gambier Bay",
+        "rarity": 5
     },
     "545": {
         "jp": "Saratoga Mk.II",
-        "en": "Saratoga Mk.II"
+        "en": "Saratoga Mk.II",
+        "rarity": 8
     },
     "546": {
         "jp": "武蔵改二",
-        "en": "Musashi Kai Ni"
+        "en": "Musashi Kai Ni",
+        "rarity": 8
     },
     "547": {
         "jp": "多摩改二",
-        "en": "Tama Kai Ni"
+        "en": "Tama Kai Ni",
+        "rarity": 7
     },
     "548": {
         "jp": "文月改二",
-        "en": "Fumizuki Kai Ni"
+        "en": "Fumizuki Kai Ni",
+        "rarity": 6
     },
     "549": {
         "jp": "Intrepid",
-        "en": "Intrepid"
+        "en": "Intrepid",
+        "rarity": 7
     },
     "550": {
         "jp": "Saratoga Mk.II Mod.2",
-        "en": "Saratoga Mk.II Mod.2"
+        "en": "Saratoga Mk.II Mod.2",
+        "rarity": 8
     },
     "551": {
         "jp": "日振",
-        "en": "Hiburi"
+        "en": "Hiburi",
+        "rarity": 4
     },
     "552": {
         "jp": "大東",
-        "en": "Daitou"
+        "en": "Daitou",
+        "rarity": 4
     },
     "553": {
         "jp": "伊勢改二",
-        "en": "Ise Kai Ni"
+        "en": "Ise Kai Ni",
+        "rarity": 8
     },
     "555": {
         "jp": "瑞鳳改二",
-        "en": "Zuihou Kai Ni"
+        "en": "Zuihou Kai Ni",
+        "rarity": 7
     },
     "556": {
         "jp": "浦風丁改",
-        "en": "Urakaze D Kai"
+        "en": "Urakaze D Kai",
+        "rarity": 6
     },
     "557": {
         "jp": "磯風乙改",
-        "en": "Isokaze B Kai"
+        "en": "Isokaze B Kai",
+        "rarity": 7
     },
     "558": {
         "jp": "浜風乙改",
-        "en": "Hamakaze B Kai"
+        "en": "Hamakaze B Kai",
+        "rarity": 6
     },
     "559": {
         "jp": "谷風丁改",
-        "en": "Tanikaze D Kai"
+        "en": "Tanikaze D Kai",
+        "rarity": 6
     },
     "560": {
         "jp": "瑞鳳改二乙",
-        "en": "Zuihou Kai Ni Otsu"
+        "en": "Zuihou Kai Ni Otsu",
+        "rarity": 7
     },
     "561": {
         "jp": "Samuel B.Roberts",
-        "en": "Samuel B.Roberts"
+        "en": "Samuel B.Roberts",
+        "rarity": 5
     },
     "562": {
         "jp": "Johnston",
-        "en": "Johnston"
+        "en": "Johnston",
+        "rarity": 5
     },
     "563": {
         "jp": "巻雲改二",
-        "en": "Makigumo Kai Ni"
+        "en": "Makigumo Kai Ni",
+        "rarity": 7
+    },
+    "564": {
+        "jp": "風雲改二",
+        "en": "Kazagumo Kai Ni",
+        "rarity": 7
     },
     "565": {
         "jp": "福江",
-        "en": "Fukae"
+        "en": "Fukae",
+        "rarity": 4
     },
     "566": {
         "jp": "陽炎改二",
-        "en": "Kagerou Kai Ni"
+        "en": "Kagerou Kai Ni",
+        "rarity": 7
     },
     "567": {
         "jp": "不知火改二",
-        "en": "Shiranui Kai Ni"
+        "en": "Shiranui Kai Ni",
+        "rarity": 7
     },
     "568": {
         "jp": "黒潮改二",
-        "en": "Kuroshio Kai Ni"
+        "en": "Kuroshio Kai Ni",
+        "rarity": 7
     },
     "571": {
         "jp": "Nelson",
-        "en": "Nelson"
+        "en": "Nelson",
+        "rarity": 7
     },
     "574": {
         "jp": "Gotland",
-        "en": "Gotland"
+        "en": "Gotland",
+        "rarity": 6
     },
     "575": {
         "jp": "Maestrale",
-        "en": "Maestrale"
+        "en": "Maestrale",
+        "rarity": 6
     },
     "576": {
         "jp": "Nelson改",
-        "en": "Nelson Kai"
+        "en": "Nelson Kai",
+        "rarity": 8
     },
     "579": {
         "jp": "Gotland改",
-        "en": "Gotland Kai"
+        "en": "Gotland Kai",
+        "rarity": 7
     },
     "580": {
         "jp": "Maestrale改",
-        "en": "Maestrale Kai"
+        "en": "Maestrale Kai",
+        "rarity": 7
     },
     "581": {
         "jp": "日進",
-        "en": "Nisshin"
+        "en": "Nisshin",
+        "rarity": 6
     },
     "583": {
         "jp": "峯雲",
-        "en": "Minegumo"
+        "en": "Minegumo",
+        "rarity": 4
     },
     "586": {
         "jp": "日進甲",
-        "en": "Nisshin Kou"
+        "en": "Nisshin Kou",
+        "rarity": 8
     },
     "605": {
         "jp": "Luigi Torelli改",
-        "en": "Luigi Torelli Kai"
+        "en": "Luigi Torelli Kai",
+        "rarity": 5
     },
     "606": {
         "jp": "伊400改",
-        "en": "I-400 Kai"
+        "en": "I-400 Kai",
+        "rarity": 7
     },
     "678": {
         "jp": "日振改",
-        "en": "Hiburi Kai"
+        "en": "Hiburi Kai",
+        "rarity": 5
     },
     "679": {
         "jp": "大東改",
-        "en": "Daitou Kai"
+        "en": "Daitou Kai",
+        "rarity": 5
     },
     "680": {
         "jp": "浜波改",
-        "en": "Hamanami Kai"
+        "en": "Hamanami Kai",
+        "rarity": 5
     },
     "681": {
         "jp": "Samuel B.Roberts改",
-        "en": "Samuel B.Roberts Kai"
+        "en": "Samuel B.Roberts Kai",
+        "rarity": 6
     },
     "685": {
         "jp": "福江改",
-        "en": "Fukae Kai"
+        "en": "Fukae Kai",
+        "rarity": 5
     },
     "686": {
         "jp": "岸波改",
-        "en": "Kishinami Kai"
+        "en": "Kishinami Kai",
+        "rarity": 5
     },
     "687": {
         "jp": "峯雲改",
-        "en": "Minegumo Kai"
+        "en": "Minegumo Kai",
+        "rarity": 5
     },
     "688": {
         "jp": "早波改",
-        "en": "Hayanami Kai"
+        "en": "Hayanami Kai",
+        "rarity": 5
     },
     "689": {
         "jp": "Johnston改",
-        "en": "Johnston Kai"
+        "en": "Johnston Kai",
+        "rarity": 6
     },
     "690": {
         "jp": "日進改",
-        "en": "Nisshin Kai"
+        "en": "Nisshin Kai",
+        "rarity": 7
     },
     "1501": {
         "jp": "駆逐イ級",
