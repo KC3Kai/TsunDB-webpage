@@ -90,11 +90,12 @@ export default {
                     count++;
                     if(count > limit) return this.output = this.input;
                     try{
+                        let reg = new RegExp(`(\\b\w*?(?<!\d)${match[0]}(?!\d)\w*?\\b)`, "gm");
                         if(this.type == "ship"){
-                            stringValue = stringValue.replace(match[0], this.shipData[match[0]][this.language]);
+                            stringValue = stringValue.replace(reg, this.shipData[match[0]][this.language]);
                         }
                         else{
-                            stringValue = stringValue.replace(match[0], this.equipData[match[0]][this.language]);
+                            stringValue = stringValue.replace(reg, this.equipData[match[0]][this.language]);
                         }
                     }
                     catch(err){
