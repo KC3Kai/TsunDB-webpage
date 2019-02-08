@@ -5,7 +5,6 @@
     </p>
     <div class="content">
         <ul>
-            <li>Implement Drops</li>
             <li>Implement Construction</li>
             <li>A page for tracking the fit data</li>
             <li>More advanced routing filters</li>
