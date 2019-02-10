@@ -8,7 +8,7 @@
         If you actually want to understand the mechanics, check out the <a href="http://en.kancollewiki.net/wiki/Kancolle_Wiki" rel="noopener noreferrer" target="_blank">wiki</a> instead or head over to the <a href="https://www.reddit.com/r/kancolle/" rel="noopener noreferrer" target="_blank">subreddit</a> of their<a href="https://discord.gg/RtSadWM" rel="noopener noreferrer" target="_blank"> discord server</a>.
     </p>
     <p>
-        Click on Info to get more information about the fleet setup (scroll down if it's not visible).
+        Click on the sample in the table to get more information about the fleet setup (scroll down if it's not visible).
     </p>
     <div class="container">
         <mapselection :path="'routing'"/>
