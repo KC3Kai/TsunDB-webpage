@@ -140,6 +140,30 @@
                             </div>
                         </div>
                     </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label">
+                            <label class="label is-pulled-left">Page Limit</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field has-addons">
+                                <span :class="limit == 10 ? 'button is-info' : 'button'" @click="toggleLimit(10)">
+                                    10
+                                </span>
+                                <span :class="limit == 20 ? 'button is-info' : 'button'" @click="toggleLimit(20)">
+                                    20
+                                </span>
+                                <span :class="limit == 30 ? 'button is-info' : 'button'" @click="toggleLimit(30)">
+                                    30
+                                </span>
+                                <span :class="limit == 40 ? 'button is-info' : 'button'" @click="toggleLimit(40)">
+                                    40
+                                </span>
+                                <span :class="limit == 50 ? 'button is-info' : 'button'" @click="toggleLimit(50)">
+                                    50
+                                </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -608,6 +632,10 @@ export default {
         },
         toggleLosValue(value){
             this.los[1] = value.target.value;
+            this.getData(this.$route.query.map);
+        },
+        toggleLimit(value){
+            this.limit = value;
             this.getData(this.$route.query.map);
         }
     }
