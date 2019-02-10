@@ -2,6 +2,7 @@
     "1": {
         "jp": "睦月",
         "kana": "むつき",
+        "variant": "",
         "en": "Mutsuki",
         "remodelLvl": 20,
         "idAfterRemodel": "254",
@@ -49,6 +50,7 @@
     "2": {
         "jp": "如月",
         "kana": "きさらぎ",
+        "variant": "",
         "en": "Kisaragi",
         "remodelLvl": 20,
         "idAfterRemodel": "255",
@@ -96,6 +98,7 @@
     "6": {
         "jp": "長月",
         "kana": "ながつき",
+        "variant": "",
         "en": "Nagatsuki",
         "remodelLvl": 20,
         "idAfterRemodel": "258",
@@ -143,6 +146,7 @@
     "7": {
         "jp": "三日月",
         "kana": "みかづき",
+        "variant": "",
         "en": "Mikazuki",
         "remodelLvl": 20,
         "idAfterRemodel": "260",
@@ -190,6 +194,7 @@
     "9": {
         "jp": "吹雪",
         "kana": "ふぶき",
+        "variant": "",
         "en": "Fubuki",
         "remodelLvl": 20,
         "idAfterRemodel": "201",
@@ -237,6 +242,7 @@
     "10": {
         "jp": "白雪",
         "kana": "しらゆき",
+        "variant": "",
         "en": "Shirayuki",
         "remodelLvl": 20,
         "idAfterRemodel": "202",
@@ -284,6 +290,7 @@
     "11": {
         "jp": "深雪",
         "kana": "みゆき",
+        "variant": "",
         "en": "Miyuki",
         "remodelLvl": 20,
         "idAfterRemodel": "204",
@@ -331,6 +338,7 @@
     "12": {
         "jp": "磯波",
         "kana": "いそなみ",
+        "variant": "",
         "en": "Isonami",
         "remodelLvl": 20,
         "idAfterRemodel": "206",
@@ -378,6 +386,7 @@
     "13": {
         "jp": "綾波",
         "kana": "あやなみ",
+        "variant": "",
         "en": "Ayanami",
         "remodelLvl": 20,
         "idAfterRemodel": "207",
@@ -425,6 +434,7 @@
     "14": {
         "jp": "敷波",
         "kana": "しきなみ",
+        "variant": "",
         "en": "Shikinami",
         "remodelLvl": 20,
         "idAfterRemodel": "208",
@@ -472,6 +482,7 @@
     "15": {
         "jp": "曙",
         "kana": "あけぼの",
+        "variant": "",
         "en": "Akebono",
         "remodelLvl": 20,
         "idAfterRemodel": "231",
@@ -519,6 +530,7 @@
     "16": {
         "jp": "潮",
         "kana": "うしお",
+        "variant": "",
         "en": "Ushio",
         "remodelLvl": 20,
         "idAfterRemodel": "233",
@@ -566,6 +578,7 @@
     "17": {
         "jp": "陽炎",
         "kana": "かげろう",
+        "variant": "",
         "en": "Kagerou",
         "remodelLvl": 20,
         "idAfterRemodel": "225",
@@ -613,6 +626,7 @@
     "18": {
         "jp": "不知火",
         "kana": "しらぬい",
+        "variant": "",
         "en": "Shiranui",
         "remodelLvl": 20,
         "idAfterRemodel": "226",
@@ -660,6 +674,7 @@
     "19": {
         "jp": "黒潮",
         "kana": "くろしお",
+        "variant": "",
         "en": "Kuroshio",
         "remodelLvl": 20,
         "idAfterRemodel": "227",
@@ -707,6 +722,7 @@
     "20": {
         "jp": "雪風",
         "kana": "ゆきかぜ",
+        "variant": "",
         "en": "Yukikaze",
         "remodelLvl": 20,
         "idAfterRemodel": "228",
@@ -754,6 +770,7 @@
     "21": {
         "jp": "長良",
         "kana": "ながら",
+        "variant": "",
         "en": "Nagara",
         "remodelLvl": 20,
         "idAfterRemodel": "218",
@@ -801,6 +818,7 @@
     "22": {
         "jp": "五十鈴",
         "kana": "いすず",
+        "variant": "",
         "en": "Isuzu",
         "remodelLvl": 12,
         "idAfterRemodel": "219",
@@ -848,6 +866,7 @@
     "23": {
         "jp": "由良",
         "kana": "ゆら",
+        "variant": "",
         "en": "Yura",
         "remodelLvl": 20,
         "idAfterRemodel": "220",
@@ -895,6 +914,7 @@
     "24": {
         "jp": "大井",
         "kana": "おおい",
+        "variant": "",
         "en": "Ooi",
         "remodelLvl": 10,
         "idAfterRemodel": "57",
@@ -942,6 +962,7 @@
     "25": {
         "jp": "北上",
         "kana": "きたかみ",
+        "variant": "",
         "en": "Kitakami",
         "remodelLvl": 10,
         "idAfterRemodel": "58",
@@ -989,6 +1010,7 @@
     "26": {
         "jp": "扶桑",
         "kana": "ふそう",
+        "variant": "",
         "en": "Fusou",
         "remodelLvl": 20,
         "idAfterRemodel": "286",
@@ -1036,6 +1058,7 @@
     "27": {
         "jp": "山城",
         "kana": "やましろ",
+        "variant": "",
         "en": "Yamashiro",
         "remodelLvl": 20,
         "idAfterRemodel": "287",
@@ -1083,6 +1106,7 @@
     "28": {
         "jp": "皐月",
         "kana": "さつき",
+        "variant": "",
         "en": "Satsuki",
         "remodelLvl": 20,
         "idAfterRemodel": "256",
@@ -1130,6 +1154,7 @@
     "29": {
         "jp": "文月",
         "kana": "ふみづき",
+        "variant": "",
         "en": "Fumizuki",
         "remodelLvl": 20,
         "idAfterRemodel": "257",
@@ -1177,6 +1202,7 @@
     "30": {
         "jp": "菊月",
         "kana": "きくづき",
+        "variant": "",
         "en": "Kikuzuki",
         "remodelLvl": 20,
         "idAfterRemodel": "259",
@@ -1224,6 +1250,7 @@
     "31": {
         "jp": "望月",
         "kana": "もちづき",
+        "variant": "",
         "en": "Mochizuki",
         "remodelLvl": 20,
         "idAfterRemodel": "261",
@@ -1271,6 +1298,7 @@
     "32": {
         "jp": "初雪",
         "kana": "はつゆき",
+        "variant": "",
         "en": "Hatsuyuki",
         "remodelLvl": 20,
         "idAfterRemodel": "203",
@@ -1318,6 +1346,7 @@
     "33": {
         "jp": "叢雲",
         "kana": "むらくも",
+        "variant": "",
         "en": "Murakumo",
         "remodelLvl": 20,
         "idAfterRemodel": "205",
@@ -1365,6 +1394,7 @@
     "34": {
         "jp": "暁",
         "kana": "あかつき",
+        "variant": "",
         "en": "Akatsuki",
         "remodelLvl": 20,
         "idAfterRemodel": "234",
@@ -1412,6 +1442,7 @@
     "35": {
         "jp": "響",
         "kana": "ひびき",
+        "variant": "",
         "en": "Hibiki",
         "remodelLvl": 20,
         "idAfterRemodel": "235",
@@ -1459,6 +1490,7 @@
     "36": {
         "jp": "雷",
         "kana": "いかづち",
+        "variant": "",
         "en": "Ikazuchi",
         "remodelLvl": 20,
         "idAfterRemodel": "236",
@@ -1506,6 +1538,7 @@
     "37": {
         "jp": "電",
         "kana": "いなづま",
+        "variant": "",
         "en": "Inazuma",
         "remodelLvl": 20,
         "idAfterRemodel": "237",
@@ -1553,6 +1586,7 @@
     "38": {
         "jp": "初春",
         "kana": "はつはる",
+        "variant": "",
         "en": "Hatsuharu",
         "remodelLvl": 20,
         "idAfterRemodel": "238",
@@ -1600,6 +1634,7 @@
     "39": {
         "jp": "子日",
         "kana": "ねのひ",
+        "variant": "",
         "en": "Nenohi",
         "remodelLvl": 20,
         "idAfterRemodel": "239",
@@ -1647,6 +1682,7 @@
     "40": {
         "jp": "若葉",
         "kana": "わかば",
+        "variant": "",
         "en": "Wakaba",
         "remodelLvl": 20,
         "idAfterRemodel": "240",
@@ -1694,6 +1730,7 @@
     "41": {
         "jp": "初霜",
         "kana": "はつしも",
+        "variant": "",
         "en": "Hatsushimo",
         "remodelLvl": 20,
         "idAfterRemodel": "241",
@@ -1741,6 +1778,7 @@
     "42": {
         "jp": "白露",
         "kana": "しらつゆ",
+        "variant": "",
         "en": "Shiratsuyu",
         "remodelLvl": 20,
         "idAfterRemodel": "242",
@@ -1788,6 +1826,7 @@
     "43": {
         "jp": "時雨",
         "kana": "しぐれ",
+        "variant": "",
         "en": "Shigure",
         "remodelLvl": 20,
         "idAfterRemodel": "243",
@@ -1835,6 +1874,7 @@
     "44": {
         "jp": "村雨",
         "kana": "むらさめ",
+        "variant": "",
         "en": "Murasame",
         "remodelLvl": 20,
         "idAfterRemodel": "244",
@@ -1882,6 +1922,7 @@
     "45": {
         "jp": "夕立",
         "kana": "ゆうだち",
+        "variant": "",
         "en": "Yuudachi",
         "remodelLvl": 20,
         "idAfterRemodel": "245",
@@ -1929,6 +1970,7 @@
     "46": {
         "jp": "五月雨",
         "kana": "さみだれ",
+        "variant": "",
         "en": "Samidare",
         "remodelLvl": 20,
         "idAfterRemodel": "246",
@@ -1976,6 +2018,7 @@
     "47": {
         "jp": "涼風",
         "kana": "すずかぜ",
+        "variant": "",
         "en": "Suzukaze",
         "remodelLvl": 20,
         "idAfterRemodel": "247",
@@ -2023,6 +2066,7 @@
     "48": {
         "jp": "霰",
         "kana": "あられ",
+        "variant": "",
         "en": "Arare",
         "remodelLvl": 20,
         "idAfterRemodel": "252",
@@ -2070,6 +2114,7 @@
     "49": {
         "jp": "霞",
         "kana": "かすみ",
+        "variant": "",
         "en": "Kasumi",
         "remodelLvl": 20,
         "idAfterRemodel": "253",
@@ -2117,6 +2162,7 @@
     "50": {
         "jp": "島風",
         "kana": "しまかぜ",
+        "variant": "",
         "en": "Shimakaze",
         "remodelLvl": 20,
         "idAfterRemodel": "229",
@@ -2164,6 +2210,7 @@
     "51": {
         "jp": "天龍",
         "kana": "てんりゅう",
+        "variant": "",
         "en": "Tenryuu",
         "remodelLvl": 20,
         "idAfterRemodel": "213",
@@ -2211,6 +2258,7 @@
     "52": {
         "jp": "龍田",
         "kana": "たつた",
+        "variant": "",
         "en": "Tatsuta",
         "remodelLvl": 20,
         "idAfterRemodel": "214",
@@ -2258,6 +2306,7 @@
     "53": {
         "jp": "名取",
         "kana": "なとり",
+        "variant": "",
         "en": "Natori",
         "remodelLvl": 20,
         "idAfterRemodel": "221",
@@ -2305,6 +2354,7 @@
     "54": {
         "jp": "川内",
         "kana": "せんだい",
+        "variant": "",
         "en": "Sendai",
         "remodelLvl": 20,
         "idAfterRemodel": "222",
@@ -2352,6 +2402,7 @@
     "55": {
         "jp": "神通",
         "kana": "じんつう",
+        "variant": "",
         "en": "Jintsuu",
         "remodelLvl": 20,
         "idAfterRemodel": "223",
@@ -2399,6 +2450,7 @@
     "56": {
         "jp": "那珂",
         "kana": "なか",
+        "variant": "",
         "en": "Naka",
         "remodelLvl": 20,
         "idAfterRemodel": "224",
@@ -2446,6 +2498,7 @@
     "57": {
         "jp": "大井改",
         "kana": "おおい",
+        "variant": "",
         "en": "Ooi Kai",
         "remodelLvl": 50,
         "idAfterRemodel": "118",
@@ -2493,6 +2546,7 @@
     "58": {
         "jp": "北上改",
         "kana": "きたかみ",
+        "variant": "",
         "en": "Kitakami Kai",
         "remodelLvl": 50,
         "idAfterRemodel": "119",
@@ -2540,6 +2594,7 @@
     "59": {
         "jp": "古鷹",
         "kana": "ふるたか",
+        "variant": "",
         "en": "Furutaka",
         "remodelLvl": 25,
         "idAfterRemodel": "262",
@@ -2587,6 +2642,7 @@
     "60": {
         "jp": "加古",
         "kana": "かこ",
+        "variant": "",
         "en": "Kako",
         "remodelLvl": 25,
         "idAfterRemodel": "263",
@@ -2634,6 +2690,7 @@
     "61": {
         "jp": "青葉",
         "kana": "あおば",
+        "variant": "",
         "en": "Aoba",
         "remodelLvl": 25,
         "idAfterRemodel": "264",
@@ -2681,6 +2738,7 @@
     "62": {
         "jp": "妙高",
         "kana": "みょうこう",
+        "variant": "",
         "en": "Myoukou",
         "remodelLvl": 25,
         "idAfterRemodel": "265",
@@ -2728,6 +2786,7 @@
     "63": {
         "jp": "那智",
         "kana": "なち",
+        "variant": "",
         "en": "Nachi",
         "remodelLvl": 25,
         "idAfterRemodel": "266",
@@ -2775,6 +2834,7 @@
     "64": {
         "jp": "足柄",
         "kana": "あしがら",
+        "variant": "",
         "en": "Ashigara",
         "remodelLvl": 25,
         "idAfterRemodel": "267",
@@ -2822,6 +2882,7 @@
     "65": {
         "jp": "羽黒",
         "kana": "はぐろ",
+        "variant": "",
         "en": "Haguro",
         "remodelLvl": 25,
         "idAfterRemodel": "268",
@@ -2869,6 +2930,7 @@
     "66": {
         "jp": "高雄",
         "kana": "たかお",
+        "variant": "",
         "en": "Takao",
         "remodelLvl": 25,
         "idAfterRemodel": "269",
@@ -2916,6 +2978,7 @@
     "67": {
         "jp": "愛宕",
         "kana": "あたご",
+        "variant": "",
         "en": "Atago",
         "remodelLvl": 25,
         "idAfterRemodel": "270",
@@ -2963,6 +3026,7 @@
     "68": {
         "jp": "摩耶",
         "kana": "まや",
+        "variant": "",
         "en": "Maya",
         "remodelLvl": 18,
         "idAfterRemodel": "271",
@@ -3010,6 +3074,7 @@
     "69": {
         "jp": "鳥海",
         "kana": "ちょうかい",
+        "variant": "",
         "en": "Choukai",
         "remodelLvl": 25,
         "idAfterRemodel": "272",
@@ -3057,6 +3122,7 @@
     "70": {
         "jp": "最上",
         "kana": "もがみ",
+        "variant": "",
         "en": "Mogami",
         "remodelLvl": 10,
         "idAfterRemodel": "73",
@@ -3104,6 +3170,7 @@
     "71": {
         "jp": "利根",
         "kana": "とね",
+        "variant": "",
         "en": "Tone",
         "remodelLvl": 25,
         "idAfterRemodel": "273",
@@ -3151,6 +3218,7 @@
     "72": {
         "jp": "筑摩",
         "kana": "ちくま",
+        "variant": "",
         "en": "Chikuma",
         "remodelLvl": 25,
         "idAfterRemodel": "274",
@@ -3198,6 +3266,7 @@
     "73": {
         "jp": "最上改",
         "kana": "もがみ",
+        "variant": "",
         "en": "Mogami Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -3245,6 +3314,7 @@
     "74": {
         "jp": "祥鳳",
         "kana": "しょうほう",
+        "variant": "",
         "en": "Shouhou",
         "remodelLvl": 25,
         "idAfterRemodel": "282",
@@ -3292,6 +3362,7 @@
     "75": {
         "jp": "飛鷹",
         "kana": "ひよう",
+        "variant": "",
         "en": "Hiyou",
         "remodelLvl": 25,
         "idAfterRemodel": "283",
@@ -3339,6 +3410,7 @@
     "76": {
         "jp": "龍驤",
         "kana": "りゅうじょう",
+        "variant": "",
         "en": "Ryuujou",
         "remodelLvl": 25,
         "idAfterRemodel": "281",
@@ -3386,6 +3458,7 @@
     "77": {
         "jp": "伊勢",
         "kana": "いせ",
+        "variant": "",
         "en": "Ise",
         "remodelLvl": 10,
         "idAfterRemodel": "82",
@@ -3433,6 +3506,7 @@
     "78": {
         "jp": "金剛",
         "kana": "こんごう",
+        "variant": "",
         "en": "Kongou",
         "remodelLvl": 25,
         "idAfterRemodel": "209",
@@ -3480,6 +3554,7 @@
     "79": {
         "jp": "榛名",
         "kana": "はるな",
+        "variant": "",
         "en": "Haruna",
         "remodelLvl": 25,
         "idAfterRemodel": "211",
@@ -3527,6 +3602,7 @@
     "80": {
         "jp": "長門",
         "kana": "ながと",
+        "variant": "",
         "en": "Nagato",
         "remodelLvl": 30,
         "idAfterRemodel": "275",
@@ -3574,6 +3650,7 @@
     "81": {
         "jp": "陸奥",
         "kana": "むつ",
+        "variant": "",
         "en": "Mutsu",
         "remodelLvl": 30,
         "idAfterRemodel": "276",
@@ -3621,6 +3698,7 @@
     "82": {
         "jp": "伊勢改",
         "kana": "いせ",
+        "variant": "",
         "en": "Ise Kai",
         "remodelLvl": 88,
         "idAfterRemodel": "553",
@@ -3668,6 +3746,7 @@
     "83": {
         "jp": "赤城",
         "kana": "あかぎ",
+        "variant": "",
         "en": "Akagi",
         "remodelLvl": 30,
         "idAfterRemodel": "277",
@@ -3715,6 +3794,7 @@
     "84": {
         "jp": "加賀",
         "kana": "かが",
+        "variant": "",
         "en": "Kaga",
         "remodelLvl": 30,
         "idAfterRemodel": "278",
@@ -3762,6 +3842,7 @@
     "85": {
         "jp": "霧島",
         "kana": "きりしま",
+        "variant": "",
         "en": "Kirishima",
         "remodelLvl": 25,
         "idAfterRemodel": "212",
@@ -3809,6 +3890,7 @@
     "86": {
         "jp": "比叡",
         "kana": "ひえい",
+        "variant": "",
         "en": "Hiei",
         "remodelLvl": 25,
         "idAfterRemodel": "210",
@@ -3856,6 +3938,7 @@
     "87": {
         "jp": "日向",
         "kana": "ひゅうが",
+        "variant": "",
         "en": "Hyuuga",
         "remodelLvl": 10,
         "idAfterRemodel": "88",
@@ -3903,6 +3986,7 @@
     "88": {
         "jp": "日向改",
         "kana": "ひゅうが",
+        "variant": "",
         "en": "Hyuuga Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -3950,6 +4034,7 @@
     "89": {
         "jp": "鳳翔",
         "kana": "ほうしょう",
+        "variant": "",
         "en": "Houshou",
         "remodelLvl": 25,
         "idAfterRemodel": "285",
@@ -3997,6 +4082,7 @@
     "90": {
         "jp": "蒼龍",
         "kana": "そうりゅう",
+        "variant": "",
         "en": "Souryuu",
         "remodelLvl": 30,
         "idAfterRemodel": "279",
@@ -4044,6 +4130,7 @@
     "91": {
         "jp": "飛龍",
         "kana": "ひりゅう",
+        "variant": "",
         "en": "Hiryuu",
         "remodelLvl": 30,
         "idAfterRemodel": "280",
@@ -4091,6 +4178,7 @@
     "92": {
         "jp": "隼鷹",
         "kana": "じゅんよう",
+        "variant": "",
         "en": "Junyou",
         "remodelLvl": 25,
         "idAfterRemodel": "284",
@@ -4138,6 +4226,7 @@
     "93": {
         "jp": "朧",
         "kana": "おぼろ",
+        "variant": "",
         "en": "Oboro",
         "remodelLvl": 20,
         "idAfterRemodel": "230",
@@ -4185,6 +4274,7 @@
     "94": {
         "jp": "漣",
         "kana": "さざなみ",
+        "variant": "",
         "en": "Sazanami",
         "remodelLvl": 20,
         "idAfterRemodel": "232",
@@ -4232,6 +4322,7 @@
     "95": {
         "jp": "朝潮",
         "kana": "あさしお",
+        "variant": "",
         "en": "Asashio",
         "remodelLvl": 20,
         "idAfterRemodel": "248",
@@ -4279,6 +4370,7 @@
     "96": {
         "jp": "大潮",
         "kana": "おおしお",
+        "variant": "",
         "en": "Ooshio",
         "remodelLvl": 20,
         "idAfterRemodel": "249",
@@ -4326,6 +4418,7 @@
     "97": {
         "jp": "満潮",
         "kana": "みちしお",
+        "variant": "",
         "en": "Michishio",
         "remodelLvl": 20,
         "idAfterRemodel": "250",
@@ -4373,6 +4466,7 @@
     "98": {
         "jp": "荒潮",
         "kana": "あらしお",
+        "variant": "",
         "en": "Arashio",
         "remodelLvl": 20,
         "idAfterRemodel": "251",
@@ -4420,6 +4514,7 @@
     "99": {
         "jp": "球磨",
         "kana": "くま",
+        "variant": "",
         "en": "Kuma",
         "remodelLvl": 20,
         "idAfterRemodel": "215",
@@ -4467,6 +4562,7 @@
     "100": {
         "jp": "多摩",
         "kana": "たま",
+        "variant": "",
         "en": "Tama",
         "remodelLvl": 20,
         "idAfterRemodel": "216",
@@ -4514,6 +4610,7 @@
     "101": {
         "jp": "木曾",
         "kana": "きそ",
+        "variant": "",
         "en": "Kiso",
         "remodelLvl": 20,
         "idAfterRemodel": "217",
@@ -4561,6 +4658,7 @@
     "102": {
         "jp": "千歳",
         "kana": "ちとせ",
+        "variant": "",
         "en": "Chitose",
         "remodelLvl": 10,
         "idAfterRemodel": "104",
@@ -4608,6 +4706,7 @@
     "103": {
         "jp": "千代田",
         "kana": "ちよだ",
+        "variant": "",
         "en": "Chiyoda",
         "remodelLvl": 10,
         "idAfterRemodel": "105",
@@ -4655,6 +4754,7 @@
     "104": {
         "jp": "千歳改",
         "kana": "ちとせ",
+        "variant": "",
         "en": "Chitose Kai",
         "remodelLvl": 12,
         "idAfterRemodel": "106",
@@ -4702,6 +4802,7 @@
     "105": {
         "jp": "千代田改",
         "kana": "ちよだ",
+        "variant": "",
         "en": "Chiyoda Kai",
         "remodelLvl": 12,
         "idAfterRemodel": "107",
@@ -4749,6 +4850,7 @@
     "106": {
         "jp": "千歳甲",
         "kana": "ちとせ",
+        "variant": "",
         "en": "Chitose Kou",
         "remodelLvl": 15,
         "idAfterRemodel": "108",
@@ -4796,6 +4898,7 @@
     "107": {
         "jp": "千代田甲",
         "kana": "ちよだ",
+        "variant": "",
         "en": "Chiyoda Kou",
         "remodelLvl": 15,
         "idAfterRemodel": "109",
@@ -4843,6 +4946,7 @@
     "108": {
         "jp": "千歳航",
         "kana": "ちとせ",
+        "variant": "",
         "en": "Chitose Carrier",
         "remodelLvl": 35,
         "idAfterRemodel": "291",
@@ -4890,6 +4994,7 @@
     "109": {
         "jp": "千代田航",
         "kana": "ちよだ",
+        "variant": "",
         "en": "Chiyoda Carrier",
         "remodelLvl": 35,
         "idAfterRemodel": "292",
@@ -4937,6 +5042,7 @@
     "110": {
         "jp": "翔鶴",
         "kana": "しょうかく",
+        "variant": "",
         "en": "Shoukaku",
         "remodelLvl": 30,
         "idAfterRemodel": "288",
@@ -4984,6 +5090,7 @@
     "111": {
         "jp": "瑞鶴",
         "kana": "ずいかく",
+        "variant": "",
         "en": "Zuikaku",
         "remodelLvl": 25,
         "idAfterRemodel": "112",
@@ -5031,6 +5138,7 @@
     "112": {
         "jp": "瑞鶴改",
         "kana": "ずいかく",
+        "variant": "",
         "en": "Zuikaku Kai",
         "remodelLvl": 77,
         "idAfterRemodel": "462",
@@ -5078,6 +5186,7 @@
     "113": {
         "jp": "鬼怒",
         "kana": "きぬ",
+        "variant": "",
         "en": "Kinu",
         "remodelLvl": 17,
         "idAfterRemodel": "289",
@@ -5125,6 +5234,7 @@
     "114": {
         "jp": "阿武隈",
         "kana": "あぶくま",
+        "variant": "",
         "en": "Abukuma",
         "remodelLvl": 17,
         "idAfterRemodel": "290",
@@ -5172,6 +5282,7 @@
     "115": {
         "jp": "夕張",
         "kana": "ゆうばり",
+        "variant": "",
         "en": "Yuubari",
         "remodelLvl": 25,
         "idAfterRemodel": "293",
@@ -5219,6 +5330,7 @@
     "116": {
         "jp": "瑞鳳",
         "kana": "ずいほう",
+        "variant": "",
         "en": "Zuihou",
         "remodelLvl": 25,
         "idAfterRemodel": "117",
@@ -5266,6 +5378,7 @@
     "117": {
         "jp": "瑞鳳改",
         "kana": "ずいほう",
+        "variant": "",
         "en": "Zuihou Kai",
         "remodelLvl": 80,
         "idAfterRemodel": "555",
@@ -5313,6 +5426,7 @@
     "118": {
         "jp": "大井改二",
         "kana": "おおい",
+        "variant": "",
         "en": "Ooi Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -5360,6 +5474,7 @@
     "119": {
         "jp": "北上改二",
         "kana": "きたかみ",
+        "variant": "",
         "en": "Kitakami Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -5407,6 +5522,7 @@
     "120": {
         "jp": "三隈",
         "kana": "みくま",
+        "variant": "",
         "en": "Mikuma",
         "remodelLvl": 30,
         "idAfterRemodel": "121",
@@ -5454,6 +5570,7 @@
     "121": {
         "jp": "三隈改",
         "kana": "みくま",
+        "variant": "",
         "en": "Mikuma Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -5501,6 +5618,7 @@
     "122": {
         "jp": "舞風",
         "kana": "まいかぜ",
+        "variant": "",
         "en": "Maikaze",
         "remodelLvl": 20,
         "idAfterRemodel": "294",
@@ -5548,6 +5666,7 @@
     "123": {
         "jp": "衣笠",
         "kana": "きぬがさ",
+        "variant": "",
         "en": "Kinugasa",
         "remodelLvl": 25,
         "idAfterRemodel": "295",
@@ -5595,6 +5714,7 @@
     "124": {
         "jp": "鈴谷",
         "kana": "すずや",
+        "variant": "",
         "en": "Suzuya",
         "remodelLvl": 35,
         "idAfterRemodel": "129",
@@ -5642,6 +5762,7 @@
     "125": {
         "jp": "熊野",
         "kana": "くまの",
+        "variant": "",
         "en": "Kumano",
         "remodelLvl": 35,
         "idAfterRemodel": "130",
@@ -5689,6 +5810,7 @@
     "126": {
         "jp": "伊168",
         "kana": "い168",
+        "variant": "",
         "en": "I-168",
         "remodelLvl": 50,
         "idAfterRemodel": "398",
@@ -5736,6 +5858,7 @@
     "127": {
         "jp": "伊58",
         "kana": "い58",
+        "variant": "",
         "en": "I-58",
         "remodelLvl": 50,
         "idAfterRemodel": "399",
@@ -5783,6 +5906,7 @@
     "128": {
         "jp": "伊8",
         "kana": "い8",
+        "variant": "",
         "en": "I-8",
         "remodelLvl": 50,
         "idAfterRemodel": "400",
@@ -5830,6 +5954,7 @@
     "129": {
         "jp": "鈴谷改",
         "kana": "すずや",
+        "variant": "",
         "en": "Suzuya Kai",
         "remodelLvl": 84,
         "idAfterRemodel": "503",
@@ -5877,6 +6002,7 @@
     "130": {
         "jp": "熊野改",
         "kana": "くまの",
+        "variant": "",
         "en": "Kumano Kai",
         "remodelLvl": 84,
         "idAfterRemodel": "504",
@@ -5924,6 +6050,7 @@
     "131": {
         "jp": "大和",
         "kana": "やまと",
+        "variant": "",
         "en": "Yamato",
         "remodelLvl": 60,
         "idAfterRemodel": "136",
@@ -5971,6 +6098,7 @@
     "132": {
         "jp": "秋雲",
         "kana": "あきぐも",
+        "variant": "",
         "en": "Akigumo",
         "remodelLvl": 30,
         "idAfterRemodel": "301",
@@ -6018,6 +6146,7 @@
     "133": {
         "jp": "夕雲",
         "kana": "ゆうぐも",
+        "variant": "",
         "en": "Yuugumo",
         "remodelLvl": 30,
         "idAfterRemodel": "302",
@@ -6065,6 +6194,7 @@
     "134": {
         "jp": "巻雲",
         "kana": "まきぐも",
+        "variant": "",
         "en": "Makigumo",
         "remodelLvl": 30,
         "idAfterRemodel": "303",
@@ -6112,6 +6242,7 @@
     "135": {
         "jp": "長波",
         "kana": "ながなみ",
+        "variant": "",
         "en": "Naganami",
         "remodelLvl": 30,
         "idAfterRemodel": "304",
@@ -6159,6 +6290,7 @@
     "136": {
         "jp": "大和改",
         "kana": "やまと",
+        "variant": "",
         "en": "Yamato Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -6206,6 +6338,7 @@
     "137": {
         "jp": "阿賀野",
         "kana": "あがの",
+        "variant": "",
         "en": "Agano",
         "remodelLvl": 35,
         "idAfterRemodel": "305",
@@ -6253,6 +6386,7 @@
     "138": {
         "jp": "能代",
         "kana": "のしろ",
+        "variant": "",
         "en": "Noshiro",
         "remodelLvl": 35,
         "idAfterRemodel": "306",
@@ -6300,6 +6434,7 @@
     "139": {
         "jp": "矢矧",
         "kana": "やはぎ",
+        "variant": "",
         "en": "Yahagi",
         "remodelLvl": 35,
         "idAfterRemodel": "307",
@@ -6347,6 +6482,7 @@
     "140": {
         "jp": "酒匂",
         "kana": "さかわ",
+        "variant": "",
         "en": "Sakawa",
         "remodelLvl": 35,
         "idAfterRemodel": "314",
@@ -6394,6 +6530,7 @@
     "141": {
         "jp": "五十鈴改二",
         "kana": "いすず",
+        "variant": "",
         "en": "Isuzu Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -6441,6 +6578,7 @@
     "142": {
         "jp": "衣笠改二",
         "kana": "きぬがさ",
+        "variant": "",
         "en": "Kinugasa Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -6488,6 +6626,7 @@
     "143": {
         "jp": "武蔵",
         "kana": "むさし",
+        "variant": "",
         "en": "Musashi",
         "remodelLvl": 40,
         "idAfterRemodel": "148",
@@ -6535,6 +6674,7 @@
     "144": {
         "jp": "夕立改二",
         "kana": "ゆうだち",
+        "variant": "",
         "en": "Yuudachi Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -6582,6 +6722,7 @@
     "145": {
         "jp": "時雨改二",
         "kana": "しぐれ",
+        "variant": "",
         "en": "Shigure Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -6629,6 +6770,7 @@
     "146": {
         "jp": "木曾改二",
         "kana": "きそ",
+        "variant": "",
         "en": "Kiso Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -6676,6 +6818,7 @@
     "147": {
         "jp": "Верный",
         "kana": "ひびき",
+        "variant": "",
         "en": "Verniy",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -6723,6 +6866,7 @@
     "148": {
         "jp": "武蔵改",
         "kana": "むさし",
+        "variant": "",
         "en": "Musashi Kai",
         "remodelLvl": 89,
         "idAfterRemodel": "546",
@@ -6770,6 +6914,7 @@
     "149": {
         "jp": "金剛改二",
         "kana": "こんごう",
+        "variant": "",
         "en": "Kongou Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -6817,6 +6962,7 @@
     "150": {
         "jp": "比叡改二",
         "kana": "ひえい",
+        "variant": "",
         "en": "Hiei Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -6864,6 +7010,7 @@
     "151": {
         "jp": "榛名改二",
         "kana": "はるな",
+        "variant": "",
         "en": "Haruna Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -6911,6 +7058,7 @@
     "152": {
         "jp": "霧島改二",
         "kana": "きりしま",
+        "variant": "",
         "en": "Kirishima Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -6958,6 +7106,7 @@
     "153": {
         "jp": "大鳳",
         "kana": "たいほう",
+        "variant": "",
         "en": "Taihou",
         "remodelLvl": 40,
         "idAfterRemodel": "156",
@@ -7005,6 +7154,7 @@
     "154": {
         "jp": "香取",
         "kana": "かとり",
+        "variant": "",
         "en": "Katori",
         "remodelLvl": 35,
         "idAfterRemodel": "343",
@@ -7052,6 +7202,7 @@
     "155": {
         "jp": "伊401",
         "kana": "い401",
+        "variant": "",
         "en": "I-401",
         "remodelLvl": 35,
         "idAfterRemodel": "403",
@@ -7099,6 +7250,7 @@
     "156": {
         "jp": "大鳳改",
         "kana": "たいほう",
+        "variant": "",
         "en": "Taihou Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -7146,6 +7298,7 @@
     "157": {
         "jp": "龍驤改二",
         "kana": "りゅうじょう",
+        "variant": "",
         "en": "Ryuujou Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -7193,6 +7346,7 @@
     "158": {
         "jp": "川内改二",
         "kana": "せんだい",
+        "variant": "",
         "en": "Sendai Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -7240,6 +7394,7 @@
     "159": {
         "jp": "神通改二",
         "kana": "じんつう",
+        "variant": "",
         "en": "Jintsuu Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -7287,6 +7442,7 @@
     "160": {
         "jp": "那珂改二",
         "kana": "なか",
+        "variant": "",
         "en": "Naka Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -7334,6 +7490,7 @@
     "161": {
         "jp": "あきつ丸",
         "kana": "あきつまる",
+        "variant": "",
         "en": "Akitsumaru",
         "remodelLvl": 25,
         "idAfterRemodel": "166",
@@ -7381,6 +7538,7 @@
     "162": {
         "jp": "神威",
         "kana": "かもい",
+        "variant": "",
         "en": "Kamoi",
         "remodelLvl": 35,
         "idAfterRemodel": "499",
@@ -7428,6 +7586,7 @@
     "163": {
         "jp": "まるゆ",
         "kana": "まるゆ",
+        "variant": "",
         "en": "Maruyu",
         "remodelLvl": 20,
         "idAfterRemodel": "402",
@@ -7475,6 +7634,7 @@
     "164": {
         "jp": "弥生",
         "kana": "やよい",
+        "variant": "",
         "en": "Yayoi",
         "remodelLvl": 20,
         "idAfterRemodel": "308",
@@ -7522,6 +7682,7 @@
     "165": {
         "jp": "卯月",
         "kana": "うづき",
+        "variant": "",
         "en": "Uzuki",
         "remodelLvl": 25,
         "idAfterRemodel": "309",
@@ -7569,6 +7730,7 @@
     "166": {
         "jp": "あきつ丸改",
         "kana": "あきつまる",
+        "variant": "",
         "en": "Akitsumaru Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -7616,6 +7778,7 @@
     "167": {
         "jp": "磯風",
         "kana": "いそかぜ",
+        "variant": "",
         "en": "Isokaze",
         "remodelLvl": 45,
         "idAfterRemodel": "320",
@@ -7663,6 +7826,7 @@
     "168": {
         "jp": "浦風",
         "kana": "うらかぜ",
+        "variant": "",
         "en": "Urakaze",
         "remodelLvl": 35,
         "idAfterRemodel": "317",
@@ -7710,6 +7874,7 @@
     "169": {
         "jp": "谷風",
         "kana": "たにかぜ",
+        "variant": "",
         "en": "Tanikaze",
         "remodelLvl": 30,
         "idAfterRemodel": "313",
@@ -7757,6 +7922,7 @@
     "170": {
         "jp": "浜風",
         "kana": "はまかぜ",
+        "variant": "",
         "en": "Hamakaze",
         "remodelLvl": 30,
         "idAfterRemodel": "312",
@@ -7804,6 +7970,7 @@
     "171": {
         "jp": "Bismarck",
         "kana": "ビスマルク",
+        "variant": "",
         "en": "Bismarck",
         "remodelLvl": 30,
         "idAfterRemodel": "172",
@@ -7851,6 +8018,7 @@
     "172": {
         "jp": "Bismarck改",
         "kana": "ビスマルク",
+        "variant": "",
         "en": "Bismarck Kai",
         "remodelLvl": 50,
         "idAfterRemodel": "173",
@@ -7898,6 +8066,7 @@
     "173": {
         "jp": "Bismarck zwei",
         "kana": "ビスマルク",
+        "variant": "",
         "en": "Bismarck Zwei",
         "remodelLvl": 75,
         "idAfterRemodel": "178",
@@ -7945,6 +8114,7 @@
     "174": {
         "jp": "Z1",
         "kana": "レーベレヒト・マース",
+        "variant": "",
         "en": "Z1",
         "remodelLvl": 30,
         "idAfterRemodel": "310",
@@ -7992,6 +8162,7 @@
     "175": {
         "jp": "Z3",
         "kana": "マックス・シュルツ",
+        "variant": "",
         "en": "Z3",
         "remodelLvl": 30,
         "idAfterRemodel": "311",
@@ -8039,6 +8210,7 @@
     "176": {
         "jp": "Prinz Eugen",
         "kana": "プリンツ・オイゲン",
+        "variant": "",
         "en": "Prinz Eugen",
         "remodelLvl": 45,
         "idAfterRemodel": "177",
@@ -8086,6 +8258,7 @@
     "177": {
         "jp": "Prinz Eugen改",
         "kana": "プリンツ・オイゲン",
+        "variant": "",
         "en": "Prinz Eugen Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -8133,6 +8306,7 @@
     "178": {
         "jp": "Bismarck drei",
         "kana": "ビスマルク",
+        "variant": "",
         "en": "Bismarck Drei",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -8180,6 +8354,7 @@
     "179": {
         "jp": "Z1 zwei",
         "kana": "レーベレヒト・マース",
+        "variant": "",
         "en": "Z1 Zwei",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -8227,6 +8402,7 @@
     "180": {
         "jp": "Z3 zwei",
         "kana": "マックス・シュルツ",
+        "variant": "",
         "en": "Z3 Zwei",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -8274,6 +8450,7 @@
     "181": {
         "jp": "天津風",
         "kana": "あまつかぜ",
+        "variant": "",
         "en": "Amatsukaze",
         "remodelLvl": 20,
         "idAfterRemodel": "316",
@@ -8321,6 +8498,7 @@
     "182": {
         "jp": "明石",
         "kana": "あかし",
+        "variant": "",
         "en": "Akashi",
         "remodelLvl": 35,
         "idAfterRemodel": "187",
@@ -8368,6 +8546,7 @@
     "183": {
         "jp": "大淀",
         "kana": "おおよど",
+        "variant": "",
         "en": "Ooyodo",
         "remodelLvl": 35,
         "idAfterRemodel": "321",
@@ -8415,6 +8594,7 @@
     "184": {
         "jp": "大鯨",
         "kana": "たいげい・りゅうほう",
+        "variant": "",
         "en": "Taigei",
         "remodelLvl": 25,
         "idAfterRemodel": "185",
@@ -8462,6 +8642,7 @@
     "185": {
         "jp": "龍鳳",
         "kana": "たいげい・りゅうほう",
+        "variant": "",
         "en": "Ryuuhou",
         "remodelLvl": 50,
         "idAfterRemodel": "318",
@@ -8509,6 +8690,7 @@
     "186": {
         "jp": "時津風",
         "kana": "ときつかぜ",
+        "variant": "",
         "en": "Tokitsukaze",
         "remodelLvl": 30,
         "idAfterRemodel": "322",
@@ -8556,6 +8738,7 @@
     "187": {
         "jp": "明石改",
         "kana": "あかし",
+        "variant": "",
         "en": "Akashi Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -8603,6 +8786,7 @@
     "188": {
         "jp": "利根改二",
         "kana": "とね",
+        "variant": "",
         "en": "Tone Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -8650,6 +8834,7 @@
     "189": {
         "jp": "筑摩改二",
         "kana": "ちくま",
+        "variant": "",
         "en": "Chikuma Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -8697,6 +8882,7 @@
     "190": {
         "jp": "初風",
         "kana": "はつかぜ",
+        "variant": "",
         "en": "Hatsukaze",
         "remodelLvl": 20,
         "idAfterRemodel": "300",
@@ -8744,6 +8930,7 @@
     "191": {
         "jp": "伊19",
         "kana": "い19",
+        "variant": "",
         "en": "I-19",
         "remodelLvl": 50,
         "idAfterRemodel": "401",
@@ -8791,6 +8978,7 @@
     "192": {
         "jp": "那智改二",
         "kana": "なち",
+        "variant": "",
         "en": "Nachi Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -8838,6 +9026,7 @@
     "193": {
         "jp": "足柄改二",
         "kana": "あしがら",
+        "variant": "",
         "en": "Ashigara Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -8885,6 +9074,7 @@
     "194": {
         "jp": "羽黒改二",
         "kana": "はぐろ",
+        "variant": "",
         "en": "Haguro Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -8932,6 +9122,7 @@
     "195": {
         "jp": "綾波改二",
         "kana": "あやなみ",
+        "variant": "",
         "en": "Ayanami Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -8979,6 +9170,7 @@
     "196": {
         "jp": "飛龍改二",
         "kana": "ひりゅう",
+        "variant": "",
         "en": "Hiryuu Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -9026,6 +9218,7 @@
     "197": {
         "jp": "蒼龍改二",
         "kana": "そうりゅう",
+        "variant": "",
         "en": "Souryuu Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -9073,6 +9266,7 @@
     "198": {
         "jp": "霰改二",
         "kana": "あられ",
+        "variant": "",
         "en": "Arare Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -9120,6 +9314,7 @@
     "199": {
         "jp": "大潮改二",
         "kana": "おおしお",
+        "variant": "",
         "en": "Ooshio Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -9167,6 +9362,7 @@
     "200": {
         "jp": "阿武隈改二",
         "kana": "あぶくま",
+        "variant": "",
         "en": "Abukuma Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -9214,6 +9410,7 @@
     "201": {
         "jp": "吹雪改",
         "kana": "ふぶき",
+        "variant": "",
         "en": "Fubuki Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "426",
@@ -9261,6 +9458,7 @@
     "202": {
         "jp": "白雪改",
         "kana": "しらゆき",
+        "variant": "",
         "en": "Shirayuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -9308,6 +9506,7 @@
     "203": {
         "jp": "初雪改",
         "kana": "はつゆき",
+        "variant": "",
         "en": "Hatsuyuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -9355,6 +9554,7 @@
     "204": {
         "jp": "深雪改",
         "kana": "みゆき",
+        "variant": "",
         "en": "Miyuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -9402,6 +9602,7 @@
     "205": {
         "jp": "叢雲改",
         "kana": "むらくも",
+        "variant": "",
         "en": "Murakumo Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "420",
@@ -9449,6 +9650,7 @@
     "206": {
         "jp": "磯波改",
         "kana": "いそなみ",
+        "variant": "",
         "en": "Isonami Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -9496,6 +9698,7 @@
     "207": {
         "jp": "綾波改",
         "kana": "あやなみ",
+        "variant": "",
         "en": "Ayanami Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "195",
@@ -9543,6 +9746,7 @@
     "208": {
         "jp": "敷波改",
         "kana": "しきなみ",
+        "variant": "",
         "en": "Shikinami Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -9590,6 +9794,7 @@
     "209": {
         "jp": "金剛改",
         "kana": "こんごう",
+        "variant": "",
         "en": "Kongou Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "149",
@@ -9637,6 +9842,7 @@
     "210": {
         "jp": "比叡改",
         "kana": "ひえい",
+        "variant": "",
         "en": "Hiei Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "150",
@@ -9684,6 +9890,7 @@
     "211": {
         "jp": "榛名改",
         "kana": "はるな",
+        "variant": "",
         "en": "Haruna Kai",
         "remodelLvl": 80,
         "idAfterRemodel": "151",
@@ -9731,6 +9938,7 @@
     "212": {
         "jp": "霧島改",
         "kana": "きりしま",
+        "variant": "",
         "en": "Kirishima Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "152",
@@ -9778,6 +9986,7 @@
     "213": {
         "jp": "天龍改",
         "kana": "てんりゅう",
+        "variant": "",
         "en": "Tenryuu Kai",
         "remodelLvl": 84,
         "idAfterRemodel": "477",
@@ -9825,6 +10034,7 @@
     "214": {
         "jp": "龍田改",
         "kana": "たつた",
+        "variant": "",
         "en": "Tatsuta Kai",
         "remodelLvl": 80,
         "idAfterRemodel": "478",
@@ -9872,6 +10082,7 @@
     "215": {
         "jp": "球磨改",
         "kana": "くま",
+        "variant": "",
         "en": "Kuma Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -9919,6 +10130,7 @@
     "216": {
         "jp": "多摩改",
         "kana": "たま",
+        "variant": "",
         "en": "Tama Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "547",
@@ -9966,6 +10178,7 @@
     "217": {
         "jp": "木曾改",
         "kana": "きそ",
+        "variant": "",
         "en": "Kiso Kai",
         "remodelLvl": 65,
         "idAfterRemodel": "146",
@@ -10013,6 +10226,7 @@
     "218": {
         "jp": "長良改",
         "kana": "ながら",
+        "variant": "",
         "en": "Nagara Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -10060,6 +10274,7 @@
     "219": {
         "jp": "五十鈴改",
         "kana": "いすず",
+        "variant": "",
         "en": "Isuzu Kai",
         "remodelLvl": 50,
         "idAfterRemodel": "141",
@@ -10107,6 +10322,7 @@
     "220": {
         "jp": "由良改",
         "kana": "ゆら",
+        "variant": "",
         "en": "Yura Kai",
         "remodelLvl": 77,
         "idAfterRemodel": "488",
@@ -10154,6 +10370,7 @@
     "221": {
         "jp": "名取改",
         "kana": "なとり",
+        "variant": "",
         "en": "Natori Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -10201,6 +10418,7 @@
     "222": {
         "jp": "川内改",
         "kana": "せんだい",
+        "variant": "",
         "en": "Sendai Kai",
         "remodelLvl": 60,
         "idAfterRemodel": "158",
@@ -10248,6 +10466,7 @@
     "223": {
         "jp": "神通改",
         "kana": "じんつう",
+        "variant": "",
         "en": "Jintsuu Kai",
         "remodelLvl": 60,
         "idAfterRemodel": "159",
@@ -10295,6 +10514,7 @@
     "224": {
         "jp": "那珂改",
         "kana": "なか",
+        "variant": "",
         "en": "Naka Kai",
         "remodelLvl": 48,
         "idAfterRemodel": "160",
@@ -10342,6 +10562,7 @@
     "225": {
         "jp": "陽炎改",
         "kana": "かげろう",
+        "variant": "",
         "en": "Kagerou Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "566",
@@ -10389,6 +10610,7 @@
     "226": {
         "jp": "不知火改",
         "kana": "しらぬい",
+        "variant": "",
         "en": "Shiranui Kai",
         "remodelLvl": 72,
         "idAfterRemodel": "567",
@@ -10436,6 +10658,7 @@
     "227": {
         "jp": "黒潮改",
         "kana": "くろしお",
+        "variant": "",
         "en": "Kuroshio Kai",
         "remodelLvl": 73,
         "idAfterRemodel": "568",
@@ -10483,6 +10706,7 @@
     "228": {
         "jp": "雪風改",
         "kana": "ゆきかぜ",
+        "variant": "",
         "en": "Yukikaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -10530,6 +10754,7 @@
     "229": {
         "jp": "島風改",
         "kana": "しまかぜ",
+        "variant": "",
         "en": "Shimakaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -10577,6 +10802,7 @@
     "230": {
         "jp": "朧改",
         "kana": "おぼろ",
+        "variant": "",
         "en": "Oboro Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -10624,6 +10850,7 @@
     "231": {
         "jp": "曙改",
         "kana": "あけぼの",
+        "variant": "",
         "en": "Akebono Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -10671,6 +10898,7 @@
     "232": {
         "jp": "漣改",
         "kana": "さざなみ",
+        "variant": "",
         "en": "Sazanami Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -10718,6 +10946,7 @@
     "233": {
         "jp": "潮改",
         "kana": "うしお",
+        "variant": "",
         "en": "Ushio Kai",
         "remodelLvl": 60,
         "idAfterRemodel": "407",
@@ -10765,6 +10994,7 @@
     "234": {
         "jp": "暁改",
         "kana": "あかつき",
+        "variant": "",
         "en": "Akatsuki Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "437",
@@ -10812,6 +11042,7 @@
     "235": {
         "jp": "響改",
         "kana": "ひびき",
+        "variant": "",
         "en": "Hibiki Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "147",
@@ -10859,6 +11090,7 @@
     "236": {
         "jp": "雷改",
         "kana": "いかづち",
+        "variant": "",
         "en": "Ikazuchi Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -10906,6 +11138,7 @@
     "237": {
         "jp": "電改",
         "kana": "いなづま",
+        "variant": "",
         "en": "Inazuma Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -10953,6 +11186,7 @@
     "238": {
         "jp": "初春改",
         "kana": "はつはる",
+        "variant": "",
         "en": "Hatsuharu Kai",
         "remodelLvl": 65,
         "idAfterRemodel": "326",
@@ -11000,6 +11234,7 @@
     "239": {
         "jp": "子日改",
         "kana": "ねのひ",
+        "variant": "",
         "en": "Nenohi Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -11047,6 +11282,7 @@
     "240": {
         "jp": "若葉改",
         "kana": "わかば",
+        "variant": "",
         "en": "Wakaba Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -11094,6 +11330,7 @@
     "241": {
         "jp": "初霜改",
         "kana": "はつしも",
+        "variant": "",
         "en": "Hatsushimo Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "419",
@@ -11141,6 +11378,7 @@
     "242": {
         "jp": "白露改",
         "kana": "しらつゆ",
+        "variant": "",
         "en": "Shiratsuyu Kai",
         "remodelLvl": 77,
         "idAfterRemodel": "497",
@@ -11188,6 +11426,7 @@
     "243": {
         "jp": "時雨改",
         "kana": "しぐれ",
+        "variant": "",
         "en": "Shigure Kai",
         "remodelLvl": 60,
         "idAfterRemodel": "145",
@@ -11235,6 +11474,7 @@
     "244": {
         "jp": "村雨改",
         "kana": "むらさめ",
+        "variant": "",
         "en": "Murasame Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "498",
@@ -11282,6 +11522,7 @@
     "245": {
         "jp": "夕立改",
         "kana": "ゆうだち",
+        "variant": "",
         "en": "Yuudachi Kai",
         "remodelLvl": 55,
         "idAfterRemodel": "144",
@@ -11329,6 +11570,7 @@
     "246": {
         "jp": "五月雨改",
         "kana": "さみだれ",
+        "variant": "",
         "en": "Samidare Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -11376,6 +11618,7 @@
     "247": {
         "jp": "涼風改",
         "kana": "すずかぜ",
+        "variant": "",
         "en": "Suzukaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -11423,6 +11666,7 @@
     "248": {
         "jp": "朝潮改",
         "kana": "あさしお",
+        "variant": "",
         "en": "Asashio Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "463",
@@ -11470,6 +11714,7 @@
     "249": {
         "jp": "大潮改",
         "kana": "おおしお",
+        "variant": "",
         "en": "Ooshio Kai",
         "remodelLvl": 65,
         "idAfterRemodel": "199",
@@ -11517,6 +11762,7 @@
     "250": {
         "jp": "満潮改",
         "kana": "みちしお",
+        "variant": "",
         "en": "Michishio Kai",
         "remodelLvl": 77,
         "idAfterRemodel": "489",
@@ -11564,6 +11810,7 @@
     "251": {
         "jp": "荒潮改",
         "kana": "あらしお",
+        "variant": "",
         "en": "Arashio Kai",
         "remodelLvl": 67,
         "idAfterRemodel": "490",
@@ -11611,6 +11858,7 @@
     "252": {
         "jp": "霰改",
         "kana": "あられ",
+        "variant": "",
         "en": "Arare Kai",
         "remodelLvl": 63,
         "idAfterRemodel": "198",
@@ -11658,6 +11906,7 @@
     "253": {
         "jp": "霞改",
         "kana": "かすみ",
+        "variant": "",
         "en": "Kasumi Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "464",
@@ -11705,6 +11954,7 @@
     "254": {
         "jp": "睦月改",
         "kana": "むつき",
+        "variant": "",
         "en": "Mutsuki Kai",
         "remodelLvl": 65,
         "idAfterRemodel": "434",
@@ -11752,6 +12002,7 @@
     "255": {
         "jp": "如月改",
         "kana": "きさらぎ",
+        "variant": "",
         "en": "Kisaragi Kai",
         "remodelLvl": 65,
         "idAfterRemodel": "435",
@@ -11799,6 +12050,7 @@
     "256": {
         "jp": "皐月改",
         "kana": "さつき",
+        "variant": "",
         "en": "Satsuki Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "418",
@@ -11846,6 +12098,7 @@
     "257": {
         "jp": "文月改",
         "kana": "ふみづき",
+        "variant": "",
         "en": "Fumizuki Kai",
         "remodelLvl": 77,
         "idAfterRemodel": "548",
@@ -11893,6 +12146,7 @@
     "258": {
         "jp": "長月改",
         "kana": "ながつき",
+        "variant": "",
         "en": "Nagatsuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -11940,6 +12194,7 @@
     "259": {
         "jp": "菊月改",
         "kana": "きくづき",
+        "variant": "",
         "en": "Kikuzuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -11987,6 +12242,7 @@
     "260": {
         "jp": "三日月改",
         "kana": "みかづき",
+        "variant": "",
         "en": "Mikazuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -12034,6 +12290,7 @@
     "261": {
         "jp": "望月改",
         "kana": "もちづき",
+        "variant": "",
         "en": "Mochizuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -12081,6 +12338,7 @@
     "262": {
         "jp": "古鷹改",
         "kana": "ふるたか",
+        "variant": "",
         "en": "Furutaka Kai",
         "remodelLvl": 65,
         "idAfterRemodel": "416",
@@ -12128,6 +12386,7 @@
     "263": {
         "jp": "加古改",
         "kana": "かこ",
+        "variant": "",
         "en": "Kako Kai",
         "remodelLvl": 65,
         "idAfterRemodel": "417",
@@ -12175,6 +12434,7 @@
     "264": {
         "jp": "青葉改",
         "kana": "あおば",
+        "variant": "",
         "en": "Aoba Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -12222,6 +12482,7 @@
     "265": {
         "jp": "妙高改",
         "kana": "みょうこう",
+        "variant": "",
         "en": "Myoukou Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "319",
@@ -12269,6 +12530,7 @@
     "266": {
         "jp": "那智改",
         "kana": "なち",
+        "variant": "",
         "en": "Nachi Kai",
         "remodelLvl": 65,
         "idAfterRemodel": "192",
@@ -12316,6 +12578,7 @@
     "267": {
         "jp": "足柄改",
         "kana": "あしがら",
+        "variant": "",
         "en": "Ashigara Kai",
         "remodelLvl": 65,
         "idAfterRemodel": "193",
@@ -12363,6 +12626,7 @@
     "268": {
         "jp": "羽黒改",
         "kana": "はぐろ",
+        "variant": "",
         "en": "Haguro Kai",
         "remodelLvl": 65,
         "idAfterRemodel": "194",
@@ -12410,6 +12674,7 @@
     "269": {
         "jp": "高雄改",
         "kana": "たかお",
+        "variant": "",
         "en": "Takao Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -12457,6 +12722,7 @@
     "270": {
         "jp": "愛宕改",
         "kana": "あたご",
+        "variant": "",
         "en": "Atago Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -12504,6 +12770,7 @@
     "271": {
         "jp": "摩耶改",
         "kana": "まや",
+        "variant": "",
         "en": "Maya Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "428",
@@ -12551,6 +12818,7 @@
     "272": {
         "jp": "鳥海改",
         "kana": "ちょうかい",
+        "variant": "",
         "en": "Choukai Kai",
         "remodelLvl": 65,
         "idAfterRemodel": "427",
@@ -12598,6 +12866,7 @@
     "273": {
         "jp": "利根改",
         "kana": "とね",
+        "variant": "",
         "en": "Tone Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "188",
@@ -12645,6 +12914,7 @@
     "274": {
         "jp": "筑摩改",
         "kana": "ちくま",
+        "variant": "",
         "en": "Chikuma Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "189",
@@ -12692,6 +12962,7 @@
     "275": {
         "jp": "長門改",
         "kana": "ながと",
+        "variant": "",
         "en": "Nagato Kai",
         "remodelLvl": 88,
         "idAfterRemodel": "541",
@@ -12739,6 +13010,7 @@
     "276": {
         "jp": "陸奥改",
         "kana": "むつ",
+        "variant": "",
         "en": "Mutsu Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -12786,6 +13058,7 @@
     "277": {
         "jp": "赤城改",
         "kana": "あかぎ",
+        "variant": "",
         "en": "Akagi Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -12833,6 +13106,7 @@
     "278": {
         "jp": "加賀改",
         "kana": "かが",
+        "variant": "",
         "en": "Kaga Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -12880,6 +13154,7 @@
     "279": {
         "jp": "蒼龍改",
         "kana": "そうりゅう",
+        "variant": "",
         "en": "Souryuu Kai",
         "remodelLvl": 78,
         "idAfterRemodel": "197",
@@ -12927,6 +13202,7 @@
     "280": {
         "jp": "飛龍改",
         "kana": "ひりゅう",
+        "variant": "",
         "en": "Hiryuu Kai",
         "remodelLvl": 77,
         "idAfterRemodel": "196",
@@ -12974,6 +13250,7 @@
     "281": {
         "jp": "龍驤改",
         "kana": "りゅうじょう",
+        "variant": "",
         "en": "Ryuujou Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "157",
@@ -13021,6 +13298,7 @@
     "282": {
         "jp": "祥鳳改",
         "kana": "しょうほう",
+        "variant": "",
         "en": "Shouhou Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -13068,6 +13346,7 @@
     "283": {
         "jp": "飛鷹改",
         "kana": "ひよう",
+        "variant": "",
         "en": "Hiyou Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -13115,6 +13394,7 @@
     "284": {
         "jp": "隼鷹改",
         "kana": "じゅんよう",
+        "variant": "",
         "en": "Junyou Kai",
         "remodelLvl": 80,
         "idAfterRemodel": "408",
@@ -13162,6 +13442,7 @@
     "285": {
         "jp": "鳳翔改",
         "kana": "ほうしょう",
+        "variant": "",
         "en": "Houshou Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -13209,6 +13490,7 @@
     "286": {
         "jp": "扶桑改",
         "kana": "ふそう",
+        "variant": "",
         "en": "Fusou Kai",
         "remodelLvl": 80,
         "idAfterRemodel": "411",
@@ -13256,6 +13538,7 @@
     "287": {
         "jp": "山城改",
         "kana": "やましろ",
+        "variant": "",
         "en": "Yamashiro Kai",
         "remodelLvl": 80,
         "idAfterRemodel": "412",
@@ -13303,6 +13586,7 @@
     "288": {
         "jp": "翔鶴改",
         "kana": "しょうかく",
+        "variant": "",
         "en": "Shoukaku Kai",
         "remodelLvl": 80,
         "idAfterRemodel": "461",
@@ -13350,6 +13634,7 @@
     "289": {
         "jp": "鬼怒改",
         "kana": "きぬ",
+        "variant": "",
         "en": "Kinu Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "487",
@@ -13397,6 +13682,7 @@
     "290": {
         "jp": "阿武隈改",
         "kana": "あぶくま",
+        "variant": "",
         "en": "Abukuma Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "200",
@@ -13444,6 +13730,7 @@
     "291": {
         "jp": "千歳航改",
         "kana": "ちとせ",
+        "variant": "",
         "en": "Chitose Carrier Kai",
         "remodelLvl": 50,
         "idAfterRemodel": "296",
@@ -13491,6 +13778,7 @@
     "292": {
         "jp": "千代田航改",
         "kana": "ちよだ",
+        "variant": "",
         "en": "Chiyoda Carrier Kai",
         "remodelLvl": 50,
         "idAfterRemodel": "297",
@@ -13538,6 +13826,7 @@
     "293": {
         "jp": "夕張改",
         "kana": "ゆうばり",
+        "variant": "",
         "en": "Yuubari Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -13585,6 +13874,7 @@
     "294": {
         "jp": "舞風改",
         "kana": "まいかぜ",
+        "variant": "",
         "en": "Maikaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -13632,6 +13922,7 @@
     "295": {
         "jp": "衣笠改",
         "kana": "きぬがさ",
+        "variant": "",
         "en": "Kinugasa Kai",
         "remodelLvl": 55,
         "idAfterRemodel": "142",
@@ -13679,6 +13970,7 @@
     "296": {
         "jp": "千歳航改二",
         "kana": "ちとせ",
+        "variant": "",
         "en": "Chitose Carrier Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -13726,6 +14018,7 @@
     "297": {
         "jp": "千代田航改二",
         "kana": "ちよだ",
+        "variant": "",
         "en": "Chiyoda Carrier Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -13773,6 +14066,7 @@
     "300": {
         "jp": "初風改",
         "kana": "はつかぜ",
+        "variant": "",
         "en": "Hatsukaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -13820,6 +14114,7 @@
     "301": {
         "jp": "秋雲改",
         "kana": "あきぐも",
+        "variant": "",
         "en": "Akigumo Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -13867,6 +14162,7 @@
     "302": {
         "jp": "夕雲改",
         "kana": "ゆうぐも",
+        "variant": "",
         "en": "Yuugumo Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "542",
@@ -13914,6 +14210,7 @@
     "303": {
         "jp": "巻雲改",
         "kana": "まきぐも",
+        "variant": "",
         "en": "Makigumo Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "563",
@@ -13961,6 +14258,7 @@
     "304": {
         "jp": "長波改",
         "kana": "ながなみ",
+        "variant": "",
         "en": "Naganami Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "543",
@@ -14008,6 +14306,7 @@
     "305": {
         "jp": "阿賀野改",
         "kana": "あがの",
+        "variant": "",
         "en": "Agano Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14055,6 +14354,7 @@
     "306": {
         "jp": "能代改",
         "kana": "のしろ",
+        "variant": "",
         "en": "Noshiro Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14102,6 +14402,7 @@
     "307": {
         "jp": "矢矧改",
         "kana": "やはぎ",
+        "variant": "",
         "en": "Yahagi Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14149,6 +14450,7 @@
     "308": {
         "jp": "弥生改",
         "kana": "やよい",
+        "variant": "",
         "en": "Yayoi Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14196,6 +14498,7 @@
     "309": {
         "jp": "卯月改",
         "kana": "うづき",
+        "variant": "",
         "en": "Uzuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14243,6 +14546,7 @@
     "310": {
         "jp": "Z1改",
         "kana": "レーベレヒト・マース",
+        "variant": "",
         "en": "Z1 Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "179",
@@ -14290,6 +14594,7 @@
     "311": {
         "jp": "Z3改",
         "kana": "マックス・シュルツ",
+        "variant": "",
         "en": "Z3 Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "180",
@@ -14337,6 +14642,7 @@
     "312": {
         "jp": "浜風改",
         "kana": "はまかぜ",
+        "variant": "",
         "en": "Hamakaze Kai",
         "remodelLvl": 67,
         "idAfterRemodel": "558",
@@ -14384,6 +14690,7 @@
     "313": {
         "jp": "谷風改",
         "kana": "たにかぜ",
+        "variant": "",
         "en": "Tanikaze Kai",
         "remodelLvl": 70,
         "idAfterRemodel": "559",
@@ -14431,6 +14738,7 @@
     "314": {
         "jp": "酒匂改",
         "kana": "さかわ",
+        "variant": "",
         "en": "Sakawa Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14478,6 +14786,7 @@
     "316": {
         "jp": "天津風改",
         "kana": "あまつかぜ",
+        "variant": "",
         "en": "Amatsukaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14525,6 +14834,7 @@
     "317": {
         "jp": "浦風改",
         "kana": "うらかぜ",
+        "variant": "",
         "en": "Urakaze Kai",
         "remodelLvl": 69,
         "idAfterRemodel": "556",
@@ -14572,6 +14882,7 @@
     "318": {
         "jp": "龍鳳改",
         "kana": "たいげい・りゅうほう",
+        "variant": "",
         "en": "Ryuuhou Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14619,6 +14930,7 @@
     "319": {
         "jp": "妙高改二",
         "kana": "みょうこう",
+        "variant": "",
         "en": "Myoukou Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14666,6 +14978,7 @@
     "320": {
         "jp": "磯風改",
         "kana": "いそかぜ",
+        "variant": "",
         "en": "Isokaze Kai",
         "remodelLvl": 68,
         "idAfterRemodel": "557",
@@ -14713,6 +15026,7 @@
     "321": {
         "jp": "大淀改",
         "kana": "おおよど",
+        "variant": "",
         "en": "Ooyodo Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14760,6 +15074,7 @@
     "322": {
         "jp": "時津風改",
         "kana": "ときつかぜ",
+        "variant": "",
         "en": "Tokitsukaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14807,6 +15122,7 @@
     "323": {
         "jp": "春雨改",
         "kana": "はるさめ",
+        "variant": "",
         "en": "Harusame Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14854,6 +15170,7 @@
     "324": {
         "jp": "早霜改",
         "kana": "はやしも",
+        "variant": "",
         "en": "Hayashimo Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14901,6 +15218,7 @@
     "325": {
         "jp": "清霜改",
         "kana": "きよしも",
+        "variant": "",
         "en": "Kiyoshimo Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14948,6 +15266,7 @@
     "326": {
         "jp": "初春改二",
         "kana": "はつはる",
+        "variant": "",
         "en": "Hatsuharu Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -14995,6 +15314,7 @@
     "327": {
         "jp": "朝雲改",
         "kana": "あさぐも",
+        "variant": "",
         "en": "Asagumo Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15042,6 +15362,7 @@
     "328": {
         "jp": "山雲改",
         "kana": "やまぐも",
+        "variant": "",
         "en": "Yamagumo Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15089,6 +15410,7 @@
     "329": {
         "jp": "野分改",
         "kana": "のわき",
+        "variant": "",
         "en": "Nowaki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15136,6 +15458,7 @@
     "330": {
         "jp": "秋月改",
         "kana": "あきづき",
+        "variant": "",
         "en": "Akizuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15183,6 +15506,7 @@
     "331": {
         "jp": "天城",
         "kana": "あまぎ",
+        "variant": "",
         "en": "Amagi",
         "remodelLvl": 50,
         "idAfterRemodel": "429",
@@ -15230,6 +15554,7 @@
     "332": {
         "jp": "葛城",
         "kana": "かつらぎ",
+        "variant": "",
         "en": "Katsuragi",
         "remodelLvl": 50,
         "idAfterRemodel": "430",
@@ -15277,6 +15602,7 @@
     "334": {
         "jp": "U-511改",
         "kana": "ゆー511・ろ500",
+        "variant": "",
         "en": "U-511 Kai",
         "remodelLvl": 55,
         "idAfterRemodel": "436",
@@ -15324,6 +15650,7 @@
     "343": {
         "jp": "香取改",
         "kana": "かとり",
+        "variant": "",
         "en": "Katori Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15371,6 +15698,7 @@
     "344": {
         "jp": "朝霜改",
         "kana": "あさしも",
+        "variant": "",
         "en": "Asashimo Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15418,6 +15746,7 @@
     "345": {
         "jp": "高波改",
         "kana": "たかなみ",
+        "variant": "",
         "en": "Takanami Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15465,6 +15794,7 @@
     "346": {
         "jp": "照月改",
         "kana": "てるづき",
+        "variant": "",
         "en": "Teruzuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15512,6 +15842,7 @@
     "347": {
         "jp": "Libeccio改",
         "kana": "リベッチオ",
+        "variant": "",
         "en": "Libeccio Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15559,6 +15890,7 @@
     "348": {
         "jp": "瑞穂改",
         "kana": "みずほ",
+        "variant": "",
         "en": "Mizuho Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15606,6 +15938,7 @@
     "349": {
         "jp": "風雲改",
         "kana": "かざぐも",
+        "variant": "",
         "en": "Kazagumo Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15653,6 +15986,7 @@
     "350": {
         "jp": "海風改",
         "kana": "うみかぜ",
+        "variant": "",
         "en": "Umikaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15700,6 +16034,7 @@
     "351": {
         "jp": "江風改",
         "kana": "かわかぜ",
+        "variant": "",
         "en": "Kawakaze Kai",
         "remodelLvl": 75,
         "idAfterRemodel": "469",
@@ -15747,6 +16082,7 @@
     "352": {
         "jp": "速吸改",
         "kana": "はやすい",
+        "variant": "",
         "en": "Hayasui Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15794,6 +16130,7 @@
     "353": {
         "jp": "Graf Zeppelin改",
         "kana": "グラーフ・ツェッペリン",
+        "variant": "",
         "en": "Graf Zeppelin Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15841,6 +16178,7 @@
     "354": {
         "jp": "嵐改",
         "kana": "あらし",
+        "variant": "",
         "en": "Arashi Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15888,6 +16226,7 @@
     "355": {
         "jp": "萩風改",
         "kana": "はぎかぜ",
+        "variant": "",
         "en": "Hagikaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15935,6 +16274,7 @@
     "356": {
         "jp": "鹿島改",
         "kana": "かしま",
+        "variant": "",
         "en": "Kashima Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -15982,6 +16322,7 @@
     "357": {
         "jp": "初月改",
         "kana": "はつづき",
+        "variant": "",
         "en": "Hatsuzuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16029,6 +16370,7 @@
     "358": {
         "jp": "Zara改",
         "kana": "ザラ",
+        "variant": "",
         "en": "Zara Kai",
         "remodelLvl": 88,
         "idAfterRemodel": "496",
@@ -16076,6 +16418,7 @@
     "359": {
         "jp": "沖波改",
         "kana": "おきなみ",
+        "variant": "",
         "en": "Okinami Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16123,6 +16466,7 @@
     "360": {
         "jp": "Iowa改",
         "kana": "アイオワ",
+        "variant": "",
         "en": "Iowa Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16170,6 +16514,7 @@
     "361": {
         "jp": "Pola改",
         "kana": "ポーラ",
+        "variant": "",
         "en": "Pola Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16217,6 +16562,7 @@
     "362": {
         "jp": "親潮改",
         "kana": "おやしお",
+        "variant": "",
         "en": "Oyashio Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16264,6 +16610,7 @@
     "363": {
         "jp": "春風改",
         "kana": "はるかぜ",
+        "variant": "",
         "en": "Harukaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16311,6 +16658,7 @@
     "364": {
         "jp": "Warspite改",
         "kana": "ウォースパイト",
+        "variant": "",
         "en": "Warspite Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16358,6 +16706,7 @@
     "365": {
         "jp": "Aquila改",
         "kana": "アクィラ",
+        "variant": "",
         "en": "Aquila Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16405,6 +16754,7 @@
     "366": {
         "jp": "水無月改",
         "kana": "みなづき",
+        "variant": "",
         "en": "Minazuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16452,6 +16802,7 @@
     "367": {
         "jp": "伊26改",
         "kana": "い26",
+        "variant": "",
         "en": "I-26 Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16499,6 +16850,7 @@
     "368": {
         "jp": "浦波改",
         "kana": "うらなみ",
+        "variant": "",
         "en": "Uranami Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16546,6 +16898,7 @@
     "369": {
         "jp": "山風改",
         "kana": "やまかぜ",
+        "variant": "",
         "en": "Yamakaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16593,6 +16946,7 @@
     "370": {
         "jp": "朝風改",
         "kana": "あさかぜ",
+        "variant": "",
         "en": "Asakaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16640,6 +16994,7 @@
     "371": {
         "jp": "松風改",
         "kana": "まつかぜ",
+        "variant": "",
         "en": "Matsukaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16687,6 +17042,7 @@
     "372": {
         "jp": "Commandant Teste改",
         "kana": "コマンダン・テスト",
+        "variant": "",
         "en": "Commandant Teste Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16734,6 +17090,7 @@
     "373": {
         "jp": "藤波改",
         "kana": "ふじなみ",
+        "variant": "",
         "en": "Fujinami Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16781,6 +17138,7 @@
     "374": {
         "jp": "伊13改",
         "kana": "い13",
+        "variant": "",
         "en": "I-13 Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16828,6 +17186,7 @@
     "375": {
         "jp": "伊14改",
         "kana": "い14",
+        "variant": "",
         "en": "I-14 Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16875,6 +17234,7 @@
     "376": {
         "jp": "占守改",
         "kana": "しむしゅ",
+        "variant": "",
         "en": "Shimushu Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16922,6 +17282,7 @@
     "377": {
         "jp": "国後改",
         "kana": "くなしり",
+        "variant": "",
         "en": "Kunashiri Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -16969,6 +17330,7 @@
     "380": {
         "jp": "大鷹改",
         "kana": "たいよう",
+        "variant": "",
         "en": "Taiyou Kai",
         "remodelLvl": 85,
         "idAfterRemodel": "529",
@@ -17016,6 +17378,7 @@
     "381": {
         "jp": "神鷹改",
         "kana": "しんよう",
+        "variant": "",
         "en": "Shinyou Kai",
         "remodelLvl": 85,
         "idAfterRemodel": "536",
@@ -17063,6 +17426,7 @@
     "383": {
         "jp": "択捉改",
         "kana": "えとろふ",
+        "variant": "",
         "en": "Etorofu Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17110,6 +17474,7 @@
     "384": {
         "jp": "松輪改",
         "kana": "まつわ",
+        "variant": "",
         "en": "Matsuwa Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17157,6 +17522,7 @@
     "385": {
         "jp": "佐渡改",
         "kana": "さど",
+        "variant": "",
         "en": "Sado Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17204,6 +17570,7 @@
     "386": {
         "jp": "対馬改",
         "kana": "つしま",
+        "variant": "",
         "en": "Tsushima Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17251,6 +17618,7 @@
     "387": {
         "jp": "旗風改",
         "kana": "はたかぜ",
+        "variant": "",
         "en": "Hatakaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17298,6 +17666,7 @@
     "390": {
         "jp": "天霧改",
         "kana": "あまぎり",
+        "variant": "",
         "en": "Amagiri Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17345,6 +17714,7 @@
     "391": {
         "jp": "狭霧改",
         "kana": "さぎり",
+        "variant": "",
         "en": "Sagiri Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17392,6 +17762,7 @@
     "392": {
         "jp": "Richelieu改",
         "kana": "リシュリュー",
+        "variant": "",
         "en": "Richelieu Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17439,6 +17810,7 @@
     "393": {
         "jp": "Ark Royal改",
         "kana": "アークロイヤル",
+        "variant": "",
         "en": "Ark Royal Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17486,6 +17858,7 @@
     "394": {
         "jp": "Jervis改",
         "kana": "ジャーヴィス",
+        "variant": "",
         "en": "Jervis Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17533,6 +17906,7 @@
     "395": {
         "jp": "Ташкент改",
         "kana": "タシュケント",
+        "variant": "",
         "en": "Tashkent Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17580,6 +17954,7 @@
     "396": {
         "jp": "Gambier Bay改",
         "kana": "ガンビア・ベイ",
+        "variant": "",
         "en": "Gambier Bay Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17627,6 +18002,7 @@
     "397": {
         "jp": "Intrepid改",
         "kana": "イントレピッド",
+        "variant": "",
         "en": "Intrepid Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17674,6 +18050,7 @@
     "398": {
         "jp": "伊168改",
         "kana": "い168",
+        "variant": "",
         "en": "I-168 Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17721,6 +18098,7 @@
     "399": {
         "jp": "伊58改",
         "kana": "い58",
+        "variant": "",
         "en": "I-58 Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17768,6 +18146,7 @@
     "400": {
         "jp": "伊8改",
         "kana": "い8",
+        "variant": "",
         "en": "I-8 Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17815,6 +18194,7 @@
     "401": {
         "jp": "伊19改",
         "kana": "い19",
+        "variant": "",
         "en": "I-19 Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17862,6 +18242,7 @@
     "402": {
         "jp": "まるゆ改",
         "kana": "まるゆ",
+        "variant": "",
         "en": "Maruyu Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17909,6 +18290,7 @@
     "403": {
         "jp": "伊401改",
         "kana": "い401",
+        "variant": "",
         "en": "I-401 Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -17956,6 +18338,7 @@
     "404": {
         "jp": "雲龍",
         "kana": "うんりゅう",
+        "variant": "",
         "en": "Unryuu",
         "remodelLvl": 50,
         "idAfterRemodel": "406",
@@ -18003,6 +18386,7 @@
     "405": {
         "jp": "春雨",
         "kana": "はるさめ",
+        "variant": "",
         "en": "Harusame",
         "remodelLvl": 30,
         "idAfterRemodel": "323",
@@ -18050,6 +18434,7 @@
     "406": {
         "jp": "雲龍改",
         "kana": "うんりゅう",
+        "variant": "",
         "en": "Unryuu Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -18097,6 +18482,7 @@
     "407": {
         "jp": "潮改二",
         "kana": "うしお",
+        "variant": "",
         "en": "Ushio Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -18144,6 +18530,7 @@
     "408": {
         "jp": "隼鷹改二",
         "kana": "じゅんよう",
+        "variant": "",
         "en": "Junyou Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -18191,6 +18578,7 @@
     "409": {
         "jp": "早霜",
         "kana": "はやしも",
+        "variant": "",
         "en": "Hayashimo",
         "remodelLvl": 30,
         "idAfterRemodel": "324",
@@ -18238,6 +18626,7 @@
     "410": {
         "jp": "清霜",
         "kana": "きよしも",
+        "variant": "",
         "en": "Kiyoshimo",
         "remodelLvl": 30,
         "idAfterRemodel": "325",
@@ -18285,6 +18674,7 @@
     "411": {
         "jp": "扶桑改二",
         "kana": "ふそう",
+        "variant": "",
         "en": "Fusou Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -18332,6 +18722,7 @@
     "412": {
         "jp": "山城改二",
         "kana": "やましろ",
+        "variant": "",
         "en": "Yamashiro Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -18379,6 +18770,7 @@
     "413": {
         "jp": "朝雲",
         "kana": "あさぐも",
+        "variant": "",
         "en": "Asagumo",
         "remodelLvl": 35,
         "idAfterRemodel": "327",
@@ -18426,6 +18818,7 @@
     "414": {
         "jp": "山雲",
         "kana": "やまぐも",
+        "variant": "",
         "en": "Yamagumo",
         "remodelLvl": 35,
         "idAfterRemodel": "328",
@@ -18473,6 +18866,7 @@
     "415": {
         "jp": "野分",
         "kana": "のわき",
+        "variant": "",
         "en": "Nowaki",
         "remodelLvl": 35,
         "idAfterRemodel": "329",
@@ -18520,6 +18914,7 @@
     "416": {
         "jp": "古鷹改二",
         "kana": "ふるたか",
+        "variant": "",
         "en": "Furutaka Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -18567,6 +18962,7 @@
     "417": {
         "jp": "加古改二",
         "kana": "かこ",
+        "variant": "",
         "en": "Kako Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -18614,6 +19010,7 @@
     "418": {
         "jp": "皐月改二",
         "kana": "さつき",
+        "variant": "",
         "en": "Satsuki Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -18661,6 +19058,7 @@
     "419": {
         "jp": "初霜改二",
         "kana": "はつしも",
+        "variant": "",
         "en": "Hatsushimo Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -18708,6 +19106,7 @@
     "420": {
         "jp": "叢雲改二",
         "kana": "むらくも",
+        "variant": "",
         "en": "Murakumo Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -18755,6 +19154,7 @@
     "421": {
         "jp": "秋月",
         "kana": "あきづき",
+        "variant": "",
         "en": "Akizuki",
         "remodelLvl": 40,
         "idAfterRemodel": "330",
@@ -18802,6 +19202,7 @@
     "422": {
         "jp": "照月",
         "kana": "てるづき",
+        "variant": "",
         "en": "Teruzuki",
         "remodelLvl": 40,
         "idAfterRemodel": "346",
@@ -18849,6 +19250,7 @@
     "423": {
         "jp": "初月",
         "kana": "はつづき",
+        "variant": "",
         "en": "Hatsuzuki",
         "remodelLvl": 40,
         "idAfterRemodel": "357",
@@ -18896,6 +19298,7 @@
     "424": {
         "jp": "高波",
         "kana": "たかなみ",
+        "variant": "",
         "en": "Takanami",
         "remodelLvl": 30,
         "idAfterRemodel": "345",
@@ -18943,6 +19346,7 @@
     "425": {
         "jp": "朝霜",
         "kana": "あさしも",
+        "variant": "",
         "en": "Asashimo",
         "remodelLvl": 45,
         "idAfterRemodel": "344",
@@ -18990,6 +19394,7 @@
     "426": {
         "jp": "吹雪改二",
         "kana": "ふぶき",
+        "variant": "",
         "en": "Fubuki Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -19037,6 +19442,7 @@
     "427": {
         "jp": "鳥海改二",
         "kana": "ちょうかい",
+        "variant": "",
         "en": "Choukai Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -19084,6 +19490,7 @@
     "428": {
         "jp": "摩耶改二",
         "kana": "まや",
+        "variant": "",
         "en": "Maya Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -19131,6 +19538,7 @@
     "429": {
         "jp": "天城改",
         "kana": "あまぎ",
+        "variant": "",
         "en": "Amagi Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -19178,6 +19586,7 @@
     "430": {
         "jp": "葛城改",
         "kana": "かつらぎ",
+        "variant": "",
         "en": "Katsuragi Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -19225,6 +19634,7 @@
     "431": {
         "jp": "U-511",
         "kana": "ゆー511・ろ500",
+        "variant": "",
         "en": "U-511",
         "remodelLvl": 35,
         "idAfterRemodel": "334",
@@ -19272,6 +19682,7 @@
     "432": {
         "jp": "Graf Zeppelin",
         "kana": "グラーフ・ツェッペリン",
+        "variant": "",
         "en": "Graf Zeppelin",
         "remodelLvl": 50,
         "idAfterRemodel": "353",
@@ -19319,6 +19730,7 @@
     "433": {
         "jp": "Saratoga",
         "kana": "サラトガ",
+        "variant": "",
         "en": "Saratoga",
         "remodelLvl": 40,
         "idAfterRemodel": "438",
@@ -19366,6 +19778,7 @@
     "434": {
         "jp": "睦月改二",
         "kana": "むつき",
+        "variant": "",
         "en": "Mutsuki Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -19413,6 +19826,7 @@
     "435": {
         "jp": "如月改二",
         "kana": "きさらぎ",
+        "variant": "",
         "en": "Kisaragi Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -19460,6 +19874,7 @@
     "436": {
         "jp": "呂500",
         "kana": "ゆー511・ろ500",
+        "variant": "",
         "en": "RO-500",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -19507,6 +19922,7 @@
     "437": {
         "jp": "暁改二",
         "kana": "あかつき",
+        "variant": "",
         "en": "Akatsuki Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -19554,6 +19970,7 @@
     "438": {
         "jp": "Saratoga改",
         "kana": "サラトガ",
+        "variant": "",
         "en": "Saratoga Kai",
         "remodelLvl": 85,
         "idAfterRemodel": "545",
@@ -19601,6 +20018,7 @@
     "439": {
         "jp": "Warspite",
         "kana": "ウォースパイト",
+        "variant": "",
         "en": "Warspite",
         "remodelLvl": 75,
         "idAfterRemodel": "364",
@@ -19648,6 +20066,7 @@
     "440": {
         "jp": "Iowa",
         "kana": "アイオワ",
+        "variant": "",
         "en": "Iowa",
         "remodelLvl": 50,
         "idAfterRemodel": "360",
@@ -19695,6 +20114,7 @@
     "441": {
         "jp": "Littorio",
         "kana": "リットリオ・イタリア",
+        "variant": "",
         "en": "Littorio",
         "remodelLvl": 35,
         "idAfterRemodel": "446",
@@ -19742,6 +20162,7 @@
     "442": {
         "jp": "Roma",
         "kana": "ローマ",
+        "variant": "",
         "en": "Roma",
         "remodelLvl": 35,
         "idAfterRemodel": "447",
@@ -19789,6 +20210,7 @@
     "443": {
         "jp": "Libeccio",
         "kana": "リベッチオ",
+        "variant": "",
         "en": "Libeccio",
         "remodelLvl": 30,
         "idAfterRemodel": "347",
@@ -19836,6 +20258,7 @@
     "444": {
         "jp": "Aquila",
         "kana": "アクィラ",
+        "variant": "",
         "en": "Aquila",
         "remodelLvl": 45,
         "idAfterRemodel": "365",
@@ -19883,6 +20306,7 @@
     "445": {
         "jp": "秋津洲",
         "kana": "あきつしま",
+        "variant": "",
         "en": "Akitsushima",
         "remodelLvl": 35,
         "idAfterRemodel": "450",
@@ -19930,6 +20354,7 @@
     "446": {
         "jp": "Italia",
         "kana": "リットリオ・イタリア",
+        "variant": "",
         "en": "Italia",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -19977,6 +20402,7 @@
     "447": {
         "jp": "Roma改",
         "kana": "ローマ",
+        "variant": "",
         "en": "Roma Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -20024,6 +20450,7 @@
     "448": {
         "jp": "Zara",
         "kana": "ザラ",
+        "variant": "",
         "en": "Zara",
         "remodelLvl": 40,
         "idAfterRemodel": "358",
@@ -20071,6 +20498,7 @@
     "449": {
         "jp": "Pola",
         "kana": "ポーラ",
+        "variant": "",
         "en": "Pola",
         "remodelLvl": 40,
         "idAfterRemodel": "361",
@@ -20118,6 +20546,7 @@
     "450": {
         "jp": "秋津洲改",
         "kana": "あきつしま",
+        "variant": "",
         "en": "Akitsushima Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -20165,6 +20594,7 @@
     "451": {
         "jp": "瑞穂",
         "kana": "みずほ",
+        "variant": "",
         "en": "Mizuho",
         "remodelLvl": 40,
         "idAfterRemodel": "348",
@@ -20212,6 +20642,7 @@
     "452": {
         "jp": "沖波",
         "kana": "おきなみ",
+        "variant": "",
         "en": "Okinami",
         "remodelLvl": 30,
         "idAfterRemodel": "359",
@@ -20259,6 +20690,7 @@
     "453": {
         "jp": "風雲",
         "kana": "かざぐも",
+        "variant": "",
         "en": "Kazagumo",
         "remodelLvl": 30,
         "idAfterRemodel": "349",
@@ -20306,6 +20738,7 @@
     "454": {
         "jp": "嵐",
         "kana": "あらし",
+        "variant": "",
         "en": "Arashi",
         "remodelLvl": 35,
         "idAfterRemodel": "354",
@@ -20353,6 +20786,7 @@
     "455": {
         "jp": "萩風",
         "kana": "はぎかぜ",
+        "variant": "",
         "en": "Hagikaze",
         "remodelLvl": 35,
         "idAfterRemodel": "355",
@@ -20400,6 +20834,7 @@
     "456": {
         "jp": "親潮",
         "kana": "おやしお",
+        "variant": "",
         "en": "Oyashio",
         "remodelLvl": 35,
         "idAfterRemodel": "362",
@@ -20447,6 +20882,7 @@
     "457": {
         "jp": "山風",
         "kana": "やまかぜ",
+        "variant": "",
         "en": "Yamakaze",
         "remodelLvl": 45,
         "idAfterRemodel": "369",
@@ -20494,6 +20930,7 @@
     "458": {
         "jp": "海風",
         "kana": "うみかぜ",
+        "variant": "",
         "en": "Umikaze",
         "remodelLvl": 30,
         "idAfterRemodel": "350",
@@ -20541,6 +20978,7 @@
     "459": {
         "jp": "江風",
         "kana": "かわかぜ",
+        "variant": "",
         "en": "Kawakaze",
         "remodelLvl": 30,
         "idAfterRemodel": "351",
@@ -20588,6 +21026,7 @@
     "460": {
         "jp": "速吸",
         "kana": "はやすい",
+        "variant": "",
         "en": "Hayasui",
         "remodelLvl": 25,
         "idAfterRemodel": "352",
@@ -20635,6 +21074,7 @@
     "461": {
         "jp": "翔鶴改二",
         "kana": "しょうかく",
+        "variant": "",
         "en": "Shoukaku Kai Ni",
         "remodelLvl": 88,
         "idAfterRemodel": "466",
@@ -20682,6 +21122,7 @@
     "462": {
         "jp": "瑞鶴改二",
         "kana": "ずいかく",
+        "variant": "",
         "en": "Zuikaku Kai Ni",
         "remodelLvl": 90,
         "idAfterRemodel": "467",
@@ -20729,6 +21170,7 @@
     "463": {
         "jp": "朝潮改二",
         "kana": "あさしお",
+        "variant": "",
         "en": "Asashio Kai Ni",
         "remodelLvl": 85,
         "idAfterRemodel": "468",
@@ -20776,6 +21218,7 @@
     "464": {
         "jp": "霞改二",
         "kana": "かすみ",
+        "variant": "",
         "en": "Kasumi Kai Ni",
         "remodelLvl": 88,
         "idAfterRemodel": "470",
@@ -20823,6 +21266,7 @@
     "465": {
         "jp": "鹿島",
         "kana": "かしま",
+        "variant": "",
         "en": "Kashima",
         "remodelLvl": 35,
         "idAfterRemodel": "356",
@@ -20870,6 +21314,7 @@
     "466": {
         "jp": "翔鶴改二甲",
         "kana": "しょうかく",
+        "variant": "",
         "en": "Shoukaku Kai Ni Kou",
         "remodelLvl": 88,
         "idAfterRemodel": "461",
@@ -20917,6 +21362,7 @@
     "467": {
         "jp": "瑞鶴改二甲",
         "kana": "ずいかく",
+        "variant": "",
         "en": "Zuikaku Kai Ni Kou",
         "remodelLvl": 90,
         "idAfterRemodel": "462",
@@ -20964,6 +21410,7 @@
     "468": {
         "jp": "朝潮改二丁",
         "kana": "あさしお",
+        "variant": "",
         "en": "Asashio Kai Ni Tei",
         "remodelLvl": 85,
         "idAfterRemodel": "463",
@@ -21011,6 +21458,7 @@
     "469": {
         "jp": "江風改二",
         "kana": "かわかぜ",
+        "variant": "",
         "en": "Kawakaze Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -21058,6 +21506,7 @@
     "470": {
         "jp": "霞改二乙",
         "kana": "かすみ",
+        "variant": "",
         "en": "Kasumi Kai Ni Otsu",
         "remodelLvl": 88,
         "idAfterRemodel": "464",
@@ -21105,6 +21554,7 @@
     "471": {
         "jp": "神風",
         "kana": "かみかぜ",
+        "variant": "",
         "en": "Kamikaze",
         "remodelLvl": 50,
         "idAfterRemodel": "476",
@@ -21152,6 +21602,7 @@
     "472": {
         "jp": "朝風",
         "kana": "あさかぜ",
+        "variant": "",
         "en": "Asakaze",
         "remodelLvl": 50,
         "idAfterRemodel": "370",
@@ -21199,6 +21650,7 @@
     "473": {
         "jp": "春風",
         "kana": "はるかぜ",
+        "variant": "",
         "en": "Harukaze",
         "remodelLvl": 50,
         "idAfterRemodel": "363",
@@ -21246,6 +21698,7 @@
     "474": {
         "jp": "松風",
         "kana": "まつかぜ",
+        "variant": "",
         "en": "Matsukaze",
         "remodelLvl": 50,
         "idAfterRemodel": "371",
@@ -21293,6 +21746,7 @@
     "475": {
         "jp": "旗風",
         "kana": "はたかぜ",
+        "variant": "",
         "en": "Hatakaze",
         "remodelLvl": 50,
         "idAfterRemodel": "387",
@@ -21340,6 +21794,7 @@
     "476": {
         "jp": "神風改",
         "kana": "かみかぜ",
+        "variant": "",
         "en": "Kamikaze Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -21387,6 +21842,7 @@
     "477": {
         "jp": "天龍改二",
         "kana": "てんりゅう",
+        "variant": "",
         "en": "Tenryuu Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -21434,6 +21890,7 @@
     "478": {
         "jp": "龍田改二",
         "kana": "たつた",
+        "variant": "",
         "en": "Tatsuta Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -21481,6 +21938,7 @@
     "479": {
         "jp": "天霧",
         "kana": "あまぎり",
+        "variant": "",
         "en": "Amagiri",
         "remodelLvl": 35,
         "idAfterRemodel": "390",
@@ -21528,6 +21986,7 @@
     "480": {
         "jp": "狭霧",
         "kana": "さぎり",
+        "variant": "",
         "en": "Sagiri",
         "remodelLvl": 30,
         "idAfterRemodel": "391",
@@ -21575,6 +22034,7 @@
     "481": {
         "jp": "水無月",
         "kana": "みなづき",
+        "variant": "",
         "en": "Minazuki",
         "remodelLvl": 20,
         "idAfterRemodel": "366",
@@ -21622,6 +22082,7 @@
     "483": {
         "jp": "伊26",
         "kana": "い26",
+        "variant": "",
         "en": "I-26",
         "remodelLvl": 50,
         "idAfterRemodel": "367",
@@ -21669,6 +22130,7 @@
     "484": {
         "jp": "浜波",
         "kana": "はまなみ",
+        "variant": "",
         "en": "Hamanami",
         "remodelLvl": 30,
         "idAfterRemodel": "680",
@@ -21716,6 +22178,7 @@
     "485": {
         "jp": "藤波",
         "kana": "ふじなみ",
+        "variant": "",
         "en": "Fujinami",
         "remodelLvl": 30,
         "idAfterRemodel": "373",
@@ -21763,6 +22226,7 @@
     "486": {
         "jp": "浦波",
         "kana": "うらなみ",
+        "variant": "",
         "en": "Uranami",
         "remodelLvl": 30,
         "idAfterRemodel": "368",
@@ -21810,6 +22274,7 @@
     "487": {
         "jp": "鬼怒改二",
         "kana": "きぬ",
+        "variant": "",
         "en": "Kinu Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -21857,6 +22322,7 @@
     "488": {
         "jp": "由良改二",
         "kana": "ゆら",
+        "variant": "",
         "en": "Yura Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -21904,6 +22370,7 @@
     "489": {
         "jp": "満潮改二",
         "kana": "みちしお",
+        "variant": "",
         "en": "Michishio Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -21951,6 +22418,7 @@
     "490": {
         "jp": "荒潮改二",
         "kana": "あらしお",
+        "variant": "",
         "en": "Arashio Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -21998,6 +22466,7 @@
     "491": {
         "jp": "Commandant Teste",
         "kana": "コマンダン・テスト",
+        "variant": "",
         "en": "Commandant Teste",
         "remodelLvl": 40,
         "idAfterRemodel": "372",
@@ -22045,6 +22514,7 @@
     "492": {
         "jp": "Richelieu",
         "kana": "リシュリュー",
+        "variant": "",
         "en": "Richelieu",
         "remodelLvl": 45,
         "idAfterRemodel": "392",
@@ -22092,6 +22562,7 @@
     "493": {
         "jp": "伊400",
         "kana": "い400",
+        "variant": "",
         "en": "I-400",
         "remodelLvl": 37,
         "idAfterRemodel": "606",
@@ -22139,6 +22610,7 @@
     "494": {
         "jp": "伊13",
         "kana": "い13",
+        "variant": "",
         "en": "I-13",
         "remodelLvl": 45,
         "idAfterRemodel": "374",
@@ -22186,6 +22658,7 @@
     "495": {
         "jp": "伊14",
         "kana": "い14",
+        "variant": "",
         "en": "I-14",
         "remodelLvl": 45,
         "idAfterRemodel": "375",
@@ -22233,6 +22706,7 @@
     "496": {
         "jp": "Zara due",
         "kana": "ザラ",
+        "variant": "",
         "en": "Zara Due",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -22280,6 +22754,7 @@
     "497": {
         "jp": "白露改二",
         "kana": "しらつゆ",
+        "variant": "",
         "en": "Shiratsuyu Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -22327,6 +22802,7 @@
     "498": {
         "jp": "村雨改二",
         "kana": "むらさめ",
+        "variant": "",
         "en": "Murasame Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -22374,6 +22850,7 @@
     "499": {
         "jp": "神威改",
         "kana": "かもい",
+        "variant": "",
         "en": "Kamoi Kai",
         "remodelLvl": 60,
         "idAfterRemodel": "500",
@@ -22421,6 +22898,7 @@
     "500": {
         "jp": "神威改母",
         "kana": "かもい",
+        "variant": "",
         "en": "Kamoi Kai Bo",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -22468,6 +22946,7 @@
     "503": {
         "jp": "鈴谷改二",
         "kana": "すずや",
+        "variant": "",
         "en": "Suzuya Kai Ni",
         "remodelLvl": 88,
         "idAfterRemodel": "508",
@@ -22515,6 +22994,7 @@
     "504": {
         "jp": "熊野改二",
         "kana": "くまの",
+        "variant": "",
         "en": "Kumano Kai Ni",
         "remodelLvl": 88,
         "idAfterRemodel": "509",
@@ -22562,6 +23042,7 @@
     "508": {
         "jp": "鈴谷航改二",
         "kana": "すずや",
+        "variant": "",
         "en": "Suzuya Carrier Kai Ni",
         "remodelLvl": 88,
         "idAfterRemodel": "503",
@@ -22609,6 +23090,7 @@
     "509": {
         "jp": "熊野航改二",
         "kana": "くまの",
+        "variant": "",
         "en": "Kumano Carrier Kai Ni",
         "remodelLvl": 88,
         "idAfterRemodel": "504",
@@ -22656,6 +23138,7 @@
     "511": {
         "jp": "Гангут",
         "kana": "ガングート",
+        "variant": "",
         "en": "Gangut",
         "remodelLvl": 45,
         "idAfterRemodel": "512",
@@ -22703,6 +23186,7 @@
     "512": {
         "jp": "Октябрьская революция",
         "kana": "ガングート",
+        "variant": "",
         "en": "Oktyabrskaya Revolyutsiya",
         "remodelLvl": 75,
         "idAfterRemodel": "513",
@@ -22750,6 +23234,7 @@
     "513": {
         "jp": "Гангут два",
         "kana": "ガングート",
+        "variant": "",
         "en": "Gangut Dva",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -22797,6 +23282,7 @@
     "515": {
         "jp": "Ark Royal",
         "kana": "アークロイヤル",
+        "variant": "",
         "en": "Ark Royal",
         "remodelLvl": 45,
         "idAfterRemodel": "393",
@@ -22844,6 +23330,7 @@
     "516": {
         "jp": "Ташкент",
         "kana": "タシュケント",
+        "variant": "",
         "en": "Tashkent",
         "remodelLvl": 50,
         "idAfterRemodel": "395",
@@ -22891,6 +23378,7 @@
     "517": {
         "jp": "占守",
         "kana": "しむしゅ",
+        "variant": "",
         "en": "Shimushu",
         "remodelLvl": 40,
         "idAfterRemodel": "376",
@@ -22938,6 +23426,7 @@
     "518": {
         "jp": "国後",
         "kana": "くなしり",
+        "variant": "",
         "en": "Kunashiri",
         "remodelLvl": 40,
         "idAfterRemodel": "377",
@@ -22985,6 +23474,7 @@
     "519": {
         "jp": "Jervis",
         "kana": "ジャーヴィス",
+        "variant": "",
         "en": "Jervis",
         "remodelLvl": 45,
         "idAfterRemodel": "394",
@@ -23032,6 +23522,7 @@
     "521": {
         "jp": "春日丸",
         "kana": "たいよう",
+        "variant": "",
         "en": "Kasugamaru",
         "remodelLvl": 30,
         "idAfterRemodel": "526",
@@ -23079,6 +23570,7 @@
     "524": {
         "jp": "択捉",
         "kana": "えとろふ",
+        "variant": "",
         "en": "Etorofu",
         "remodelLvl": 37,
         "idAfterRemodel": "383",
@@ -23126,6 +23618,7 @@
     "525": {
         "jp": "松輪",
         "kana": "まつわ",
+        "variant": "",
         "en": "Matsuwa",
         "remodelLvl": 37,
         "idAfterRemodel": "384",
@@ -23173,6 +23666,7 @@
     "526": {
         "jp": "大鷹",
         "kana": "たいよう",
+        "variant": "",
         "en": "Taiyou",
         "remodelLvl": 60,
         "idAfterRemodel": "380",
@@ -23220,6 +23714,7 @@
     "527": {
         "jp": "岸波",
         "kana": "きしなみ",
+        "variant": "",
         "en": "Kishinami",
         "remodelLvl": 35,
         "idAfterRemodel": "686",
@@ -23267,6 +23762,7 @@
     "528": {
         "jp": "早波",
         "kana": "はやなみ",
+        "variant": "",
         "en": "Hayanami",
         "remodelLvl": 35,
         "idAfterRemodel": "688",
@@ -23314,6 +23810,7 @@
     "529": {
         "jp": "大鷹改二",
         "kana": "たいよう",
+        "variant": "",
         "en": "Taiyou Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -23361,6 +23858,7 @@
     "530": {
         "jp": "伊504",
         "kana": "ルイージ・トレッリ",
+        "variant": "",
         "en": "I-504",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -23408,6 +23906,7 @@
     "531": {
         "jp": "佐渡",
         "kana": "さど",
+        "variant": "",
         "en": "Sado",
         "remodelLvl": 37,
         "idAfterRemodel": "385",
@@ -23455,6 +23954,7 @@
     "532": {
         "jp": "涼月",
         "kana": "すずつき",
+        "variant": "",
         "en": "Suzutsuki",
         "remodelLvl": 55,
         "idAfterRemodel": "537",
@@ -23502,6 +24002,7 @@
     "534": {
         "jp": "神鷹",
         "kana": "しんよう",
+        "variant": "",
         "en": "Shinyou",
         "remodelLvl": 60,
         "idAfterRemodel": "381",
@@ -23549,6 +24050,7 @@
     "535": {
         "jp": "Luigi Torelli",
         "kana": "ルイージ・トレッリ",
+        "variant": "",
         "en": "Luigi Torelli",
         "remodelLvl": 30,
         "idAfterRemodel": "605",
@@ -23596,6 +24098,7 @@
     "536": {
         "jp": "神鷹改二",
         "kana": "しんよう",
+        "variant": "",
         "en": "Shinyou Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -23643,6 +24146,7 @@
     "537": {
         "jp": "涼月改",
         "kana": "すずつき",
+        "variant": "",
         "en": "Suzutsuki Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -23690,6 +24194,7 @@
     "539": {
         "jp": "UIT-25",
         "kana": "ルイージ・トレッリ",
+        "variant": "",
         "en": "UIT-25",
         "remodelLvl": 55,
         "idAfterRemodel": "530",
@@ -23737,6 +24242,7 @@
     "540": {
         "jp": "対馬",
         "kana": "つしま",
+        "variant": "",
         "en": "Tsushima",
         "remodelLvl": 47,
         "idAfterRemodel": "386",
@@ -23784,6 +24290,7 @@
     "541": {
         "jp": "長門改二",
         "kana": "ながと",
+        "variant": "",
         "en": "Nagato Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -23831,6 +24338,7 @@
     "542": {
         "jp": "夕雲改二",
         "kana": "ゆうぐも",
+        "variant": "",
         "en": "Yuugumo Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -23878,6 +24386,7 @@
     "543": {
         "jp": "長波改二",
         "kana": "ながなみ",
+        "variant": "",
         "en": "Naganami Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -23925,6 +24434,7 @@
     "544": {
         "jp": "Gambier Bay",
         "kana": "ガンビア・ベイ",
+        "variant": "",
         "en": "Gambier Bay",
         "remodelLvl": 45,
         "idAfterRemodel": "396",
@@ -23972,6 +24482,7 @@
     "545": {
         "jp": "Saratoga Mk.II",
         "kana": "サラトガ",
+        "variant": "",
         "en": "Saratoga Mk.II",
         "remodelLvl": 85,
         "idAfterRemodel": "550",
@@ -24019,6 +24530,7 @@
     "546": {
         "jp": "武蔵改二",
         "kana": "むさし",
+        "variant": "",
         "en": "Musashi Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -24066,6 +24578,7 @@
     "547": {
         "jp": "多摩改二",
         "kana": "たま",
+        "variant": "",
         "en": "Tama Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -24113,6 +24626,7 @@
     "548": {
         "jp": "文月改二",
         "kana": "ふみづき",
+        "variant": "",
         "en": "Fumizuki Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -24160,6 +24674,7 @@
     "549": {
         "jp": "Intrepid",
         "kana": "イントレピッド",
+        "variant": "",
         "en": "Intrepid",
         "remodelLvl": 50,
         "idAfterRemodel": "397",
@@ -24207,6 +24722,7 @@
     "550": {
         "jp": "Saratoga Mk.II Mod.2",
         "kana": "サラトガ",
+        "variant": "",
         "en": "Saratoga Mk.II Mod.2",
         "remodelLvl": 90,
         "idAfterRemodel": "545",
@@ -24254,6 +24770,7 @@
     "551": {
         "jp": "日振",
         "kana": "ひぶり",
+        "variant": "",
         "en": "Hiburi",
         "remodelLvl": 37,
         "idAfterRemodel": "678",
@@ -24301,6 +24818,7 @@
     "552": {
         "jp": "大東",
         "kana": "だいとう",
+        "variant": "",
         "en": "Daitou",
         "remodelLvl": 37,
         "idAfterRemodel": "679",
@@ -24348,6 +24866,7 @@
     "553": {
         "jp": "伊勢改二",
         "kana": "いせ",
+        "variant": "",
         "en": "Ise Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -24395,6 +24914,7 @@
     "555": {
         "jp": "瑞鳳改二",
         "kana": "ずいほう",
+        "variant": "",
         "en": "Zuihou Kai Ni",
         "remodelLvl": 80,
         "idAfterRemodel": "560",
@@ -24442,6 +24962,7 @@
     "556": {
         "jp": "浦風丁改",
         "kana": "うらかぜ",
+        "variant": "",
         "en": "Urakaze D Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -24489,6 +25010,7 @@
     "557": {
         "jp": "磯風乙改",
         "kana": "いそかぜ",
+        "variant": "",
         "en": "Isokaze B Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -24536,6 +25058,7 @@
     "558": {
         "jp": "浜風乙改",
         "kana": "はまかぜ",
+        "variant": "",
         "en": "Hamakaze B Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -24583,6 +25106,7 @@
     "559": {
         "jp": "谷風丁改",
         "kana": "たにかぜ",
+        "variant": "",
         "en": "Tanikaze D Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -24630,6 +25154,7 @@
     "560": {
         "jp": "瑞鳳改二乙",
         "kana": "ずいほう",
+        "variant": "",
         "en": "Zuihou Kai Ni Otsu",
         "remodelLvl": 80,
         "idAfterRemodel": "555",
@@ -24677,6 +25202,7 @@
     "561": {
         "jp": "Samuel B.Roberts",
         "kana": "サミュエル・B・ロバーツ",
+        "variant": "",
         "en": "Samuel B.Roberts",
         "remodelLvl": 50,
         "idAfterRemodel": "681",
@@ -24724,6 +25250,7 @@
     "562": {
         "jp": "Johnston",
         "kana": "ジョンストン",
+        "variant": "",
         "en": "Johnston",
         "remodelLvl": 55,
         "idAfterRemodel": "689",
@@ -24771,6 +25298,7 @@
     "563": {
         "jp": "巻雲改二",
         "kana": "まきぐも",
+        "variant": "",
         "en": "Makigumo Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -24818,6 +25346,7 @@
     "565": {
         "jp": "福江",
         "kana": "ふかえ",
+        "variant": "",
         "en": "Fukae",
         "remodelLvl": 48,
         "idAfterRemodel": "685",
@@ -24865,6 +25394,7 @@
     "566": {
         "jp": "陽炎改二",
         "kana": "かげろう",
+        "variant": "",
         "en": "Kagerou Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -24912,6 +25442,7 @@
     "567": {
         "jp": "不知火改二",
         "kana": "しらぬい",
+        "variant": "",
         "en": "Shiranui Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -24959,6 +25490,7 @@
     "568": {
         "jp": "黒潮改二",
         "kana": "くろしお",
+        "variant": "",
         "en": "Kuroshio Kai Ni",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25006,6 +25538,7 @@
     "571": {
         "jp": "Nelson",
         "kana": "ネルソン",
+        "variant": "",
         "en": "Nelson",
         "remodelLvl": 50,
         "idAfterRemodel": "576",
@@ -25053,6 +25586,7 @@
     "574": {
         "jp": "Gotland",
         "kana": "ゴトランド",
+        "variant": "",
         "en": "Gotland",
         "remodelLvl": 55,
         "idAfterRemodel": "579",
@@ -25100,6 +25634,7 @@
     "575": {
         "jp": "Maestrale",
         "kana": "マエストラーレ",
+        "variant": "",
         "en": "Maestrale",
         "remodelLvl": 35,
         "idAfterRemodel": "580",
@@ -25147,6 +25682,7 @@
     "576": {
         "jp": "Nelson改",
         "kana": "ネルソン",
+        "variant": "",
         "en": "Nelson Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25194,6 +25730,7 @@
     "579": {
         "jp": "Gotland改",
         "kana": "ゴトランド",
+        "variant": "",
         "en": "Gotland Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25241,6 +25778,7 @@
     "580": {
         "jp": "Maestrale改",
         "kana": "マエストラーレ",
+        "variant": "",
         "en": "Maestrale Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25288,6 +25826,7 @@
     "581": {
         "jp": "日進",
         "kana": "にっしん",
+        "variant": "",
         "en": "Nisshin",
         "remodelLvl": 40,
         "idAfterRemodel": "690",
@@ -25335,6 +25874,7 @@
     "583": {
         "jp": "峯雲",
         "kana": "みねぐも",
+        "variant": "",
         "en": "Minegumo",
         "remodelLvl": 38,
         "idAfterRemodel": "687",
@@ -25382,6 +25922,7 @@
     "586": {
         "jp": "日進甲",
         "kana": "にっしん",
+        "variant": "",
         "en": "Nisshin Kou",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25429,6 +25970,7 @@
     "605": {
         "jp": "Luigi Torelli改",
         "kana": "ルイージ・トレッリ",
+        "variant": "",
         "en": "Luigi Torelli Kai",
         "remodelLvl": 40,
         "idAfterRemodel": "539",
@@ -25476,6 +26018,7 @@
     "606": {
         "jp": "伊400改",
         "kana": "い400",
+        "variant": "",
         "en": "I-400 Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25523,6 +26066,7 @@
     "678": {
         "jp": "日振改",
         "kana": "ひぶり",
+        "variant": "",
         "en": "Hiburi Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25570,6 +26114,7 @@
     "679": {
         "jp": "大東改",
         "kana": "だいとう",
+        "variant": "",
         "en": "Daitou Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25617,6 +26162,7 @@
     "680": {
         "jp": "浜波改",
         "kana": "はまなみ",
+        "variant": "",
         "en": "Hamanami Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25664,6 +26210,7 @@
     "681": {
         "jp": "Samuel B.Roberts改",
         "kana": "サミュエル・B・ロバーツ",
+        "variant": "",
         "en": "Samuel B.Roberts Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25711,6 +26258,7 @@
     "685": {
         "jp": "福江改",
         "kana": "ふかえ",
+        "variant": "",
         "en": "Fukae Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25758,6 +26306,7 @@
     "686": {
         "jp": "岸波改",
         "kana": "きしなみ",
+        "variant": "",
         "en": "Kishinami Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25805,6 +26354,7 @@
     "687": {
         "jp": "峯雲改",
         "kana": "みねぐも",
+        "variant": "",
         "en": "Minegumo Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25852,6 +26402,7 @@
     "688": {
         "jp": "早波改",
         "kana": "はやなみ",
+        "variant": "",
         "en": "Hayanami Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25899,6 +26450,7 @@
     "689": {
         "jp": "Johnston改",
         "kana": "ジョンストン",
+        "variant": "",
         "en": "Johnston Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
@@ -25946,6 +26498,7 @@
     "690": {
         "jp": "日進改",
         "kana": "にっしん",
+        "variant": "",
         "en": "Nisshin Kai",
         "remodelLvl": 60,
         "idAfterRemodel": "586",
@@ -25992,7 +26545,8 @@
     },
     "1501": {
         "jp": "駆逐イ級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "I-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -26000,7 +26554,8 @@
     },
     "1502": {
         "jp": "駆逐ロ級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "Ro-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -26008,7 +26563,8 @@
     },
     "1503": {
         "jp": "駆逐ハ級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "Ha-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -26016,7 +26572,8 @@
     },
     "1504": {
         "jp": "駆逐ニ級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "Ni-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -26024,7 +26581,8 @@
     },
     "1505": {
         "jp": "軽巡ホ級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "Ho-Class Light Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26032,7 +26590,8 @@
     },
     "1506": {
         "jp": "軽巡ヘ級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "He-Class Light Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26040,7 +26599,8 @@
     },
     "1507": {
         "jp": "軽巡ト級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "To-Class Light Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26048,7 +26608,8 @@
     },
     "1508": {
         "jp": "雷巡チ級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "Chi-Class Torpedo Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26056,7 +26617,8 @@
     },
     "1509": {
         "jp": "重巡リ級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "Ri-Class Heavy Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26064,7 +26626,8 @@
     },
     "1510": {
         "jp": "軽母ヌ級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "Nu-Class Light Carrier",
         "equip": [],
         "ctype": 1,
@@ -26072,7 +26635,8 @@
     },
     "1511": {
         "jp": "戦艦ル級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "Ru-Class Battleship",
         "equip": [],
         "ctype": 1,
@@ -26080,7 +26644,8 @@
     },
     "1512": {
         "jp": "空母ヲ級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "Wo-Class Standard Carrier",
         "equip": [],
         "ctype": 1,
@@ -26088,7 +26653,8 @@
     },
     "1513": {
         "jp": "輸送ワ級",
-        "kana": "-",
+        "kana": "",
+        "variant": "-",
         "en": "Wa-Class Transport Ship",
         "equip": [],
         "ctype": 1,
@@ -26096,7 +26662,8 @@
     },
     "1514": {
         "jp": "駆逐イ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "I-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -26104,7 +26671,8 @@
     },
     "1515": {
         "jp": "駆逐ロ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ro-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -26112,7 +26680,8 @@
     },
     "1516": {
         "jp": "駆逐ハ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ha-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -26120,7 +26689,8 @@
     },
     "1517": {
         "jp": "駆逐ニ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ni-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -26128,7 +26698,8 @@
     },
     "1518": {
         "jp": "軽巡ホ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ho-Class Light Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26136,7 +26707,8 @@
     },
     "1519": {
         "jp": "軽巡ヘ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "He-Class Light Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26144,7 +26716,8 @@
     },
     "1520": {
         "jp": "軽巡ト級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "To-Class Light Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26152,7 +26725,8 @@
     },
     "1521": {
         "jp": "雷巡チ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Chi-Class Torpedo Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26160,7 +26734,8 @@
     },
     "1522": {
         "jp": "重巡リ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ri-Class Heavy Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26168,7 +26743,8 @@
     },
     "1523": {
         "jp": "軽母ヌ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Nu-Class Light Carrier",
         "equip": [],
         "ctype": 1,
@@ -26176,7 +26752,8 @@
     },
     "1524": {
         "jp": "戦艦ル級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ru-Class Battleship",
         "equip": [],
         "ctype": 1,
@@ -26184,7 +26761,8 @@
     },
     "1525": {
         "jp": "空母ヲ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Wo-Class Standard Carrier",
         "equip": [],
         "ctype": 1,
@@ -26192,7 +26770,8 @@
     },
     "1526": {
         "jp": "輸送ワ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Wa-Class Transport Ship",
         "equip": [],
         "ctype": 1,
@@ -26200,7 +26779,8 @@
     },
     "1527": {
         "jp": "重巡リ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Ri-Class Heavy Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26208,7 +26788,8 @@
     },
     "1528": {
         "jp": "空母ヲ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Wo-Class Standard Carrier",
         "equip": [],
         "ctype": 1,
@@ -26216,7 +26797,8 @@
     },
     "1529": {
         "jp": "戦艦ル級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Ru-Class Battleship",
         "equip": [],
         "ctype": 1,
@@ -26225,6 +26807,7 @@
     "1530": {
         "jp": "潜水カ級",
         "kana": "",
+        "variant": "",
         "en": "Ka-Class Submarine",
         "equip": [],
         "ctype": 1,
@@ -26233,6 +26816,7 @@
     "1531": {
         "jp": "潜水ヨ級",
         "kana": "",
+        "variant": "",
         "en": "Yo-Class Submarine",
         "equip": [],
         "ctype": 1,
@@ -26240,7 +26824,8 @@
     },
     "1532": {
         "jp": "潜水カ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ka-Class Submarine",
         "equip": [],
         "ctype": 1,
@@ -26248,7 +26833,8 @@
     },
     "1533": {
         "jp": "潜水ヨ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Yo-Class Submarine",
         "equip": [],
         "ctype": 1,
@@ -26256,7 +26842,8 @@
     },
     "1534": {
         "jp": "潜水カ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Ka-Class Submarine",
         "equip": [],
         "ctype": 1,
@@ -26264,7 +26851,8 @@
     },
     "1535": {
         "jp": "潜水ヨ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Yo-Class Submarine",
         "equip": [],
         "ctype": 1,
@@ -26273,6 +26861,7 @@
     "1536": {
         "jp": "浮遊要塞",
         "kana": "",
+        "variant": "",
         "en": "Floating Fortress",
         "equip": [],
         "ctype": 1,
@@ -26281,6 +26870,7 @@
     "1537": {
         "jp": "浮遊要塞",
         "kana": "",
+        "variant": "",
         "en": "Floating Fortress",
         "equip": [],
         "ctype": 1,
@@ -26289,6 +26879,7 @@
     "1538": {
         "jp": "浮遊要塞",
         "kana": "",
+        "variant": "",
         "en": "Floating Fortress",
         "equip": [],
         "ctype": 1,
@@ -26297,6 +26888,7 @@
     "1539": {
         "jp": "泊地棲鬼",
         "kana": "",
+        "variant": "",
         "en": "Anchorage Demon",
         "equip": [],
         "ctype": 1,
@@ -26305,6 +26897,7 @@
     "1540": {
         "jp": "泊地棲姫",
         "kana": "",
+        "variant": "",
         "en": "Anchorage Princess",
         "equip": [],
         "ctype": 1,
@@ -26313,6 +26906,7 @@
     "1541": {
         "jp": "戦艦タ級",
         "kana": "",
+        "variant": "",
         "en": "Ta-Class Battleship",
         "equip": [],
         "ctype": 1,
@@ -26320,7 +26914,8 @@
     },
     "1542": {
         "jp": "戦艦タ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ta-Class Battleship",
         "equip": [],
         "ctype": 1,
@@ -26328,7 +26923,8 @@
     },
     "1543": {
         "jp": "戦艦タ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Ta-Class Battleship",
         "equip": [],
         "ctype": 1,
@@ -26337,6 +26933,7 @@
     "1544": {
         "jp": "装甲空母鬼",
         "kana": "",
+        "variant": "",
         "en": "Armored Carrier Demon",
         "equip": [],
         "ctype": 1,
@@ -26345,6 +26942,7 @@
     "1545": {
         "jp": "装甲空母姫",
         "kana": "",
+        "variant": "",
         "en": "Armored Carrier Princess",
         "equip": [],
         "ctype": 1,
@@ -26353,6 +26951,7 @@
     "1546": {
         "jp": "南方棲鬼",
         "kana": "",
+        "variant": "",
         "en": "Southern Demon",
         "equip": [],
         "ctype": 1,
@@ -26361,6 +26960,7 @@
     "1547": {
         "jp": "南方棲戦鬼",
         "kana": "",
+        "variant": "",
         "en": "Southern War Demon",
         "equip": [],
         "ctype": 1,
@@ -26369,6 +26969,7 @@
     "1548": {
         "jp": "南方棲戦姫",
         "kana": "",
+        "variant": "",
         "en": "Southern War Princess",
         "equip": [],
         "ctype": 1,
@@ -26377,6 +26978,7 @@
     "1549": {
         "jp": "護衛要塞",
         "kana": "",
+        "variant": "",
         "en": "Escort Fortress",
         "equip": [],
         "ctype": 1,
@@ -26385,6 +26987,7 @@
     "1550": {
         "jp": "護衛要塞",
         "kana": "",
+        "variant": "",
         "en": "Escort Fortress",
         "equip": [],
         "ctype": 1,
@@ -26393,6 +26996,7 @@
     "1551": {
         "jp": "護衛要塞",
         "kana": "",
+        "variant": "",
         "en": "Escort Fortress",
         "equip": [],
         "ctype": 1,
@@ -26400,7 +27004,8 @@
     },
     "1552": {
         "jp": "駆逐ロ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Ro-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -26408,7 +27013,8 @@
     },
     "1553": {
         "jp": "駆逐ハ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Ha-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -26416,7 +27022,8 @@
     },
     "1554": {
         "jp": "軽巡ホ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Ho-Class Light Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26424,7 +27031,8 @@
     },
     "1555": {
         "jp": "軽巡ヘ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "He-Class Light Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26433,6 +27041,7 @@
     "1556": {
         "jp": "飛行場姫",
         "kana": "",
+        "variant": "",
         "en": "Airfield Princess",
         "equip": [],
         "ctype": 1,
@@ -26441,6 +27050,7 @@
     "1557": {
         "jp": "戦艦棲姫",
         "kana": "",
+        "variant": "",
         "en": "Battleship Princess",
         "equip": [],
         "ctype": 1,
@@ -26448,7 +27058,8 @@
     },
     "1558": {
         "jp": "輸送ワ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Wa-Class Transport Ship",
         "equip": [],
         "ctype": 1,
@@ -26456,7 +27067,8 @@
     },
     "1559": {
         "jp": "雷巡チ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Chi-Class Torpedo Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26464,7 +27076,8 @@
     },
     "1560": {
         "jp": "軽母ヌ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Nu-Class Light Carrier",
         "equip": [],
         "ctype": 1,
@@ -26473,6 +27086,7 @@
     "1561": {
         "jp": "戦艦レ級",
         "kana": "",
+        "variant": "",
         "en": "Re-Class Battleship",
         "equip": [],
         "ctype": 1,
@@ -26480,7 +27094,8 @@
     },
     "1562": {
         "jp": "戦艦レ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Re-Class Battleship",
         "equip": [],
         "ctype": 1,
@@ -26488,7 +27103,8 @@
     },
     "1564": {
         "jp": "駆逐イ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "I-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -26496,7 +27112,8 @@
     },
     "1565": {
         "jp": "空母ヲ級改",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Wo-Class Standard Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -26504,7 +27121,8 @@
     },
     "1566": {
         "jp": "重巡リ級改",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Ri-Class Heavy Cruiser Kai",
         "equip": [],
         "ctype": 1,
@@ -26512,7 +27130,8 @@
     },
     "1567": {
         "jp": "戦艦ル級改",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Ru-Class Battleship Kai",
         "equip": [],
         "ctype": 1,
@@ -26521,6 +27140,7 @@
     "1570": {
         "jp": "潜水ソ級",
         "kana": "",
+        "variant": "",
         "en": "So-Class Submarine",
         "equip": [],
         "ctype": 1,
@@ -26528,7 +27148,8 @@
     },
     "1571": {
         "jp": "潜水ソ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "So-Class Submarine",
         "equip": [],
         "ctype": 1,
@@ -26536,7 +27157,8 @@
     },
     "1572": {
         "jp": "潜水ソ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "So-Class Submarine",
         "equip": [],
         "ctype": 1,
@@ -26545,6 +27167,7 @@
     "1573": {
         "jp": "港湾棲姫",
         "kana": "",
+        "variant": "",
         "en": "Harbor Princess",
         "equip": [],
         "ctype": 1,
@@ -26553,6 +27176,7 @@
     "1574": {
         "jp": "離島棲鬼",
         "kana": "",
+        "variant": "",
         "en": "Isolated Island Demon",
         "equip": [],
         "ctype": 1,
@@ -26561,6 +27185,7 @@
     "1575": {
         "jp": "駆逐イ級後期型",
         "kana": "",
+        "variant": "",
         "en": "I-Class Destroyer Late Model",
         "equip": [],
         "ctype": 1,
@@ -26569,6 +27194,7 @@
     "1576": {
         "jp": "駆逐ロ級後期型",
         "kana": "",
+        "variant": "",
         "en": "Ro-Class Destroyer Late Model",
         "equip": [],
         "ctype": 1,
@@ -26577,6 +27203,7 @@
     "1577": {
         "jp": "駆逐ハ級後期型",
         "kana": "",
+        "variant": "",
         "en": "Ha-Class Destroyer Late Model",
         "equip": [],
         "ctype": 1,
@@ -26585,6 +27212,7 @@
     "1578": {
         "jp": "駆逐ニ級後期型",
         "kana": "",
+        "variant": "",
         "en": "Ni-Class Destroyer Late Model",
         "equip": [],
         "ctype": 1,
@@ -26592,7 +27220,8 @@
     },
     "1579": {
         "jp": "空母ヲ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Wo-Class Standard Carrier",
         "equip": [],
         "ctype": 1,
@@ -26601,6 +27230,7 @@
     "1581": {
         "jp": "北方棲姫",
         "kana": "",
+        "variant": "",
         "en": "Northern Princess",
         "equip": [],
         "ctype": 1,
@@ -26609,6 +27239,7 @@
     "1582": {
         "jp": "北方棲姫",
         "kana": "",
+        "variant": "",
         "en": "Northern Princess",
         "equip": [],
         "ctype": 1,
@@ -26617,6 +27248,7 @@
     "1583": {
         "jp": "中間棲姫",
         "kana": "",
+        "variant": "",
         "en": "Midway Princess",
         "equip": [],
         "ctype": 1,
@@ -26625,6 +27257,7 @@
     "1584": {
         "jp": "中間棲姫",
         "kana": "",
+        "variant": "",
         "en": "Midway Princess",
         "equip": [],
         "ctype": 1,
@@ -26633,6 +27266,7 @@
     "1585": {
         "jp": "空母棲鬼",
         "kana": "",
+        "variant": "",
         "en": "Aircraft Carrier Demon",
         "equip": [],
         "ctype": 1,
@@ -26641,6 +27275,7 @@
     "1586": {
         "jp": "空母棲姫",
         "kana": "",
+        "variant": "",
         "en": "Aircraft Carrier Princess",
         "equip": [],
         "ctype": 1,
@@ -26649,6 +27284,7 @@
     "1587": {
         "jp": "北方棲姫",
         "kana": "",
+        "variant": "",
         "en": "Northern Princess",
         "equip": [],
         "ctype": 1,
@@ -26657,6 +27293,7 @@
     "1588": {
         "jp": "北方棲姫",
         "kana": "",
+        "variant": "",
         "en": "Northern Princess",
         "equip": [],
         "ctype": 1,
@@ -26665,6 +27302,7 @@
     "1589": {
         "jp": "北方棲姫",
         "kana": "",
+        "variant": "",
         "en": "Northern Princess",
         "equip": [],
         "ctype": 1,
@@ -26673,6 +27311,7 @@
     "1590": {
         "jp": "北方棲姫",
         "kana": "",
+        "variant": "",
         "en": "Northern Princess",
         "equip": [],
         "ctype": 1,
@@ -26681,6 +27320,7 @@
     "1591": {
         "jp": "軽巡ツ級",
         "kana": "",
+        "variant": "",
         "en": "Tsu-Class Light Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26688,7 +27328,8 @@
     },
     "1592": {
         "jp": "軽巡ツ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Tsu-Class Light Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26697,6 +27338,7 @@
     "1594": {
         "jp": "重巡ネ級",
         "kana": "",
+        "variant": "",
         "en": "Ne-Class Heavy Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26704,7 +27346,8 @@
     },
     "1595": {
         "jp": "重巡ネ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ne-Class Heavy Cruiser",
         "equip": [],
         "ctype": 1,
@@ -26713,6 +27356,7 @@
     "1597": {
         "jp": "駆逐棲姫",
         "kana": "",
+        "variant": "",
         "en": "Destroyer Princess",
         "equip": [],
         "ctype": 1,
@@ -26721,6 +27365,7 @@
     "1598": {
         "jp": "駆逐棲姫",
         "kana": "",
+        "variant": "",
         "en": "Destroyer Princess",
         "equip": [],
         "ctype": 1,
@@ -26729,6 +27374,7 @@
     "1599": {
         "jp": "空母水鬼",
         "kana": "",
+        "variant": "",
         "en": "Aircraft Carrier Water Demon",
         "equip": [],
         "ctype": 1,
@@ -26737,6 +27383,7 @@
     "1600": {
         "jp": "空母水鬼",
         "kana": "",
+        "variant": "",
         "en": "Aircraft Carrier Water Demon",
         "equip": [],
         "ctype": 1,
@@ -26745,6 +27392,7 @@
     "1601": {
         "jp": "軽巡棲鬼",
         "kana": "",
+        "variant": "",
         "en": "Light Cruiser Demon",
         "equip": [],
         "ctype": 1,
@@ -26753,6 +27401,7 @@
     "1602": {
         "jp": "軽巡棲鬼",
         "kana": "",
+        "variant": "",
         "en": "Light Cruiser Demon",
         "equip": [],
         "ctype": 1,
@@ -26761,6 +27410,7 @@
     "1603": {
         "jp": "戦艦水鬼",
         "kana": "",
+        "variant": "",
         "en": "Battleship Water Demon",
         "equip": [],
         "ctype": 1,
@@ -26769,6 +27419,7 @@
     "1604": {
         "jp": "戦艦水鬼",
         "kana": "",
+        "variant": "",
         "en": "Battleship Water Demon",
         "equip": [],
         "ctype": 1,
@@ -26777,6 +27428,7 @@
     "1605": {
         "jp": "港湾水鬼",
         "kana": "",
+        "variant": "",
         "en": "Harbor Water Demon",
         "equip": [],
         "ctype": 1,
@@ -26785,6 +27437,7 @@
     "1606": {
         "jp": "港湾水鬼",
         "kana": "",
+        "variant": "",
         "en": "Harbor Water Demon",
         "equip": [],
         "ctype": 1,
@@ -26793,6 +27446,7 @@
     "1607": {
         "jp": "港湾水鬼",
         "kana": "",
+        "variant": "",
         "en": "Harbor Water Demon",
         "equip": [],
         "ctype": 1,
@@ -26801,6 +27455,7 @@
     "1608": {
         "jp": "港湾水鬼",
         "kana": "",
+        "variant": "",
         "en": "Harbor Water Demon",
         "equip": [],
         "ctype": 1,
@@ -26809,6 +27464,7 @@
     "1609": {
         "jp": "泊地水鬼",
         "kana": "",
+        "variant": "",
         "en": "Anchorage Water Demon",
         "equip": [],
         "ctype": 1,
@@ -26817,6 +27473,7 @@
     "1610": {
         "jp": "泊地水鬼",
         "kana": "",
+        "variant": "",
         "en": "Anchorage Water Demon",
         "equip": [],
         "ctype": 1,
@@ -26825,6 +27482,7 @@
     "1611": {
         "jp": "泊地水鬼",
         "kana": "",
+        "variant": "",
         "en": "Anchorage Water Demon",
         "equip": [],
         "ctype": 1,
@@ -26833,6 +27491,7 @@
     "1612": {
         "jp": "泊地水鬼",
         "kana": "",
+        "variant": "",
         "en": "Anchorage Water Demon",
         "equip": [],
         "ctype": 1,
@@ -26841,6 +27500,7 @@
     "1613": {
         "jp": "港湾棲姫",
         "kana": "",
+        "variant": "",
         "en": "Harbor Princess",
         "equip": [],
         "ctype": 1,
@@ -26848,7 +27508,8 @@
     },
     "1614": {
         "jp": "空母ヲ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Wo-Class Standard Carrier",
         "equip": [],
         "ctype": 1,
@@ -26856,7 +27517,8 @@
     },
     "1615": {
         "jp": "空母ヲ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Wo-Class Standard Carrier",
         "equip": [],
         "ctype": 1,
@@ -26864,7 +27526,8 @@
     },
     "1616": {
         "jp": "空母ヲ級改",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Wo-Class Standard Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -26872,7 +27535,8 @@
     },
     "1617": {
         "jp": "空母ヲ級改",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Wo-Class Standard Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -26880,7 +27544,8 @@
     },
     "1618": {
         "jp": "空母ヲ級改",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Wo-Class Standard Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -26889,6 +27554,7 @@
     "1619": {
         "jp": "空母棲鬼",
         "kana": "",
+        "variant": "",
         "en": "Aircraft Carrier Demon",
         "equip": [],
         "ctype": 1,
@@ -26897,6 +27563,7 @@
     "1620": {
         "jp": "空母棲姫",
         "kana": "",
+        "variant": "",
         "en": "Aircraft Carrier Princess",
         "equip": [],
         "ctype": 1,
@@ -26904,7 +27571,8 @@
     },
     "1621": {
         "jp": "駆逐イ級後期型",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "I-Class Destroyer Late Model",
         "equip": [],
         "ctype": 1,
@@ -26912,7 +27580,8 @@
     },
     "1622": {
         "jp": "駆逐ロ級後期型",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ro-Class Destroyer Late Model",
         "equip": [],
         "ctype": 1,
@@ -26920,7 +27589,8 @@
     },
     "1623": {
         "jp": "駆逐ハ級後期型",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ha-Class Destroyer Late Model",
         "equip": [],
         "ctype": 1,
@@ -26928,7 +27598,8 @@
     },
     "1624": {
         "jp": "駆逐ニ級後期型",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ni-Class Destroyer Late Model",
         "equip": [],
         "ctype": 1,
@@ -26937,6 +27608,7 @@
     "1625": {
         "jp": "水母棲姫",
         "kana": "",
+        "variant": "",
         "en": "Seaplane Tender Princess",
         "equip": [],
         "ctype": 1,
@@ -26945,6 +27617,7 @@
     "1626": {
         "jp": "水母棲姫",
         "kana": "",
+        "variant": "",
         "en": "Seaplane Tender Princess",
         "equip": [],
         "ctype": 1,
@@ -26953,6 +27626,7 @@
     "1627": {
         "jp": "水母棲姫",
         "kana": "",
+        "variant": "",
         "en": "Seaplane Tender Princess",
         "equip": [],
         "ctype": 1,
@@ -26961,6 +27635,7 @@
     "1628": {
         "jp": "防空棲姫",
         "kana": "",
+        "variant": "",
         "en": "Air Defense Princess",
         "equip": [],
         "ctype": 1,
@@ -26969,6 +27644,7 @@
     "1629": {
         "jp": "防空棲姫",
         "kana": "",
+        "variant": "",
         "en": "Air Defense Princess",
         "equip": [],
         "ctype": 1,
@@ -26977,6 +27653,7 @@
     "1630": {
         "jp": "防空棲姫",
         "kana": "",
+        "variant": "",
         "en": "Air Defense Princess",
         "equip": [],
         "ctype": 1,
@@ -26985,6 +27662,7 @@
     "1631": {
         "jp": "飛行場姫",
         "kana": "",
+        "variant": "",
         "en": "Airfield Princess",
         "equip": [],
         "ctype": 1,
@@ -26993,6 +27671,7 @@
     "1632": {
         "jp": "飛行場姫",
         "kana": "",
+        "variant": "",
         "en": "Airfield Princess",
         "equip": [],
         "ctype": 1,
@@ -27001,6 +27680,7 @@
     "1633": {
         "jp": "飛行場姫",
         "kana": "",
+        "variant": "",
         "en": "Airfield Princess",
         "equip": [],
         "ctype": 1,
@@ -27009,6 +27689,7 @@
     "1634": {
         "jp": "離島棲鬼",
         "kana": "",
+        "variant": "",
         "en": "Isolated Island Demon",
         "equip": [],
         "ctype": 1,
@@ -27017,6 +27698,7 @@
     "1635": {
         "jp": "離島棲鬼",
         "kana": "",
+        "variant": "",
         "en": "Isolated Island Demon",
         "equip": [],
         "ctype": 1,
@@ -27025,6 +27707,7 @@
     "1636": {
         "jp": "離島棲鬼",
         "kana": "",
+        "variant": "",
         "en": "Isolated Island Demon",
         "equip": [],
         "ctype": 1,
@@ -27033,6 +27716,7 @@
     "1637": {
         "jp": "PT小鬼群",
         "kana": "",
+        "variant": "",
         "en": "PT Imp Pack",
         "equip": [],
         "ctype": 1,
@@ -27041,6 +27725,7 @@
     "1638": {
         "jp": "PT小鬼群",
         "kana": "",
+        "variant": "",
         "en": "PT Imp Pack",
         "equip": [],
         "ctype": 1,
@@ -27049,6 +27734,7 @@
     "1639": {
         "jp": "PT小鬼群",
         "kana": "",
+        "variant": "",
         "en": "PT Imp Pack",
         "equip": [],
         "ctype": 1,
@@ -27057,6 +27743,7 @@
     "1640": {
         "jp": "PT小鬼群",
         "kana": "",
+        "variant": "",
         "en": "PT Imp Pack",
         "equip": [],
         "ctype": 1,
@@ -27065,6 +27752,7 @@
     "1641": {
         "jp": "軽巡棲姫",
         "kana": "",
+        "variant": "",
         "en": "Light Cruiser Princess",
         "equip": [],
         "ctype": 1,
@@ -27073,6 +27761,7 @@
     "1642": {
         "jp": "軽巡棲姫",
         "kana": "",
+        "variant": "",
         "en": "Light Cruiser Princess",
         "equip": [],
         "ctype": 1,
@@ -27081,6 +27770,7 @@
     "1643": {
         "jp": "軽巡棲姫",
         "kana": "",
+        "variant": "",
         "en": "Light Cruiser Princess",
         "equip": [],
         "ctype": 1,
@@ -27089,6 +27779,7 @@
     "1644": {
         "jp": "潜水棲姫",
         "kana": "",
+        "variant": "",
         "en": "Submarine Princess",
         "equip": [],
         "ctype": 1,
@@ -27097,6 +27788,7 @@
     "1645": {
         "jp": "潜水棲姫",
         "kana": "",
+        "variant": "",
         "en": "Submarine Princess",
         "equip": [],
         "ctype": 1,
@@ -27105,6 +27797,7 @@
     "1646": {
         "jp": "潜水棲姫",
         "kana": "",
+        "variant": "",
         "en": "Submarine Princess",
         "equip": [],
         "ctype": 1,
@@ -27113,6 +27806,7 @@
     "1647": {
         "jp": "駆逐水鬼",
         "kana": "",
+        "variant": "",
         "en": "Destroyer Water Demon",
         "equip": [],
         "ctype": 1,
@@ -27121,6 +27815,7 @@
     "1648": {
         "jp": "駆逐水鬼",
         "kana": "",
+        "variant": "",
         "en": "Destroyer Water Demon",
         "equip": [],
         "ctype": 1,
@@ -27129,6 +27824,7 @@
     "1649": {
         "jp": "駆逐水鬼",
         "kana": "",
+        "variant": "",
         "en": "Destroyer Water Demon",
         "equip": [],
         "ctype": 1,
@@ -27137,6 +27833,7 @@
     "1650": {
         "jp": "飛行場姫",
         "kana": "",
+        "variant": "",
         "en": "Airfield Princess",
         "equip": [],
         "ctype": 1,
@@ -27145,6 +27842,7 @@
     "1651": {
         "jp": "飛行場姫",
         "kana": "",
+        "variant": "",
         "en": "Airfield Princess",
         "equip": [],
         "ctype": 1,
@@ -27153,6 +27851,7 @@
     "1652": {
         "jp": "飛行場姫",
         "kana": "",
+        "variant": "",
         "en": "Airfield Princess",
         "equip": [],
         "ctype": 1,
@@ -27161,6 +27860,7 @@
     "1653": {
         "jp": "集積地棲姫",
         "kana": "",
+        "variant": "",
         "en": "Supply Depot Princess",
         "equip": [],
         "ctype": 1,
@@ -27169,6 +27869,7 @@
     "1654": {
         "jp": "集積地棲姫",
         "kana": "",
+        "variant": "",
         "en": "Supply Depot Princess",
         "equip": [],
         "ctype": 1,
@@ -27177,6 +27878,7 @@
     "1655": {
         "jp": "集積地棲姫",
         "kana": "",
+        "variant": "",
         "en": "Supply Depot Princess",
         "equip": [],
         "ctype": 1,
@@ -27185,6 +27887,7 @@
     "1656": {
         "jp": "集積地棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Supply Depot Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27193,6 +27896,7 @@
     "1657": {
         "jp": "集積地棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Supply Depot Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27201,6 +27905,7 @@
     "1658": {
         "jp": "集積地棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Supply Depot Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27209,6 +27914,7 @@
     "1659": {
         "jp": "重巡棲姫",
         "kana": "",
+        "variant": "",
         "en": "Heavy Cruiser Princess",
         "equip": [],
         "ctype": 1,
@@ -27217,6 +27923,7 @@
     "1660": {
         "jp": "重巡棲姫",
         "kana": "",
+        "variant": "",
         "en": "Heavy Cruiser Princess",
         "equip": [],
         "ctype": 1,
@@ -27225,6 +27932,7 @@
     "1661": {
         "jp": "重巡棲姫",
         "kana": "",
+        "variant": "",
         "en": "Heavy Cruiser Princess",
         "equip": [],
         "ctype": 1,
@@ -27233,6 +27941,7 @@
     "1662": {
         "jp": "重巡棲姫",
         "kana": "",
+        "variant": "",
         "en": "Heavy Cruiser Princess",
         "equip": [],
         "ctype": 1,
@@ -27241,6 +27950,7 @@
     "1663": {
         "jp": "重巡棲姫",
         "kana": "",
+        "variant": "",
         "en": "Heavy Cruiser Princess",
         "equip": [],
         "ctype": 1,
@@ -27249,6 +27959,7 @@
     "1664": {
         "jp": "重巡棲姫",
         "kana": "",
+        "variant": "",
         "en": "Heavy Cruiser Princess",
         "equip": [],
         "ctype": 1,
@@ -27257,6 +27968,7 @@
     "1665": {
         "jp": "砲台小鬼",
         "kana": "",
+        "variant": "",
         "en": "Artillery Imp",
         "equip": [],
         "ctype": 1,
@@ -27265,6 +27977,7 @@
     "1666": {
         "jp": "砲台小鬼",
         "kana": "",
+        "variant": "",
         "en": "Artillery Imp",
         "equip": [],
         "ctype": 1,
@@ -27273,6 +27986,7 @@
     "1667": {
         "jp": "砲台小鬼",
         "kana": "",
+        "variant": "",
         "en": "Artillery Imp",
         "equip": [],
         "ctype": 1,
@@ -27281,6 +27995,7 @@
     "1668": {
         "jp": "離島棲姫",
         "kana": "",
+        "variant": "",
         "en": "Isolated Island Princess",
         "equip": [],
         "ctype": 1,
@@ -27289,6 +28004,7 @@
     "1669": {
         "jp": "離島棲姫",
         "kana": "",
+        "variant": "",
         "en": "Isolated Island Princess",
         "equip": [],
         "ctype": 1,
@@ -27297,6 +28013,7 @@
     "1670": {
         "jp": "離島棲姫",
         "kana": "",
+        "variant": "",
         "en": "Isolated Island Princess",
         "equip": [],
         "ctype": 1,
@@ -27305,6 +28022,7 @@
     "1671": {
         "jp": "離島棲姫",
         "kana": "",
+        "variant": "",
         "en": "Isolated Island Princess",
         "equip": [],
         "ctype": 1,
@@ -27313,6 +28031,7 @@
     "1672": {
         "jp": "離島棲姫",
         "kana": "",
+        "variant": "",
         "en": "Isolated Island Princess",
         "equip": [],
         "ctype": 1,
@@ -27321,6 +28040,7 @@
     "1673": {
         "jp": "駆逐古鬼",
         "kana": "",
+        "variant": "",
         "en": "Old Destroyer Demon",
         "equip": [],
         "ctype": 1,
@@ -27329,6 +28049,7 @@
     "1674": {
         "jp": "駆逐古鬼",
         "kana": "",
+        "variant": "",
         "en": "Old Destroyer Demon",
         "equip": [],
         "ctype": 1,
@@ -27337,6 +28058,7 @@
     "1675": {
         "jp": "駆逐古鬼",
         "kana": "",
+        "variant": "",
         "en": "Old Destroyer Demon",
         "equip": [],
         "ctype": 1,
@@ -27345,6 +28067,7 @@
     "1676": {
         "jp": "駆逐水鬼",
         "kana": "",
+        "variant": "",
         "en": "Destroyer Water Demon",
         "equip": [],
         "ctype": 1,
@@ -27353,6 +28076,7 @@
     "1677": {
         "jp": "駆逐水鬼",
         "kana": "",
+        "variant": "",
         "en": "Destroyer Water Demon",
         "equip": [],
         "ctype": 1,
@@ -27361,6 +28085,7 @@
     "1678": {
         "jp": "駆逐水鬼",
         "kana": "",
+        "variant": "",
         "en": "Destroyer Water Demon",
         "equip": [],
         "ctype": 1,
@@ -27369,6 +28094,7 @@
     "1679": {
         "jp": "リコリス棲姫",
         "kana": "",
+        "variant": "",
         "en": "Lycoris Princess",
         "equip": [],
         "ctype": 1,
@@ -27377,6 +28103,7 @@
     "1680": {
         "jp": "リコリス棲姫",
         "kana": "",
+        "variant": "",
         "en": "Lycoris Princess",
         "equip": [],
         "ctype": 1,
@@ -27385,6 +28112,7 @@
     "1681": {
         "jp": "リコリス棲姫",
         "kana": "",
+        "variant": "",
         "en": "Lycoris Princess",
         "equip": [],
         "ctype": 1,
@@ -27393,6 +28121,7 @@
     "1682": {
         "jp": "リコリス棲姫",
         "kana": "",
+        "variant": "",
         "en": "Lycoris Princess",
         "equip": [],
         "ctype": 1,
@@ -27401,6 +28130,7 @@
     "1683": {
         "jp": "リコリス棲姫",
         "kana": "",
+        "variant": "",
         "en": "Lycoris Princess",
         "equip": [],
         "ctype": 1,
@@ -27409,6 +28139,7 @@
     "1684": {
         "jp": "中枢棲姫",
         "kana": "",
+        "variant": "",
         "en": "Central Princess",
         "equip": [],
         "ctype": 1,
@@ -27417,6 +28148,7 @@
     "1685": {
         "jp": "中枢棲姫",
         "kana": "",
+        "variant": "",
         "en": "Central Princess",
         "equip": [],
         "ctype": 1,
@@ -27425,6 +28157,7 @@
     "1686": {
         "jp": "中枢棲姫",
         "kana": "",
+        "variant": "",
         "en": "Central Princess",
         "equip": [],
         "ctype": 1,
@@ -27433,6 +28166,7 @@
     "1687": {
         "jp": "中枢棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Central Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27441,6 +28175,7 @@
     "1688": {
         "jp": "中枢棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Central Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27449,6 +28184,7 @@
     "1689": {
         "jp": "中枢棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Central Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27457,6 +28193,7 @@
     "1690": {
         "jp": "駆逐古姫",
         "kana": "",
+        "variant": "",
         "en": "Old Destroyer Princess",
         "equip": [],
         "ctype": 1,
@@ -27465,6 +28202,7 @@
     "1691": {
         "jp": "駆逐古姫",
         "kana": "",
+        "variant": "",
         "en": "Old Destroyer Princess",
         "equip": [],
         "ctype": 1,
@@ -27473,6 +28211,7 @@
     "1692": {
         "jp": "駆逐古姫",
         "kana": "",
+        "variant": "",
         "en": "Old Destroyer Princess",
         "equip": [],
         "ctype": 1,
@@ -27480,7 +28219,8 @@
     },
     "1693": {
         "jp": "潜水夏姫",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Summer Submarine Princess",
         "equip": [],
         "ctype": 1,
@@ -27488,7 +28228,8 @@
     },
     "1694": {
         "jp": "潜水夏姫",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Summer Submarine Princess",
         "equip": [],
         "ctype": 1,
@@ -27496,7 +28237,8 @@
     },
     "1695": {
         "jp": "潜水夏姫",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Summer Submarine Princess",
         "equip": [],
         "ctype": 1,
@@ -27505,6 +28247,7 @@
     "1696": {
         "jp": "戦艦夏姫",
         "kana": "",
+        "variant": "",
         "en": "Summer Battleship Princess",
         "equip": [],
         "ctype": 1,
@@ -27513,6 +28256,7 @@
     "1697": {
         "jp": "戦艦夏姫",
         "kana": "",
+        "variant": "",
         "en": "Summer Battleship Princess",
         "equip": [],
         "ctype": 1,
@@ -27521,6 +28265,7 @@
     "1698": {
         "jp": "戦艦夏姫",
         "kana": "",
+        "variant": "",
         "en": "Summer Battleship Princess",
         "equip": [],
         "ctype": 1,
@@ -27529,6 +28274,7 @@
     "1699": {
         "jp": "港湾夏姫",
         "kana": "",
+        "variant": "",
         "en": "Summer Harbor Princess",
         "equip": [],
         "ctype": 1,
@@ -27537,6 +28283,7 @@
     "1700": {
         "jp": "港湾夏姫",
         "kana": "",
+        "variant": "",
         "en": "Summer Harbor Princess",
         "equip": [],
         "ctype": 1,
@@ -27545,6 +28292,7 @@
     "1701": {
         "jp": "港湾夏姫",
         "kana": "",
+        "variant": "",
         "en": "Summer Harbor Princess",
         "equip": [],
         "ctype": 1,
@@ -27553,6 +28301,7 @@
     "1702": {
         "jp": "港湾夏姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Summer Harbor Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27561,6 +28310,7 @@
     "1703": {
         "jp": "港湾夏姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Summer Harbor Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27569,6 +28319,7 @@
     "1704": {
         "jp": "港湾夏姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Summer Harbor Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27577,6 +28328,7 @@
     "1705": {
         "jp": "重巡夏姫",
         "kana": "",
+        "variant": "",
         "en": "Summer Heavy Cruiser Princess",
         "equip": [],
         "ctype": 1,
@@ -27585,6 +28337,7 @@
     "1706": {
         "jp": "重巡夏姫",
         "kana": "",
+        "variant": "",
         "en": "Summer Heavy Cruiser Princess",
         "equip": [],
         "ctype": 1,
@@ -27593,6 +28346,7 @@
     "1707": {
         "jp": "重巡夏姫",
         "kana": "",
+        "variant": "",
         "en": "Summer Heavy Cruiser Princess",
         "equip": [],
         "ctype": 1,
@@ -27601,6 +28355,7 @@
     "1708": {
         "jp": "水母水姫",
         "kana": "",
+        "variant": "",
         "en": "Seaplane Tender Water Princess",
         "equip": [],
         "ctype": 1,
@@ -27609,6 +28364,7 @@
     "1709": {
         "jp": "水母水姫",
         "kana": "",
+        "variant": "",
         "en": "Seaplane Tender Water Princess",
         "equip": [],
         "ctype": 1,
@@ -27617,6 +28373,7 @@
     "1710": {
         "jp": "水母水姫",
         "kana": "",
+        "variant": "",
         "en": "Seaplane Tender Water Princess",
         "equip": [],
         "ctype": 1,
@@ -27625,6 +28382,7 @@
     "1711": {
         "jp": "深海海月姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Jellyfish Princess",
         "equip": [],
         "ctype": 1,
@@ -27633,6 +28391,7 @@
     "1712": {
         "jp": "深海海月姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Jellyfish Princess",
         "equip": [],
         "ctype": 1,
@@ -27641,6 +28400,7 @@
     "1713": {
         "jp": "深海海月姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Jellyfish Princess",
         "equip": [],
         "ctype": 1,
@@ -27648,7 +28408,8 @@
     },
     "1714": {
         "jp": "空母ヲ級改",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Wo-Class Standard Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -27656,7 +28417,8 @@
     },
     "1715": {
         "jp": "空母ヲ級改",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Wo-Class Standard Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -27665,6 +28427,7 @@
     "1716": {
         "jp": "深海双子棲姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Twin Princesses",
         "equip": [],
         "ctype": 1,
@@ -27673,6 +28436,7 @@
     "1717": {
         "jp": "深海双子棲姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Twin Princesses",
         "equip": [],
         "ctype": 1,
@@ -27681,6 +28445,7 @@
     "1718": {
         "jp": "深海双子棲姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Twin Princesses",
         "equip": [],
         "ctype": 1,
@@ -27689,6 +28454,7 @@
     "1719": {
         "jp": "深海双子棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Twin Princesses (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27697,6 +28463,7 @@
     "1720": {
         "jp": "深海双子棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Twin Princesses (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27705,6 +28472,7 @@
     "1721": {
         "jp": "深海双子棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Twin Princesses (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27713,6 +28481,7 @@
     "1722": {
         "jp": "護衛棲姫",
         "kana": "",
+        "variant": "",
         "en": "Escort Princess",
         "equip": [],
         "ctype": 1,
@@ -27721,6 +28490,7 @@
     "1723": {
         "jp": "護衛棲姫",
         "kana": "",
+        "variant": "",
         "en": "Escort Princess",
         "equip": [],
         "ctype": 1,
@@ -27729,6 +28499,7 @@
     "1724": {
         "jp": "護衛棲姫",
         "kana": "",
+        "variant": "",
         "en": "Escort Princess",
         "equip": [],
         "ctype": 1,
@@ -27737,6 +28508,7 @@
     "1725": {
         "jp": "北端上陸姫",
         "kana": "",
+        "variant": "",
         "en": "Northernmost Landing Princess",
         "equip": [],
         "ctype": 1,
@@ -27745,6 +28517,7 @@
     "1726": {
         "jp": "北端上陸姫",
         "kana": "",
+        "variant": "",
         "en": "Northernmost Landing Princess",
         "equip": [],
         "ctype": 1,
@@ -27753,6 +28526,7 @@
     "1727": {
         "jp": "北端上陸姫",
         "kana": "",
+        "variant": "",
         "en": "Northernmost Landing Princess",
         "equip": [],
         "ctype": 1,
@@ -27761,6 +28535,7 @@
     "1728": {
         "jp": "北方水姫",
         "kana": "",
+        "variant": "",
         "en": "Northern Water Princess",
         "equip": [],
         "ctype": 1,
@@ -27769,6 +28544,7 @@
     "1729": {
         "jp": "北方水姫",
         "kana": "",
+        "variant": "",
         "en": "Northern Water Princess",
         "equip": [],
         "ctype": 1,
@@ -27777,6 +28553,7 @@
     "1730": {
         "jp": "北方水姫",
         "kana": "",
+        "variant": "",
         "en": "Northern Water Princess",
         "equip": [],
         "ctype": 1,
@@ -27785,6 +28562,7 @@
     "1731": {
         "jp": "北方水姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Northern Water Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27793,6 +28571,7 @@
     "1732": {
         "jp": "北方水姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Northern Water Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27801,6 +28580,7 @@
     "1733": {
         "jp": "北方水姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Northern Water Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27808,7 +28588,8 @@
     },
     "1734": {
         "jp": "軽母ヌ級改",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Nu-Class Light Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -27816,7 +28597,8 @@
     },
     "1735": {
         "jp": "軽母ヌ級改",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Nu-Class Light Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -27824,7 +28606,8 @@
     },
     "1736": {
         "jp": "潜水新棲姫",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "New Submarine Princess",
         "equip": [],
         "ctype": 1,
@@ -27832,7 +28615,8 @@
     },
     "1737": {
         "jp": "潜水新棲姫",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "New Submarine Princess",
         "equip": [],
         "ctype": 1,
@@ -27840,7 +28624,8 @@
     },
     "1738": {
         "jp": "潜水新棲姫",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "New Submarine Princess",
         "equip": [],
         "ctype": 1,
@@ -27849,6 +28634,7 @@
     "1739": {
         "jp": "駆逐ナ級",
         "kana": "",
+        "variant": "",
         "en": "Na-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -27856,7 +28642,8 @@
     },
     "1740": {
         "jp": "駆逐ナ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Na-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -27864,7 +28651,8 @@
     },
     "1741": {
         "jp": "駆逐ナ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Na-Class Destroyer",
         "equip": [],
         "ctype": 1,
@@ -27873,6 +28661,7 @@
     "1742": {
         "jp": "駆逐ナ級後期型",
         "kana": "",
+        "variant": "",
         "en": "Na-Class Destroyer Late Model",
         "equip": [],
         "ctype": 1,
@@ -27880,7 +28669,8 @@
     },
     "1743": {
         "jp": "駆逐ナ級後期型",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Na-Class Destroyer Late Model",
         "equip": [],
         "ctype": 1,
@@ -27888,7 +28678,8 @@
     },
     "1744": {
         "jp": "駆逐ナ級後期型",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Na-Class Destroyer Late Model",
         "equip": [],
         "ctype": 1,
@@ -27897,6 +28688,7 @@
     "1745": {
         "jp": "戦艦仏棲姫",
         "kana": "",
+        "variant": "",
         "en": "French Battleship Princess",
         "equip": [],
         "ctype": 1,
@@ -27905,6 +28697,7 @@
     "1746": {
         "jp": "戦艦仏棲姫",
         "kana": "",
+        "variant": "",
         "en": "French Battleship Princess",
         "equip": [],
         "ctype": 1,
@@ -27913,6 +28706,7 @@
     "1747": {
         "jp": "戦艦仏棲姫",
         "kana": "",
+        "variant": "",
         "en": "French Battleship Princess",
         "equip": [],
         "ctype": 1,
@@ -27921,6 +28715,7 @@
     "1748": {
         "jp": "戦艦仏棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "French Battleship Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27929,6 +28724,7 @@
     "1749": {
         "jp": "戦艦仏棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "French Battleship Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27937,6 +28733,7 @@
     "1750": {
         "jp": "戦艦仏棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "French Battleship Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -27945,6 +28742,7 @@
     "1751": {
         "jp": "空母夏鬼",
         "kana": "",
+        "variant": "",
         "en": "Summer Aircraft Carrier Demon",
         "equip": [],
         "ctype": 1,
@@ -27953,6 +28751,7 @@
     "1752": {
         "jp": "空母夏姫",
         "kana": "",
+        "variant": "",
         "en": "Summer Aircraft Carrier Princess",
         "equip": [],
         "ctype": 1,
@@ -27961,6 +28760,7 @@
     "1753": {
         "jp": "集積地夏姫",
         "kana": "",
+        "variant": "",
         "en": "Summer Supply Depot Princess",
         "equip": [],
         "ctype": 1,
@@ -27969,6 +28769,7 @@
     "1754": {
         "jp": "集積地夏姫",
         "kana": "",
+        "variant": "",
         "en": "Summer Supply Depot Princess",
         "equip": [],
         "ctype": 1,
@@ -27977,6 +28778,7 @@
     "1755": {
         "jp": "欧州棲姫",
         "kana": "",
+        "variant": "",
         "en": "European Princess",
         "equip": [],
         "ctype": 1,
@@ -27985,6 +28787,7 @@
     "1756": {
         "jp": "欧州棲姫",
         "kana": "",
+        "variant": "",
         "en": "European Princess",
         "equip": [],
         "ctype": 1,
@@ -27993,6 +28796,7 @@
     "1757": {
         "jp": "欧州棲姫",
         "kana": "",
+        "variant": "",
         "en": "European Princess",
         "equip": [],
         "ctype": 1,
@@ -28001,6 +28805,7 @@
     "1758": {
         "jp": "欧州棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "European Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28009,6 +28814,7 @@
     "1759": {
         "jp": "欧州棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "European Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28017,6 +28823,7 @@
     "1760": {
         "jp": "欧州棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "European Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28024,7 +28831,8 @@
     },
     "1761": {
         "jp": "重巡ネ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Ne-Class Heavy Cruiser",
         "equip": [],
         "ctype": 1,
@@ -28032,7 +28840,8 @@
     },
     "1762": {
         "jp": "軽母ヌ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Nu-Class Light Carrier",
         "equip": [],
         "ctype": 1,
@@ -28040,7 +28849,8 @@
     },
     "1763": {
         "jp": "軽母ヌ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Nu-Class Light Carrier",
         "equip": [],
         "ctype": 1,
@@ -28048,7 +28858,8 @@
     },
     "1764": {
         "jp": "軽母ヌ級",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Nu-Class Light Carrier",
         "equip": [],
         "ctype": 1,
@@ -28056,7 +28867,8 @@
     },
     "1765": {
         "jp": "軽母ヌ級改",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Nu-Class Light Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -28064,7 +28876,8 @@
     },
     "1766": {
         "jp": "軽母ヌ級改",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Nu-Class Light Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -28073,6 +28886,7 @@
     "1767": {
         "jp": "海峡夜棲姫",
         "kana": "",
+        "variant": "",
         "en": "Night Strait Princesses",
         "equip": [],
         "ctype": 1,
@@ -28081,6 +28895,7 @@
     "1768": {
         "jp": "海峡夜棲姫",
         "kana": "",
+        "variant": "",
         "en": "Night Strait Princesses",
         "equip": [],
         "ctype": 1,
@@ -28089,6 +28904,7 @@
     "1769": {
         "jp": "海峡夜棲姫",
         "kana": "",
+        "variant": "",
         "en": "Night Strait Princesses",
         "equip": [],
         "ctype": 1,
@@ -28097,6 +28913,7 @@
     "1770": {
         "jp": "海峡夜棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Night Strait Princesses (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28105,6 +28922,7 @@
     "1771": {
         "jp": "海峡夜棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Night Strait Princesses (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28113,6 +28931,7 @@
     "1772": {
         "jp": "海峡夜棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Night Strait Princesses (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28121,6 +28940,7 @@
     "1773": {
         "jp": "防空埋護姫",
         "kana": "",
+        "variant": "",
         "en": "Confined Air Defense Princess",
         "equip": [],
         "ctype": 1,
@@ -28129,6 +28949,7 @@
     "1774": {
         "jp": "防空埋護姫",
         "kana": "",
+        "variant": "",
         "en": "Confined Air Defense Princess",
         "equip": [],
         "ctype": 1,
@@ -28137,6 +28958,7 @@
     "1775": {
         "jp": "防空埋護姫",
         "kana": "",
+        "variant": "",
         "en": "Confined Air Defense Princess",
         "equip": [],
         "ctype": 1,
@@ -28144,7 +28966,8 @@
     },
     "1776": {
         "jp": "軽母ヌ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Nu-Class Light Carrier",
         "equip": [],
         "ctype": 1,
@@ -28152,7 +28975,8 @@
     },
     "1777": {
         "jp": "軽母ヌ級",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Nu-Class Light Carrier",
         "equip": [],
         "ctype": 1,
@@ -28160,7 +28984,8 @@
     },
     "1778": {
         "jp": "軽母ヌ級改",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Nu-Class Light Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -28168,7 +28993,8 @@
     },
     "1779": {
         "jp": "軽母ヌ級改",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Nu-Class Light Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -28176,7 +29002,8 @@
     },
     "1780": {
         "jp": "軽母ヌ級改",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Nu-Class Light Carrier Kai",
         "equip": [],
         "ctype": 1,
@@ -28185,6 +29012,7 @@
     "1781": {
         "jp": "空母棲姫",
         "kana": "",
+        "variant": "",
         "en": "Aircraft Carrier Princess",
         "equip": [],
         "ctype": 1,
@@ -28193,6 +29021,7 @@
     "1782": {
         "jp": "空母棲姫",
         "kana": "",
+        "variant": "",
         "en": "Aircraft Carrier Princess",
         "equip": [],
         "ctype": 1,
@@ -28201,6 +29030,7 @@
     "1783": {
         "jp": "護衛棲水姫",
         "kana": "",
+        "variant": "",
         "en": "Escort Water Princess",
         "equip": [],
         "ctype": 1,
@@ -28209,6 +29039,7 @@
     "1784": {
         "jp": "護衛棲水姫",
         "kana": "",
+        "variant": "",
         "en": "Escort Water Princess",
         "equip": [],
         "ctype": 1,
@@ -28217,6 +29048,7 @@
     "1785": {
         "jp": "護衛棲水姫",
         "kana": "",
+        "variant": "",
         "en": "Escort Water Princess",
         "equip": [],
         "ctype": 1,
@@ -28225,6 +29057,7 @@
     "1786": {
         "jp": "護衛棲水姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Escort Water Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28233,6 +29066,7 @@
     "1787": {
         "jp": "護衛棲水姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Escort Water Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28241,6 +29075,7 @@
     "1788": {
         "jp": "護衛棲水姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Escort Water Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28248,7 +29083,8 @@
     },
     "1789": {
         "jp": "潜水新棲姫",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "New Submarine Princess",
         "equip": [],
         "ctype": 1,
@@ -28257,6 +29093,7 @@
     "1790": {
         "jp": "戦艦棲姫改",
         "kana": "",
+        "variant": "",
         "en": "Battleship Princess Kai",
         "equip": [],
         "ctype": 1,
@@ -28265,6 +29102,7 @@
     "1791": {
         "jp": "戦艦棲姫改",
         "kana": "",
+        "variant": "",
         "en": "Battleship Princess Kai",
         "equip": [],
         "ctype": 1,
@@ -28273,6 +29111,7 @@
     "1792": {
         "jp": "戦艦棲姫改",
         "kana": "",
+        "variant": "",
         "en": "Battleship Princess Kai",
         "equip": [],
         "ctype": 1,
@@ -28281,6 +29120,7 @@
     "1793": {
         "jp": "戦艦水鬼改",
         "kana": "",
+        "variant": "",
         "en": "Battleship Water Demon Kai",
         "equip": [],
         "ctype": 1,
@@ -28289,6 +29129,7 @@
     "1794": {
         "jp": "戦艦水鬼改",
         "kana": "",
+        "variant": "",
         "en": "Battleship Water Demon Kai",
         "equip": [],
         "ctype": 1,
@@ -28297,6 +29138,7 @@
     "1795": {
         "jp": "戦艦水鬼改",
         "kana": "",
+        "variant": "",
         "en": "Battleship Water Demon Kai",
         "equip": [],
         "ctype": 1,
@@ -28305,6 +29147,7 @@
     "1796": {
         "jp": "戦艦水鬼改-壊",
         "kana": "",
+        "variant": "",
         "en": "Battleship Water Demon Kai (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28313,6 +29156,7 @@
     "1797": {
         "jp": "戦艦水鬼改-壊",
         "kana": "",
+        "variant": "",
         "en": "Battleship Water Demon Kai (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28321,6 +29165,7 @@
     "1798": {
         "jp": "戦艦水鬼改-壊",
         "kana": "",
+        "variant": "",
         "en": "Battleship Water Demon Kai (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28329,6 +29174,7 @@
     "1799": {
         "jp": "深海鶴棲姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Crane Princess",
         "equip": [],
         "ctype": 1,
@@ -28337,6 +29183,7 @@
     "1800": {
         "jp": "深海鶴棲姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Crane Princess",
         "equip": [],
         "ctype": 1,
@@ -28345,6 +29192,7 @@
     "1801": {
         "jp": "深海鶴棲姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Crane Princess",
         "equip": [],
         "ctype": 1,
@@ -28353,6 +29201,7 @@
     "1802": {
         "jp": "深海鶴棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Crane Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28361,6 +29210,7 @@
     "1803": {
         "jp": "深海鶴棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Crane Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28369,6 +29219,7 @@
     "1804": {
         "jp": "深海鶴棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Crane Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28376,7 +29227,8 @@
     },
     "1805": {
         "jp": "潜水新棲姫 バカンスmode",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "New Submarine Princess Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28384,7 +29236,8 @@
     },
     "1806": {
         "jp": "潜水新棲姫 バカンスmode",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "New Submarine Princess Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28392,7 +29245,8 @@
     },
     "1807": {
         "jp": "潜水新棲姫 バカンスmode",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "New Submarine Princess Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28400,7 +29254,8 @@
     },
     "1808": {
         "jp": "潜水新棲姫 バカンスmode",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "New Submarine Princess Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28409,6 +29264,7 @@
     "1809": {
         "jp": "集積地棲姫 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "Supply Depot Princess Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28417,6 +29273,7 @@
     "1810": {
         "jp": "集積地棲姫 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "Supply Depot Princess Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28425,6 +29282,7 @@
     "1811": {
         "jp": "集積地棲姫 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "Supply Depot Princess Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28433,6 +29291,7 @@
     "1812": {
         "jp": "集積地棲姫 バカンスmode-壊",
         "kana": "",
+        "variant": "",
         "en": "Supply Depot Princess Vacation Mode (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28441,6 +29300,7 @@
     "1813": {
         "jp": "集積地棲姫 バカンスmode-壊",
         "kana": "",
+        "variant": "",
         "en": "Supply Depot Princess Vacation Mode (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28449,6 +29309,7 @@
     "1814": {
         "jp": "集積地棲姫 バカンスmode-壊",
         "kana": "",
+        "variant": "",
         "en": "Supply Depot Princess Vacation Mode (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28457,6 +29318,7 @@
     "1815": {
         "jp": "泊地水鬼 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "Anchorage Water Demon Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28465,6 +29327,7 @@
     "1816": {
         "jp": "泊地水鬼 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "Anchorage Water Demon Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28473,6 +29336,7 @@
     "1817": {
         "jp": "泊地水鬼 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "Anchorage Water Demon Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28481,6 +29345,7 @@
     "1818": {
         "jp": "泊地水鬼 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "Anchorage Water Demon Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28489,6 +29354,7 @@
     "1819": {
         "jp": "泊地水鬼 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "Anchorage Water Demon Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28497,6 +29363,7 @@
     "1820": {
         "jp": "泊地水鬼 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "Anchorage Water Demon Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28505,6 +29372,7 @@
     "1821": {
         "jp": "護衛独還姫",
         "kana": "",
+        "variant": "",
         "en": "German Escort Princess",
         "equip": [],
         "ctype": 1,
@@ -28513,6 +29381,7 @@
     "1822": {
         "jp": "護衛独還姫",
         "kana": "",
+        "variant": "",
         "en": "German Escort Princess",
         "equip": [],
         "ctype": 1,
@@ -28521,6 +29390,7 @@
     "1823": {
         "jp": "護衛独還姫",
         "kana": "",
+        "variant": "",
         "en": "German Escort Princess",
         "equip": [],
         "ctype": 1,
@@ -28529,6 +29399,7 @@
     "1824": {
         "jp": "護衛独還姫-壊",
         "kana": "",
+        "variant": "",
         "en": "German Escort Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28537,6 +29408,7 @@
     "1825": {
         "jp": "護衛独還姫-壊",
         "kana": "",
+        "variant": "",
         "en": "German Escort Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28545,6 +29417,7 @@
     "1826": {
         "jp": "護衛独還姫-壊",
         "kana": "",
+        "variant": "",
         "en": "German Escort Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28553,6 +29426,7 @@
     "1827": {
         "jp": "船渠棲姫",
         "kana": "",
+        "variant": "",
         "en": "Dock Princess",
         "equip": [],
         "ctype": 1,
@@ -28561,6 +29435,7 @@
     "1828": {
         "jp": "船渠棲姫",
         "kana": "",
+        "variant": "",
         "en": "Dock Princess",
         "equip": [],
         "ctype": 1,
@@ -28569,6 +29444,7 @@
     "1829": {
         "jp": "船渠棲姫",
         "kana": "",
+        "variant": "",
         "en": "Dock Princess",
         "equip": [],
         "ctype": 1,
@@ -28577,6 +29453,7 @@
     "1830": {
         "jp": "船渠棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Dock Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28585,6 +29462,7 @@
     "1831": {
         "jp": "船渠棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Dock Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28593,6 +29471,7 @@
     "1832": {
         "jp": "船渠棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Dock Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28601,6 +29480,7 @@
     "1834": {
         "jp": "戦艦仏棲姫 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "French Battleship Princess Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28609,6 +29489,7 @@
     "1835": {
         "jp": "戦艦仏棲姫 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "French Battleship Princess Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28617,6 +29498,7 @@
     "1836": {
         "jp": "戦艦仏棲姫 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "French Battleship Princess Vacation Mode",
         "equip": [],
         "ctype": 1,
@@ -28625,6 +29507,7 @@
     "1837": {
         "jp": "戦艦仏棲姫-壊 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "French Battleship Princess Vacation Mode (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28633,6 +29516,7 @@
     "1838": {
         "jp": "戦艦仏棲姫-壊 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "French Battleship Princess Vacation Mode (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28641,6 +29525,7 @@
     "1839": {
         "jp": "戦艦仏棲姫-壊 バカンスmode",
         "kana": "",
+        "variant": "",
         "en": "French Battleship Princess Vacation Mode (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28649,6 +29534,7 @@
     "1840": {
         "jp": "欧州水姫",
         "kana": "",
+        "variant": "",
         "en": "European Water Princess",
         "equip": [],
         "ctype": 1,
@@ -28657,6 +29543,7 @@
     "1841": {
         "jp": "欧州水姫",
         "kana": "",
+        "variant": "",
         "en": "European Water Princess",
         "equip": [],
         "ctype": 1,
@@ -28665,6 +29552,7 @@
     "1842": {
         "jp": "欧州水姫",
         "kana": "",
+        "variant": "",
         "en": "European Water Princess",
         "equip": [],
         "ctype": 1,
@@ -28673,6 +29561,7 @@
     "1843": {
         "jp": "欧州水姫-壊",
         "kana": "",
+        "variant": "",
         "en": "European Water Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28681,6 +29570,7 @@
     "1844": {
         "jp": "欧州水姫-壊",
         "kana": "",
+        "variant": "",
         "en": "European Water Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28689,6 +29579,7 @@
     "1845": {
         "jp": "欧州水姫-壊",
         "kana": "",
+        "variant": "",
         "en": "European Water Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28697,6 +29588,7 @@
     "1846": {
         "jp": "深海雨雲姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Nimbus Princess",
         "equip": [],
         "ctype": 1,
@@ -28705,6 +29597,7 @@
     "1847": {
         "jp": "深海雨雲姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Nimbus Princess",
         "equip": [],
         "ctype": 1,
@@ -28713,6 +29606,7 @@
     "1848": {
         "jp": "深海雨雲姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Nimbus Princess",
         "equip": [],
         "ctype": 1,
@@ -28721,6 +29615,7 @@
     "1849": {
         "jp": "深海雨雲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Nimbus Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28729,6 +29624,7 @@
     "1850": {
         "jp": "深海雨雲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Nimbus Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28737,6 +29633,7 @@
     "1851": {
         "jp": "深海雨雲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Nimbus Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28745,6 +29642,7 @@
     "1852": {
         "jp": "深海日棲姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Sun Princess",
         "equip": [],
         "ctype": 1,
@@ -28753,6 +29651,7 @@
     "1853": {
         "jp": "深海日棲姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Sun Princess",
         "equip": [],
         "ctype": 1,
@@ -28761,6 +29660,7 @@
     "1854": {
         "jp": "深海日棲姫",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Sun Princess",
         "equip": [],
         "ctype": 1,
@@ -28769,6 +29669,7 @@
     "1855": {
         "jp": "深海日棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Sun Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28777,6 +29678,7 @@
     "1856": {
         "jp": "深海日棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Sun Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28785,6 +29687,7 @@
     "1857": {
         "jp": "深海日棲姫-壊",
         "kana": "",
+        "variant": "",
         "en": "Abyssal Sun Princess (Damaged)",
         "equip": [],
         "ctype": 1,
@@ -28793,6 +29696,7 @@
     "1858": {
         "jp": "駆逐ニ級改",
         "kana": "",
+        "variant": "",
         "en": "Ni-Class Destroyer Kai",
         "equip": [],
         "ctype": 1,
@@ -28801,6 +29705,7 @@
     "1859": {
         "jp": "駆逐ニ級改後期型",
         "kana": "",
+        "variant": "",
         "en": "Ni-Class Destroyer Kai Late Model",
         "equip": [],
         "ctype": 1,
@@ -28808,7 +29713,8 @@
     },
     "1860": {
         "jp": "駆逐ニ級改後期型",
-        "kana": "elite",
+        "kana": "",
+        "variant": "elite",
         "en": "Ni-Class Destroyer Kai Late Model",
         "equip": [],
         "ctype": 1,
@@ -28816,7 +29722,8 @@
     },
     "1861": {
         "jp": "駆逐ニ級改後期型",
-        "kana": "flagship",
+        "kana": "",
+        "variant": "flagship",
         "en": "Ni-Class Destroyer Kai Late Model",
         "equip": [],
         "ctype": 1,
