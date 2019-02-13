@@ -8,7 +8,7 @@
             <li>Implement Ship Drop Search</li>
             <li>Implement Construction</li>
             <li>A page for tracking the fit data</li>
-            <li>More advanced routing filters</li>
+            <li>Ship pattern filtering for routing</li>
         </ul>
     </div>
 </div>

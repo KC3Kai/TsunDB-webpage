@@ -54,6 +54,9 @@
             </div>
         </div>
         <div class="navbar-end">
+            <a class="navbar-item" href="https://patreon.com/kc3kai" rel="noopener noreferrer" target="_blank">
+                <img id="patreon-button" src="./../../../assets/become-a-patron.png">
+            </a>
             <router-link class="navbar-item" :to="{ path: '/todo' }">
                 To-Do List
             </router-link>
@@ -91,5 +94,9 @@ export default {
 
     #nav-toggle-state:checked ~ .nav-menu {
     display: block;
+    }
+
+    #patreon-button:hover{
+        opacity:0.5;
     }
 </style>
