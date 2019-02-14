@@ -142,6 +142,55 @@
                     </div>
                     <div class="field is-horizontal">
                         <div class="field-label">
+                            <label class="label is-pulled-left">Ship Filter</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <span v-if="shipfiltermode == 0" class="button is-dark" @click="toggleShipFilterMode(1)">
+                                    Disabled
+                                </span>
+                                <span v-else-if="shipfiltermode == 1" class="button is-primary" @click="toggleShipFilterMode(2)">
+                                    Contains
+                                </span>
+                                <span v-else class="button is-info" @click="toggleShipFilterMode(0)">
+                                    Count
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <template v-if="shipfiltermode == 1">
+                        <div class="field is-horizontal">
+                            <div class="field-body">
+                                <div class="field">
+                                    <template v-for="(value, id) in shipTypeData">
+                                        <span :class="getShipTypeButtonClass(id)" :key="value" @click="toggleShipContainFilter(id)">
+                                            {{value}}
+                                        </span>
+                                    </template>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field is-horizontal">
+                            <div class="field-body">
+                                <div class="field">
+                                    <span class="button is-dark" @click="resetShipFilter()">
+                                        Reset Ship Filter
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                    <template v-else-if="shipfiltermode == 2">
+                        <div class="field is-horizontal">
+                            <div class="field-body">
+                                <div class="field">
+                                    Coming Soon!
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                    <div class="field is-horizontal">
+                        <div class="field-label">
                             <label class="label is-pulled-left">Page Limit</label>
                         </div>
                         <div class="field-body">
@@ -352,7 +401,32 @@ export default {
             edge_id: undefined,
             fleettype: undefined,
             phase: undefined,
-            los: [1, undefined]
+            los: [1, undefined],
+            shipfiltermode: 0,
+            shipfilter:{
+                1: 0,
+                2: 0,
+                3: 0,
+                4: 0,
+                5: 0,
+                6: 0,
+                7: 0,
+                8: 0,
+                9: 0,
+                10: 0,
+                11: 0,
+                12: 0,
+                13: 0,
+                14: 0,
+                15: 0,
+                16: 0,
+                17: 0,
+                18: 0,
+                19: 0,
+                20: 0,
+                21: 0,
+                22: 0
+            }
         }
     },
     created(){
@@ -484,6 +558,13 @@ export default {
         getShipName(id){
             if(this.shipData.hasOwnProperty(id)) return `${this.shipData[id].jp} (${this.shipData[id].en})`;
         },
+        getShipTypeButtonClass(id){
+            return{
+                'button': this.shipfilter[id] == 0,
+                'button is-success': this.shipfilter[id] == 1,
+                'button is-danger': this.shipfilter[id] == -1
+            }
+        },
         jumpPage(event){
             this.offset = parseInt(event.target.value)-1;
             if(this.offset < 0 || this.offset == undefined || isNaN(this.offset)){
@@ -576,6 +657,33 @@ export default {
             this.node_id = ["","",""];
             this.getData(this.$route.query.map);
         },
+        resetShipFilter(){
+            this.shipfilter = {
+                1: 0,
+                2: 0,
+                3: 0,
+                4: 0,
+                5: 0,
+                6: 0,
+                7: 0,
+                8: 0,
+                9: 0,
+                10: 0,
+                11: 0,
+                12: 0,
+                13: 0,
+                14: 0,
+                15: 0,
+                16: 0,
+                17: 0,
+                18: 0,
+                19: 0,
+                20: 0,
+                21: 0,
+                22: 0
+            };
+            this.getData(this.$route.query.map);
+        },
         setSample(sample){
             this.rowSelected = sample.id;
             this.sampleSelected = sample;
@@ -636,6 +744,19 @@ export default {
         },
         toggleLimit(value){
             this.limit = value;
+            this.getData(this.$route.query.map);
+        },
+        toggleShipFilterMode(value){
+            this.shipfiltermode = value;
+            this.resetShipFilter();
+            this.getData(this.$route.query.map);
+        },
+        toggleShipContainFilter(id){
+            switch(this.shipfilter[id]){
+                case -1: this.shipfilter[id] = 0; break;
+                case 0: this.shipfilter[id] = 1; break;
+                case 1: this.shipfilter[id] = -1; break;
+            }
             this.getData(this.$route.query.map);
         }
     }
