@@ -8,7 +8,7 @@
         I-It's not like I am doing this for you, you shitty admiral. 
     </P>
     <p class="subtitle">
-        The current TsunDB version is <strong>Kasumi</strong>.
+        The current TsunDB version is <strong>Kasumi Kai</strong>.
     </p>
     <p class="title is-spaced">
         How do I submit data to the Tsundere Database (TsunDB)?

@@ -484,8 +484,8 @@ export default {
             return require(`./../../../assets/maps/${map}.png`);
         },
         getNodeImage(sample){
-            let eventId = sample.nodeinfo ? sample.nodeinfo.eventId : sample.eventid;
-            let eventKind = sample.nodeinfo ? sample.nodeinfo.eventKind : sample.eventkind;
+            let eventId = sample.nodeinfo.eventId;
+            let eventKind = sample.nodeinfo.eventKind;
             let node = "";
             switch(eventId){
                 case 0: node = "start"; break;
@@ -583,7 +583,7 @@ export default {
             return returnStr;
         },
         parseEdges(value){
-            if(value) return `${value.amountOfNodes}`;
+            if(value.amountOfNodes) return `${value.amountOfNodes}`;
         },
         parseFleet(value){
             let returnStr = "";
