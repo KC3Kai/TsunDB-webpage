@@ -13,24 +13,24 @@
                             <div class="field has-addons">
                                 <span class="control">
                                     <span class="select">
-                                        <select @change="toggleNodeA" v-model="node_id[0]">
-                                            <option :value="''">#</option>
+                                        <select @change="toggleNode(1, $event.target.value)" v-model="node_id[1]">
+                                            <option :value="'-1'">#</option>
                                             <option v-for="node in nodesData[map]" :key="node">{{node}}</option>
                                         </select>
                                     </span>
                                 </span>
                                 <span class="control">
                                     <span class="select">
-                                        <select @change="toggleNodeB" v-model="node_id[1]">
-                                            <option :value="''">#</option>
+                                        <select @change="toggleNode(2, $event.target.value)" v-model="node_id[2]">
+                                            <option :value="'-1'">#</option>
                                             <option v-for="node in nodesData[map]" :key="node">{{node}}</option>
                                         </select>
                                     </span>
                                 </span>
                                 <span class="control">
                                     <span class="select">
-                                        <select @change="toggleNodeC" v-model="node_id[2]" disabled>
-                                            <option :value="''">#</option>
+                                        <select @change="toggleNode(3, $event.target.value)" v-model="node_id[3]">
+                                            <option :value="'-1'">#</option>
                                             <option v-for="node in nodesData[map]" :key="node">{{node}}</option>
                                         </select>
                                     </span>
@@ -403,7 +403,11 @@ export default {
     props: ['map'],
     data: function(){
         return{
-            node_id: ["","",""],
+            node_id: {
+                1: "-1",
+                2: "-1",
+                3: "-1"
+            },
             rowSelected: undefined,
             sampleSelected: {id: -1},
             edgesData: require('./../../data/edges.json'),
@@ -522,6 +526,15 @@ export default {
             .then(data => this.data = data)
             .catch(err => console.error(err));
             return await this.data;
+        },
+        getEdgeId(a, b, map){
+            for(let x in this.edgesData[map]){
+                if(this.edgesData[map][x][0] == a){
+                    if(this.edgesData[map][x][1] == b){
+                        return x;
+                    }
+                }
+            }
         },
         getEquipIcon(id){
             if(this.equipData.hasOwnProperty(id)) return require(`./../../../assets/icons/equip/${this.equipData[id].icon}.png`);
@@ -715,7 +728,11 @@ export default {
         },
         resetEdgeId(){
             this.edge_id = undefined;
-            this.node_id = ["","",""];
+            this.node_id = {
+                1: "-1",
+                2: "-1",
+                3: "-1"
+            };
             this.getData(this.$route.query.map);
         },
         resetShipFilter(){
@@ -784,29 +801,17 @@ export default {
             this.difficulty = value.target.value;
             this.getData(this.$route.query.map);
         },
-        toggleNodeA(value){
-            this.node_id[0] = value.target.value;
-            this.toggleEdgeId();
-        },
-        toggleNodeB(value){
-            this.node_id[1] = value.target.value;
-            this.toggleEdgeId();
-        },
-        toggleNodeC(value){
-            this.node_id[2] = value.target.value;
+        toggleNode(id, value){
+            this.node_id[id] = value;
             this.toggleEdgeId();
         },
         toggleEdgeId(){
-            if(Number(this.node_id[0]) == "") return;
-            if(Number(this.node_id[1]) == "") return;
-            for(let x in this.edgesData[this.$route.query.map]){
-                if(this.edgesData[this.$route.query.map][x][0] == this.node_id[0]){
-                    if(this.edgesData[this.$route.query.map][x][1] == this.node_id[1]){
-                        this.edge_id = x;
-                        break;
-                    }
-                }
-            }
+            let newArr = [];
+            if(this.node_id[1] != "-1" && this.node_id[2] != "-1") newArr.push(this.getEdgeId(this.node_id[1], this.node_id[2], this.$route.query.map));
+            if(newArr[newArr.length-1] == undefined) newArr.pop();
+            if(this.node_id[2] != "-1" && this.node_id[3] != "-1") newArr.push(this.getEdgeId(this.node_id[2], this.node_id[3], this.$route.query.map));
+            if(newArr[newArr.length-1] == undefined) newArr.pop();
+            (newArr.length > 0) ? this.edge_id = newArr : this.edge_id = undefined;
             this.getData(this.$route.query.map);
         },
         toggleFleetType(value){
