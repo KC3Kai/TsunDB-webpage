@@ -160,10 +160,31 @@
                     </div>
                     <template v-if="shipfiltermode == 1">
                         <div class="field is-horizontal">
+                            <div class="field-label">
+                                <label class="label is-pulled-left">Main Fleet</label>
+                            </div>
+                        </div>
+                        <div class="field is-horizontal">
                             <div class="field-body">
                                 <div class="field">
                                     <template v-for="(value, id) in shipTypeData">
-                                        <span :class="getShipTypeButtonClass(id)" :key="value" @click="toggleShipContainFilter(id)">
+                                        <span :class="getShipTypeButtonClass('fleet1', id)" :key="value" @click="toggleShipContainFilter('fleet1', id)">
+                                            {{value}}
+                                        </span>
+                                    </template>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field is-horizontal">
+                            <div class="field-label">
+                                <label class="label is-pulled-left">Escort Fleet</label>
+                            </div>
+                        </div>
+                        <div class="field is-horizontal">
+                            <div class="field-body">
+                                <div class="field">
+                                    <template v-for="(value, id) in shipTypeData">
+                                        <span :class="getShipTypeButtonClass('fleet2', id)" :key="value" @click="toggleShipContainFilter('fleet2', id)">
                                             {{value}}
                                         </span>
                                     </template>
@@ -404,28 +425,54 @@ export default {
             los: [1, undefined],
             shipfiltermode: 0,
             shipfilter:{
-                1: 0,
-                2: 0,
-                3: 0,
-                4: 0,
-                5: 0,
-                6: 0,
-                7: 0,
-                8: 0,
-                9: 0,
-                10: 0,
-                11: 0,
-                12: 0,
-                13: 0,
-                14: 0,
-                15: 0,
-                16: 0,
-                17: 0,
-                18: 0,
-                19: 0,
-                20: 0,
-                21: 0,
-                22: 0
+                fleet1:{
+                    1: 0,
+                    2: 0,
+                    3: 0,
+                    4: 0,
+                    5: 0,
+                    6: 0,
+                    7: 0,
+                    8: 0,
+                    9: 0,
+                    10: 0,
+                    11: 0,
+                    12: 0,
+                    13: 0,
+                    14: 0,
+                    15: 0,
+                    16: 0,
+                    17: 0,
+                    18: 0,
+                    19: 0,
+                    20: 0,
+                    21: 0,
+                    22: 0
+                },
+                fleet2:{
+                    1: 0,
+                    2: 0,
+                    3: 0,
+                    4: 0,
+                    5: 0,
+                    6: 0,
+                    7: 0,
+                    8: 0,
+                    9: 0,
+                    10: 0,
+                    11: 0,
+                    12: 0,
+                    13: 0,
+                    14: 0,
+                    15: 0,
+                    16: 0,
+                    17: 0,
+                    18: 0,
+                    19: 0,
+                    20: 0,
+                    21: 0,
+                    22: 0
+                }
             }
         }
     },
@@ -455,6 +502,12 @@ export default {
             if(this.edge_id != undefined && this.edge_id != "undefined") container.edge_id = this.edge_id;
             if(this.cleared != undefined && this.cleared != "undefined") container.cleared = this.cleared;
             if(this.los[1] != undefined && String(this.los[1]) != "") container.los = this.los;
+            if(this.shipfiltermode == 1){
+                let fleet_one_contains = this.parseShipFilterContain('fleet1');
+                let fleet_two_contains = this.parseShipFilterContain('fleet2');
+                if(fleet_one_contains.length > 0) container.fleet_one_contains = fleet_one_contains;
+                if(fleet_two_contains.length > 0) container.fleet_two_contains = fleet_two_contains;
+            }
             let type = this.checkIsEventMap(map) ? "eventrouting" : "routing";
             await axios.get(`https://tsundb.kc3.moe/api/${type}/${this.map}`, {
                 params: container,
@@ -558,11 +611,11 @@ export default {
         getShipName(id){
             if(this.shipData.hasOwnProperty(id)) return `${this.shipData[id].jp} (${this.shipData[id].en})`;
         },
-        getShipTypeButtonClass(id){
+        getShipTypeButtonClass(fleet, id){
             return{
-                'button': this.shipfilter[id] == 0,
-                'button is-success': this.shipfilter[id] == 1,
-                'button is-danger': this.shipfilter[id] == -1
+                'button': this.shipfilter[fleet][id] == 0,
+                'button is-success': this.shipfilter[fleet][id] == 1,
+                'button is-danger': this.shipfilter[fleet][id] == -1
             }
         },
         jumpPage(event){
@@ -633,6 +686,14 @@ export default {
             }
             return returnStr;
         },
+        parseShipFilterContain(fleet){
+            let returnArr = [];
+            for(let x in this.shipfilter[fleet]){
+                if(this.shipfilter[fleet][x] == 0) continue;
+                (this.shipfilter[fleet][x] == 1) ? returnArr.push(parseInt(x)) : returnArr.push(parseInt(x)*-1);
+            }
+            return returnArr;
+        },
         parseSpeed(a, b){
             let returnStr = "";
             let speed = 20;
@@ -659,28 +720,54 @@ export default {
         },
         resetShipFilter(){
             this.shipfilter = {
-                1: 0,
-                2: 0,
-                3: 0,
-                4: 0,
-                5: 0,
-                6: 0,
-                7: 0,
-                8: 0,
-                9: 0,
-                10: 0,
-                11: 0,
-                12: 0,
-                13: 0,
-                14: 0,
-                15: 0,
-                16: 0,
-                17: 0,
-                18: 0,
-                19: 0,
-                20: 0,
-                21: 0,
-                22: 0
+                fleet1:{
+                    1: 0,
+                    2: 0,
+                    3: 0,
+                    4: 0,
+                    5: 0,
+                    6: 0,
+                    7: 0,
+                    8: 0,
+                    9: 0,
+                    10: 0,
+                    11: 0,
+                    12: 0,
+                    13: 0,
+                    14: 0,
+                    15: 0,
+                    16: 0,
+                    17: 0,
+                    18: 0,
+                    19: 0,
+                    20: 0,
+                    21: 0,
+                    22: 0
+                },
+                fleet2:{
+                    1: 0,
+                    2: 0,
+                    3: 0,
+                    4: 0,
+                    5: 0,
+                    6: 0,
+                    7: 0,
+                    8: 0,
+                    9: 0,
+                    10: 0,
+                    11: 0,
+                    12: 0,
+                    13: 0,
+                    14: 0,
+                    15: 0,
+                    16: 0,
+                    17: 0,
+                    18: 0,
+                    19: 0,
+                    20: 0,
+                    21: 0,
+                    22: 0
+                }
             };
             this.getData(this.$route.query.map);
         },
@@ -751,11 +838,11 @@ export default {
             this.resetShipFilter();
             this.getData(this.$route.query.map);
         },
-        toggleShipContainFilter(id){
-            switch(this.shipfilter[id]){
-                case -1: this.shipfilter[id] = 0; break;
-                case 0: this.shipfilter[id] = 1; break;
-                case 1: this.shipfilter[id] = -1; break;
+        toggleShipContainFilter(fleet, id){
+            switch(this.shipfilter[fleet][id]){
+                case -1: this.shipfilter[fleet][id] = 0; break;
+                case 0: this.shipfilter[fleet][id] = 1; break;
+                case 1: this.shipfilter[fleet][id] = -1; break;
             }
             this.getData(this.$route.query.map);
         }
