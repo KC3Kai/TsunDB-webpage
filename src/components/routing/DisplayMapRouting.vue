@@ -153,7 +153,7 @@
                                     Contains
                                 </span>
                                 <span v-else class="button is-info" @click="toggleShipFilterMode(0)">
-                                    Count
+                                    Pattern Match
                                 </span>
                             </div>
                         </div>
@@ -163,8 +163,6 @@
                             <div class="field-label">
                                 <label class="label is-pulled-left">Main Fleet</label>
                             </div>
-                        </div>
-                        <div class="field is-horizontal">
                             <div class="field-body">
                                 <div class="field">
                                     <template v-for="(value, id) in shipTypeData">
@@ -179,8 +177,6 @@
                             <div class="field-label">
                                 <label class="label is-pulled-left">Escort Fleet</label>
                             </div>
-                        </div>
-                        <div class="field is-horizontal">
                             <div class="field-body">
                                 <div class="field">
                                     <template v-for="(value, id) in shipTypeData">
@@ -192,6 +188,9 @@
                             </div>
                         </div>
                         <div class="field is-horizontal">
+                            <div class="field-label">
+                                <label class="label is-pulled-left"></label>
+                            </div>
                             <div class="field-body">
                                 <div class="field">
                                     <span class="button is-dark" @click="resetShipFilter()">
@@ -203,9 +202,22 @@
                     </template>
                     <template v-else-if="shipfiltermode == 2">
                         <div class="field is-horizontal">
+                            <div class="field-label">
+                                <label class="label is-pulled-left">Main Fleet</label>
+                            </div>
                             <div class="field-body">
                                 <div class="field">
-                                    Coming Soon!
+                                    <input class="input" placeholder="e.g. XX-CV-DD-DD-XX-XX" @input="toggleFleetPattern('fleet1', $event.target.value)">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field is-horizontal">
+                            <div class="field-label">
+                                <label class="label is-pulled-left">Escort Fleet</label>
+                            </div>
+                            <div class="field-body">
+                                <div class="field">
+                                    <input class="input" placeholder="e.g. CL-CV-DD-DD-XX-XX" @input="toggleFleetPattern('fleet2', $event.target.value)">
                                 </div>
                             </div>
                         </div>
@@ -417,6 +429,7 @@ export default {
             eventMapsData: require('./../../data/eventMaps.json'),
             shipData: require('./../../data/ship.json'),
             shipTypeData: require('./../../data/shiptype.json'),
+            typeShipData: require('./../../data/typeship.json'),
             offset: 0,
             limit: 20,
             nextRoute: 0,
@@ -429,53 +442,19 @@ export default {
             los: [1, undefined],
             shipfiltermode: 0,
             shipfilter:{
+                fleet1:{flagship: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0},
+                fleet2:{flagship: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0}
+            },
+            fleetpattern:{
                 fleet1:{
-                    1: 0,
-                    2: 0,
-                    3: 0,
-                    4: 0,
-                    5: 0,
-                    6: 0,
-                    7: 0,
-                    8: 0,
-                    9: 0,
-                    10: 0,
-                    11: 0,
-                    12: 0,
-                    13: 0,
-                    14: 0,
-                    15: 0,
-                    16: 0,
-                    17: 0,
-                    18: 0,
-                    19: 0,
-                    20: 0,
-                    21: 0,
-                    22: 0
+                    flagship: undefined,
+                    size: undefined,
+                    count:{}
                 },
                 fleet2:{
-                    1: 0,
-                    2: 0,
-                    3: 0,
-                    4: 0,
-                    5: 0,
-                    6: 0,
-                    7: 0,
-                    8: 0,
-                    9: 0,
-                    10: 0,
-                    11: 0,
-                    12: 0,
-                    13: 0,
-                    14: 0,
-                    15: 0,
-                    16: 0,
-                    17: 0,
-                    18: 0,
-                    19: 0,
-                    20: 0,
-                    21: 0,
-                    22: 0
+                    flagship: undefined,
+                    size: undefined,
+                    count:{}
                 }
             }
         }
@@ -511,6 +490,10 @@ export default {
                 let fleet_two_contains = this.parseShipFilterContain('fleet2');
                 if(fleet_one_contains.length > 0) container.fleet_one_contains = fleet_one_contains;
                 if(fleet_two_contains.length > 0) container.fleet_two_contains = fleet_two_contains;
+            }
+            else if(this.shipfiltermode == 2){
+                if(this.fleetpattern.fleet1.size > 0) container.fleet_one_pattern = this.fleetpattern.fleet1;
+                if(this.fleetpattern.fleet2.size > 0) container.fleet_two_pattern = this.fleetpattern.fleet2;
             }
             let type = this.checkIsEventMap(map) ? "eventrouting" : "routing";
             await axios.get(`https://tsundb.kc3.moe/api/${type}/${this.map}`, {
@@ -702,7 +685,7 @@ export default {
         parseShipFilterContain(fleet){
             let returnArr = [];
             for(let x in this.shipfilter[fleet]){
-                if(this.shipfilter[fleet][x] == 0) continue;
+                if(this.shipfilter[fleet][x] == 0 || x == "flagship") continue;
                 (this.shipfilter[fleet][x] == 1) ? returnArr.push(parseInt(x)) : returnArr.push(parseInt(x)*-1);
             }
             return returnArr;
@@ -737,53 +720,15 @@ export default {
         },
         resetShipFilter(){
             this.shipfilter = {
-                fleet1:{
-                    1: 0,
-                    2: 0,
-                    3: 0,
-                    4: 0,
-                    5: 0,
-                    6: 0,
-                    7: 0,
-                    8: 0,
-                    9: 0,
-                    10: 0,
-                    11: 0,
-                    12: 0,
-                    13: 0,
-                    14: 0,
-                    15: 0,
-                    16: 0,
-                    17: 0,
-                    18: 0,
-                    19: 0,
-                    20: 0,
-                    21: 0,
-                    22: 0
+                fleet1:{flagship: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0},
+                fleet2:{flagship: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0}
+            };
+            this.fleetpattern = {
+                fleet1: {
+                    size: 0
                 },
-                fleet2:{
-                    1: 0,
-                    2: 0,
-                    3: 0,
-                    4: 0,
-                    5: 0,
-                    6: 0,
-                    7: 0,
-                    8: 0,
-                    9: 0,
-                    10: 0,
-                    11: 0,
-                    12: 0,
-                    13: 0,
-                    14: 0,
-                    15: 0,
-                    16: 0,
-                    17: 0,
-                    18: 0,
-                    19: 0,
-                    20: 0,
-                    21: 0,
-                    22: 0
+                fleet2: {
+                    size: 0
                 }
             };
             this.getData(this.$route.query.map);
@@ -801,10 +746,6 @@ export default {
             this.difficulty = value.target.value;
             this.getData(this.$route.query.map);
         },
-        toggleNode(id, value){
-            this.node_id[id] = value;
-            this.toggleEdgeId();
-        },
         toggleEdgeId(){
             let newArr = [];
             if(this.node_id[1] != "-1" && this.node_id[2] != "-1") newArr.push(this.getEdgeId(this.node_id[1], this.node_id[2], this.$route.query.map));
@@ -812,6 +753,28 @@ export default {
             if(this.node_id[2] != "-1" && this.node_id[3] != "-1") newArr.push(this.getEdgeId(this.node_id[2], this.node_id[3], this.$route.query.map));
             if(newArr[newArr.length-1] == undefined) newArr.pop();
             (newArr.length > 0) ? this.edge_id = newArr : this.edge_id = undefined;
+            this.getData(this.$route.query.map);
+        },
+        toggleFleetPattern(fleet, pattern){
+            let newObj = {
+                flagship: undefined,
+                size: 0,
+                count: {}
+            };
+            pattern = pattern.split('-').map(x => x.toUpperCase());
+            if(this.typeShipData.hasOwnProperty(pattern[0])) newObj.flagship = this.typeShipData[pattern[0]];
+            for(let x of pattern){
+                if(this.typeShipData.hasOwnProperty(x)){
+                    newObj.size++;
+                    (newObj.count.hasOwnProperty(this.typeShipData[x])) ? newObj.count[this.typeShipData[x]]++ : newObj.count[this.typeShipData[x]] = 1;
+                }
+                else if(x == "XX" || x == "XXX"){
+                    newObj.size++;
+                }
+            }
+            if(newObj.flagship == undefined) delete newObj.flagship;
+            if(Object.keys(newObj.count).length < 1) delete newObj.count;
+            this.fleetpattern[fleet] = newObj;
             this.getData(this.$route.query.map);
         },
         toggleFleetType(value){
@@ -837,6 +800,10 @@ export default {
         toggleLimit(value){
             this.limit = value;
             this.getData(this.$route.query.map);
+        },
+        toggleNode(id, value){
+            this.node_id[id] = value;
+            this.toggleEdgeId();
         },
         toggleShipFilterMode(value){
             this.shipfiltermode = value;
