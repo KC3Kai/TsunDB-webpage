@@ -8,7 +8,6 @@
             <li>Implement Ship Drop Search</li>
             <li>Implement Construction</li>
             <li>A page for tracking the fit data</li>
-            <li>Ship pattern filtering for routing</li>
             <li>Smart filter for development. Allows user to hide categories they don't want.</li>
         </ul>
     </div>
