@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-NoKappa
+Coming soon!
 </div>
 </template>
 
