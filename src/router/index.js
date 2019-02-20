@@ -5,7 +5,7 @@ import VueScrollTo from 'vue-scrollto'
 //Core
 import home from '@/components/home'
 import Routing from '@/components/Routing'
-import Drop from '@/components/drop'
+import Drop from '@/components/Drop'
 import Construction from '@/components/Construction'
 import Development from '@/components/Development'
 import Dusk from '@/components/Dusk'
@@ -23,8 +23,12 @@ import DisplayMapRouting from '@/components/routing/DisplayMapRouting'
 Vue.component('displaymaprouting', DisplayMapRouting);
 
 //Drop
+import MapDrop from '@/components/drop/MapDrop'
+import ShipDrop from '@/components/drop/ShipDrop'
 import DisplayMapDrop from '@/components/drop/DisplayMapDrop'
+import DisplayShipDrop from '@/components/drop/DisplayShipDrop'
 Vue.component('displaymapdrop', DisplayMapDrop);
+Vue.component('displayshipdrop', DisplayShipDrop);
 
 //Development
 import Pools from '@/components/development/Pools'
@@ -55,9 +59,20 @@ export default new Router({
     },
     {
       path: '/drop',
-      name: 'Drop',
-      component: Drop,
+      name: 'Ship Drop',
+      component: Drop
+    },
+    {
+      path: '/drop/maps',
+      name: 'Ship Drop - Map Based',
+      component: MapDrop,
       props: (route) => ({ map: route.query.map })
+    },
+    {
+      path: '/drop/search',
+      name: 'Ship Drop - Search',
+      component: ShipDrop,
+      props: (route) => ({ ship: route.query.ship })
     },
     {
       path: '/construction',

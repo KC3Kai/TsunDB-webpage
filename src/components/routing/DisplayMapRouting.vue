@@ -409,7 +409,6 @@
 
 <script>
 import axios from 'axios';
-import qs from 'qs';
 
 export default {
     props: ['map'],
@@ -496,14 +495,12 @@ export default {
                 if(this.fleetpattern.fleet2.size > 0) container.fleet_two_pattern = this.fleetpattern.fleet2;
             }
             let type = this.checkIsEventMap(map) ? "eventrouting" : "routing";
-            await axios.get(`https://tsundb.kc3.moe/api/${type}/${this.map}`, {
-                params: container,
-                paramsSerializer: function(params){
-                    return qs.stringify(params, {
-                        arrayFormat: 'repeat',
-                        encode: false
-                    })
-                }
+            //https://tsundb.kc3.moe/api/
+            await axios.post(`https://tsundb.kc3.moe/api/${type}/${this.map}`, {
+                header:{
+                    'Content-Type': 'application/json',
+                },
+                body: container
             })
             .then(response => response.data)
             .then(data => this.data = data)

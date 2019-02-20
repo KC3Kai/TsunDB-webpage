@@ -141,7 +141,6 @@
 
 <script>
 import axios from 'axios';
-import qs from 'qs';
 
 export default {
     props: ['map'],
@@ -214,14 +213,11 @@ export default {
                 ranks: this.parseRanks(this.selectedRanks),
                 difficulty: this.selectedDifficulty
             };
-            await axios.get(`https://tsundb.kc3.moe/api/drops`, {
-                params: container,
-                paramsSerializer: function(params){
-                    return qs.stringify(params, {
-                        arrayFormat: 'repeat',
-                        encode: false
-                    })
-                }
+            await axios.post(`https://tsundb.kc3.moe/api/drops`, {
+                header:{
+                    'Content-Type': 'application/json',
+                },
+                body: container
             })
             .then(response => response.data)
             .then(data => this.data = data)

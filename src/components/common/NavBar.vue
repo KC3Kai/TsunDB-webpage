@@ -16,9 +16,20 @@
                 <router-link class="navbar-item" :to="{ path: '/routing' }">
                     Routing
                 </router-link>
-                <router-link class="navbar-item" :to="{ path: '/drop' }">
-                    Drop
-                </router-link>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <router-link class="navbar-item" :to="{ path: '/drop/maps' }">
+                        Ship Drop
+                    </router-link>
+                    <div class="navbar-dropdown" is-boxed>
+                        <router-link class="navbar-item" :to="{ path: '/drop/maps' }">
+                            Map Based
+                        </router-link>
+                        <router-link class="navbar-item" :to="{ path: '/drop/search' }">
+                            Ship Search
+                        </router-link>
+                    </div>
+                </div>
+                
                 <router-link class="navbar-item" :to="{ path: '/construction' }">
                     Construction
                 </router-link>
