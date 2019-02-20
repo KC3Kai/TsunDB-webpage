@@ -1,6 +1,9 @@
 <template>
 <div class="container">
-Coming soon!
+    <div class="content">
+        <img :src="getShipBanner(ship)" :title="getShipName(ship)">
+    </div>
+    Coming soon!
 </div>
 </template>
 
@@ -40,6 +43,17 @@ export default {
             console.log(this.data);
             return await this.data;
         },
+        getShipBanner(id){
+            try{
+                return require(`./../../../assets/shipcards/${id}.png`);
+            }
+            catch(err){
+                return require(`./../../../assets/shipcards/-1.png`);
+            }
+        },
+        getShipName(id){
+            if(this.shipData.hasOwnProperty(id)) return `${this.shipData[id].jp} (${this.shipData[id].en})`;
+        }
     }
 }
 </script>
