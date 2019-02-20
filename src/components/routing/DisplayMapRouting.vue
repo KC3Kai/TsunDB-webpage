@@ -495,7 +495,6 @@ export default {
                 if(this.fleetpattern.fleet2.size > 0) container.fleet_two_pattern = this.fleetpattern.fleet2;
             }
             let type = this.checkIsEventMap(map) ? "eventrouting" : "routing";
-            //https://tsundb.kc3.moe/api/
             await axios.post(`https://tsundb.kc3.moe/api/${type}/${this.map}`,{
                 data: container
             })
