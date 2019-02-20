@@ -32,9 +32,6 @@ export default {
                 ship: ship
             };
             await axios.post(`https://tsundb.kc3.moe/api/drops`, {
-                header:{
-                    'Content-Type': 'application/json',
-                },
                 body: container
             })
             .then(response => response.data)

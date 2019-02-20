@@ -496,11 +496,8 @@ export default {
             }
             let type = this.checkIsEventMap(map) ? "eventrouting" : "routing";
             //https://tsundb.kc3.moe/api/
-            await axios.post(`https://tsundb.kc3.moe/api/${type}/${this.map}`, {
-                header:{
-                    'Content-Type': 'application/json',
-                },
-                body: container
+            await axios.post(`http://192.168.0.70:8080/api/${type}/${this.map}`,{
+                data: container
             })
             .then(response => response.data)
             .then(data => this.data = data)
