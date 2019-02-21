@@ -214,7 +214,7 @@ export default {
                 difficulty: this.selectedDifficulty
             };
             await axios.post(`https://tsundb.kc3.moe/api/drops`, {
-                body: container
+                data: container
             })
             .then(response => response.data)
             .then(data => this.data = data)
