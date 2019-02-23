@@ -213,9 +213,7 @@ export default {
                 ranks: this.parseRanks(this.selectedRanks),
                 difficulty: this.selectedDifficulty
             };
-            await axios.post(`https://tsundb.kc3.moe/api/drops`, {
-                data: container
-            })
+            await axios.post(`https://tsundb.kc3.moe/api/drops`, container)
             .then(response => response.data)
             .then(data => this.data = data)
             .catch(err => console.error(err));

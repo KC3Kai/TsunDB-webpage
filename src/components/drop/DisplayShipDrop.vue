@@ -34,9 +34,7 @@ export default {
             let container = {
                 ship: ship
             };
-            await axios.post(`https://tsundb.kc3.moe/api/drops`, {
-                data: container
-            })
+            await axios.post(`https://tsundb.kc3.moe/api/drops`, container)
             .then(response => response.data)
             .then(data => this.data = data)
             .catch(err => console.error(err));
