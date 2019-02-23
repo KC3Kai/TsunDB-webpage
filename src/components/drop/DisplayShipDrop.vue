@@ -32,7 +32,7 @@ export default {
         async getData(ship){
             console.log(ship);
             let container = {
-                ship: ship
+                ship: parseInt(ship)
             };
             await axios.post(`https://tsundb.kc3.moe/api/drops`, container)
             .then(response => response.data)
