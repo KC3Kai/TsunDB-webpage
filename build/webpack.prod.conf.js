@@ -47,6 +47,10 @@ const webpackConfig = merge(baseWebpackConfig, {
 	  hints: false
   },
   plugins: [
+	new CopyWebpackPlugin([
+	  {from: 'src/../*.png', to: '[name].png'},
+	  {from: 'src/../*.ico', to: '[name].ico'}
+	]),
 	new MiniCssExtractPlugin({
       filename: 'style.css'
     }),

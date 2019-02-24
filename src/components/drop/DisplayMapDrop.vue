@@ -146,6 +146,7 @@ export default {
     props: ['map'],
     data: function(){
         return{
+            configData: require('./../../data/config.json'),
             commonShipData: require('./../../data/commonShip.json'),
             edgesData: require('./../../data/edges.json'),
             eventMapsData: require('./../../data/eventMaps.json'),
@@ -213,7 +214,7 @@ export default {
                 ranks: this.parseRanks(this.selectedRanks),
                 difficulty: this.selectedDifficulty
             };
-            await axios.post(`https://tsundb.kc3.moe/api/drops`, container)
+            await axios.post(`${this.configData.host}/api/drops`, container)
             .then(response => response.data)
             .then(data => this.data = data)
             .catch(err => console.error(err));

@@ -14,6 +14,7 @@ export default {
     props: ['ship'],
     data: function(){
         return{
+            configData: require('./../../data/config.json'),
             edgesData: require('./../../data/edges.json'),
             eventMapsData: require('./../../data/eventMaps.json'),
             mapNamesData: require('./../../data/mapNames.json'),
@@ -30,11 +31,10 @@ export default {
     },
     methods:{
         async getData(ship){
-            console.log(ship);
             let container = {
                 ship: parseInt(ship)
             };
-            await axios.post(`https://tsundb.kc3.moe/api/drops`, container)
+            await axios.post(`${this.configData.host}/api/drops`, container)
             .then(response => response.data)
             .then(data => this.data = data)
             .catch(err => console.error(err));
