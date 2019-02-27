@@ -7087,7 +7087,7 @@
         ],
         "aa": [
             30,
-            84
+            87
         ],
         "armor": [
             70,
@@ -7095,7 +7095,7 @@
         ],
         "luck": [
             15,
-            79
+            89
         ],
         "rarity": 7,
         "fuel": 100,
@@ -7128,7 +7128,7 @@
         ],
         "fp": [
             76,
-            98
+            99
         ],
         "torp": [
             0,
@@ -7144,7 +7144,7 @@
         ],
         "luck": [
             13,
-            79
+            82
         ],
         "rarity": 7,
         "fuel": 100,
@@ -7193,7 +7193,7 @@
         ],
         "luck": [
             41,
-            89
+            93
         ],
         "rarity": 7,
         "fuel": 100,
@@ -7242,7 +7242,7 @@
         ],
         "luck": [
             14,
-            79
+            84
         ],
         "rarity": 7,
         "fuel": 100,
@@ -13283,8 +13283,8 @@
         "kana": "むつ",
         "variant": "",
         "en": "Mutsu Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 89,
+        "idAfterRemodel": "573",
         "buildTime": 300,
         "getMsg": "<br>",
         "slots": 4,
@@ -16272,8 +16272,8 @@
         "kana": "かざぐも",
         "variant": "",
         "en": "Kazagumo Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 75,
+        "idAfterRemodel": "564",
         "buildTime": 24,
         "getMsg": "<br>",
         "slots": 3,
@@ -25871,6 +25871,55 @@
         "stype": 2,
         "sortid": 363
     },
+    "564": {
+        "jp": "風雲改二",
+        "kana": "かざぐも",
+        "variant": "",
+        "en": "Kazagumo Kai Ni",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 24,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            2,
+            10,
+            0
+        ],
+        "modValue": [
+            2,
+            2,
+            1,
+            1
+        ],
+        "fp": [
+            18,
+            66
+        ],
+        "torp": [
+            30,
+            89
+        ],
+        "aa": [
+            20,
+            67
+        ],
+        "armor": [
+            15,
+            53
+        ],
+        "luck": [
+            20,
+            78
+        ],
+        "rarity": 7,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 38,
+        "stype": 2,
+        "sortid": 364
+    },
     "565": {
         "jp": "福江",
         "kana": "ふかえ",
@@ -26115,6 +26164,55 @@
         "ctype": 88,
         "stype": 9,
         "sortid": 371
+    },
+    "573": {
+        "jp": "陸奥改二",
+        "kana": "むつ",
+        "variant": "",
+        "en": "Mutsu Kai Ni",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 300,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            30,
+            38,
+            88,
+            18
+        ],
+        "modValue": [
+            6,
+            0,
+            2,
+            6
+        ],
+        "fp": [
+            91,
+            118
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            38,
+            102
+        ],
+        "armor": [
+            86,
+            109
+        ],
+        "luck": [
+            16,
+            88
+        ],
+        "rarity": 8,
+        "fuel": 180,
+        "ammo": 225,
+        "ctype": 19,
+        "stype": 9,
+        "sortid": 373
     },
     "574": {
         "jp": "Gotland",
