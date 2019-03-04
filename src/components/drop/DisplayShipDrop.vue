@@ -34,7 +34,7 @@ export default {
             let container = {
                 ship: parseInt(ship)
             };
-            await axios.post(`${this.configData.host}/api/drops`, container)
+            await axios.post(`${this.configData.host}/droplocs`, container)
             .then(response => response.data)
             .then(data => this.data = data)
             .catch(err => console.error(err));

@@ -496,7 +496,7 @@ export default {
                 if(this.fleetpattern.fleet2.size > 0) container.fleet_two_pattern = this.fleetpattern.fleet2;
             }
             let type = this.checkIsEventMap(map) ? "eventrouting" : "routing";
-            await axios.post(`${this.configData.host}/api/${type}/${this.map}`,container)
+            await axios.post(`${this.configData.host}/${type}/${this.map}`,container)
             .then(response => response.data)
             .then(data => this.data = data)
             .catch(err => console.error(err));

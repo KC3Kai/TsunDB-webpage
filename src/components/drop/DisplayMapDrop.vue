@@ -214,7 +214,7 @@ export default {
                 ranks: this.parseRanks(this.selectedRanks),
                 difficulty: this.selectedDifficulty
             };
-            await axios.post(`${this.configData.host}/api/drops`, container)
+            await axios.post(`${this.configData.host}/drops`, container)
             .then(response => response.data)
             .then(data => this.data = data)
             .catch(err => console.error(err));
