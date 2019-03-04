@@ -11,6 +11,7 @@
                     <th :class="checkIfInMap('1-4')">1-4</th>
                     <th :class="checkIfInMap('1-5')">1-5</th>
                     <th :class="checkIfInMap('1-6')">1-6</th>
+                    <th></th>
                 </tr>
                 <tr v-if="data.contains[2]">
                     <th>World 2</th>
@@ -19,6 +20,8 @@
                     <th :class="checkIfInMap('2-3')">2-3</th>
                     <th :class="checkIfInMap('2-4')">2-4</th>
                     <th :class="checkIfInMap('2-5')">2-5</th>
+                    <th></th>
+                    <th></th>
                 </tr>
                 <tr v-if="data.contains[3]">
                     <th>World 3</th>
@@ -27,11 +30,18 @@
                     <th :class="checkIfInMap('3-3')">3-3</th>
                     <th :class="checkIfInMap('3-4')">3-4</th>
                     <th :class="checkIfInMap('3-5')">3-5</th>
+                    <th></th>
+                    <th></th>
                 </tr>
                 <tr v-if="data.contains[7]">
                     <th>World 7</th>
                     <th :class="checkIfInMap('7-1')">7-1</th>
                     <th :class="checkIfInMap('7-2')">7-2</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
                 </tr>
                 <tr v-if="data.contains[4]">
                     <th>World 4</th>
@@ -40,6 +50,8 @@
                     <th :class="checkIfInMap('4-3')">4-3</th>
                     <th :class="checkIfInMap('4-4')">4-4</th>
                     <th :class="checkIfInMap('4-5')">4-5</th>
+                    <th></th>
+                    <th></th>
                 </tr>
                 <tr v-if="data.contains[5]">
                     <th>World 5</th>
@@ -48,6 +60,8 @@
                     <th :class="checkIfInMap('5-3')">5-3</th>
                     <th :class="checkIfInMap('5-4')">5-4</th>
                     <th :class="checkIfInMap('5-5')">5-5</th>
+                    <th></th>
+                    <th></th>
                 </tr>
                 <tr v-if="data.contains[6]">
                     <th>World 6</th>
@@ -56,17 +70,23 @@
                     <th :class="checkIfInMap('6-3')">6-3</th>
                     <th :class="checkIfInMap('6-4')">6-4</th>
                     <th :class="checkIfInMap('6-5')">6-5</th>
+                    <th></th>
+                    <th></th>
                 </tr>
                 <tr v-if="data.contains['event']">
                     <th>Winter 2019</th>
                     <th :class="checkIfInMap('43-1')">E-1</th>
                     <th :class="checkIfInMap('43-2')">E-2</th>
                     <th :class="checkIfInMap('43-3')">E-3</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
                 </tr>
             </tbody>
         </table>
         <div class="title" v-else>
-            Ship cannot be obtained as drop at the moment!
+            Ship cannot be obtained as a drop at the moment!
         </div>
     </div>
 </div>
@@ -173,5 +193,5 @@ export default {
 </script>
 
 <style scoped>
-
+    
 </style>

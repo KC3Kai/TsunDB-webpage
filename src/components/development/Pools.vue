@@ -69,7 +69,7 @@
         <p class="title">
             Category {{selectedType}} - {{getPool()}} Primary
         </p>
-        <table class="table is-striped is-hoverable box">
+        <table class="table is-striped is-hoverable">
             <thead>
                 <tr>
                     <th>Card</th>
@@ -249,5 +249,9 @@ export default {
 </script>
 
 <style scoped>
-
+    table{
+        border-style: solid;
+        border-width: 2px;
+        border-color:#DBDBDB;
+    }
 </style>

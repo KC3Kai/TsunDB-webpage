@@ -269,7 +269,7 @@
         <p class="subtitle" v-if="selectedFlavour != undefined">
             <strong>Flavour Comment: </strong>{{getFlavourComment()}}
         </p>
-        <table class="table is-striped is-hoverable box">
+        <table class="table is-striped is-hoverable">
             <thead>
                 <tr>
                     <th>Card</th>
@@ -647,5 +647,10 @@ export default {
         background: radial-gradient(#286666, #79beab);
         border: 1px solid grey;
         color: white;
+    }
+    table{
+        border-style: solid;
+        border-width: 2px;
+        border-color:#DBDBDB;
     }
 </style>

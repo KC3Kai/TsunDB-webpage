@@ -96,7 +96,7 @@
             Node {{selectedNode}}{{parseDifficulty(selectedDifficulty)}}
         </p>
     </div>
-    <table class="table is-striped is-hoverable box">
+    <table class="table is-striped is-hoverable">
         <thead>
             <tr>
                 <th>Ship</th>
@@ -302,5 +302,9 @@ export default {
 </script>
 
 <style scoped>
-
+    table{
+        border-style: solid;
+        border-width: 2px;
+        border-color:#DBDBDB;
+    }
 </style>
