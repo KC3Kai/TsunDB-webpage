@@ -208,6 +208,7 @@ export default {
             return Math.floor(Number(value) * 100) / 100;
         },
         async getData(map){
+            this.data = undefined;
             let container = {
                 map: map,
                 nodes: this.parseNode(map),
