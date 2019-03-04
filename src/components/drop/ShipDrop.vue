@@ -49,7 +49,8 @@ export default {
     data: function(){
         return{
             shipData: require('./../../data/ship.json'),
-            shipId: -1
+            shipId: -1,
+            validId: false
         }
     },
     mounted: function() {
@@ -60,7 +61,7 @@ export default {
     methods:{
         toggleShip(value){
             this.setShipId(value);
-            this.$router.push(`/drop/search?ship=${value}`);
+            if(this.validId) this.$router.push(`/drop/search?ship=${value}`);
         },
         getShipBanner(id){
             try{
@@ -75,14 +76,17 @@ export default {
         },
         setShipId(value){
             this.shipId = -1;
+            this.validId = false;
             if(value == '' || value == undefined) return;
             if(this.shipData.hasOwnProperty(value)){
                 this.shipId = value;
+                this.validId = true;
             }
             else{
                 for(let x in this.shipData){
                     if(this.shipData[x].jp == value || this.shipData[x].en == value || this.shipData[x].kana == value){
                         this.shipId = x;
+                        this.validId = true;
                         break;
                     }
                 }
