@@ -24,10 +24,21 @@
                     </div>
                 </div>
             </div>
+            <div class="tile is-parent is-3">
+                <div class="tile is-child">
+                    <div class="content">
+                        <div class="field is-horizontal">
+                            <div class="field-label">
+                                <img :src="getShipBanner(shipId)" :title="getShipName(shipId)" :key="shipId">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="container" v-if="ship != undefined" :key="ship">
-        <displayshipdrop :ship="ship"/>
+    <div class="container" v-if="shipId != -1" :key="ship">
+        <displayshipdrop :ship="shipId"/>
     </div>
 </div>
 </template>
@@ -37,25 +48,45 @@ export default {
     props: ['ship'],
     data: function(){
         return{
-            shipData: require('./../../data/ship.json')
+            shipData: require('./../../data/ship.json'),
+            shipId: -1
         }
+    },
+    mounted: function() {
+        this.$nextTick(function () {
+            this.setShipId(this.ship);
+        })
     },
     methods:{
         toggleShip(value){
-            let returnStr;
-            if(value == '') return;
+            this.setShipId(value);
+            this.$router.push(`/drop/search?ship=${value}`);
+        },
+        getShipBanner(id){
+            try{
+                return require(`./../../../assets/shipcards/${id}.png`);
+            }
+            catch(err){
+                return require(`./../../../assets/shipcards/-1.png`);
+            }
+        },
+        getShipName(id){
+            if(this.shipData.hasOwnProperty(id)) return `${this.shipData[id].jp} (${this.shipData[id].en})`;
+        },
+        setShipId(value){
+            this.shipId = -1;
+            if(value == '' || value == undefined) return;
             if(this.shipData.hasOwnProperty(value)){
-                returnStr = `?ship=${value}`;
+                this.shipId = value;
             }
             else{
                 for(let x in this.shipData){
                     if(this.shipData[x].jp == value || this.shipData[x].en == value || this.shipData[x].kana == value){
-                        returnStr = `?ship=${x}`;
+                        this.shipId = x;
                         break;
                     }
                 }
             }
-            if(returnStr) this.$router.push(`/drop/search${returnStr}`);
         }
     }
 }

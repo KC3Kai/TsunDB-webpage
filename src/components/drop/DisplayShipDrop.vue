@@ -1,9 +1,8 @@
 <template>
 <div class="container">
-    <div class="content">
-        <img :src="getShipBanner(ship)" :title="getShipName(ship)">
+    <div class="content" v-if="data != undefined">
+        Coming soon!
     </div>
-    Coming soon!
 </div>
 </template>
 
@@ -26,32 +25,24 @@ export default {
     },
     mounted: function() {
         this.$nextTick(function () {
-            this.getData(this.$route.query.ship);
+            this.getData(this.ship);
         })
     },
     methods:{
+        formatData(data){
+            return data;
+        },
         async getData(ship){
             let container = {
                 ship: parseInt(ship)
             };
             await axios.post(`${this.configData.host}/droplocs`, container)
             .then(response => response.data)
-            .then(data => this.data = data)
+            .then(data => this.data = this.formatData(data))
             .catch(err => console.error(err));
             console.log(this.data);
             return await this.data;
         },
-        getShipBanner(id){
-            try{
-                return require(`./../../../assets/shipcards/${id}.png`);
-            }
-            catch(err){
-                return require(`./../../../assets/shipcards/-1.png`);
-            }
-        },
-        getShipName(id){
-            if(this.shipData.hasOwnProperty(id)) return `${this.shipData[id].jp} (${this.shipData[id].en})`;
-        }
     }
 }
 </script>
