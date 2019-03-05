@@ -168,6 +168,7 @@ export default {
     },
     mounted: function() {
         this.$nextTick(function () {
+            this.getCellData(this.$route.query.map);
             this.getData(this.$route.query.map);
         })
     },
@@ -229,7 +230,6 @@ export default {
                 this.rankCount["A"] += this.data[x].A;
                 this.rankCount["B"] += this.data[x].B;
             }
-            console.log(this.data);
             return await this.data;
         },
         getMapTitle(map){

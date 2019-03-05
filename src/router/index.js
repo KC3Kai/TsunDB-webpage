@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import VueScrollTo from 'vue-scrollto'
+import VTooltip from 'v-tooltip'
 
 //Core
 import home from '@/components/home'
@@ -121,8 +122,6 @@ export default new Router({
   ]
 })
 
-Vue.use(VueScrollTo)
-
 Vue.use(VueScrollTo, {
   container: "body",
   duration: 500,
@@ -135,4 +134,11 @@ Vue.use(VueScrollTo, {
   onCancel: false,
   x: false,
   y: true
+})
+
+Vue.use(VTooltip, {
+  popover: {
+    defaultPlacement: 'right-end',
+    defaultTrigger: 'hover focus',
+  },
 })

@@ -4,7 +4,8 @@
         Ship Drop - Search
     </p>
     <p class="subtitle">
-        Searching for the ship you want has never been so easy!
+        Searching for the ship you want has never been so easy!<br /><br />
+        Tip: Click on the rows of the table to jump to that section! You can also reveal the map by hovering over them!
     </p>
     <div class="container">
         <div class="tile is-ancestor">
