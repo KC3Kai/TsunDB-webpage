@@ -21,17 +21,33 @@
                                 </span>
                                 <span class="control">
                                     <span class="select">
-                                        <select @change="toggleNode(2, $event.target.value)" v-model="node_id[2]">
+                                        <select @change="toggleNode(2, $event.target.value)" v-model="node_id[2]" :disabled="node_id[1] == -1">
                                             <option :value="'-1'">#</option>
-                                            <option v-for="node in nodesData[map]" :key="node">{{node}}</option>
+                                            <option v-for="node in filterNodes(node_id[1], map)" :key="node">{{node}}</option>
                                         </select>
                                     </span>
                                 </span>
                                 <span class="control">
                                     <span class="select">
-                                        <select @change="toggleNode(3, $event.target.value)" v-model="node_id[3]">
+                                        <select @change="toggleNode(3, $event.target.value)" v-model="node_id[3]" :disabled="node_id[2] == -1">
                                             <option :value="'-1'">#</option>
-                                            <option v-for="node in nodesData[map]" :key="node">{{node}}</option>
+                                            <option v-for="node in filterNodes(node_id[2], map)" :key="node">{{node}}</option>
+                                        </select>
+                                    </span>
+                                </span>
+                                <span class="control">
+                                    <span class="select">
+                                        <select @change="toggleNode(4, $event.target.value)" v-model="node_id[4]" :disabled="node_id[3] == -1">
+                                            <option :value="'-1'">#</option>
+                                            <option v-for="node in filterNodes(node_id[3], map)" :key="node">{{node}}</option>
+                                        </select>
+                                    </span>
+                                </span>
+                                <span class="control">
+                                    <span class="select">
+                                        <select @change="toggleNode(5, $event.target.value)" v-model="node_id[5]" :disabled="node_id[4] == -1">
+                                            <option :value="'-1'">#</option>
+                                            <option v-for="node in filterNodes(node_id[4], map)" :key="node">{{node}}</option>
                                         </select>
                                     </span>
                                 </span>
@@ -114,8 +130,8 @@
                             <label class="label is-pulled-left">Dead End?</label>
                         </div>
                         <div class="field-body">
-                            <a v-if="nextRoute == 1" class="button is-info" @click="toggleNextRoute(0)">True</a>
-                            <a v-else class="button is-dark" @click="toggleNextRoute(1)">False</a>
+                            <a v-if="nextRoute == 0" class="button is-info" @click="toggleNextRoute(1)">True</a>
+                            <a v-else class="button is-dark" @click="toggleNextRoute(0)">False</a>
                         </div>
                     </div>
                     <div class="field is-horizontal">
@@ -417,7 +433,9 @@ export default {
             node_id: {
                 1: "-1",
                 2: "-1",
-                3: "-1"
+                3: "-1",
+                4: "-1",
+                5: "-1"
             },
             rowSelected: undefined,
             sampleSelected: {id: -1},
@@ -469,6 +487,13 @@ export default {
         },
         checkIsEventMap(map){
             return this.eventMapsData.hasOwnProperty(String(map.slice(0,2)))
+        },
+        filterNodes(previousValue, map){
+            let newArr = [];
+            for(let x in this.edgesData[map]){
+                if(previousValue == this.edgesData[map][x][0]) newArr.push(this.edgesData[map][x][1]);
+            }
+            return newArr;
         },
         floorTwoDecimal(value){
             return Math.floor(Number(value) * 100) / 100;
@@ -705,7 +730,9 @@ export default {
             this.node_id = {
                 1: "-1",
                 2: "-1",
-                3: "-1"
+                3: "-1",
+                4: "-1",
+                5: "-1"
             };
             this.getData(this.$route.query.map);
         },
@@ -739,10 +766,18 @@ export default {
         },
         toggleEdgeId(){
             let newArr = [];
-            if(this.node_id[1] != "-1" && this.node_id[2] != "-1") newArr.push(this.getEdgeId(this.node_id[1], this.node_id[2], this.$route.query.map));
-            if(newArr[newArr.length-1] == undefined) newArr.pop();
-            if(this.node_id[2] != "-1" && this.node_id[3] != "-1") newArr.push(this.getEdgeId(this.node_id[2], this.node_id[3], this.$route.query.map));
-            if(newArr[newArr.length-1] == undefined) newArr.pop();
+            let prevId = 1;
+            for(let x in this.node_id){
+                if(x == 1) continue;
+                if(this.node_id[prevId] != "-1" && this.node_id[x] != "-1"){
+                    newArr.push(this.getEdgeId(this.node_id[prevId], this.node_id[x], this.$route.query.map));
+                    if(newArr[newArr.length-1] == undefined) newArr.pop();
+                    prevId = x;
+                }
+                else{
+                    break;
+                }
+            }
             (newArr.length > 0) ? this.edge_id = newArr : this.edge_id = undefined;
             this.getData(this.$route.query.map);
         },
@@ -777,7 +812,7 @@ export default {
             this.getData(this.$route.query.map);
         },
         toggleNextRoute(value){
-            this.nextRoute = Number(!this.nextRoute);
+            this.nextRoute = value;
             this.getData(this.$route.query.map);
         },
         toggleLosType(value){
