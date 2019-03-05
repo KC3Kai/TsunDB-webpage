@@ -174,7 +174,6 @@ export default {
             .then(data => this.data = this.formatData(data))
             .catch(err => console.error(err));
             console.log(this.data);
-            return await this.data;
         },
         parseDifficulty(value){
             let returnStr = '';

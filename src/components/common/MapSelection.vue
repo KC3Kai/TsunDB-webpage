@@ -211,62 +211,6 @@
                 </div>
             </div>
         </div>
-        <div class="dropdown is-hoverable">
-            <div class="dropdown-trigger">
-                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
-                    <span>
-                        Earl-Fall 2018
-                    </span>
-                    <span class="icon is-small">
-                        <i class="fas fa-angle-down" aria-hidden="true"></i>
-                    </span>
-                </button>
-            </div>
-            <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                <div class="dropdown-content">
-                    <router-link class="dropdown-item" :to="returnPath('42-1')">
-                        42-1
-                    </router-link>
-                    <router-link class="dropdown-item" :to="returnPath('42-2')">
-                        42-2
-                    </router-link>
-                    <router-link class="dropdown-item" :to="returnPath('42-3')">
-                        42-3
-                    </router-link>
-                    <router-link class="dropdown-item" :to="returnPath('42-4')">
-                        42-4
-                    </router-link>
-                    <router-link class="dropdown-item" :to="returnPath('42-5')">
-                        42-5
-                    </router-link>
-                </div>
-            </div>
-        </div>
-        <div class="dropdown is-hoverable">
-            <div class="dropdown-trigger">
-                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
-                    <span>
-                        Winter 2019
-                    </span>
-                    <span class="icon is-small">
-                        <i class="fas fa-angle-down" aria-hidden="true"></i>
-                    </span>
-                </button>
-            </div>
-            <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                <div class="dropdown-content">
-                    <router-link class="dropdown-item" :to="returnPath('43-1')">
-                        43-1
-                    </router-link>
-                    <router-link class="dropdown-item" :to="returnPath('43-2')">
-                        43-2
-                    </router-link>
-                    <router-link class="dropdown-item" :to="returnPath('43-3')">
-                        43-3
-                    </router-link>
-                </div>
-            </div>
-        </div>
     </div>
 </template>
 

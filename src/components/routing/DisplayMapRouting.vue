@@ -500,7 +500,6 @@ export default {
             .then(response => response.data)
             .then(data => this.data = data)
             .catch(err => console.error(err));
-            return await this.data;
         },
         getEdgeId(a, b, map){
             for(let x in this.edgesData[map]){

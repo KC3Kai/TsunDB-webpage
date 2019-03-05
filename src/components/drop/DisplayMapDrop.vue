@@ -168,7 +168,6 @@ export default {
     },
     mounted: function() {
         this.$nextTick(function () {
-            this.getCellData(this.$route.query.map);
             this.getData(this.$route.query.map);
         })
     },
