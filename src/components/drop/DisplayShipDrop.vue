@@ -1,7 +1,7 @@
 <template>
 <div class="container">
     <div class="content" v-if="data != undefined">
-        <table class="table is-striped is-hoverable is-bordered" v-if="checkAvailability(data)">
+        <table class="table is-hoverable is-bordered" v-if="checkAvailability(data)">
             <tbody>
                 <tr class="has-background-white-ter" v-if="checkIfInWorld(1)" v-scroll-to="'#world1'">
                     <th>World 1</th>
@@ -12,7 +12,7 @@
                     <th :class="checkIfInMap(1, '1-5') ? 'has-text-success' : 'has-text-danger'">1-5</th>
                     <th :class="checkIfInMap(1, '1-6') ? 'has-text-success' : 'has-text-danger'">1-6</th>
                 </tr>
-                <tr v-if="checkIfInWorld(2)" v-scroll-to="'#world2'">
+                <tr class="has-background-white-ter" v-if="checkIfInWorld(2)" v-scroll-to="'#world2'">
                     <th>World 2</th>
                     <th :class="checkIfInMap(2, '2-1') ? 'has-text-success' : 'has-text-danger'">2-1</th>
                     <th :class="checkIfInMap(2, '2-2') ? 'has-text-success' : 'has-text-danger'">2-2</th>
@@ -28,7 +28,7 @@
                     <th :class="checkIfInMap(3, '3-4') ? 'has-text-success' : 'has-text-danger'">3-4</th>
                     <th :class="checkIfInMap(3, '3-5') ? 'has-text-success' : 'has-text-danger'">3-5</th>
                 </tr>
-                <tr v-if="checkIfInWorld(7)" v-scroll-to="'#world7'">
+                <tr class="has-background-white-ter" v-if="checkIfInWorld(7)" v-scroll-to="'#world7'">
                     <th>World 7</th>
                     <th :class="checkIfInMap(7, '7-1') ? 'has-text-success' : 'has-text-danger'">7-1</th>
                     <th :class="checkIfInMap(7, '7-2') ? 'has-text-success' : 'has-text-danger'">7-2</th>
@@ -41,7 +41,7 @@
                     <th :class="checkIfInMap(4, '4-4') ? 'has-text-success' : 'has-text-danger'">4-4</th>
                     <th :class="checkIfInMap(4, '4-5') ? 'has-text-success' : 'has-text-danger'">4-5</th>
                 </tr>
-                <tr v-if="checkIfInWorld(5)" v-scroll-to="'#world5'">
+                <tr class="has-background-white-ter" v-if="checkIfInWorld(5)" v-scroll-to="'#world5'">
                     <th>World 5</th>
                     <th :class="checkIfInMap(5, '5-1') ? 'has-text-success' : 'has-text-danger'">5-1</th>
                     <th :class="checkIfInMap(5, '5-2') ? 'has-text-success' : 'has-text-danger'">5-2</th>
@@ -57,7 +57,7 @@
                     <th :class="checkIfInMap(6, '6-4') ? 'has-text-success' : 'has-text-danger'">6-4</th>
                     <th :class="checkIfInMap(6, '6-5') ? 'has-text-success' : 'has-text-danger'">6-5</th>
                 </tr>
-                <tr v-if="checkIfInWorld(43)" v-scroll-to="'#world43'">
+                <tr class="has-background-white-ter" v-if="checkIfInWorld(43)" v-scroll-to="'#world43'">
                     <th>Winter 2019</th>
                     <th :class="checkIfInMap(43, '43-1') ? 'has-text-success' : 'has-text-danger'">E-1</th>
                     <th :class="checkIfInMap(43, '43-2') ? 'has-text-success' : 'has-text-danger'">E-2</th>
