@@ -288,7 +288,7 @@
             </div>
         </ul>
     </nav>
-    <table class="table is-striped is-hoverable box">
+    <table class="table is-striped is-hoverable">
         <thead>
             <tr>
                 <th>Route</th>
@@ -328,8 +328,8 @@
         <template v-if="sampleSelected.id != -1">
             <div class="tile is-ancestor">
                 <div class="tile is-parent is-12">
-                    <div class="tile is-child box">
-                        <p class="title">Route taken in World {{map}}{{parseDifficulty(sampleSelected.difficulty)}}: {{parseRoute(sampleSelected.edgeid, map)}}</p>
+                    <div class="tile is-child">
+                        <p class="title"><span v-scroll-to="'#app'">&uarr;</span>Route taken in World {{map}}{{parseDifficulty(sampleSelected.difficulty)}}: {{parseRoute(sampleSelected.edgeid, map)}}</p>
                         <p class="subtitle">
                             <strong style="vertical-align:middle;">Node {{parseRoute(sampleSelected.edgeid, map).slice(-1)[0]}}:</strong>
                             <img style="vertical-align:middle;" :src="getNodeImage(sampleSelected)">
@@ -340,10 +340,10 @@
             </div>
             <div class="tile is-ancestor">
                 <div class="tile is-parent is-6">
-                    <div class="tile is-child box">
+                    <div class="tile is-child">
                         <p class="title">Main</p>
                         <div class="content">
-                            <table class="table is-striped box">
+                            <table class="table is-striped">
                                 <thead>
                                     <tr>
                                         <th>Ship</th>
@@ -815,5 +815,9 @@ export default {
 </script>
 
 <style scoped>
-
+    table{
+        border-style: solid;
+        border-width: 2px;
+        border-color:#DBDBDB;
+    }
 </style>

@@ -71,7 +71,7 @@
         <template v-for="(maps, world) in data">
             <div class="container" :id="`world${world}`" v-if="checkIfInWorld(world)" :key="world">
                 <div class="title">
-                    World {{world}}
+                    <span v-scroll-to="'#app'">&uarr;</span>World {{world}}
                 </div>
                 <table class="table is-striped is-hoverable is-bordered">
                     <template v-for="(value, map) in maps">
