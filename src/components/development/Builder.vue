@@ -1,7 +1,7 @@
 <template>
 <div class="container">
     <p class="title is-spaced">
-        Construction
+        Development Recipe Builder
     </p>
     <p class="subtitle">
         Under Construction
