@@ -345,7 +345,7 @@
             <div class="tile is-ancestor">
                 <div class="tile is-parent is-12">
                     <div class="tile is-child">
-                        <p class="title"><span v-scroll-to="'#app'">&uarr;</span>Route taken in World {{map}}{{parseDifficulty(sampleSelected.difficulty)}}: {{parseRoute(sampleSelected.edgeid, map)}}</p>
+                        <p class="title"><span v-scroll-to="'#app'"  id="pointer">&uarr;</span>Route taken in World {{map}}{{parseDifficulty(sampleSelected.difficulty)}}: {{parseRoute(sampleSelected.edgeid, map)}}</p>
                         <p class="subtitle">
                             <strong style="vertical-align:middle;">Node {{parseRoute(sampleSelected.edgeid, map).slice(-1)[0]}}:</strong>
                             <img style="vertical-align:middle;" :src="getNodeImage(sampleSelected)">
