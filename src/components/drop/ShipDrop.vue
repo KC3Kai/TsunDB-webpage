@@ -61,8 +61,14 @@ export default {
     },
     methods:{
         toggleShip(value){
-            this.setShipId(value);
+            this.setShipId(this.formatString(value));
             if(this.validId) this.$router.push(`/drop/search?ship=${value}`);
+        },
+        formatString(value){
+            if(value == '') return value;
+            let newArr = value.split('');
+            newArr[0] = newArr[0].toUpperCase();
+            return newArr.join('');
         },
         getShipBanner(id){
             try{
