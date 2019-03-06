@@ -208,13 +208,16 @@ export default {
 
 <style scoped>
     .S{
-        color:#eee208;
+        color:gold;
+        text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
     }
     .A{
-        color:rgb(196, 43, 43);
+        color:red;
+        text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
     }
     .B{
         color:orange;
+        text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px  1px 0 #000, 1px  1px 0 #000;
     }
     table{
       background-color: transparent;
