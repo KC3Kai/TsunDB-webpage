@@ -4,7 +4,7 @@
         Construction
     </p>
     <p class="subtitle">
-        Under Construction (Still trying to understand out how it exactly works)
+        Under Construction
     </p>
 </div>
 </template>

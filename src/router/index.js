@@ -34,6 +34,7 @@ Vue.component('displayshipdrop', DisplayShipDrop);
 //Development
 import Pools from '@/components/development/Pools'
 import DevSandbox from '@/components/development/Sandbox'
+import DevBuilder from '@/components/development/Builder'
 
 //Dawn
 import ShipEquipID from '@/components/dawn/ShipEquipID'
@@ -94,6 +95,11 @@ export default new Router({
       path: '/development/sandbox',
       name: 'Development Sandbox',
       component: DevSandbox
+    },
+    {
+      path: '/development/builder',
+      name: 'Development Recipe Builder',
+      component: DevBuilder
     },
     {
       path: '/dusk',

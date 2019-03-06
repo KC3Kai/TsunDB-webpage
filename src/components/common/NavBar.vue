@@ -47,6 +47,9 @@
                         <router-link class="navbar-item" :to="{ path: '/development/sandbox' }">
                             Development Sandbox
                         </router-link>
+                        <router-link class="navbar-item" :to="{ path: '/development/builder' }">
+                            Recipe Builder
+                        </router-link>
                     </div>
                 </div>
                 <router-link class="navbar-item" :to="{ path: '/dusk' }">
