@@ -3,10 +3,11 @@
     <p class="title is-spaced">
         Development Recipe Builder
     </p>
-    <p class="subtitle">
+    <div class="subtitle">
         Select what you need and we will do the rest for you!<br />
         Any equipment that are unobtainable through your combination will be filtered.
-        <div class="content">
+    </div>
+    <div class="content">
             As a reminder:
             <ul>
                 <li><strong>Category Torpedo</strong> - DE, DD, CL, CLT, SS, AP, CT or AO</li>
@@ -14,7 +15,6 @@
                 <li><strong>Category Aviation</strong> - CAV, CVL, BBV, CV, SSV, AV, LHA, CVB or AS</li>
             </ul>
         </div>
-    </p>
     <div class="content">
         <div class="field is-horizontal">
             <div class="field-label">
