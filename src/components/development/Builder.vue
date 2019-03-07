@@ -162,7 +162,11 @@ export default {
                 group2:["fuelsteel", "ammo", "baux"],
                 group3:["fuelsteel", "ammo", "baux"]
             },
-            builtGroups:{},
+            builtGroups:{
+                group1:["fuelsteel", "ammo", "baux"],
+                group2:["fuelsteel", "ammo", "baux"],
+                group3:["fuelsteel", "ammo", "baux"]
+            },
             selectedEquips: [],
             selectedGroup: undefined,
             selectedPool: undefined,
@@ -193,7 +197,11 @@ export default {
         },
         buildGroup(list){
             if(list.length == 0){
-                this.builtGroups = {};
+                this.builtGroups = {
+                    group1:["fuelsteel", "ammo", "baux"],
+                    group2:["fuelsteel", "ammo", "baux"],
+                    group3:["fuelsteel", "ammo", "baux"]
+                };
                 this.buildList(this.defaultGroups);
             }
             else{
@@ -423,6 +431,11 @@ export default {
     }
     #equip{
         margin-right:5px;
+        cursor: pointer;
+        transition: visibility 0s, opacity 0.5s linear;
+    }
+    #equip:hover{
+        opacity: .5;
     }
     table{
         border-style: solid;
