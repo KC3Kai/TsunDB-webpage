@@ -5,7 +5,6 @@
     </p>
     <div class="content">
         <ul>
-            <li>Implementing a "Build your own development recipe" page.</li>
             <li>Smart filter for development. Allows user to hide categories they don't want.</li>
             <li>Implement Construction</li>
             <li>A page for tracking the fit data</li>
