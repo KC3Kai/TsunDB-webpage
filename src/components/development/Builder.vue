@@ -6,6 +6,14 @@
     <p class="subtitle">
         Select what you need and we will do the rest for you!<br />
         Any equipment that are unobtainable through your combination will be filtered.
+        <div class="content">
+            As a reminder:
+            <ul>
+                <li><strong>Category Torpedo</strong> - DE, DD, CL, CLT, SS, AP, CT or AO</li>
+                <li><strong>Category Heavy</strong> - CA, FBB, BB, XBB or AR</li>
+                <li><strong>Category Aviation</strong> - CAV, CVL, BBV, CV, SSV, AV, LHA, CVB or AS</li>
+            </ul>
+        </div>
     </p>
     <div class="content">
         <div class="field is-horizontal">
