@@ -104,7 +104,7 @@
                     <th></th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody name="table" is="transition-group">
                 <tr v-for="(equip, id) in selectedEquips" :key="equip">
                     <td>
                         <img :src="getEquipCard(equip)" width="50" height="50">
@@ -144,7 +144,11 @@
             <img :src="getEquipCard(equip)" :title="getEquipTitle(equip)" height="100px" width="100px">
             <img slot="popover" :src="getEquipCard(equip)" :title="getEquipTitle(equip)">
         </v-popover> -->
-        <img id="equip" :src="getEquipCard(equip)" :title="getEquipTitle(equip)" height="150px" width="150px" v-for="equip in equips" :key="equip" @click="toggleEquipment(equip)">
+        <transition-group name="fade">
+            <template v-for="equip in equips">
+                <img id="equip" v-if="!selectedEquips.includes(equip)" :src="getEquipCard(equip)" :title="getEquipTitle(equip)" height="150px" width="150px" :key="equip" @click="toggleEquipment(equip)">
+            </template>
+        </transition-group>
     </div>
 </div>
 </template>
@@ -168,8 +172,8 @@ export default {
                 group3:["fuelsteel", "ammo", "baux"]
             },
             selectedEquips: [],
-            selectedGroup: undefined,
-            selectedPool: undefined,
+            selectedGroup: "group1",
+            selectedPool: "fuelsteel",
             nationality: "No"
         }
     },
@@ -180,8 +184,6 @@ export default {
     },
     methods:{
         buildList(groups){
-            this.selectedGroup = this.selectFirstCategory(groups);
-            this.selectedPool = this.selectFirstPrimary(this.selectedGroup, groups);
             let newObj = {};
             for(let group in groups){
                 for(let pool of groups[group]){
@@ -224,6 +226,8 @@ export default {
                 }
                 this.nationality = this.checkNationality(list);
                 this.builtGroups = newObj;
+                this.selectedGroup = this.selectFirstCategory(newObj);
+                this.selectedPool = this.selectFirstPrimary(this.selectedGroup, newObj);
                 this.buildList(newObj);
             }
         },
@@ -399,7 +403,6 @@ export default {
             return returnStr;
         },
         toggleEquipment(id){
-            console.log(this.selectedEquips);
             if(this.selectedEquips.includes(id)) return;
             this.selectedEquips.push(id);
             this.buildGroup(this.selectedEquips);
@@ -435,11 +438,23 @@ export default {
         transition: visibility 0s, opacity 0.5s linear;
     }
     #equip:hover{
-        opacity: .5;
+        opacity: .7;
     }
     table{
         border-style: solid;
         border-width: 2px;
         border-color:#DBDBDB;
+    }
+    .fade-enter-active, .fade-leave-active {
+        transition: opacity .5s;
+    }
+    .fade-enter, .fade-leave-to{
+        opacity: 0;
+    }
+    .table-enter-active, .table-leave-active {
+        transition: opacity .5s
+    }
+    .table-enter, .table-leave-to{
+        opacity: 0;
     }
 </style>
