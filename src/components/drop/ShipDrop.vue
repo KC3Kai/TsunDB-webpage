@@ -67,8 +67,11 @@ export default {
         formatString(value){
             if(value == '') return value;
             let newArr = value.split('');
-            newArr[0] = newArr[0].toUpperCase();
-            return newArr.join('');
+            let returnArr = [];
+            for(let id in newArr){
+                returnArr.push((id == 0) ? newArr[id].toUpperCase() : newArr[id].toLowerCase());
+            }
+            return returnArr.join('');
         },
         getShipBanner(id){
             try{
