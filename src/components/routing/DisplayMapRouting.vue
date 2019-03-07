@@ -269,7 +269,9 @@
             <div class="tile is-child">
                 <p class="title">{{getMapTitle(map)}}</p>
                 <div class="content">
-                    <img :src="getMapFile(map)">
+                    <transition name="fade">
+                        <img v-on:load="imageIsLoaded" :src="getMapFile(map)" v-show="imageLoaded">
+                    </transition>
                 </div>
             </div>
         </div>
@@ -322,7 +324,7 @@
                 <th><abbr title="Amount of edges on the map">Edges</abbr></th>
             </tr>
         </thead>
-        <tbody :key="offset">
+        <tbody name="table" is="transition-group" :key="offset">
             <tr v-for="(sample) in this.data" :key="sample.id" @click="setSample(sample)" :class="{ 'is-selected': rowSelected == sample.id }" v-scroll-to="'#details'">
                 <td>{{parseRoute(sample.edgeid, map)}}</td>
                 <td>{{sample.cleared}}</td>
@@ -339,6 +341,23 @@
                 <td>{{parseEdges(sample.nodeinfo)}}</td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th>Route</th>
+                <th><abbr title="Cleared?">Clr?</abbr></th>
+                <th><abbr title="HQ Level">HQ</abbr></th>
+                <th>Fleet</th>
+                <th>Main</th>
+                <th>Escort</th>
+                <th>Speed</th>
+                <th><abbr title="Cn1 (Cn2, Cn3, Cn4)">LoS</abbr></th>
+                <th><abbr title="Difficulty">Diff.</abbr></th>
+                <th><abbr title="Gauge Type">Type</abbr></th>
+                <th>Gauge</th>
+                <th>Phase</th>
+                <th><abbr title="Amount of edges on the map">Edges</abbr></th>
+            </tr>
+        </tfoot>
     </table>
     <div class="container" id="details" :key="sampleSelected.id">
         <template v-if="sampleSelected.id != -1">
@@ -438,6 +457,7 @@ export default {
                 5: "-1"
             },
             rowSelected: undefined,
+            imageLoaded: false,
             sampleSelected: {id: -1},
             configData: require('./../../data/config.json'),
             edgesData: require('./../../data/edges.json'),
@@ -629,6 +649,9 @@ export default {
                 'button is-success': this.shipfilter[fleet][id] == 1,
                 'button is-danger': this.shipfilter[fleet][id] == -1
             }
+        },
+        imageIsLoaded(){
+            this.imageLoaded = true;
         },
         jumpPage(event){
             this.offset = parseInt(event.target.value)-1;
@@ -856,5 +879,20 @@ export default {
     }
     #pointer{
       cursor: pointer;
+    }
+    .fade-enter-active {
+        transition: opacity 1s ease-in-out;
+    }
+    .fade-enter-to{
+        opacity: 1;
+    }
+    .fade-enter {
+        opacity: 0;
+    }
+    .table-enter-active, .table-leave-active {
+        transition: opacity .5s
+    }
+    .table-enter, .table-leave-to{
+        opacity: 0;
     }
 </style>

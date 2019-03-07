@@ -86,7 +86,9 @@
             <div class="tile is-child">
                 <p class="title">{{getMapTitle(map)}}</p>
                 <div class="content">
-                    <img :src="getMapFile(map)">
+                    <transition name="fade">
+                        <img v-on:load="imageIsLoaded" :src="getMapFile(map)" v-show="imageLoaded">
+                    </transition>
                 </div>
             </div>
         </div>
@@ -109,7 +111,7 @@
                 <th>Total-%</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody name="table" is="transition-group">
             <template v-for="(ship, id) in this.data">
                 <tr v-if="filterCommonShip(id, map)" :key="id">
                     <td><img :src="getShipBanner(id)" :title="getShipName(id)" style="width:160px; height:40px;"></td>
@@ -146,6 +148,7 @@ export default {
     props: ['map'],
     data: function(){
         return{
+            imageLoaded: false,
             configData: require('./../../data/config.json'),
             commonShipData: require('./../../data/commonShip.json'),
             edgesData: require('./../../data/edges.json'),
@@ -243,6 +246,9 @@ export default {
         getShipName(id, lang = "en"){
             if(this.shipData.hasOwnProperty(id)) return this.shipData[id][lang];
         },
+        imageIsLoaded(){
+            this.imageLoaded = true;
+        },
         parseCount(value){
             return (value != undefined) ? value : 0;
         },
@@ -305,5 +311,20 @@ export default {
         border-style: solid;
         border-width: 2px;
         border-color:#DBDBDB;
+    }
+    .fade-enter-active {
+        transition: opacity 1s ease-in-out;
+    }
+    .fade-enter-to{
+        opacity: 1;
+    }
+    .fade-enter {
+        opacity: 0;
+    }
+    .table-enter-active, .table-leave-active {
+        transition: opacity .5s
+    }
+    .table-enter, .table-leave-to{
+        opacity: 0;
     }
 </style>
