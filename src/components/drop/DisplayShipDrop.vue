@@ -222,4 +222,7 @@ export default {
     table{
       background-color: transparent;
     }
+    #pointer{
+      cursor: pointer;
+    }
 </style>

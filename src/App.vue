@@ -30,8 +30,4 @@ export default {
     #bottom{
       margin-bottom: 30px;
     }
-
-    #pointer{
-      cursor: pointer;
-    }
 </style>

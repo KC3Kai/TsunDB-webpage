@@ -854,4 +854,7 @@ export default {
         border-width: 2px;
         border-color:#DBDBDB;
     }
+    #pointer{
+      cursor: pointer;
+    }
 </style>

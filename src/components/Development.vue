@@ -11,12 +11,13 @@
             In development, there exists 3 categories from which you can get an equipment from.<br />
             This category is decided by the ship type of your main flagship (secretary):
             <ul>
-                <li><strong>Category 1</strong> - DE, DD, CL, CLT, SS, AP, CT or AO</li>
-                <li><strong>Category 2</strong> - CA, FBB, BB, XBB or AR</li>
-                <li><strong>Category 3</strong> - CAV, CVL, BBV, CV, SSV, AV, LHA, CVB or AS</li>
+                <li><strong>Category Torpedo</strong> - DE, DD, CL, CLT, SS, AP, CT or AO</li>
+                <li><strong>Category Heavy</strong> - CA, FBB, BB, XBB or AR</li>
+                <li><strong>Category Aviation</strong> - CAV, CVL, BBV, CV, SSV, AV, LHA, CVB or AS</li>
             </ul>
             Each category has 3 equipment pools and which pool is selected depends on the primary resource.<br />
-            The order is Fuel/Steel > Ammo > Bauxite in case there are multiple primary resources.
+            The order is Fuel/Steel > Ammo > Bauxite in case there are multiple primary resources.<br /><br />
+            <strong>Note:</strong> The category names are not official, they are there for the sake of simplicity.
         </p>
     </div>
     <div class="content">
@@ -48,7 +49,7 @@
             The following equipment are known cases:
             <ul>
                 <li><strong>Ro.43</strong> - Requires an Italian ship secretary and Bauxite Primary.</li>
-                <li><strong>Type 96 Land-Based Aircraft</strong> - At least 240+ fuel, 260+ ammo and 250+ bauxite. Ammo or Bauxite Primary in category 3.</li>
+                <li><strong>Type 96 Land-Based Aircraft</strong> - At least 240+ fuel, 260+ ammo and 250+ bauxite. Ammo or Bauxite Primary in Category Aviation.</li>
             </ul>
             <strong>Warning:</strong><br /> As a pool can never exceed 50 items, including these special equipment into the pool will effectively overwrite some existing items instead. This is usually negligible, but keep in mind that some equipment can possibly stop appearing as a result due to this.
         </p>

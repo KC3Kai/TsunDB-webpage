@@ -145,6 +145,6 @@ Vue.use(VueScrollTo, {
 Vue.use(VTooltip, {
   popover: {
     defaultPlacement: 'right-end',
-    defaultTrigger: 'hover focus',
+    defaultTrigger: 'hover focus'
   },
 })

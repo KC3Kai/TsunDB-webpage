@@ -261,7 +261,7 @@
     </div>
     <div class="container" v-if="selectedType != undefined">
         <p class="title">
-            Category {{selectedType}} - {{getPool()}} Primary
+            Category {{parseCategory(selectedType)}} - {{getPool()}} Primary
         </p>
         <p class="subtitle">
             <strong>Recipe:</strong> <img :src="getResourceIcon('fuel')" height="25" width="25" style="vertical-align:middle;">{{resources['fuel']}}<img :src="getResourceIcon('ammo')" height="25" width="25" style="vertical-align:middle;">{{resources['ammo']}}<img :src="getResourceIcon('steel')" height="25" width="25" style="vertical-align:middle;">{{resources['steel']}}<img :src="getResourceIcon('bauxite')" height="25" width="25" style="vertical-align:middle;">{{resources['bauxite']}}
@@ -451,6 +451,15 @@ export default {
                 case 'fuelsteel': returnStr = "Fuel/Steel"; break;
                 case 'ammo': returnStr = "Ammo"; break;
                 case 'baux': returnStr = "Bauxite"; break;
+            }
+            return returnStr;
+        },
+        parseCategory(type){
+            let returnStr = "";
+            switch(type){
+                case 1: returnStr = "Torpedo"; break;
+                case 2: returnStr = "Heavy"; break;
+                case 3: returnStr = "Aviation"; break;
             }
             return returnStr;
         },

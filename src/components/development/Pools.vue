@@ -67,7 +67,7 @@
     </div>
     <div class="container" v-if="selectedType != undefined">
         <p class="title">
-            Category {{selectedType}} - {{getPool()}} Primary
+            Category {{parseCategory(selectedType)}} - {{getPool()}} Primary
         </p>
         <table class="table is-striped is-hoverable">
             <thead>
@@ -206,6 +206,15 @@ export default {
                 case 'fuelsteel': returnStr = "Fuel/Steel"; break;
                 case 'ammo': returnStr = "Ammo"; break;
                 case 'baux': returnStr = "Bauxite"; break;
+            }
+            return returnStr;
+        },
+        parseCategory(type){
+            let returnStr = "";
+            switch(type){
+                case 1: returnStr = "Torpedo"; break;
+                case 2: returnStr = "Heavy"; break;
+                case 3: returnStr = "Aviation"; break;
             }
             return returnStr;
         },
