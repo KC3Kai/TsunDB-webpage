@@ -539,7 +539,7 @@ export default {
                         'steel':250,
                         'bauxite':250
                     }
-                    this.toggleShipType("FBB");
+                    this.toggleShipType("CV");
                     this.nationality = 'other';
                     break;
                 case "heavy":
