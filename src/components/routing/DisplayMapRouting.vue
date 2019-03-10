@@ -131,7 +131,7 @@
                         </div>
                         <div class="field-body">
                             <a v-if="nextRoute == 0" class="button is-info" @click="toggleNextRoute(1)">True</a>
-                            <a v-else class="button is-dark" @click="toggleNextRoute(0)">False</a>
+                            <a v-else class="button" @click="toggleNextRoute(0)">Show All</a>
                         </div>
                     </div>
                     <div class="field is-horizontal">
@@ -518,7 +518,7 @@ export default {
         floorTwoDecimal(value){
             return Math.floor(Number(value) * 100) / 100;
         },
-        async getData(map){
+        getData(map){
             let container = {
                 offset: this.offset*this.limit,
                 limit: this.limit
@@ -541,7 +541,7 @@ export default {
                 if(this.fleetpattern.fleet2.size > 0) container.fleet_two_pattern = this.fleetpattern.fleet2;
             }
             let type = this.checkIsEventMap(map) ? "eventrouting" : "routing";
-            await axios.post(`${this.configData.host}/${type}/${this.map}`,container)
+            axios.post(`${this.configData.host}/${type}/${this.map}`,container)
             .then(response => response.data)
             .then(data => this.data = data)
             .catch(err => console.error(err));

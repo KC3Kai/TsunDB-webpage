@@ -210,7 +210,7 @@ export default {
         floorTwoDecimal(value){
             return Math.floor(Number(value) * 100) / 100;
         },
-        async getData(map){
+        getData(map){
             this.data = undefined;
             let container = {
                 map: map,
@@ -218,21 +218,22 @@ export default {
                 ranks: this.parseRanks(this.selectedRanks),
                 difficulty: this.selectedDifficulty
             };
-            await axios.post(`${this.configData.host}/drops`, container)
+            axios.post(`${this.configData.host}/drops`, container)
             .then(response => response.data)
-            .then(data => this.data = data)
+            .then(data => {
+                this.data = data;
+                this.rankCount = {
+                    "S": 0,
+                    "A": 0,
+                    "B": 0
+                };
+                for(let x in this.data){
+                    this.rankCount["S"] += this.data[x].S;
+                    this.rankCount["A"] += this.data[x].A;
+                    this.rankCount["B"] += this.data[x].B;
+                }
+            })
             .catch(err => console.error(err));
-            this.rankCount = {
-                "S": 0,
-                "A": 0,
-                "B": 0
-            };
-            for(let x in this.data){
-                this.rankCount["S"] += this.data[x].S;
-                this.rankCount["A"] += this.data[x].A;
-                this.rankCount["B"] += this.data[x].B;
-            }
-            return await this.data;
         },
         getMapTitle(map){
             return `World ${map}: ${this.mapNamesData[map].en}`;

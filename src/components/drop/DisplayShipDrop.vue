@@ -164,12 +164,12 @@ export default {
             }
             return newObj;
         },
-        async getData(ship){
+        getData(ship){
             this.data = undefined;
             let container = {
                 ship: parseInt(ship)
             };
-            await axios.post(`${this.configData.host}/droplocs`, container)
+            axios.post(`${this.configData.host}/droplocs`, container)
             .then(response => response.data)
             .then(data => this.data = this.formatData(data))
             .catch(err => console.error(err));
