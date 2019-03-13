@@ -78,7 +78,7 @@
                         <thead :key="`${map}h`">
                             <tr class="has-background-white-ter">
                                 <th>
-                                    <v-popover offset="16">
+                                    <v-popover offset="16" :delay="{show:100, hide:0}">
                                         {{map}}
                                         <img slot="popover" :src="showMap(map)" height="40%" width="40%">
                                     </v-popover>

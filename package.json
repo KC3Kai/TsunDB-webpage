@@ -27,7 +27,8 @@
     "vue": "^2.5.2",
     "vue-js-popover": "^1.1.8",
     "vue-router": "^3.0.1",
-    "vue-scrollto": "^2.13.0"
+    "vue-scrollto": "^2.13.0",
+    "vuejs-countdown-timer": "^2.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
