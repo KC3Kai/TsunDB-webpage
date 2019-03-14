@@ -36,6 +36,9 @@ import Pools from '@/components/development/Pools'
 import DevSandbox from '@/components/development/Sandbox'
 import DevBuilder from '@/components/development/Builder'
 
+//Dusk
+import Timers from '@/components/dusk/Timers'
+
 //Dawn
 import ShipEquipID from '@/components/dawn/ShipEquipID'
 
@@ -105,6 +108,11 @@ export default new Router({
       path: '/dusk',
       name: 'Dusk',
       component: Dusk
+    },
+    {
+      path: '/dusk/timers',
+      name: 'Timers',
+      component: Timers
     },
     {
       path: '/dawn',

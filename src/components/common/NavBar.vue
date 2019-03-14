@@ -29,10 +29,16 @@
                         </router-link>
                     </div>
                 </div>
-                
-                <router-link class="navbar-item" :to="{ path: '/construction' }">
-                    Construction
-                </router-link>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <router-link class="navbar-item" :to="{ path: '/construction' }">
+                        Construction
+                    </router-link>
+                    <div class="navbar-dropdown" is-boxed>
+                        <router-link class="navbar-item" :to="{ path: '/construction' }">
+                            How it works
+                        </router-link>
+                    </div>
+                </div>
                 <div class="navbar-item has-dropdown is-hoverable">
                     <router-link class="navbar-item" :to="{ path: '/development' }">
                         Development
@@ -52,9 +58,16 @@
                         </router-link>
                     </div>
                 </div>
-                <router-link class="navbar-item" :to="{ path: '/dusk' }">
-                    The Setting Tsun
-                </router-link>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <router-link class="navbar-item" :to="{ path: '/dusk' }">
+                        The Setting Tsun
+                    </router-link>
+                    <div class="navbar-dropdown" is-boxed>
+                        <router-link class="navbar-item" :to="{ path: '/dusk/timers' }">
+                            Timers
+                        </router-link>
+                    </div>
+                </div>
                 <div class="navbar-item has-dropdown is-hoverable">
                     <router-link class="navbar-item" :to="{ path: '/dawn' }">
                         The Rising Tsun
