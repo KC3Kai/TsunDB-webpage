@@ -16,7 +16,7 @@
                 <li><strong>Category Aviation</strong> - CAV, CVL, BBV, CV, SSV, AV, LHA, CVB or AS</li>
             </ul>
             Each category has 3 equipment pools and which pool is selected depends on the primary resource.<br />
-            The order is Fuel/Steel > Ammo > Bauxite in case there are multiple primary resources.<br /><br />
+            The order is <img style="vertical-align:middle;" :src="getResourceIcon('fuel')" width="30" height="30">/<img style="vertical-align:middle;" :src="getResourceIcon('steel')" width="30" height="30"> > <img style="vertical-align:middle;" :src="getResourceIcon('ammo')" width="30" height="30"> > <img style="vertical-align:middle;" :src="getResourceIcon('bauxite')" width="30" height="30"> in case there are multiple primary resources.<br /><br />
             <strong>Note:</strong> The category names are not official, they are there for the sake of simplicity.
         </p>
     </div>
@@ -48,8 +48,8 @@
             Special equipment like Ro.43 or the Type 96 Land-Base Attack Aircraft are normally not included in the pool and requires fulfilling some specific requirements in order to include them.<br />
             The following equipment are known cases:
             <ul>
-                <li><strong>Ro.43</strong> - Requires an Italian ship secretary and Bauxite Primary.</li>
-                <li><strong>Type 96 Land-Based Aircraft</strong> - At least 240+ fuel, 260+ ammo and 250+ bauxite. Ammo or Bauxite Primary in Category Aviation.</li>
+                <li><strong>Ro.43</strong> - Requires an Italian ship secretary and <img style="vertical-align:middle;" :src="getResourceIcon('bauxite')" width="30" height="30"> Primary.</li>
+                <li><strong>Type 96 Land-Based Aircraft</strong> - At least <img style="vertical-align:middle;" :src="getResourceIcon('fuel')" width="30" height="30">240+<img style="vertical-align:middle;" :src="getResourceIcon('ammo')" width="30" height="30">260+ and <img style="vertical-align:middle;" :src="getResourceIcon('bauxite')" width="30" height="30">250+, with a Primary resource of <img style="vertical-align:middle;" :src="getResourceIcon('ammo')" width="30" height="30"> or <img style="vertical-align:middle;" :src="getResourceIcon('bauxite')" width="30" height="30"> in Category Aviation.</li>
             </ul>
             <strong>Warning:</strong><br /> As a pool can never exceed 50 items, including these special equipment into the pool will effectively overwrite some existing items instead. This is usually negligible, but keep in mind that some equipment can possibly stop appearing as a result due to this.
         </p>
@@ -59,7 +59,11 @@
 
 <script>
 export default {
-    
+    methods:{
+        getResourceIcon(type){
+            return require(`./../../assets/icons/resource/${type}.png`);
+        },
+    }
 }
 </script>
 

@@ -88,14 +88,10 @@
                 <div class="field">
                     <span v-for="(resources, id) in calculateResources(selectedPool, selectedEquips)" :key="id">
                         <strong v-if="id == 1">&nbsp;OR&nbsp;</strong>
-                        <img style="vertical-align:middle;" :src="getResourceIcon('fuel')" width="30" height="30">
-                        {{resources[0]}}
-                        <img style="vertical-align:middle;" :src="getResourceIcon('ammo')" width="30" height="30">
-                        {{resources[1]}}
-                        <img style="vertical-align:middle;" :src="getResourceIcon('steel')" width="30" height="30">
-                        {{resources[2]}}
-                        <img style="vertical-align:middle;" :src="getResourceIcon('bauxite')" width="30" height="30">
-                        {{resources[3]}}
+                        <img style="vertical-align:middle;" :src="getResourceIcon('fuel')" width="30" height="30">{{resources[0]}}
+                        <img style="vertical-align:middle;" :src="getResourceIcon('ammo')" width="30" height="30">{{resources[1]}}
+                        <img style="vertical-align:middle;" :src="getResourceIcon('steel')" width="30" height="30">{{resources[2]}}
+                        <img style="vertical-align:middle;" :src="getResourceIcon('bauxite')" width="30" height="30">{{resources[3]}}
                     </span>
                 </div>
             </div>
