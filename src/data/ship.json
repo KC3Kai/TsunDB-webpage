@@ -4071,8 +4071,8 @@
         "kana": "ひゅうが",
         "variant": "",
         "en": "Hyuuga Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 90,
+        "idAfterRemodel": "554",
         "buildTime": 270,
         "getMsg": "<br>",
         "slots": 4,
@@ -25429,6 +25429,55 @@
         "ctype": 2,
         "stype": 10,
         "sortid": 353
+    },
+    "554": {
+        "jp": "日向改二",
+        "kana": "ひゅうが",
+        "variant": "",
+        "en": "Hyuuga Kai Ni",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 270,
+        "getMsg": "<br>",
+        "slots": 5,
+        "scrap": [
+            12,
+            18,
+            40,
+            6
+        ],
+        "modValue": [
+            4,
+            0,
+            5,
+            4
+        ],
+        "fp": [
+            58,
+            85
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            46,
+            84
+        ],
+        "armor": [
+            73,
+            94
+        ],
+        "luck": [
+            40,
+            93
+        ],
+        "rarity": 8,
+        "fuel": 115,
+        "ammo": 140,
+        "ctype": 2,
+        "stype": 10,
+        "sortid": 354
     },
     "555": {
         "jp": "瑞鳳改二",
