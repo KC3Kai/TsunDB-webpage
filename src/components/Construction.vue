@@ -14,7 +14,7 @@
             <ul>
                 <li><strong>Group 1</strong> - <img style="vertical-align:middle;" :src="getResourceIcon('fuel')" width="30" height="30">300+<img style="vertical-align:middle;" :src="getResourceIcon('steel')" width="30" height="30">400+<img style="vertical-align:middle;" :src="getResourceIcon('bauxite')" width="30" height="30">300+</li>
                 <li><strong>Group 2</strong> - <img style="vertical-align:middle;" :src="getResourceIcon('fuel')" width="30" height="30">400+<img style="vertical-align:middle;" :src="getResourceIcon('steel')" width="30" height="30">600+</li>
-                <li><strong>Group 3</strong> - <img style="vertical-align:middle;" :src="getResourceIcon('fuel')" width="30" height="30">200+<img style="vertical-align:middle;" :src="getResourceIcon('steel')" width="30" height="30">250+</li>
+                <li><strong>Group 3</strong> - <img style="vertical-align:middle;" :src="getResourceIcon('fuel')" width="30" height="30">250+<img style="vertical-align:middle;" :src="getResourceIcon('steel')" width="30" height="30">200+</li>
                 <li><strong>Group 4</strong> - Do not meet any of the above requirements.</li>
             </ul>
             <strong>Note:</strong> Keep in mind that the check is done from top to bottom. If the requirements of multiple pools are fulfilled, only the the topmost one is used.
