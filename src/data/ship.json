@@ -7060,8 +7060,8 @@
         "kana": "こんごう",
         "variant": "",
         "en": "Kongou Kai Ni",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 92,
+        "idAfterRemodel": "591",
         "buildTime": 240,
         "getMsg": "<br>",
         "slots": 4,
@@ -26654,6 +26654,55 @@
         "ctype": 90,
         "stype": 16,
         "sortid": 386
+    },
+    "591": {
+        "jp": "金剛改二丙",
+        "kana": "こんごう",
+        "variant": "",
+        "en": "Kongou Kai Ni Hei",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 240,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            14,
+            19,
+            38,
+            4
+        ],
+        "modValue": [
+            4,
+            1,
+            2,
+            4
+        ],
+        "fp": [
+            76,
+            98
+        ],
+        "torp": [
+            20,
+            42
+        ],
+        "aa": [
+            32,
+            89
+        ],
+        "armor": [
+            72,
+            88
+        ],
+        "luck": [
+            18,
+            98
+        ],
+        "rarity": 8,
+        "fuel": 100,
+        "ammo": 160,
+        "ctype": 6,
+        "stype": 8,
+        "sortid": 391
     },
     "605": {
         "jp": "Luigi Torelli改",
