@@ -43,7 +43,7 @@
                 </ul>
                 <li><strong>Pool 3</strong>: <img style="vertical-align:middle;" :src="getResourceIcon('ammo')" width="30" height="30"><img style="vertical-align:middle;" :src="getResourceIcon('steel')" width="30" height="30"></li>
                 <ul>
-                    <li><img style="vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?Res=\operatorname{ceil} \left( \frac{\operatorname{abs} \left ( \text{Ammo} - 200 \right )}{13} \right)+\operatorname{ceil} \left( \frac{\operatorname{abs} \left ( \text{Input} - 200 \right )}{20} \right)" /></li>
+                    <li><img style="vertical-align:middle;" src="https://latex.codecogs.com/gif.latex?Res=\operatorname{ceil} \left( \frac{\operatorname{abs} \left ( \text{Ammo} - 200 \right )}{13} \right)+\operatorname{ceil} \left( \frac{\operatorname{abs} \left ( \text{Steel} - 200 \right )}{20} \right)" /></li>
                 </ul>
                 <li><strong>Pool 4</strong>: <img style="vertical-align:middle;" :src="getResourceIcon('fuel')" width="30" height="30"><img style="vertical-align:middle;" :src="getResourceIcon('steel')" width="30" height="30"></li>
                 <ul>
