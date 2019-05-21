@@ -13332,8 +13332,8 @@
         "kana": "あかぎ",
         "variant": "",
         "en": "Akagi Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 90,
+        "idAfterRemodel": "594",
         "buildTime": 270,
         "getMsg": "<br>",
         "slots": 4,
@@ -17687,6 +17687,104 @@
         "ctype": 74,
         "stype": 1,
         "sortid": 1457
+    },
+    "378": {
+        "jp": "八丈改",
+        "kana": "はちじょう",
+        "variant": "",
+        "en": "",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 14,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            1,
+            2,
+            0
+        ],
+        "modValue": [
+            1,
+            0,
+            1,
+            0
+        ],
+        "fp": [
+            5,
+            35
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            11,
+            54
+        ],
+        "armor": [
+            7,
+            33
+        ],
+        "luck": [
+            49,
+            92
+        ],
+        "rarity": 5,
+        "fuel": 10,
+        "ammo": 10,
+        "ctype": 74,
+        "stype": 1,
+        "sortid": 384
+    },
+    "379": {
+        "jp": "石垣改",
+        "kana": "いしがき",
+        "variant": "",
+        "en": "",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 14,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            1,
+            2,
+            0
+        ],
+        "modValue": [
+            1,
+            0,
+            1,
+            0
+        ],
+        "fp": [
+            5,
+            37
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            10,
+            52
+        ],
+        "armor": [
+            7,
+            33
+        ],
+        "luck": [
+            10,
+            59
+        ],
+        "rarity": 5,
+        "fuel": 10,
+        "ammo": 10,
+        "ctype": 74,
+        "stype": 1,
+        "sortid": 385
     },
     "380": {
         "jp": "大鷹改",
@@ -26606,6 +26704,104 @@
         "stype": 2,
         "sortid": 383
     },
+    "584": {
+        "jp": "八丈",
+        "kana": "はちじょう",
+        "variant": "",
+        "en": "",
+        "remodelLvl": 40,
+        "idAfterRemodel": "378",
+        "buildTime": 14,
+        "getMsg": "あ、あたし、あたしが八丈よ。そ、占守型。海防艦ね。<br>ハチ？　んー、まあ、いっか。そう呼ばせてあげる。<br>よろしくね。",
+        "slots": 2,
+        "scrap": [
+            1,
+            1,
+            2,
+            0
+        ],
+        "modValue": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "fp": [
+            4,
+            18
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            7,
+            24
+        ],
+        "armor": [
+            4,
+            16
+        ],
+        "luck": [
+            40,
+            79
+        ],
+        "rarity": 4,
+        "fuel": 10,
+        "ammo": 10,
+        "ctype": 74,
+        "stype": 1,
+        "sortid": 384
+    },
+    "585": {
+        "jp": "石垣",
+        "kana": "いしがき",
+        "variant": "",
+        "en": "",
+        "remodelLvl": 40,
+        "idAfterRemodel": "379",
+        "buildTime": 14,
+        "getMsg": "占守型海防艦、石垣です。なに？　私の顔に何かついてる？<br>そう、ならいいの。潜水艦退治なら……任せて。そうよ？",
+        "slots": 2,
+        "scrap": [
+            1,
+            1,
+            2,
+            0
+        ],
+        "modValue": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "fp": [
+            4,
+            20
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            6,
+            22
+        ],
+        "armor": [
+            4,
+            16
+        ],
+        "luck": [
+            9,
+            49
+        ],
+        "rarity": 4,
+        "fuel": 10,
+        "ammo": 10,
+        "ctype": 74,
+        "stype": 1,
+        "sortid": 385
+    },
     "586": {
         "jp": "日進甲",
         "kana": "にっしん",
@@ -26655,6 +26851,55 @@
         "stype": 16,
         "sortid": 386
     },
+    "590": {
+        "jp": "G.Garibaldi",
+        "kana": "ガルバルディ",
+        "variant": "",
+        "en": "",
+        "remodelLvl": 45,
+        "idAfterRemodel": "691",
+        "buildTime": 70,
+        "getMsg": "Buongiorno！<br>イタリア生まれの最新鋭軽巡Giuseppe Garibaldiだ。<br>長いって？　そうだな。Garibaldiでいいよ。よろしくな！",
+        "slots": 3,
+        "scrap": [
+            2,
+            3,
+            12,
+            2
+        ],
+        "modValue": [
+            2,
+            1,
+            1,
+            2
+        ],
+        "fp": [
+            28,
+            50
+        ],
+        "torp": [
+            20,
+            66
+        ],
+        "aa": [
+            20,
+            60
+        ],
+        "armor": [
+            33,
+            51
+        ],
+        "luck": [
+            20,
+            89
+        ],
+        "rarity": 6,
+        "fuel": 40,
+        "ammo": 50,
+        "ctype": 92,
+        "stype": 3,
+        "sortid": 390
+    },
     "591": {
         "jp": "金剛改二丙",
         "kana": "こんごう",
@@ -26703,6 +26948,104 @@
         "ctype": 6,
         "stype": 8,
         "sortid": 391
+    },
+    "594": {
+        "jp": "赤城改二",
+        "kana": "あかぎ",
+        "variant": "",
+        "en": "Akagi Kai Ni",
+        "remodelLvl": 92,
+        "idAfterRemodel": "599",
+        "buildTime": 270,
+        "getMsg": "<br>",
+        "slots": 5,
+        "scrap": [
+            13,
+            17,
+            40,
+            15
+        ],
+        "modValue": [
+            0,
+            0,
+            6,
+            5
+        ],
+        "fp": [
+            0,
+            60
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            40,
+            85
+        ],
+        "armor": [
+            42,
+            81
+        ],
+        "luck": [
+            20,
+            77
+        ],
+        "rarity": 8,
+        "fuel": 95,
+        "ammo": 90,
+        "ctype": 14,
+        "stype": 11,
+        "sortid": 404
+    },
+    "599": {
+        "jp": "赤城改二戊",
+        "kana": "あかぎ",
+        "variant": "",
+        "en": "Akagiundefined",
+        "remodelLvl": 92,
+        "idAfterRemodel": "594",
+        "buildTime": 270,
+        "getMsg": "<br>",
+        "slots": 5,
+        "scrap": [
+            13,
+            17,
+            40,
+            15
+        ],
+        "modValue": [
+            0,
+            0,
+            6,
+            5
+        ],
+        "fp": [
+            0,
+            67
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            40,
+            84
+        ],
+        "armor": [
+            42,
+            81
+        ],
+        "luck": [
+            20,
+            77
+        ],
+        "rarity": 8,
+        "fuel": 95,
+        "ammo": 85,
+        "ctype": 14,
+        "stype": 11,
+        "sortid": 409
     },
     "605": {
         "jp": "Luigi Torelli改",
@@ -27291,6 +27634,55 @@
         "ctype": 90,
         "stype": 16,
         "sortid": 1490
+    },
+    "691": {
+        "jp": "G.Garibaldi改",
+        "kana": "ガルバルディ",
+        "variant": "",
+        "en": "",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 70,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            3,
+            6,
+            16,
+            2
+        ],
+        "modValue": [
+            3,
+            1,
+            1,
+            2
+        ],
+        "fp": [
+            34,
+            72
+        ],
+        "torp": [
+            22,
+            70
+        ],
+        "aa": [
+            24,
+            70
+        ],
+        "armor": [
+            42,
+            75
+        ],
+        "luck": [
+            30,
+            100
+        ],
+        "rarity": 7,
+        "fuel": 40,
+        "ammo": 55,
+        "ctype": 92,
+        "stype": 3,
+        "sortid": 1491
     },
     "1501": {
         "jp": "駆逐イ級",
@@ -30477,5 +30869,86 @@
         "slots": 3,
         "ctype": 1,
         "stype": 2
+    },
+    "1862": {
+        "jp": "軽巡ツ級",
+        "kana": "",
+        "variant": "flagship",
+        "en": "Tsu-Class Light Cruiser",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
+    },
+    "1863": {
+        "jp": "重巡棲姫",
+        "kana": "",
+        "variant": "",
+        "en": "Heavy Cruiser Princess",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 5
+    },
+    "1864": {
+        "jp": "重巡棲姫",
+        "kana": "",
+        "variant": "",
+        "en": "Heavy Cruiser Princess",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 5
+    },
+    "1865": {
+        "jp": "北方棲妹",
+        "kana": "",
+        "variant": "",
+        "en": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1866": {
+        "jp": "北方棲妹",
+        "kana": "",
+        "variant": "",
+        "en": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1867": {
+        "jp": "北方棲妹",
+        "kana": "",
+        "variant": "",
+        "en": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1868": {
+        "jp": "北方棲妹-壊",
+        "kana": "",
+        "variant": "",
+        "en": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1869": {
+        "jp": "北方棲妹-壊",
+        "kana": "",
+        "variant": "",
+        "en": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1870": {
+        "jp": "北方棲妹-壊",
+        "kana": "",
+        "variant": "",
+        "en": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
     }
 }
