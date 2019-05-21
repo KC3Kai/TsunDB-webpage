@@ -162,5 +162,17 @@
     "43-3":{
         "jp": "南西第四守備隊輸送作戦",
         "en": "Southwest 4th Garrison Force Transport Operation"
+    },
+    "44-1":{
+        "jp": "艦隊集結地哨戒! 単冠湾泊地",
+        "en": "Fleet Gathering Area Patrols! Hitokappu Bay Anchorage"
+    },
+    "44-2":{
+        "jp": "防備拡充! 南西諸島防衛作戦",
+        "en": "Defence Expansion! Nansei Islands Defence Operation"
+    },
+    "44-3":{
+        "jp": "敵戦力牽制! 第二次AL作戦",
+        "en": "Enemy Force Diversion! The 2nd AL Operation"
     }
 }

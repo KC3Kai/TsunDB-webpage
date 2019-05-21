@@ -179,7 +179,7 @@ export default {
         },
         parseDifficulty(value){
             let returnStr = '';
-            switch(value){
+            switch(Number(value)){
                 case 1: returnStr = '丁'; break;
                 case 2: returnStr = "丙"; break;
                 case 3: returnStr = '乙'; break;
@@ -189,7 +189,7 @@ export default {
             return returnStr;
         },
         parseNode(map, node){
-            return this.edgesData[map][node][1];
+            return this.edgesData.hasOwnProperty(map) ? this.edgesData[map][node][1] : node;
         },
         parseRanks(ranks){
             let newArr = [];

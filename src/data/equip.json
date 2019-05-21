@@ -4117,6 +4117,19 @@
         ],
         "rare": 4
     },
+    "320": {
+        "en": "Suisei Model 12 (w/Type 31 Photoelectric Fuze Bombs)",
+        "jp": "彗星一二型(三一号光電管爆弾搭載機)",
+        "type": 7,
+        "icon": 7,
+        "scrap": [
+            2,
+            6,
+            0,
+            5
+        ],
+        "rare": 4
+    },
     "322": {
         "en": "Zuiun Kai Ni (634 Air Group)",
         "jp": "瑞雲改二(六三四空)",
@@ -4218,6 +4231,162 @@
             11,
             18,
             5
+        ],
+        "rare": 4
+    },
+    "330": {
+        "en": "16inch Mk.I Twin Gun Mount",
+        "jp": "16inch Mk.I連装砲",
+        "type": 3,
+        "icon": 3,
+        "scrap": [
+            0,
+            12,
+            20,
+            0
+        ],
+        "rare": 2
+    },
+    "331": {
+        "en": "16inch Mk.V Twin Gun Mount",
+        "jp": "16inch Mk.V連装砲",
+        "type": 3,
+        "icon": 3,
+        "scrap": [
+            0,
+            13,
+            21,
+            2
+        ],
+        "rare": 3
+    },
+    "332": {
+        "en": "16inch Mk.VIII Twin Gun Mount Kai",
+        "jp": "16inch Mk.VIII連装砲改",
+        "type": 3,
+        "icon": 3,
+        "scrap": [
+            0,
+            15,
+            22,
+            6
+        ],
+        "rare": 4
+    },
+    "333": {
+        "en": "Reppuu Kai",
+        "jp": "烈風改",
+        "type": 48,
+        "icon": 38,
+        "scrap": [
+            2,
+            4,
+            0,
+            9
+        ],
+        "rare": 4
+    },
+    "334": {
+        "en": "Reppuu Kai (352 Air Group / Skilled)",
+        "jp": "烈風改(三五二空/熟練)",
+        "type": 48,
+        "icon": 38,
+        "scrap": [
+            3,
+            4,
+            0,
+            9
+        ],
+        "rare": 5
+    },
+    "335": {
+        "en": "Reppuu Kai (Prototype Carrier-based Model)",
+        "jp": "烈風改(試製艦載型)",
+        "type": 6,
+        "icon": 6,
+        "scrap": [
+            3,
+            4,
+            0,
+            9
+        ],
+        "rare": 4
+    },
+    "336": {
+        "en": "Reppuu Kai Ni",
+        "jp": "烈風改二",
+        "type": 6,
+        "icon": 6,
+        "scrap": [
+            3,
+            3,
+            0,
+            10
+        ],
+        "rare": 5
+    },
+    "337": {
+        "en": "Reppuu Kai Ni (CarDiv 1 / Skilled)",
+        "jp": "烈風改二(一航戦/熟練)",
+        "type": 6,
+        "icon": 6,
+        "scrap": [
+            3,
+            3,
+            0,
+            10
+        ],
+        "rare": 6
+    },
+    "338": {
+        "en": "Reppuu Kai Ni Model E",
+        "jp": "烈風改二戊型",
+        "type": 6,
+        "icon": 45,
+        "scrap": [
+            3,
+            3,
+            0,
+            11
+        ],
+        "rare": 6
+    },
+    "339": {
+        "en": "Reppuu Kai Ni Model E (CarDiv 1 / Skilled)",
+        "jp": "烈風改二戊型(一航戦/熟練)",
+        "type": 6,
+        "icon": 45,
+        "scrap": [
+            3,
+            4,
+            0,
+            11
+        ],
+        "rare": 7
+    },
+    "340": {
+        "en": "152mm/55 Triple Rapid Fire Gun Mount",
+        "jp": "152mm/55 三連装速射砲",
+        "type": 2,
+        "icon": 2,
+        "scrap": [
+            0,
+            3,
+            5,
+            1
+        ],
+        "rare": 3
+    },
+    "341": {
+        "en": "152mm/55 Triple Rapid Fire Gun Mount Kai",
+        "jp": "152mm/55 三連装速射砲改",
+        "type": 2,
+        "icon": 2,
+        "scrap": [
+            0,
+            4,
+            5,
+            2
         ],
         "rare": 4
     },
