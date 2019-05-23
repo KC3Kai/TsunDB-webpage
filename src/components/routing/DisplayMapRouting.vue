@@ -406,10 +406,10 @@
                     </div>
                 </div>
                 <div v-if="sampleSelected.fleet2.length > 0" class="tile is-parent is-6">
-                    <div class="tile is-child box">
+                    <div class="tile is-child">
                         <p class="title">Escort</p>
                         <div class="content">
-                            <table class="table is-striped box">
+                            <table class="table is-striped">
                                 <thead>
                                     <tr>
                                         <th>Ship</th>
