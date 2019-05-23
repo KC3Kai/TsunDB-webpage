@@ -526,7 +526,7 @@ export default {
             if(this.edge_id == undefined) container.next_route = this.nextRoute;
             if(this.difficulty != undefined && this.difficulty != "undefined") container.difficulty = this.difficulty;
             if(this.fleettype != undefined && this.fleettype != "undefined") container.fleettype = this.fleettype;
-            if(this.phase != undefined && this.phase != "undefined") container.gaugenum = this.gaugenum;
+            if(this.phase != undefined && this.phase != "undefined") container.gaugenum = this.phase;
             if(this.edge_id != undefined && this.edge_id != "undefined") container.edge_id = this.edge_id;
             if(this.cleared != undefined && this.cleared != "undefined") container.cleared = this.cleared;
             if(this.los[1] != undefined && String(this.los[1]) != "") container.los = this.los;
