@@ -26998,6 +26998,55 @@
         "stype": 11,
         "sortid": 404
     },
+    "596": {
+        "jp": "Fletcher",
+        "kana": "フレッチャー",
+        "variant": "",
+        "en": "Fletcher",
+        "remodelLvl": 55,
+        "idAfterRemodel": "692",
+        "buildTime": 23,
+        "getMsg": "お疲れさまです。Fletcher級駆逐艦ネームシップ、<br>Fletcher、着任しました。マザー、ですか？ いえいえ<br>そんな……。皆さんのお役に立てるよう、頑張ります！",
+        "slots": 2,
+        "scrap": [
+            1,
+            2,
+            7,
+            2
+        ],
+        "modValue": [
+            1,
+            1,
+            2,
+            1
+        ],
+        "fp": [
+            12,
+            31
+        ],
+        "torp": [
+            20,
+            60
+        ],
+        "aa": [
+            32,
+            62
+        ],
+        "armor": [
+            7,
+            20
+        ],
+        "luck": [
+            30,
+            89
+        ],
+        "rarity": 6,
+        "fuel": 20,
+        "ammo": 20,
+        "ctype": 91,
+        "stype": 2,
+        "sortid": 396
+    },
     "599": {
         "jp": "赤城改二戊",
         "kana": "あかぎ",
@@ -27046,6 +27095,55 @@
         "ctype": 14,
         "stype": 11,
         "sortid": 409
+    },
+    "601": {
+        "jp": "Colorado",
+        "kana": "コロラド",
+        "variant": "",
+        "en": "Colorado",
+        "remodelLvl": 45,
+        "idAfterRemodel": "1496",
+        "buildTime": 300,
+        "getMsg": "Hi! 私がステイツのBig7、Colorado級戦艦一番艦、<br>USS Coloradoよ！<br>貴方がAdmiral？ 悪くないわね。<br>私にしっかりついてきなさい！ 返事は？",
+        "slots": 4,
+        "scrap": [
+            10,
+            21,
+            39,
+            3
+        ],
+        "modValue": [
+            5,
+            0,
+            1,
+            4
+        ],
+        "fp": [
+            78,
+            96
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            28,
+            90
+        ],
+        "armor": [
+            73,
+            90
+        ],
+        "luck": [
+            30,
+            99
+        ],
+        "rarity": 7,
+        "fuel": 90,
+        "ammo": 130,
+        "ctype": 93,
+        "stype": 9,
+        "sortid": 401
     },
     "605": {
         "jp": "Luigi Torelli改",
@@ -27683,6 +27781,104 @@
         "ctype": 92,
         "stype": 3,
         "sortid": 1491
+    },
+    "692": {
+        "jp": "Fletcher改",
+        "kana": "フレッチャー",
+        "variant": "",
+        "en": "Fletcher Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 23,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            2,
+            12,
+            3
+        ],
+        "modValue": [
+            1,
+            1,
+            3,
+            1
+        ],
+        "fp": [
+            15,
+            54
+        ],
+        "torp": [
+            26,
+            72
+        ],
+        "aa": [
+            40,
+            91
+        ],
+        "armor": [
+            16,
+            52
+        ],
+        "luck": [
+            40,
+            100
+        ],
+        "rarity": 7,
+        "fuel": 20,
+        "ammo": 20,
+        "ctype": 91,
+        "stype": 2,
+        "sortid": 1492
+    },
+    "1496": {
+        "jp": "Colorado改",
+        "kana": "コロラド",
+        "variant": "",
+        "en": "Colorado Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 300,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            18,
+            31,
+            48,
+            4
+        ],
+        "modValue": [
+            5,
+            0,
+            3,
+            4
+        ],
+        "fp": [
+            80,
+            105
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            36,
+            100
+        ],
+        "armor": [
+            83,
+            99
+        ],
+        "luck": [
+            40,
+            110
+        ],
+        "rarity": 7,
+        "fuel": 95,
+        "ammo": 165,
+        "ctype": 93,
+        "stype": 9,
+        "sortid": 406
     },
     "1501": {
         "jp": "駆逐イ級",
