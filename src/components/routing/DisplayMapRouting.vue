@@ -136,6 +136,23 @@
                     </div>
                     <div class="field is-horizontal">
                         <div class="field-label">
+                            <label class="label is-pulled-left">Edges</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field has-addons">
+                                <span class="field">
+                                    <input class="input" type="number" placeholder="Edges" v-model="edges" @input="toggleEdgesValue">
+                                </span>
+                                <span class="control">
+                                    <span class="button is-dark" @click="resetEdgesValue()">
+                                        Reset
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="field is-horizontal">
+                        <div class="field-label">
                             <label class="label is-pulled-left">LoS</label>
                         </div>
                         <div class="field-body">
@@ -481,6 +498,7 @@ export default {
             edge_id: undefined,
             fleettype: undefined,
             phase: undefined,
+            edges: undefined,
             los: [1, undefined],
             shipfiltermode: 0,
             shipfilter:{
@@ -533,6 +551,7 @@ export default {
             if(this.phase != undefined && this.phase != "undefined") container.gaugenum = this.phase;
             if(this.edge_id != undefined && this.edge_id != "undefined") container.edge_id = this.edge_id;
             if(this.cleared != undefined && this.cleared != "undefined") container.cleared = this.cleared;
+            if(this.edges != undefined && this.edges != "undefined") container.amount_of_nodes = this.edges;
             if(this.los[1] != undefined && String(this.los[1]) != "") container.los = this.los;
             if(this.shipfiltermode == 1){
                 let fleet_one_contains = this.parseShipFilterContain('fleet1');
@@ -781,6 +800,10 @@ export default {
             };
             this.getData(this.$route.query.map);
         },
+        resetEdgesValue(){
+            this.edges = undefined;
+            this.getData(this.$route.query.map);
+        },
         resetShipFilter(){
             this.shipfilter = {
                 fleet1:{flagship: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0},
@@ -824,6 +847,10 @@ export default {
                 }
             }
             (newArr.length > 0) ? this.edge_id = newArr : this.edge_id = undefined;
+            this.getData(this.$route.query.map);
+        },
+        toggleEdgesValue(value){
+            this.edges = value.target.value;
             this.getData(this.$route.query.map);
         },
         toggleFleetPattern(fleet, pattern){
