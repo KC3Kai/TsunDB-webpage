@@ -38,6 +38,7 @@ import DevBuilder from '@/components/development/Builder'
 
 //Dusk
 import Timers from '@/components/dusk/Timers'
+import DropList from '@/components/dusk/DropList'
 
 //Dawn
 import ShipEquipID from '@/components/dawn/ShipEquipID'
@@ -113,6 +114,11 @@ export default new Router({
       path: '/dusk/timers',
       name: 'Timers',
       component: Timers
+    },
+    {
+      path: '/dusk/droplist',
+      name: 'Drop List',
+      component: DropList
     },
     {
       path: '/dawn',
