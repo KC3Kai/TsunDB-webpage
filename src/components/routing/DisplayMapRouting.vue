@@ -382,6 +382,7 @@
                                 <thead>
                                     <tr>
                                         <th>Ship</th>
+                                        <th>Tag</th>
                                         <th>#1</th>
                                         <th>#2</th>
                                         <th>#3</th>
@@ -392,7 +393,8 @@
                                 </thead>
                                 <tbody>
                                     <tr v-for="(ship) in this.sampleSelected.fleet1" :key="ship.id">
-                                        <td><img :src="getShipBanner(ship.id)" :title="getShipName(ship.id)" style="width:160px; height:40px;"></td>
+                                        <td><img :src="getShipBanner(ship.id)" :title="getShipName(ship.id)" style="width:160px; height:40px;" /></td>
+                                        <td><img :src="getShipLockTag(map.split('-')[0], ship.shiplock)" style="width:30px; height:40px;" /></td>
                                         <td><img :src="getEquipIcon(ship.equip[0])" :title="getEquipName(ship.equip[0])" style="width:40px; height:40px;" /></td>
                                         <td><img :src="getEquipIcon(ship.equip[1])" :title="getEquipName(ship.equip[1])" style="width:40px; height:40px;" /></td>
                                         <td><img :src="getEquipIcon(ship.equip[2])" :title="getEquipName(ship.equip[2])" style="width:40px; height:40px;" /></td>
@@ -413,6 +415,7 @@
                                 <thead>
                                     <tr>
                                         <th>Ship</th>
+                                        <th>Tag</th>
                                         <th>#1</th>
                                         <th>#2</th>
                                         <th>#3</th>
@@ -424,6 +427,7 @@
                                 <tbody>
                                     <tr v-for="(ship) in this.sampleSelected.fleet2" :key="ship.id">
                                         <td><img :src="getShipBanner(ship.id)" :title="getShipName(ship.id)" style="width:160px; height:40px;"></td>
+                                        <td><img :src="getShipLockTag(map.split('-')[0], ship.shiplock)" style="width:30px; height:40px;" /></td>
                                         <td><img :src="getEquipIcon(ship.equip[0])" :title="getEquipName(ship.equip[0])" style="width:40px; height:40px;" /></td>
                                         <td><img :src="getEquipIcon(ship.equip[1])" :title="getEquipName(ship.equip[1])" style="width:40px; height:40px;" /></td>
                                         <td><img :src="getEquipIcon(ship.equip[2])" :title="getEquipName(ship.equip[2])" style="width:40px; height:40px;" /></td>
@@ -638,6 +642,14 @@ export default {
             }
             catch(err){
                 return require(`./../../../assets/shipcards/-1.png`);
+            }
+        },
+        getShipLockTag(map, id){
+            try{
+                return require(`./../../../assets/tags/${map}/${id}.png`);
+            }
+            catch(err){
+                return console.log(err);
             }
         },
         getShipName(id){
