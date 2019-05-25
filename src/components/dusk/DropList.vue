@@ -71,6 +71,7 @@ export default {
                     if(!returnArr.includes(char)) returnArr.push(char);
                 }
             }
+            returnArr = returnArr.sort();
             if(returnArr[0] == undefined){
                 return "";
             }
