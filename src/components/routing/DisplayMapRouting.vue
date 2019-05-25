@@ -716,8 +716,18 @@ export default {
         parseRoute(value, map){
             let returnStr = "";
             for(let x in value){
-                if(x == 0) returnStr += `${this.edgesData[map][value[x]][0]}-${this.edgesData[map][value[x]][1]}`;
-                else returnStr += `-${this.edgesData[map][value[x]][1]}`;
+                if(this.edgesData.hasOwnProperty(map)){
+                    if(this.edgesData[map].hasOwnProperty(value[x])){
+                        if(x == 0) returnStr += `${this.edgesData[map][value[x]][0]}-${this.edgesData[map][value[x]][1]}`;
+                        else returnStr += `-${this.edgesData[map][value[x]][1]}`;
+                    }
+                    else{
+                        returnStr += (x == 0) ? value[x] : `-${value[x]}`;
+                    }
+                }
+                else{
+                    returnStr += (x == 0) ? value[x] : `-${value[x]}`;
+                }
             }
             return returnStr;
         },
