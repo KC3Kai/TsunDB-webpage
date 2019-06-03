@@ -4390,6 +4390,32 @@
         ],
         "rare": 4
     },
+    "342": {
+        "en": "Ryuusei Kai (CarDiv 1)",
+        "jp": "流星改(一航戦)",
+        "type": 8,
+        "icon": 8,
+        "scrap": [
+            2,
+            6,
+            0,
+            11
+        ],
+        "rare": 5
+    },
+    "343": {
+        "en": "Ryuusei Kai (CarDiv 1 / Skilled)",
+        "jp": "流星改(一航戦/熟練)",
+        "type": 8,
+        "icon": 8,
+        "scrap": [
+            2,
+            6,
+            0,
+            11
+        ],
+        "rare": 6
+    },
     "501": {
         "en": "5inch Single Gun Mount",
         "jp": "5inch単装砲",
@@ -5565,6 +5591,32 @@
         "jp": "深海5inch単装砲 Mk.30",
         "type": 1,
         "icon": 16,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 4
+    },
+    "592": {
+        "en": "Abyssal 16inch Mk.VIII Twin Gun Mount Kai",
+        "jp": "深海16inch Mk.VIII連装砲改",
+        "type": 3,
+        "icon": 3,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 4
+    },
+    "593": {
+        "en": "High-speed Abyssal Torpedo mod.3",
+        "jp": "高速深海魚雷 mod.3",
+        "type": 5,
+        "icon": 5,
         "scrap": [
             0,
             0,

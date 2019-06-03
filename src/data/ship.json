@@ -25875,7 +25875,7 @@
         "jp": "Samuel B.Roberts",
         "kana": "サミュエル・B・ロバーツ",
         "variant": "",
-        "en": "Samuel B.Roberts",
+        "en": "Samuel B. Roberts",
         "remodelLvl": 50,
         "idAfterRemodel": "681",
         "buildTime": 9,
@@ -26855,7 +26855,7 @@
         "jp": "G.Garibaldi",
         "kana": "ガルバルディ",
         "variant": "",
-        "en": "Giuseppe Garibaldi",
+        "en": "G. Garibaldi",
         "remodelLvl": 45,
         "idAfterRemodel": "691",
         "buildTime": 70,
@@ -27394,7 +27394,7 @@
         "jp": "Samuel B.Roberts改",
         "kana": "サミュエル・B・ロバーツ",
         "variant": "",
-        "en": "Samuel B.Roberts Kai",
+        "en": "Samuel B. Roberts Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
         "buildTime": 9,
@@ -27737,7 +27737,7 @@
         "jp": "G.Garibaldi改",
         "kana": "ガルバルディ",
         "variant": "",
-        "en": "Giuseppe Garibaldi Kai",
+        "en": "G. Garibaldi Kai",
         "remodelLvl": 0,
         "idAfterRemodel": "0",
         "buildTime": 70,
@@ -31146,5 +31146,59 @@
         "slots": 4,
         "ctype": 1,
         "stype": 10
+    },
+    "1871": {
+        "jp": "太平洋深海棲姫",
+        "kana": "",
+        "variant": "",
+        "en": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 9
+    },
+    "1872": {
+        "jp": "太平洋深海棲姫",
+        "kana": "",
+        "variant": "",
+        "en": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 9
+    },
+    "1873": {
+        "jp": "太平洋深海棲姫",
+        "kana": "",
+        "variant": "",
+        "en": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 9
+    },
+    "1874": {
+        "jp": "太平洋深海棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "en": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 9
+    },
+    "1875": {
+        "jp": "太平洋深海棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "en": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 9
+    },
+    "1876": {
+        "jp": "太平洋深海棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "en": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 9
     }
 }
