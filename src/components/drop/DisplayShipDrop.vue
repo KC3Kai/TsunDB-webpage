@@ -62,8 +62,8 @@
                     <th :class="checkIfInMap(44, '44-1') ? 'has-text-success' : 'has-text-danger'">E-1</th>
                     <th :class="checkIfInMap(44, '44-2') ? 'has-text-success' : 'has-text-danger'">E-2</th>
                     <th :class="checkIfInMap(44, '44-3') ? 'has-text-success' : 'has-text-danger'">E-3</th>
-                    <th :class="checkIfInMap(44, '44-2') ? 'has-text-success' : 'has-text-danger'">E-4</th>
-                    <th :class="checkIfInMap(44, '44-3') ? 'has-text-success' : 'has-text-danger'">E-5</th>
+                    <th :class="checkIfInMap(44, '44-4') ? 'has-text-success' : 'has-text-danger'">E-4</th>
+                    <th :class="checkIfInMap(44, '44-5') ? 'has-text-success' : 'has-text-danger'">E-5</th>
                 </tr>
             </tbody>
         </table>
@@ -136,6 +136,7 @@ export default {
             return this.data.hasOwnProperty(world);
         },
         checkIfInMap(world, map){
+            console.log(this.data[world]);
             return this.data[world].hasOwnProperty(map);
         },
         compareRanks(a, b){
