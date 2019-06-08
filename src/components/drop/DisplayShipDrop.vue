@@ -136,7 +136,6 @@ export default {
             return this.data.hasOwnProperty(world);
         },
         checkIfInMap(world, map){
-            console.log(this.data[world]);
             return this.data[world].hasOwnProperty(map);
         },
         compareRanks(a, b){
