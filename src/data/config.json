@@ -1,3 +1,4 @@
 {
-    "host": "https://tsundb.kc3.moe/api"
+    "host": "https://tsundb.kc3.moe/api",
+    "baseurl": "https://tsundb.kc3.moe"
 }

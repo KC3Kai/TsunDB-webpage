@@ -26,7 +26,16 @@
 
 <script>
 export default {
-    
+    data: function(){
+        return{
+            mapNamesData: require('./../data/mapNames.json')
+        }
+    },
+    methods:{
+        verifyMap(map){
+            return (this.mapNamesData.hasOwnProperty(map)) ? true : false;
+        }
+    }
 }
 </script>
 

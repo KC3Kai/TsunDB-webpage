@@ -494,6 +494,8 @@ export default {
             nextRoute: 0,
             cleared: undefined,
             difficulty: undefined,
+            loadedData: [],
+            filteredData: undefined,
             data: undefined,
             edge_id: undefined,
             fleettype: undefined,
@@ -520,12 +522,16 @@ export default {
         }
     },
     created(){
-        this.getData(this.$route.query.map);
+        fetch(`${this.configData.baseurl}/public/routing/${this.$route.query.map}.json`).then(response => response.json()).then(json => {
+            this.loadedData = json;
+            this.getData(this.$route.query.map);
+        })
     },
     methods:{
         changePage(value){
-            this.offset = value;
-            this.getData(this.$route.query.map);
+            let max = Math.floor(this.filteredData.length/this.limit);
+            this.offset = (max < value) ? max : value;
+            this.data = this.filteredData.slice(this.offset*this.limit, (this.offset*this.limit)+this.limit);
         },
         checkIsEventMap(map){
             return this.eventMapsData.hasOwnProperty(String(map.slice(0,2)))
@@ -541,33 +547,97 @@ export default {
             return Math.floor(Number(value) * 100) / 100;
         },
         getData(map){
-            let container = {
-                offset: this.offset*this.limit,
-                limit: this.limit
-            };
-            if(this.edge_id == undefined) container.next_route = this.nextRoute;
-            if(this.difficulty != undefined && this.difficulty != "undefined") container.difficulty = this.difficulty;
-            if(this.fleettype != undefined && this.fleettype != "undefined") container.fleettype = this.fleettype;
-            if(this.phase != undefined && this.phase != "undefined") container.gaugenum = this.phase;
-            if(this.edge_id != undefined && this.edge_id != "undefined") container.edge_id = this.edge_id;
-            if(this.cleared != undefined && this.cleared != "undefined") container.cleared = this.cleared;
-            if(this.edges != undefined && this.edges != "undefined") container.amount_of_nodes = this.edges;
-            if(this.los[1] != undefined && String(this.los[1]) != "") container.los = this.los;
-            if(this.shipfiltermode == 1){
-                let fleet_one_contains = this.parseShipFilterContain('fleet1');
-                let fleet_two_contains = this.parseShipFilterContain('fleet2');
-                if(fleet_one_contains.length > 0) container.fleet_one_contains = fleet_one_contains;
-                if(fleet_two_contains.length > 0) container.fleet_two_contains = fleet_two_contains;
+            let newArr = [];
+            for(const x of this.loadedData){
+                if(this.edge_id == undefined && this.nextRoute == 0 && x.nextroute != 0) continue;
+                if(this.difficulty != undefined && this.difficulty != "undefined" && this.difficulty != x.difficulty) continue;
+                if(this.fleettype != undefined && this.fleettype != "undefined" && this.fleettype != x.fleettype) continue;
+                if(this.phase != undefined && this.phase != "undefined" && this.phase != x.gaugenum) continue;
+                if(this.cleared != undefined && this.cleared != "undefined" && this.cleared != x.cleared) continue;
+                if(this.edges != undefined && this.edges != "undefined" && this.edges != x.nodeinfo.amountOfNodes) continue;
+                if(this.los[1] != undefined && String(this.los[1]) != "" && this.los[1] > x.los[this.los[0]-1]) continue;
+                if(this.edge_id != undefined && this.edge_id != "undefined"){
+                    if(!(this.edge_id.every(y => x.edgeid.includes(y))) && this.edge_id[this.edge_id.length-1] != x.edgeid[x.edgeid.length-1]) continue;
+                }
+                if(this.shipfiltermode == 1){
+                    let fleet_one_contains = this.parseShipFilterContain('fleet1');
+                    if(fleet_one_contains.length > 0){
+                        let contain = [];
+                        let notcontain = [];
+                        for(const i of fleet_one_contains){
+                            (i > 0) ? contain.push(i) : notcontain.push(parseInt(i)*-1);
+                        }
+                        if(!(contain.every(n => x.fleetonetypes.includes(n)))) continue;
+                        else if(notcontain.some(n => x.fleetonetypes.includes(n))) continue;
+                    }
+                    let fleet_two_contains = this.parseShipFilterContain('fleet2');
+                    if(fleet_two_contains.length > 0){
+                        let contain = [];
+                        let notcontain = [];
+                        for(const i of fleet_two_contains){
+                            (i > 0) ? contain.push(i) : notcontain.push(parseInt(i)*-1);
+                        }
+                        if(!(contain.every(n => x.fleettwotypes.includes(n)))) continue;
+                        else if(notcontain.some(n => x.fleettwotypes.includes(n))) continue;
+                    }
+                }
+                else if(this.shipfiltermode == 2){
+                    if(this.fleetpattern.fleet1.size > 0){
+                        if(this.fleetpattern.fleet1.size != x.fleetonetypes.length) continue;
+                        if(this.fleetpattern.fleet1.hasOwnProperty('flagship') && this.fleetpattern.fleet1.flagship != x.fleetonetypes[0]) continue;
+                        if(this.fleetpattern.fleet1.hasOwnProperty('count')){
+                            let skip = false;
+                            for(const y in this.fleetpattern.fleet1.count){
+                                if(this.fleetpattern.fleet1.count[y] != x.fleetonetypes.filter(ship => ship == y).length) skip = true;
+                            }
+                            if(skip) continue;
+                        }
+                    }
+                    if(this.fleetpattern.fleet2.size > 0){
+                        if(this.fleetpattern.fleet2.size != x.fleetonetypes.length) continue;
+                        if(this.fleetpattern.fleet2.hasOwnProperty('flagship') && this.fleetpattern.fleet2.flagship != x.fleetonetypes[0]) continue;
+                        if(this.fleetpattern.fleet2.hasOwnProperty('count')){
+                            let skip = false;
+                            for(const y in this.fleetpattern.fleet2.count){
+                                if(this.fleetpattern.fleet2.count[y] != x.fleetonetypes.filter(ship => ship == y).length) skip = true;
+                            }
+                            if(skip) continue;
+                        }
+                    }
+                }
+                newArr.push(x);
             }
-            else if(this.shipfiltermode == 2){
-                if(this.fleetpattern.fleet1.size > 0) container.fleet_one_pattern = this.fleetpattern.fleet1;
-                if(this.fleetpattern.fleet2.size > 0) container.fleet_two_pattern = this.fleetpattern.fleet2;
-            }
-            let type = this.checkIsEventMap(map) ? "eventrouting" : "routing";
-            axios.post(`${this.configData.host}/${type}/${this.map}`,container)
-            .then(response => response.data)
-            .then(data => this.data = data)
-            .catch(err => console.error(err));
+            this.filteredData = newArr;
+            console.log(newArr);
+            this.changePage(0);
+
+            // let container = {
+            //     offset: this.offset*this.limit,
+            //     limit: this.limit
+            // };
+            // if(this.edge_id == undefined) container.next_route = this.nextRoute;
+            // if(this.difficulty != undefined && this.difficulty != "undefined") container.difficulty = this.difficulty;
+            // if(this.fleettype != undefined && this.fleettype != "undefined") container.fleettype = this.fleettype;
+            // if(this.phase != undefined && this.phase != "undefined") container.gaugenum = this.phase;
+            // if(this.edge_id != undefined && this.edge_id != "undefined") container.edge_id = this.edge_id;
+            // if(this.cleared != undefined && this.cleared != "undefined") container.cleared = this.cleared;
+            // if(this.edges != undefined && this.edges != "undefined") container.amount_of_nodes = this.edges;
+            // if(this.los[1] != undefined && String(this.los[1]) != "") container.los = this.los;
+            // if(this.shipfiltermode == 1){
+            //     let fleet_one_contains = this.parseShipFilterContain('fleet1');
+            //     let fleet_two_contains = this.parseShipFilterContain('fleet2');
+            //     if(fleet_one_contains.length > 0) container.fleet_one_contains = fleet_one_contains;
+            //     if(fleet_two_contains.length > 0) container.fleet_two_contains = fleet_two_contains;
+            // }
+            // else if(this.shipfiltermode == 2){
+            //     if(this.fleetpattern.fleet1.size > 0) container.fleet_one_pattern = this.fleetpattern.fleet1;
+            //     if(this.fleetpattern.fleet2.size > 0) container.fleet_two_pattern = this.fleetpattern.fleet2;
+            // }
+            // let type = this.checkIsEventMap(map) ? "eventrouting" : "routing";
+            // axios.post(`${this.configData.host}/${type}/${this.map}`,container)
+            // .then(response => response.data)
+            // .then(data => this.data = data)
+            // .catch(err => console.error(err));
         },
         getEdgeId(a, b, map){
             for(let x in this.edgesData[map]){
@@ -896,8 +966,10 @@ export default {
             this.getData(this.$route.query.map);
         },
         toggleLimit(value){
-            this.limit = value;
-            this.getData(this.$route.query.map);
+            if(this.limit != value){
+                this.limit = value;
+                this.changePage(0);
+            }
         },
         toggleNode(id, value){
             this.node_id[id] = value;
