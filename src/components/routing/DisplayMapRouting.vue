@@ -464,8 +464,6 @@
 </template>
 
 <script>
-import axios from 'axios';
-
 export default {
     props: ['map'],
     data: function(){
@@ -522,7 +520,7 @@ export default {
         }
     },
     created(){
-        fetch(`${this.configData.baseurl}/public/routing/${this.$route.query.map}.json`).then(response => response.json()).then(json => {
+        fetch(`${this.configData.baseurl}/json/routing/${this.$route.query.map}.json`).then(response => response.json()).then(json => {
             this.loadedData = json;
             this.getData(this.$route.query.map);
         })
@@ -608,7 +606,6 @@ export default {
                 newArr.push(x);
             }
             this.filteredData = newArr;
-            console.log(newArr);
             this.changePage(0);
 
             // let container = {
