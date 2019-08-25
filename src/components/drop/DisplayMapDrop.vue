@@ -19,7 +19,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="field is-horizontal">
+                    <!-- <div class="field is-horizontal">
                         <div class="field-label">
                             <label class="label is-pulled-left">Ranks </label>
                         </div>
@@ -42,7 +42,7 @@
                                 </span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="field is-horizontal" v-if="checkIsEventMap(map)">
                         <div class="field-label">
                             <label class="label is-pulled-left">Difficulty</label>
@@ -107,8 +107,7 @@
                 <th>S-%</th>
                 <th>A-%</th>
                 <th>B-%</th>
-                <th>Total-Count</th>
-                <th>Total-%</th>
+                <th>Sample Size</th>
             </tr>
         </thead>
         <tbody name="table" is="transition-group">
@@ -117,11 +116,10 @@
                     <td><img :src="getShipBanner(id)" :title="getShipName(id)" style="width:160px; height:40px;"></td>
                     <td :style="checkCommonShip(id, map) ? 'color:black;' : 'color:red;'">{{getShipName(id, "jp")}}</td>
                     <td :style="checkCommonShip(id, map) ? 'color:black;' : 'color:red;'">{{getShipName(id, "en")}}</td>
-                    <td><abbr :title="parseCount(ship.S)">{{calculateRate(ship.S, "S")}}</abbr></td>
-                    <td><abbr :title="parseCount(ship.A)">{{calculateRate(ship.A, "A")}}</abbr></td>
-                    <td><abbr :title="parseCount(ship.B)">{{calculateRate(ship.B, "B")}}</abbr></td>
+                    <td><abbr :title="parseCount(ship.S.count)">{{calculateRate(ship.S.rate, "S")}}</abbr></td>
+                    <td><abbr :title="parseCount(ship.A.count)">{{calculateRate(ship.A.rate, "A")}}</abbr></td>
+                    <td><abbr :title="parseCount(ship.B.count)">{{calculateRate(ship.B.rate, "B")}}</abbr></td>
                     <td>{{parseTotalCount(ship)}}</td>
-                    <td>{{calculateTotalRate(ship)}}</td>
                 </tr>
             </template>
         </tbody>
@@ -133,8 +131,7 @@
                 <th>S-%</th>
                 <th>A-%</th>
                 <th>B-%</th>
-                <th>Total-Count</th>
-                <th>Total-%</th>
+                <th>Sample Size</th>
             </tr>
         </tfoot>
     </table>
@@ -177,12 +174,7 @@ export default {
     methods:{
         calculateRate(value, rank){
             if(value == 0 || value == undefined) return "0.00%";
-            return `${this.floorTwoDecimal(Number(value/this.rankCount[rank])*100)}%`;
-        },
-        calculateTotalRate(ship){
-            let totalCount = this.parseTotalCount(ship);
-            let total = this.rankCount["S"]+this.rankCount["A"]+this.rankCount["B"];
-            return `${this.floorTwoDecimal(Number(totalCount/total)*100)}%`;
+            return `${this.floorTwoDecimal(Number(value))}%`;
         },
         checkIsEventMap(map){
             if(this.eventMapsData.hasOwnProperty(String(map.slice(0,2)))){
@@ -210,30 +202,11 @@ export default {
         floorTwoDecimal(value){
             return Math.floor(Number(value) * 100) / 100;
         },
-        getData(map){
+        async getData(map){
             this.data = undefined;
-            let container = {
-                map: map,
-                nodes: this.parseNode(map),
-                ranks: this.parseRanks(this.selectedRanks),
-                difficulty: this.selectedDifficulty
-            };
-            axios.post(`${this.configData.host}/drops`, container)
-            .then(response => response.data)
-            .then(data => {
-                this.data = data;
-                this.rankCount = {
-                    "S": 0,
-                    "A": 0,
-                    "B": 0
-                };
-                for(let x in this.data){
-                    this.rankCount["S"] += this.data[x].S;
-                    this.rankCount["A"] += this.data[x].A;
-                    this.rankCount["B"] += this.data[x].B;
-                }
-            })
-            .catch(err => console.error(err));
+            await fetch(`${this.configData.baseurl}/json/shipdrop/${map}${this.selectedNode}-${(map.split("-")[0] < 10) ? 0 : this.selectedDifficulty}.json`).then(response => response.json()).then(json => {
+                this.data = json;
+            });
         },
         getMapTitle(map){
             return `World ${map}: ${this.mapNamesData[map].en}`;
@@ -284,7 +257,7 @@ export default {
         parseTotalCount(ship){
             let returnValue = 0;
             for(let x in ship){
-                returnValue += ship[x];
+                returnValue += ship[x].count;
             }
             return returnValue;
         },
