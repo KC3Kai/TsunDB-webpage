@@ -4,7 +4,7 @@
         Ship Drop - Search
     </p>
     <p class="subtitle">
-        Searching for the ship you want has never been so easy!<br /><br />
+        Searching for the ship you want has never been so easy! Beware of small sample sizes and weird reports though...<br /><br />
         Hint: You can click on the rows if you don't want to scroll down.
     </p>
     <div class="container">
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-    <div class="container" v-if="shipId != -1" :key="ship">
+    <div class="container" v-if="shipId != -1" :key="shipId">
         <displayshipdrop :ship="shipId"/>
     </div>
 </div>
