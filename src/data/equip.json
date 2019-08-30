@@ -455,7 +455,7 @@
         "rare": 0
     },
     "36": {
-        "en": "Type 91 AP Shell",
+        "en": "Type 91 Armor Piercing Shell",
         "jp": "九一式徹甲弾",
         "type": 19,
         "icon": 13,
@@ -702,7 +702,7 @@
         "rare": 2
     },
     "55": {
-        "en": "Shiden Kai Ni",
+        "en": "Shiden Kai 2",
         "jp": "紫電改二",
         "type": 6,
         "icon": 6,
@@ -806,7 +806,7 @@
         "rare": 4
     },
     "63": {
-        "en": "12.7cm Twin Gun Mount Model B Kai Ni",
+        "en": "12.7cm Twin Gun Mount Model B Kai 2",
         "jp": "12.7cm連装砲B型改二",
         "type": 1,
         "icon": 1,
@@ -923,7 +923,7 @@
         "rare": 3
     },
     "72": {
-        "en": "Anti-Torpedo Bulge (Medium)",
+        "en": "Anti-torpedo Bulge (Medium)",
         "jp": "増設バルジ(中型艦)",
         "type": 27,
         "icon": 23,
@@ -936,7 +936,7 @@
         "rare": 2
     },
     "73": {
-        "en": "Anti-Torpedo Bulge (Large)",
+        "en": "Anti-torpedo Bulge (Large)",
         "jp": "増設バルジ(大型艦)",
         "type": 28,
         "icon": 23,
@@ -962,7 +962,7 @@
         "rare": 0
     },
     "75": {
-        "en": "Drum Canister",
+        "en": "Drum Canister (Transport Use)",
         "jp": "ドラム缶(輸送用)",
         "type": 30,
         "icon": 25,
@@ -1495,7 +1495,7 @@
         "rare": 2
     },
     "116": {
-        "en": "Type 1 AP Shell",
+        "en": "Type 1 Armor Piercing Shell",
         "jp": "一式徹甲弾",
         "type": 19,
         "icon": 13,
@@ -1781,7 +1781,7 @@
         "rare": 5
     },
     "138": {
-        "en": "Type 2 Large-sized Flying Boat",
+        "en": "Type 2 Large Flying Boat",
         "jp": "二式大艇",
         "type": 41,
         "icon": 33,
@@ -1833,7 +1833,7 @@
         "rare": 4
     },
     "142": {
-        "en": "15m Duplex Rangefinder + Type 21 Air Radar Kai Ni",
+        "en": "15m Duplex Rangefinder + Type 21 Radar Kai Ni",
         "jp": "15m二重測距儀+21号電探改二",
         "type": 13,
         "icon": 11,
@@ -1937,7 +1937,7 @@
         "rare": 4
     },
     "150": {
-        "en": "Canned Saury",
+        "en": "Canned Mackerel",
         "jp": "秋刀魚の缶詰",
         "type": 43,
         "icon": 34,
@@ -2158,7 +2158,7 @@
         "rare": 2
     },
     "167": {
-        "en": "Special Type 2 Amphibious Landing Craft",
+        "en": "Special Type 2 Amphibious Tank",
         "jp": "特二式内火艇",
         "type": 46,
         "icon": 36,
@@ -2626,7 +2626,7 @@
         "rare": 3
     },
     "203": {
-        "en": "New Kanhon Design Anti-Torpedo Bulge (Medium)",
+        "en": "New Kanhon Design Anti-torpedo Bulge (Medium)",
         "jp": "艦本新設計 増設バルジ(中型艦)",
         "type": 27,
         "icon": 23,
@@ -2639,7 +2639,7 @@
         "rare": 3
     },
     "204": {
-        "en": "New Kanhon Design Anti-Torpedo Bulge (Large)",
+        "en": "New Kanhon Design Anti-torpedo Bulge (Large)",
         "jp": "艦本新設計 増設バルジ(大型艦)",
         "type": 28,
         "icon": 23,
@@ -2717,7 +2717,7 @@
         "rare": 3
     },
     "210": {
-        "en": "Submarine Radar & Waterproof Periscope",
+        "en": "Submarine Radar & Waterproof Telescope",
         "jp": "潜水艦搭載電探&水防式望遠鏡",
         "type": 51,
         "icon": 42,
@@ -2847,7 +2847,7 @@
         "rare": 3
     },
     "220": {
-        "en": "8cm High-angle Gun Kai + Extra Machine Guns",
+        "en": "8cm High-angle Gun Kai + Additional Machine Guns",
         "jp": "8cm高角砲改+増設機銃",
         "type": 4,
         "icon": 16,
@@ -3068,7 +3068,7 @@
         "rare": 5
     },
     "237": {
-        "en": "Zuiun (634 Air Group / Skilled)",
+        "en": "Zuiun (634 Air Group/Skilled)",
         "jp": "瑞雲(六三四空/熟練)",
         "type": 11,
         "icon": 10,
@@ -3341,7 +3341,7 @@
         "rare": 4
     },
     "258": {
-        "en": "Night Operations Aviation Personnel",
+        "en": "Night Operation Aviation Personnel",
         "jp": "夜間作戦航空要員",
         "type": 35,
         "icon": 29,
@@ -3354,7 +3354,7 @@
         "rare": 3
     },
     "259": {
-        "en": "Night Operations Aviation Personnel + Skilled Deck Hands",
+        "en": "Night Operation Aviation Personnel + Skilled Deckhands",
         "jp": "夜間作戦航空要員+熟練甲板員",
         "type": 35,
         "icon": 29,
@@ -3367,6 +3367,7 @@
         "rare": 4
     },
     "260": {
+        "en": "Type124 ASDIC",
         "jp": "Type124 ASDIC",
         "type": 14,
         "icon": 18,
@@ -3379,6 +3380,7 @@
         "rare": 3
     },
     "261": {
+        "en": "Type144/147 ASDIC",
         "jp": "Type144/147 ASDIC",
         "type": 14,
         "icon": 18,
@@ -3391,6 +3393,7 @@
         "rare": 4
     },
     "262": {
+        "en": "HF/DF + Type144/147 ASDIC",
         "jp": "HF/DF + Type144/147 ASDIC",
         "type": 14,
         "icon": 18,
@@ -3403,7 +3406,7 @@
         "rare": 5
     },
     "263": {
-        "en": "Shiden Kai (343rd Air Group) 301st Fighter Squadron",
+        "en": "Shiden Kai (343 Air Group) 301st Fighter Squadron",
         "jp": "紫電改(三四三空) 戦闘301",
         "type": 48,
         "icon": 38,
@@ -3416,7 +3419,7 @@
         "rare": 4
     },
     "266": {
-        "en": "12.7cm Twin Gun Mount Model C Kai Ni",
+        "en": "12.7cm Twin Gun Mount Model C Kai 2",
         "jp": "12.7cm連装砲C型改二",
         "type": 1,
         "icon": 1,
@@ -3429,7 +3432,7 @@
         "rare": 2
     },
     "267": {
-        "en": "12.7cm Twin Gun Mount Model D Kai Ni",
+        "en": "12.7cm Twin Gun Mount Model D Kai 2",
         "jp": "12.7cm連装砲D型改二",
         "type": 1,
         "icon": 1,
@@ -3507,7 +3510,7 @@
         "rare": 5
     },
     "273": {
-        "en": "Saiun (4th Recon)",
+        "en": "Saiun (4th Recon Squad)",
         "jp": "彩雲(偵四)",
         "type": 9,
         "icon": 9,
@@ -3585,7 +3588,7 @@
         "rare": 3
     },
     "279": {
-        "en": "SK+SG Radar",
+        "en": "SK + SG Radar",
         "jp": "SK+SG レーダー",
         "type": 13,
         "icon": 11,
@@ -3754,7 +3757,7 @@
         "rare": 3
     },
     "292": {
-        "en": "Suisei Model 22 (634 Air Group / Skilled)",
+        "en": "Suisei Model 22 (634 Air Group/Skilled)",
         "jp": "彗星二二型(六三四空/熟練)",
         "type": 7,
         "icon": 7,
@@ -3767,7 +3770,7 @@
         "rare": 4
     },
     "293": {
-        "en": "12cm Single Gun Mount Kai Ni",
+        "en": "12cm Single Gun Mount Kai 2",
         "jp": "12cm単装砲改二",
         "type": 1,
         "icon": 1,
@@ -3780,7 +3783,7 @@
         "rare": 2
     },
     "294": {
-        "en": "12.7cm Twin Gun Mount Model A Kai Ni",
+        "en": "12.7cm Twin Gun Mount Model A Kai 2",
         "jp": "12.7cm連装砲A型改二",
         "type": 1,
         "icon": 1,
@@ -3884,7 +3887,7 @@
         "rare": 3
     },
     "302": {
-        "en": "Type 97 Torpedo Bomber (931 Air Group / Skilled)",
+        "en": "Type 97 Torpedo Bomber (931 Air Group/Skilled)",
         "jp": "九七式艦攻(九三一空/熟練)",
         "type": 8,
         "icon": 8,
@@ -3936,7 +3939,7 @@
         "rare": 4
     },
     "306": {
-        "en": "Ju 87C Kai Ni (w/ KMX / Skilled)",
+        "en": "Ju 87C Kai Ni (w/ KMX/Skilled)",
         "jp": "Ju87C改二(KMX搭載機/熟練)",
         "type": 7,
         "icon": 7,
@@ -4105,7 +4108,7 @@
         "rare": 5
     },
     "319": {
-        "en": "Suisei Model 12 (634 Air Group w/Type 3 Cluster Bombs)",
+        "en": "Suisei Model 12 (634 Air Group w/ Type 3 Cluster Bombs)",
         "jp": "彗星一二型(六三四空/三号爆弾搭載機)",
         "type": 7,
         "icon": 7,
@@ -4118,7 +4121,7 @@
         "rare": 4
     },
     "320": {
-        "en": "Suisei Model 12 (w/Type 31 Photoelectric Fuze Bombs)",
+        "en": "Suisei Model 12 (w/ Type 31 Photoelectric Fuze Bombs)",
         "jp": "彗星一二型(三一号光電管爆弾搭載機)",
         "type": 7,
         "icon": 7,
@@ -4144,7 +4147,7 @@
         "rare": 6
     },
     "323": {
-        "en": "Zuiun Kai Ni (634 Air Group / Skilled)",
+        "en": "Zuiun Kai Ni (634 Air Group/Skilled)",
         "jp": "瑞雲改二(六三四空/熟練)",
         "type": 11,
         "icon": 10,
@@ -4287,7 +4290,7 @@
         "rare": 4
     },
     "334": {
-        "en": "Reppuu Kai (352 Air Group / Skilled)",
+        "en": "Reppuu Kai (352 Air Group/Skilled)",
         "jp": "烈風改(三五二空/熟練)",
         "type": 48,
         "icon": 38,
@@ -4326,7 +4329,7 @@
         "rare": 5
     },
     "337": {
-        "en": "Reppuu Kai Ni (CarDiv 1 / Skilled)",
+        "en": "Reppuu Kai Ni (CarDiv 1/Skilled)",
         "jp": "烈風改二(一航戦/熟練)",
         "type": 6,
         "icon": 6,
@@ -4352,7 +4355,7 @@
         "rare": 6
     },
     "339": {
-        "en": "Reppuu Kai Ni Model E (CarDiv 1 / Skilled)",
+        "en": "Reppuu Kai Ni Model E (CarDiv 1/Skilled)",
         "jp": "烈風改二戊型(一航戦/熟練)",
         "type": 6,
         "icon": 45,
@@ -4404,7 +4407,7 @@
         "rare": 5
     },
     "343": {
-        "en": "Ryuusei Kai (CarDiv 1 / Skilled)",
+        "en": "Ryuusei Kai (CarDiv 1/Skilled)",
         "jp": "流星改(一航戦/熟練)",
         "type": 8,
         "icon": 8,
@@ -4416,8 +4419,159 @@
         ],
         "rare": 6
     },
+    "344": {
+        "en": "Prototype Type 97 Torpedo Bomber Kai No. 3 Model E (w/ Type 6 Airborne Radar Kai)",
+        "jp": "九七式艦攻改 試製三号戊型(空六号電探改装備機)",
+        "type": 8,
+        "icon": 46,
+        "scrap": [
+            2,
+            4,
+            0,
+            5
+        ],
+        "rare": 3
+    },
+    "345": {
+        "en": "Prototype Type 97 Torpedo Bomber Kai (Skilled) No. 3 Model E (w/ Type 6 Airborne Radar Kai)",
+        "jp": "九七式艦攻改(熟練) 試製三号戊型(空六号電探改装備機)",
+        "type": 8,
+        "icon": 46,
+        "scrap": [
+            2,
+            4,
+            0,
+            5
+        ],
+        "rare": 4
+    },
+    "346": {
+        "en": "Type 2 12cm Mortar Kai",
+        "jp": "二式12cm迫撃砲改",
+        "type": 15,
+        "icon": 17,
+        "scrap": [
+            1,
+            2,
+            1,
+            1
+        ],
+        "rare": 3
+    },
+    "347": {
+        "en": "Type 2 12cm Mortar Kai (Concentrated Deployment)",
+        "jp": "二式12cm迫撃砲改 集中配備",
+        "type": 15,
+        "icon": 17,
+        "scrap": [
+            1,
+            4,
+            2,
+            1
+        ],
+        "rare": 4
+    },
+    "348": {
+        "en": "Shipborne Model Type 4 20cm Anti-ground Rocket Launcher",
+        "jp": "艦載型 四式20cm対地噴進砲",
+        "type": 37,
+        "icon": 31,
+        "scrap": [
+            1,
+            3,
+            1,
+            1
+        ],
+        "rare": 4
+    },
+    "349": {
+        "jp": "",
+        "type": 37,
+        "icon": 31,
+        "scrap": [
+            1,
+            3,
+            1,
+            1
+        ],
+        "rare": 5
+    },
+    "350": {
+        "en": "Me163B",
+        "jp": "Me163B",
+        "type": 48,
+        "icon": 38,
+        "scrap": [
+            4,
+            3,
+            1,
+            6
+        ],
+        "rare": 4
+    },
+    "351": {
+        "en": "Prototype Shuusui",
+        "jp": "試製 秋水",
+        "type": 48,
+        "icon": 38,
+        "scrap": [
+            4,
+            3,
+            1,
+            6
+        ],
+        "rare": 4
+    },
+    "352": {
+        "en": "Shuusui",
+        "jp": "秋水",
+        "type": 48,
+        "icon": 38,
+        "scrap": [
+            4,
+            3,
+            1,
+            7
+        ],
+        "rare": 5
+    },
+    "353": {
+        "jp": "",
+        "type": 6,
+        "icon": 6,
+        "scrap": [
+            3,
+            3,
+            0,
+            10
+        ],
+        "rare": 5
+    },
+    "354": {
+        "jp": "",
+        "type": 48,
+        "icon": 38,
+        "scrap": [
+            4,
+            3,
+            1,
+            6
+        ],
+        "rare": 5
+    },
+    "355": {
+        "jp": "M4A1 DD",
+        "type": 24,
+        "icon": 20,
+        "scrap": [
+            2,
+            6,
+            8,
+            2
+        ],
+        "rare": 4
+    },
     "501": {
-        "en": "5inch Single Gun Mount",
         "jp": "5inch単装砲",
         "type": 1,
         "icon": 1,
@@ -4430,7 +4584,6 @@
         "rare": 0
     },
     "502": {
-        "en": "5inch Twin Gun Mount",
         "jp": "5inch連装砲",
         "type": 1,
         "icon": 1,
@@ -4443,7 +4596,6 @@
         "rare": 0
     },
     "503": {
-        "en": "3inch Single High-angle Gun Mount",
         "jp": "3inch単装高角砲",
         "type": 1,
         "icon": 16,
@@ -4456,7 +4608,6 @@
         "rare": 2
     },
     "504": {
-        "en": "5inch Single Anti-Aircraft Gun Mount",
         "jp": "5inch単装高射砲",
         "type": 2,
         "icon": 2,
@@ -4469,7 +4620,6 @@
         "rare": 0
     },
     "505": {
-        "en": "8inch Triple Gun Mount",
         "jp": "8inch三連装砲",
         "type": 2,
         "icon": 2,
@@ -4482,7 +4632,6 @@
         "rare": 0
     },
     "506": {
-        "en": "6inch Twin Rapid Fire Gun Mount",
         "jp": "6inch連装速射砲",
         "type": 2,
         "icon": 2,
@@ -4495,7 +4644,6 @@
         "rare": 0
     },
     "507": {
-        "en": "14inch Twin Gun Mount",
         "jp": "14inch連装砲",
         "type": 3,
         "icon": 3,
@@ -4508,7 +4656,6 @@
         "rare": 0
     },
     "508": {
-        "en": "16inch Twin Gun Mount",
         "jp": "16inch連装砲",
         "type": 3,
         "icon": 3,
@@ -4521,7 +4668,6 @@
         "rare": 1
     },
     "509": {
-        "en": "16inch Triple Gun Mount",
         "jp": "16inch三連装砲",
         "type": 3,
         "icon": 3,
@@ -4534,7 +4680,6 @@
         "rare": 2
     },
     "510": {
-        "en": "5inch Single Anti-Aircraft Gun Mount",
         "jp": "5inch単装高射砲",
         "type": 4,
         "icon": 16,
@@ -4547,7 +4692,6 @@
         "rare": 0
     },
     "511": {
-        "en": "6inch Single Gun Mount",
         "jp": "6inch単装砲",
         "type": 4,
         "icon": 4,
@@ -4560,7 +4704,6 @@
         "rare": 0
     },
     "512": {
-        "en": "12.5inch Twin Secondary Gun Mount",
         "jp": "12.5inch連装副砲",
         "type": 4,
         "icon": 4,
@@ -4573,7 +4716,6 @@
         "rare": 1
     },
     "513": {
-        "en": "21inch Torpedo Early Model",
         "jp": "21inch魚雷前期型",
         "type": 5,
         "icon": 5,
@@ -4586,7 +4728,6 @@
         "rare": 0
     },
     "514": {
-        "en": "21inch Torpedo Late Model",
         "jp": "21inch魚雷後期型",
         "type": 5,
         "icon": 5,
@@ -4599,7 +4740,6 @@
         "rare": 0
     },
     "515": {
-        "en": "High-speed Abyssal Torpedo",
         "jp": "高速深海魚雷",
         "type": 5,
         "icon": 5,
@@ -4612,7 +4752,6 @@
         "rare": 1
     },
     "516": {
-        "en": "Abyssal Torpedo Bomber",
         "jp": "深海棲艦攻",
         "type": 8,
         "icon": 8,
@@ -4625,7 +4764,6 @@
         "rare": 0
     },
     "517": {
-        "en": "Abyssal Torpedo Bomber Mark.II",
         "jp": "深海棲艦攻 Mark.II",
         "type": 8,
         "icon": 8,
@@ -4638,7 +4776,6 @@
         "rare": 1
     },
     "518": {
-        "en": "Abyssal Torpedo Bomber Mark.III",
         "jp": "深海棲艦攻 Mark.III",
         "type": 8,
         "icon": 8,
@@ -4651,7 +4788,6 @@
         "rare": 2
     },
     "519": {
-        "en": "Abyssal Fighter",
         "jp": "深海棲艦戦",
         "type": 6,
         "icon": 6,
@@ -4664,7 +4800,6 @@
         "rare": 0
     },
     "520": {
-        "en": "Abyssal Fighter Mark.II",
         "jp": "深海棲艦戦 Mark.II",
         "type": 6,
         "icon": 6,
@@ -4677,7 +4812,6 @@
         "rare": 0
     },
     "521": {
-        "en": "Abyssal Fighter Mark.III",
         "jp": "深海棲艦戦 Mark.III",
         "type": 6,
         "icon": 6,
@@ -4690,7 +4824,6 @@
         "rare": 1
     },
     "522": {
-        "en": "Flying Fish Fighter",
         "jp": "飛び魚艦戦",
         "type": 6,
         "icon": 6,
@@ -4703,7 +4836,6 @@
         "rare": 3
     },
     "523": {
-        "en": "Abyssal Dive Bomber",
         "jp": "深海棲艦爆",
         "type": 7,
         "icon": 7,
@@ -4716,7 +4848,6 @@
         "rare": 0
     },
     "524": {
-        "en": "Abyssal Dive Bomber Mark.II",
         "jp": "深海棲艦爆 Mark.II",
         "type": 7,
         "icon": 7,
@@ -4729,7 +4860,6 @@
         "rare": 1
     },
     "525": {
-        "en": "Abyssal Reconnaissance Plane",
         "jp": "深海棲艦偵察機",
         "type": 10,
         "icon": 10,
@@ -4742,7 +4872,6 @@
         "rare": 0
     },
     "526": {
-        "en": "Flying Fish Reconnaissance Plane",
         "jp": "飛び魚偵察機",
         "type": 10,
         "icon": 10,
@@ -4755,7 +4884,6 @@
         "rare": 1
     },
     "527": {
-        "en": "Air Radar Mark.I",
         "jp": "対空レーダ― Mark.I",
         "type": 12,
         "icon": 11,
@@ -4768,7 +4896,6 @@
         "rare": 1
     },
     "528": {
-        "en": "Surface Radar Mark.I",
         "jp": "水上レーダ― Mark.I",
         "type": 12,
         "icon": 11,
@@ -4781,7 +4908,6 @@
         "rare": 1
     },
     "529": {
-        "en": "Surface Radar Mark.II",
         "jp": "水上レーダ― Mark.II",
         "type": 12,
         "icon": 11,
@@ -4794,7 +4920,6 @@
         "rare": 2
     },
     "530": {
-        "en": "Air Radar Mark.II",
         "jp": "対空レーダ― Mark.II",
         "type": 13,
         "icon": 11,
@@ -4807,7 +4932,6 @@
         "rare": 2
     },
     "531": {
-        "en": "Abyssal Surface Radar",
         "jp": "深海水上レーダー",
         "type": 13,
         "icon": 11,
@@ -4820,7 +4944,6 @@
         "rare": 3
     },
     "532": {
-        "en": "Abyssal Air Radar",
         "jp": "深海対空レーダ―",
         "type": 13,
         "icon": 11,
@@ -4833,7 +4956,6 @@
         "rare": 4
     },
     "533": {
-        "en": "Improved Abyssal Turbine",
         "jp": "改良型深海タービン",
         "type": 17,
         "icon": 19,
@@ -4846,7 +4968,6 @@
         "rare": 0
     },
     "534": {
-        "en": "Enhanced Abyssal Boiler",
         "jp": "強化型深海缶",
         "type": 17,
         "icon": 19,
@@ -4859,7 +4980,6 @@
         "rare": 1
     },
     "535": {
-        "en": "Anti-Air Dispersal Shell",
         "jp": "対空散弾",
         "type": 18,
         "icon": 12,
@@ -4872,7 +4992,6 @@
         "rare": 0
     },
     "536": {
-        "en": "Deterioration Armor Piercing Shell",
         "jp": "劣化徹甲弾",
         "type": 19,
         "icon": 13,
@@ -4885,7 +5004,6 @@
         "rare": 1
     },
     "537": {
-        "en": "12.7mm Machine Gun",
         "jp": "12.7mm機銃",
         "type": 21,
         "icon": 15,
@@ -4898,7 +5016,6 @@
         "rare": 0
     },
     "538": {
-        "en": "20mm Autocannon",
         "jp": "20mm機銃",
         "type": 21,
         "icon": 15,
@@ -4911,7 +5028,6 @@
         "rare": 0
     },
     "539": {
-        "en": "40mm Twin Autocannon Mount",
         "jp": "40mm二連装機関砲",
         "type": 21,
         "icon": 15,
@@ -4924,7 +5040,6 @@
         "rare": 1
     },
     "540": {
-        "en": "40mm Quadruple Autocannon Mount",
         "jp": "40mm四連装機関砲",
         "type": 21,
         "icon": 15,
@@ -4937,7 +5052,6 @@
         "rare": 2
     },
     "541": {
-        "en": "Abyssal Cuttlefish Torpedo",
         "jp": "深海烏賊魚雷",
         "type": 22,
         "icon": 5,
@@ -4950,7 +5064,6 @@
         "rare": 4
     },
     "542": {
-        "en": "Abyssal Depth Charge Projector",
         "jp": "深海爆雷投射機",
         "type": 15,
         "icon": 17,
@@ -4963,7 +5076,6 @@
         "rare": 2
     },
     "543": {
-        "en": "Abyssal Sonar",
         "jp": "深海ソナー",
         "type": 14,
         "icon": 18,
@@ -4976,7 +5088,6 @@
         "rare": 2
     },
     "544": {
-        "en": "Abyssal Depth Charge Projector Mk.II",
         "jp": "深海爆雷投射機 Mk.II",
         "type": 15,
         "icon": 17,
@@ -4989,7 +5100,6 @@
         "rare": 3
     },
     "545": {
-        "en": "Abyssal Sonar Mk.II",
         "jp": "深海ソナー Mk.II",
         "type": 14,
         "icon": 18,
@@ -5002,7 +5112,6 @@
         "rare": 3
     },
     "546": {
-        "en": "Flying Fish Dive Bomber",
         "jp": "飛び魚艦爆",
         "type": 7,
         "icon": 7,
@@ -5015,7 +5124,6 @@
         "rare": 3
     },
     "547": {
-        "en": "Abyssal Cat Fighter",
         "jp": "深海猫艦戦",
         "type": 6,
         "icon": 6,
@@ -5028,7 +5136,6 @@
         "rare": 3
     },
     "548": {
-        "en": "Abyssal Hell Dive Bomber",
         "jp": "深海地獄艦爆",
         "type": 7,
         "icon": 7,
@@ -5041,7 +5148,6 @@
         "rare": 3
     },
     "549": {
-        "en": "Abyssal Revenge Torpedo Bomber",
         "jp": "深海復讐艦攻",
         "type": 8,
         "icon": 8,
@@ -5054,7 +5160,6 @@
         "rare": 3
     },
     "550": {
-        "en": "5inch Twin Dual Purpose Gun Mount",
         "jp": "5inch連装両用莢砲",
         "type": 1,
         "icon": 16,
@@ -5067,7 +5172,6 @@
         "rare": 3
     },
     "551": {
-        "en": "20inch Twin Gun Mount",
         "jp": "20inch連装砲",
         "type": 3,
         "icon": 3,
@@ -5080,7 +5184,6 @@
         "rare": 4
     },
     "552": {
-        "en": "15inch Coastal Artillery",
         "jp": "15inch要塞砲",
         "type": 3,
         "icon": 3,
@@ -5093,7 +5196,6 @@
         "rare": 2
     },
     "553": {
-        "en": "4inch Twin Dual Purpose Gun Mount + CIC",
         "jp": "4inch連装両用砲+CIC",
         "type": 1,
         "icon": 16,
@@ -5106,7 +5208,6 @@
         "rare": 4
     },
     "554": {
-        "en": "Abyssal Attack Seaplane",
         "jp": "深海水上攻撃機",
         "type": 11,
         "icon": 10,
@@ -5119,7 +5220,6 @@
         "rare": 2
     },
     "555": {
-        "en": "Abyssal Attack Seaplane Kai",
         "jp": "深海水上攻撃機改",
         "type": 11,
         "icon": 10,
@@ -5132,7 +5232,6 @@
         "rare": 4
     },
     "556": {
-        "en": "Abyssal Cat Fighter Kai",
         "jp": "深海猫艦戦改",
         "type": 6,
         "icon": 6,
@@ -5145,7 +5244,6 @@
         "rare": 4
     },
     "557": {
-        "en": "Abyssal Hell Dive Bomber Kai",
         "jp": "深海地獄艦爆改",
         "type": 7,
         "icon": 7,
@@ -5158,7 +5256,6 @@
         "rare": 4
     },
     "558": {
-        "en": "Abyssal Revenge Torpedo Bomber Kai",
         "jp": "深海復讐艦攻改",
         "type": 8,
         "icon": 8,
@@ -5171,7 +5268,6 @@
         "rare": 4
     },
     "559": {
-        "en": "Abyssal FCS + CIC",
         "jp": "深海FCS+CIC",
         "type": 14,
         "icon": 18,
@@ -5184,7 +5280,6 @@
         "rare": 3
     },
     "560": {
-        "en": "Abyssal Searchlight",
         "jp": "深海探照灯",
         "type": 29,
         "icon": 24,
@@ -5197,7 +5292,6 @@
         "rare": 1
     },
     "561": {
-        "en": "Abyssal Liberation Land-based Dive Bomber",
         "jp": "深海解放陸爆",
         "type": 7,
         "icon": 7,
@@ -5210,7 +5304,6 @@
         "rare": 2
     },
     "562": {
-        "en": "Abyssal Liberation Land-based Dive Bomber Ace",
         "jp": "深海解放陸爆Ace",
         "type": 7,
         "icon": 7,
@@ -5223,7 +5316,6 @@
         "rare": 3
     },
     "563": {
-        "en": "8inch Long Range Twin Gun Mount",
         "jp": "8inch長射程連装砲",
         "type": 2,
         "icon": 2,
@@ -5236,7 +5328,6 @@
         "rare": 4
     },
     "564": {
-        "en": "Abyssal Reconnaissance Observation Seaplane",
         "jp": "深海水上偵察観測機",
         "type": 10,
         "icon": 10,
@@ -5249,7 +5340,6 @@
         "rare": 3
     },
     "565": {
-        "en": "5inch Coastal Gun",
         "jp": "5inch沿岸設置砲",
         "type": 1,
         "icon": 1,
@@ -5262,7 +5352,6 @@
         "rare": 2
     },
     "566": {
-        "en": "Abyssal Cat Fighter (Bombing)",
         "jp": "深海猫艦戦(爆装)",
         "type": 7,
         "icon": 7,
@@ -5275,7 +5364,6 @@
         "rare": 3
     },
     "567": {
-        "en": "Coastal Radar",
         "jp": "沿岸設置レーダー",
         "type": 13,
         "icon": 11,
@@ -5288,7 +5376,6 @@
         "rare": 3
     },
     "568": {
-        "en": "16inch Triple Gun Mount",
         "jp": "16inch三連装砲",
         "type": 3,
         "icon": 3,
@@ -5301,7 +5388,6 @@
         "rare": 5
     },
     "569": {
-        "en": "Abyssal Reconnaissance Flying Boat",
         "jp": "深海偵察飛行艇",
         "type": 10,
         "icon": 10,
@@ -5314,7 +5400,6 @@
         "rare": 4
     },
     "570": {
-        "en": "High-speed Abyssal Torpedo mod.2",
         "jp": "高速深海魚雷 mod.2",
         "type": 22,
         "icon": 5,
@@ -5327,7 +5412,6 @@
         "rare": 4
     },
     "571": {
-        "en": "Abyssal Seaplane Tender Imp Aircraft",
         "jp": "深海水母小鬼機",
         "type": 11,
         "icon": 10,
@@ -5340,7 +5424,6 @@
         "rare": 5
     },
     "572": {
-        "en": "Abyssal Bearcat Fighter",
         "jp": "深海熊猫艦戦",
         "type": 6,
         "icon": 6,
@@ -5353,7 +5436,6 @@
         "rare": 5
     },
     "573": {
-        "en": "Abyssal Submarine Floatplane",
         "jp": "深海潜水下駄履き",
         "type": 11,
         "icon": 10,
@@ -5366,7 +5448,6 @@
         "rare": 5
     },
     "574": {
-        "en": "Abyssal Patrolling Attack Hawk",
         "jp": "深海攻撃哨戒鷹",
         "type": 8,
         "icon": 8,
@@ -5379,7 +5460,6 @@
         "rare": 5
     },
     "575": {
-        "en": "Abyssal Patrolling Attack Hawk Kai",
         "jp": "深海攻撃哨戒鷹改",
         "type": 8,
         "icon": 8,
@@ -5392,7 +5472,6 @@
         "rare": 5
     },
     "576": {
-        "en": "Abyssal 12inch Triple Gun Mount",
         "jp": "深海12inch三連装砲",
         "type": 3,
         "icon": 3,
@@ -5405,7 +5484,6 @@
         "rare": 4
     },
     "577": {
-        "en": "Abyssal 15inch Quadruple Gun Mount",
         "jp": "深海15inch四連装砲",
         "type": 3,
         "icon": 3,
@@ -5418,7 +5496,6 @@
         "rare": 5
     },
     "578": {
-        "en": "Abyssal 15inch Late Model Twin Gun Mount",
         "jp": "深海15inch連装砲後期型",
         "type": 3,
         "icon": 16,
@@ -5431,7 +5508,6 @@
         "rare": 5
     },
     "579": {
-        "en": "Abyssal 14inch Strait Twin Gun Mount",
         "jp": "深海14inch海峡連装砲",
         "type": 3,
         "icon": 1,
@@ -5444,7 +5520,6 @@
         "rare": 5
     },
     "580": {
-        "en": "Abyssal Ambush Torpedo",
         "jp": "深海待伏魚雷",
         "type": 22,
         "icon": 5,
@@ -5457,7 +5532,6 @@
         "rare": 4
     },
     "581": {
-        "en": "Abyssal Night Cat Fighter",
         "jp": "夜猫深海艦戦",
         "type": 6,
         "icon": 45,
@@ -5470,7 +5544,6 @@
         "rare": 5
     },
     "582": {
-        "en": "Abyssal Night Dive Bomber",
         "jp": "夜深海艦爆",
         "type": 7,
         "icon": 7,
@@ -5483,7 +5556,6 @@
         "rare": 5
     },
     "583": {
-        "en": "Abyssal Night Revenge Torpedo Bomber",
         "jp": "夜復讐深海艦攻",
         "type": 8,
         "icon": 46,
@@ -5496,7 +5568,6 @@
         "rare": 5
     },
     "584": {
-        "en": "Abyssal 14inch Twin Gun Mount Kai",
         "jp": "深海14inch連装砲改",
         "type": 3,
         "icon": 3,
@@ -5509,7 +5580,6 @@
         "rare": 5
     },
     "585": {
-        "en": "Abyssal 16inch Triple Gun Mount Kai",
         "jp": "深海16inch三連装砲改",
         "type": 3,
         "icon": 3,
@@ -5522,7 +5592,6 @@
         "rare": 5
     },
     "586": {
-        "en": "Abyssal Patrolling Attack Hawk Kai Ni",
         "jp": "深海攻撃哨戒鷹改二",
         "type": 8,
         "icon": 8,
@@ -5535,7 +5604,6 @@
         "rare": 5
     },
     "587": {
-        "en": "Abyssal 16inch Triple Gun Mount Kai Ni",
         "jp": "深海16inch三連装砲改二",
         "type": 3,
         "icon": 3,
@@ -5548,7 +5616,6 @@
         "rare": 5
     },
     "588": {
-        "en": "Abyssal 5inch Twin Gun Mount Model C",
         "jp": "深海5inch連装砲C型",
         "type": 1,
         "icon": 1,
@@ -5561,7 +5628,6 @@
         "rare": 4
     },
     "589": {
-        "en": "Abyssal 5.5inch Twin Gun Mount Kai",
         "jp": "深海5.5inch連装砲改",
         "type": 2,
         "icon": 2,
@@ -5574,7 +5640,6 @@
         "rare": 4
     },
     "590": {
-        "en": "Abyssal Target",
         "jp": "深海標的",
         "type": 22,
         "icon": 5,
@@ -5587,7 +5652,6 @@
         "rare": 4
     },
     "591": {
-        "en": "Abyssal 5inch Single Gun Mount Mk.30",
         "jp": "深海5inch単装砲 Mk.30",
         "type": 1,
         "icon": 16,
@@ -5600,7 +5664,6 @@
         "rare": 4
     },
     "592": {
-        "en": "Abyssal 16inch Mk.VIII Twin Gun Mount Kai",
         "jp": "深海16inch Mk.VIII連装砲改",
         "type": 3,
         "icon": 3,
@@ -5613,10 +5676,45 @@
         "rare": 4
     },
     "593": {
-        "en": "High-speed Abyssal Torpedo mod.3",
         "jp": "高速深海魚雷 mod.3",
         "type": 5,
         "icon": 5,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 4
+    },
+    "594": {
+        "jp": "深海空要塞",
+        "type": 47,
+        "icon": 37,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 3
+    },
+    "595": {
+        "jp": "深海空要塞Ace",
+        "type": 47,
+        "icon": 37,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 4
+    },
+    "596": {
+        "jp": "深海6inch三連装新型速射砲",
+        "type": 2,
+        "icon": 2,
         "scrap": [
             0,
             0,

@@ -1,0 +1,326 @@
+{
+    "1": {
+        "en": "Instant Repair Material",
+        "jp": "高速修復材"
+    },
+    "2": {
+        "en": "Instant Construction Material",
+        "jp": "高速建造材"
+    },
+    "3": {
+        "en": "Development Material",
+        "jp": "開発資材"
+    },
+    "4": {
+        "en": "Improvement Material",
+        "jp": "改修資材"
+    },
+    "5": {
+        "jp": ""
+    },
+    "6": {
+        "jp": ""
+    },
+    "7": {
+        "jp": ""
+    },
+    "8": {
+        "jp": ""
+    },
+    "9": {
+        "jp": ""
+    },
+    "10": {
+        "en": "Furniture Box (Small)",
+        "jp": "家具箱（小）"
+    },
+    "11": {
+        "en": "Furniture Box (Medium)",
+        "jp": "家具箱（中）"
+    },
+    "12": {
+        "en": "Furniture Box (Large)",
+        "jp": "家具箱（大）"
+    },
+    "13": {
+        "jp": ""
+    },
+    "14": {
+        "jp": ""
+    },
+    "15": {
+        "jp": ""
+    },
+    "16": {
+        "jp": ""
+    },
+    "17": {
+        "jp": ""
+    },
+    "18": {
+        "jp": ""
+    },
+    "19": {
+        "jp": ""
+    },
+    "20": {
+        "jp": ""
+    },
+    "21": {
+        "jp": ""
+    },
+    "22": {
+        "jp": ""
+    },
+    "23": {
+        "jp": ""
+    },
+    "24": {
+        "jp": ""
+    },
+    "25": {
+        "jp": ""
+    },
+    "26": {
+        "jp": ""
+    },
+    "27": {
+        "jp": ""
+    },
+    "28": {
+        "jp": ""
+    },
+    "29": {
+        "jp": ""
+    },
+    "30": {
+        "jp": ""
+    },
+    "31": {
+        "en": "Fuel",
+        "jp": "燃料"
+    },
+    "32": {
+        "en": "Ammo",
+        "jp": "弾薬"
+    },
+    "33": {
+        "en": "Steel",
+        "jp": "鋼材"
+    },
+    "34": {
+        "en": "Bauxite",
+        "jp": "ボーキサイト"
+    },
+    "35": {
+        "jp": ""
+    },
+    "36": {
+        "jp": ""
+    },
+    "37": {
+        "jp": ""
+    },
+    "38": {
+        "jp": ""
+    },
+    "39": {
+        "jp": ""
+    },
+    "40": {
+        "jp": ""
+    },
+    "41": {
+        "jp": ""
+    },
+    "42": {
+        "jp": ""
+    },
+    "43": {
+        "jp": ""
+    },
+    "44": {
+        "en": "Furniture Coin",
+        "jp": "家具コイン"
+    },
+    "45": {
+        "jp": ""
+    },
+    "46": {
+        "jp": ""
+    },
+    "47": {
+        "jp": ""
+    },
+    "48": {
+        "jp": ""
+    },
+    "49": {
+        "en": "Dock Opening Key",
+        "jp": "ドック開放キー"
+    },
+    "50": {
+        "en": "Emergency Repair Personnel",
+        "jp": "応急修理要員"
+    },
+    "51": {
+        "en": "Emergency Repair Goddess",
+        "jp": "応急修理女神"
+    },
+    "52": {
+        "en": "Furniture Fairy",
+        "jp": "特注家具職人"
+    },
+    "53": {
+        "en": "Homeport Expansion",
+        "jp": "母港拡張"
+    },
+    "54": {
+        "en": "Food Supply Ship Mamiya",
+        "jp": "給糧艦「間宮」"
+    },
+    "55": {
+        "en": "Marriage Papers and Ring",
+        "jp": "書類一式＆指輪"
+    },
+    "56": {
+        "en": "Special Chocolate",
+        "jp": "艦娘からのチョコ"
+    },
+    "57": {
+        "en": "Medal",
+        "jp": "勲章"
+    },
+    "58": {
+        "en": "Remodel Blueprint",
+        "jp": "改装設計図"
+    },
+    "59": {
+        "en": "Food Supply Ship Irako",
+        "jp": "給糧艦「伊良湖」"
+    },
+    "60": {
+        "en": "Present Box",
+        "jp": "プレゼント箱"
+    },
+    "61": {
+        "en": "First Class Medal",
+        "jp": "甲種勲章"
+    },
+    "62": {
+        "en": "Hishimochi",
+        "jp": "菱餅"
+    },
+    "63": {
+        "en": "Headquarters Personnel",
+        "jp": "司令部要員"
+    },
+    "64": {
+        "en": "Reinforcement Expansion",
+        "jp": "補強増設"
+    },
+    "65": {
+        "en": "Prototype Flight Deck Catapult",
+        "jp": "試製甲板カタパルト"
+    },
+    "66": {
+        "en": "Combat Ration",
+        "jp": "戦闘糧食"
+    },
+    "67": {
+        "en": "Underway Replenishment",
+        "jp": "洋上補給"
+    },
+    "68": {
+        "en": "Mackerel",
+        "jp": "秋刀魚"
+    },
+    "69": {
+        "en": "Canned Mackerel",
+        "jp": "秋刀魚の缶詰"
+    },
+    "70": {
+        "en": "Skilled Crew Member",
+        "jp": "熟練搭乗員"
+    },
+    "71": {
+        "en": "Ne Type Engine",
+        "jp": "ネ式エンジン"
+    },
+    "72": {
+        "en": "Decoration Material",
+        "jp": "お飾り材料"
+    },
+    "73": {
+        "en": "Construction Corps",
+        "jp": "設営隊"
+    },
+    "74": {
+        "en": "New Technology Aircraft Blueprint",
+        "jp": "新型航空機設計図"
+    },
+    "75": {
+        "en": "New Model Gun Mount Improvement Material",
+        "jp": "新型砲熕兵装資材"
+    },
+    "76": {
+        "en": "Combat Ration (Special Onigiri)",
+        "jp": "戦闘糧食(特別なおにぎり)"
+    },
+    "77": {
+        "en": "New Model Aerial Armament Material",
+        "jp": "新型航空兵装資材"
+    },
+    "78": {
+        "en": "Action Report",
+        "jp": "戦闘詳報"
+    },
+    "79": {
+        "en": "Strait Medal",
+        "jp": "海峡章"
+    },
+    "80": {
+        "en": "Xmas Select Gift Box",
+        "jp": "Xmas Select Gift Box"
+    },
+    "81": {
+        "en": "Shou-Gou Medal",
+        "jp": "捷号章"
+    },
+    "82": {
+        "en": "Shou-Gou Medal",
+        "jp": "捷号章"
+    },
+    "83": {
+        "en": "Shou-Gou Medal",
+        "jp": "捷号章"
+    },
+    "84": {
+        "en": "Shou-Gou Medal",
+        "jp": "捷号章"
+    },
+    "85": {
+        "en": "Rice",
+        "jp": "お米"
+    },
+    "86": {
+        "en": "Umeboshi",
+        "jp": "梅干"
+    },
+    "87": {
+        "en": "Nori",
+        "jp": "海苔"
+    },
+    "88": {
+        "en": "Tea",
+        "jp": "お茶"
+    },
+    "89": {
+        "en": "Houshou Dinner Ticket",
+        "jp": "鳳翔さんの夕食券"
+    },
+    "90": {
+        "en": "Setsubun Beans",
+        "jp": "節分の豆"
+    }
+}

@@ -61,13 +61,11 @@
                         <th :class="checkIfInMap(6, '6-4') ? 'has-text-success' : 'has-text-danger'">6-4</th>
                         <th :class="checkIfInMap(6, '6-5') ? 'has-text-success' : 'has-text-danger'">6-5</th>
                     </tr>
-                    <tr class="has-background-white-ter" v-if="checkIfInWorld(44)" v-scroll-to="'#world44'" id="pointer">
-                        <th>Spring 2019</th>
-                        <th :class="checkIfInMap(44, '44-1') ? 'has-text-success' : 'has-text-danger'">E-1</th>
-                        <th :class="checkIfInMap(44, '44-2') ? 'has-text-success' : 'has-text-danger'">E-2</th>
-                        <th :class="checkIfInMap(44, '44-3') ? 'has-text-success' : 'has-text-danger'">E-3</th>
-                        <th :class="checkIfInMap(44, '44-4') ? 'has-text-success' : 'has-text-danger'">E-4</th>
-                        <th :class="checkIfInMap(44, '44-5') ? 'has-text-success' : 'has-text-danger'">E-5</th>
+                    <tr class="has-background-white-ter" v-if="checkIfInWorld(45)" v-scroll-to="'#world45'" id="pointer">
+                        <th>Summer 2019</th>
+                        <th :class="checkIfInMap(45, '45-1') ? 'has-text-success' : 'has-text-danger'">E-1</th>
+                        <th :class="checkIfInMap(45, '45-2') ? 'has-text-success' : 'has-text-danger'">E-2</th>
+                        <th :class="checkIfInMap(45, '45-3') ? 'has-text-success' : 'has-text-danger'">E-3</th>
                     </tr>
                 </tbody>
             </table>

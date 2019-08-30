@@ -69,6 +69,9 @@
                         <router-link class="navbar-item" :to="{ path: '/dusk/droplist' }">
                             Ship Drop List Generator
                         </router-link>
+                        <router-link class="navbar-item" :to="{ path: '/dusk/eventreward' }">
+                            Event Reward List Generator
+                        </router-link>
                     </div>
                 </div>
                 <div class="navbar-item has-dropdown is-hoverable">

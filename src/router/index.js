@@ -39,6 +39,7 @@ import DevBuilder from '@/components/development/Builder'
 //Dusk
 import Timers from '@/components/dusk/Timers'
 import DropList from '@/components/dusk/DropList'
+import EventReward from '@/components/dusk/EventReward'
 
 //Dawn
 import ShipEquipID from '@/components/dawn/ShipEquipID'
@@ -119,6 +120,11 @@ export default new Router({
       path: '/dusk/droplist',
       name: 'Drop List',
       component: DropList
+    },
+    {
+      path: '/dusk/eventreward',
+      name: 'Event Rewards',
+      component: EventReward
     },
     {
       path: '/dawn',
