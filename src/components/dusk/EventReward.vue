@@ -130,13 +130,13 @@ export default {
         },
         parseReward(id, type, lang){
             if(type == 1){
-                return (this.itemData[id][lang] == '') ? this.itemData[id]['jp'] : this.itemData[id][lang]; 
+                return (this.itemData[id][lang] == '' || this.itemData[id][lang] == undefined) ? this.itemData[id]['jp'] : this.itemData[id][lang]; 
             }
             else if(type == 2){
-                return (this.shipData[id][lang] == '') ? this.shipData[id]['jp'] : this.shipData[id][lang]; 
+                return (this.shipData[id][lang] == '' || this.shipData[id][lang] == undefined) ? this.shipData[id]['jp'] : this.shipData[id][lang]; 
             } 
             else if(type == 3){
-                return (this.equipData[id][lang] == '') ? this.equipData[id]['jp'] : this.equipData[id][lang]; 
+                return (this.equipData[id][lang] == '' || this.equipData[id][lang] == undefined) ? this.equipData[id]['jp'] : this.equipData[id][lang]; 
             } 
         },
         toggleLanguage(value){
