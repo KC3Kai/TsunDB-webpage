@@ -348,7 +348,7 @@ export default {
                     returnStr = `${this.parseDifficulty(difficulties[ranks.S.indexOf(true)])}:`
                 }
                 else{
-                    returnStr = `${this.parseDifficulty(difficulties[ranks.S.indexOf(true)])}${(ranks.S.indexOf(true) == ranks.S.length) ? ":" : "+"}`;
+                    returnStr = `${this.parseDifficulty(difficulties[ranks.S.indexOf(true)])}${(ranks.S.indexOf(true) == ranks.S.length) ? "" : "+"}`;
                 }
             }
             if(ranks.A.includes(true)){
