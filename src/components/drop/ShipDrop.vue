@@ -4,7 +4,8 @@
         Ship Drop - Search
     </p>
     <p class="subtitle">
-        Searching for the ship you want has never been so easy! Beware of small sample sizes and weird reports though...<br /><br />
+        Searching for the ship you want has never been so easy! Beware of small sample sizes and weird reports though...<br />
+        Aliases/Nicknames are possible! If you have a suggestion, feel free to PM me about it!<br /><br />
         Hint: You can click on the rows if you don't want to scroll down.
     </p>
     <div class="container">
