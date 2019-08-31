@@ -135,6 +135,9 @@ export default {
     },
     methods:{
         checkAvailability(data){
+            for(const map in data){
+                if(map.split("-")[0] == 44) delete data[map];
+            }
             return Object.keys(data).length > 0;
         },
         checkIfInWorld(world){

@@ -50,6 +50,7 @@ export default {
     data: function(){
         return{
             shipData: require('./../../data/ship.json'),
+            shipdropAliases: require('./../../data/shipdropAliases.json'),
             shipId: -1,
             validId: false
         }
@@ -85,11 +86,16 @@ export default {
             if(this.shipData.hasOwnProperty(id)) return `${this.shipData[id].jp} (${this.shipData[id].en})`;
         },
         setShipId(value){
+            console.log(value);
             this.shipId = -1;
             this.validId = false;
             if(value == '' || value == undefined) return;
             if(this.shipData.hasOwnProperty(value)){
                 this.shipId = value;
+                this.validId = true;
+            }
+            else if(this.shipdropAliases.hasOwnProperty(value)){
+                this.shipId = this.shipdropAliases[value];
                 this.validId = true;
             }
             else{
