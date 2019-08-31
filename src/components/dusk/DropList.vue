@@ -44,6 +44,8 @@
 <script>
 import axios from 'axios';
 import sortJsonArray from 'sort-json-array';
+import prettier from 'prettier/standalone'
+import markdown from "prettier/parser-markdown";
 
 export default {
     data: function(){
@@ -292,7 +294,7 @@ export default {
                     }
                 }
             }
-            let text = `Node:`;
+            let text = `|Node:`;
             for(const node of boss){
                 text += `|${node} (Boss)`;
                 if(nodes.indexOf(node) != -1) nodes.splice(nodes.indexOf(node), 1);
@@ -300,19 +302,22 @@ export default {
             for(const node of nodes){
                 text += `|${node}`;
             }
-            text += "\n";
+            text += "|\n";
             columns += boss.length;
             columns += nodes.length;
             for(let i = 0; i < columns; i++){
-                text += ":--|";
+                text += "|:--";
             }
-            text += "\n";
+            text += "|\n";
             let arrayList = this.sortObject(list);
             let orderedList = sortJsonArray(arrayList, 'ship');
             for(const x of orderedList){
                 text += this.markdownParseDifficulty(x, boss.concat(nodes));
             }
-            this.output = text;
+            this.output = prettier.format(text, {
+                parser: "markdown",
+                plugins: [markdown]
+            });
         },
         markdownParseDifficulty(x, nodes){
             let returnStr = `${x.ship}`;
@@ -324,7 +329,7 @@ export default {
                     returnStr += "|";
                 }
             }
-            returnStr += "\n";
+            returnStr += "|\n";
             return returnStr;
         },
         markdownParseRates(data){
