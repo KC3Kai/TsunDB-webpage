@@ -309,10 +309,6 @@ export default {
             text += "\n";
             let arrayList = this.sortObject(list);
             let orderedList = sortJsonArray(arrayList, 'ship');
-
-            console.log(boss);
-            console.log(nodes);
-            console.log(orderedList);
             for(const x of orderedList){
                 text += this.markdownParseDifficulty(x, boss.concat(nodes));
             }
@@ -346,10 +342,33 @@ export default {
                 ranks.A.push(data[x].A);
                 ranks.B.push(data[x].B);
             }
-            if(ranks.S.includes(true)) returnStr = `${this.parseDifficulty(difficulties[ranks.S.indexOf(true)])}${(ranks.S.indexOf(true) == ranks.S.length) ? "" : "+"}`;
-            if(ranks.A.includes(true)) returnStr = `${this.parseDifficulty(difficulties[ranks.A.indexOf(true)])}${(ranks.A.indexOf(true) == ranks.A.length) ? ":" : "+"} A+`;
-            if(ranks.B.includes(true)) returnStr = `${this.parseDifficulty(difficulties[ranks.B.indexOf(true)])}${(ranks.B.indexOf(true) == ranks.B.length) ? ":" : "+"} B+`;
-
+            if(ranks.S.includes(true)){
+                let number = ranks.S.indexOf(true);
+                if(difficulties[number] == 4){
+                    returnStr = `${this.parseDifficulty(difficulties[ranks.S.indexOf(true)])}:`
+                }
+                else{
+                    returnStr = `${this.parseDifficulty(difficulties[ranks.S.indexOf(true)])}${(ranks.S.indexOf(true) == ranks.S.length) ? ":" : "+"}`;
+                }
+            }
+            if(ranks.A.includes(true)){
+                let number = ranks.A.indexOf(true);
+                if(difficulties[number] == 4){
+                    returnStr = `${this.parseDifficulty(difficulties[ranks.A.indexOf(true)])}: A+`
+                }
+                else{
+                    returnStr = `${this.parseDifficulty(difficulties[ranks.A.indexOf(true)])}${(ranks.A.indexOf(true) == ranks.A.length) ? ":" : "+"} A+`;
+                }
+            }
+            if(ranks.B.includes(true)){
+                let number = ranks.B.indexOf(true);
+                if(difficulties[number] == 4){
+                    returnStr = `${this.parseDifficulty(difficulties[ranks.B.indexOf(true)])}: B+`
+                }
+                else{
+                    returnStr = `${this.parseDifficulty(difficulties[ranks.B.indexOf(true)])}${(ranks.B.indexOf(true) == ranks.B.length) ? ":" : "+"} B+`;
+                }
+            }
             return returnStr;
         }
     }
