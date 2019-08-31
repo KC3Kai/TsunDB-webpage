@@ -10,6 +10,9 @@
     <p>
         Click on the sample in the table to get more information about the fleet setup (scroll down if it's not visible).
     </p>
+    <p>
+        For more dedicated branching analysis, check out Chami's <a href="http://kc.piro.moe/nav/#/" rel="noopener noreferrer" target="_blank">routing analysis tool</a>!
+    </p>
     <div class="container">
         <mapselection :path="'routing'"/>
     </div>
