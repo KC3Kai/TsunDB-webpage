@@ -345,7 +345,7 @@ export default {
             if(ranks.S.includes(true)){
                 let number = ranks.S.indexOf(true);
                 if(difficulties[number] == 4){
-                    returnStr = `${this.parseDifficulty(difficulties[ranks.S.indexOf(true)])}:`
+                    returnStr = `${this.parseDifficulty(difficulties[ranks.S.indexOf(true)])}`
                 }
                 else{
                     returnStr = `${this.parseDifficulty(difficulties[ranks.S.indexOf(true)])}${(ranks.S.indexOf(true) == ranks.S.length) ? "" : "+"}`;
