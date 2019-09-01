@@ -256,5 +256,7 @@ export default {
 </script>
 
 <style scoped>
-
+    textarea{
+        font-family: Consolas, monospace;
+    }
 </style>
