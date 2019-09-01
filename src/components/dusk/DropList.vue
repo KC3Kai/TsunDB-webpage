@@ -36,7 +36,7 @@
                 </div>
             </div>
         </div>
-        <textarea class="textarea" v-model="output"></textarea>
+        <textarea class="textarea" v-model="output" rows="100"></textarea>
     </div>
 </div>
 </template>
