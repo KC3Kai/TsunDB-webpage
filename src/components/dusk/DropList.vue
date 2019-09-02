@@ -347,31 +347,44 @@ export default {
                 ranks.A.push(data[x].A);
                 ranks.B.push(data[x].B);
             }
-            if(ranks.S.includes(true)){
-                let number = ranks.S.indexOf(true);
-                if(difficulties[number] == 4){
-                    returnStr = `${this.parseDifficulty(difficulties[ranks.S.indexOf(true)])}`
+            let set = {
+                difficulty: 0,
+                rank: undefined
+            };
+            for(const x in difficulties){
+                if(ranks.B[x]){
+                    set.difficulty = x;
+                    set.rank = "B";
+                    returnStr += this.parseDifficulty(difficulties[x]);
+                    returnStr += (difficulties[x] == 4) ? ": B+" : "+ B+";
+                    break;
                 }
-                else{
-                    returnStr = `${this.parseDifficulty(difficulties[ranks.S.indexOf(true)])}${(ranks.S.indexOf(true) == ranks.S.length) ? "" : "+"}`;
+                else if(ranks.A[x]){
+                    set.difficulty = x;
+                    set.rank = "A";
+                    returnStr += this.parseDifficulty(difficulties[x]);
+                    returnStr += (difficulties[x] == 4) ? ": A+" : "+ A+";
+                    break;
+                }
+                else if(ranks.S[x]){
+                    set.difficulty = x;
+                    set.rank = "S";
+                    returnStr += this.parseDifficulty(difficulties[x]);
+                    returnStr += (difficulties[x] == 4) ? "" : "+";
+                    break;
                 }
             }
-            if(ranks.A.includes(true)){
-                let number = ranks.A.indexOf(true);
-                if(difficulties[number] == 4){
-                    returnStr = `${this.parseDifficulty(difficulties[ranks.A.indexOf(true)])}: A+`
+            for(const x in difficulties){
+                if(x <= set.difficulty) continue;
+                if(ranks.B[x] && (set.rank == "S") || (set.rank == "A")){
+                    returnStr += ` (${this.parseDifficulty(difficulties[x])}`;
+                    returnStr += (difficulties[x] == 4) ? " B+)" : "+ B+)";
+                    break;
                 }
-                else{
-                    returnStr = `${this.parseDifficulty(difficulties[ranks.A.indexOf(true)])}${(ranks.A.indexOf(true) == ranks.A.length) ? ":" : "+"} A+`;
-                }
-            }
-            if(ranks.B.includes(true)){
-                let number = ranks.B.indexOf(true);
-                if(difficulties[number] == 4){
-                    returnStr = `${this.parseDifficulty(difficulties[ranks.B.indexOf(true)])}: B+`
-                }
-                else{
-                    returnStr = `${this.parseDifficulty(difficulties[ranks.B.indexOf(true)])}${(ranks.B.indexOf(true) == ranks.B.length) ? ":" : "+"} B+`;
+                else if(ranks.A[x] && set.rank == "S"){
+                    returnStr += ` (${this.parseDifficulty(difficulties[x])}`;
+                    returnStr += (difficulties[x] == 4) ? " A+)" : "+ A+)";
+                    break;
                 }
             }
             return returnStr;
