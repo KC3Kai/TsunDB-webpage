@@ -71,7 +71,9 @@ export default {
             let newArr = value.split('');
             let returnArr = [];
             for(let id in newArr){
-                returnArr.push((id == 0) ? newArr[id].toUpperCase() : newArr[id].toLowerCase());
+                if(id == 0) returnArr.push(newArr[id].toUpperCase());
+                else if(id > 0 && newArr[id-1] == " ") returnArr.push(newArr[id].toUpperCase());
+                else returnArr.push(newArr[id].toLowerCase());
             }
             return returnArr.join('');
         },
