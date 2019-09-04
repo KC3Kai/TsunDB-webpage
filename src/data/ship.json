@@ -24107,6 +24107,55 @@
         "stype": 2,
         "sortid": 319
     },
+    "520": {
+        "jp": "Janus",
+        "kana": "ジェーナス",
+        "variant": "",
+        "en": "Janus",
+        "remodelLvl": 55,
+        "idAfterRemodel": "893",
+        "buildTime": 24,
+        "getMsg": "Hi！　私の名前はJanus！　そうよ、あのJervisの僚艦の…<br>……え？　知らない？　完っ全にモグリね。いい？<br>しっかり覚えておきなさい！",
+        "slots": 2,
+        "scrap": [
+            1,
+            1,
+            6,
+            1
+        ],
+        "modValue": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "fp": [
+            12,
+            33
+        ],
+        "torp": [
+            30,
+            82
+        ],
+        "aa": [
+            22,
+            42
+        ],
+        "armor": [
+            7,
+            18
+        ],
+        "luck": [
+            17,
+            67
+        ],
+        "rarity": 6,
+        "fuel": 15,
+        "ammo": 25,
+        "ctype": 82,
+        "stype": 2,
+        "sortid": 320
+    },
     "521": {
         "jp": "春日丸",
         "kana": "たいよう",
@@ -26908,7 +26957,7 @@
         "remodelLvl": 45,
         "idAfterRemodel": "693",
         "buildTime": 70,
-        "getMsg": "Buongiorno！ イタリア生まれの新鋭軽巡洋艦ルイージ・ディ・サヴォイア・<br>ドゥーカ・デッリ・アブルッツィです。長いですよね？私、アブルッツィで<br>構いません。提督、妹共々、どうぞよろ",
+        "getMsg": "Buongiorno！ イタリア生まれの新鋭軽巡洋艦ルイージ・<br>ディ・サヴォイア・ドゥーカ・デッリ・アブルッツィです。<br>長いですよね？私、アブルッツィで構いません。提督、妹共々、<br>どうぞよろしくご指導ください。",
         "slots": 3,
         "scrap": [
             2,
@@ -28173,6 +28222,55 @@
         "ctype": 92,
         "stype": 3,
         "sortid": 1483
+    },
+    "893": {
+        "jp": "Janus改",
+        "kana": "ジェーナス",
+        "variant": "",
+        "en": "Janus Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 24,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            2,
+            10,
+            1
+        ],
+        "modValue": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "fp": [
+            14,
+            53
+        ],
+        "torp": [
+            40,
+            90
+        ],
+        "aa": [
+            30,
+            72
+        ],
+        "armor": [
+            15,
+            50
+        ],
+        "luck": [
+            22,
+            87
+        ],
+        "rarity": 7,
+        "fuel": 15,
+        "ammo": 25,
+        "ctype": 82,
+        "stype": 2,
+        "sortid": 1493
     },
     "1496": {
         "jp": "Colorado改",
@@ -31223,6 +31321,54 @@
         "ctype": 1,
         "stype": 3
     },
+    "1883": {
+        "jp": "アンツィオ沖棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1884": {
+        "jp": "アンツィオ沖棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1885": {
+        "jp": "アンツィオ沖棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1886": {
+        "jp": "アンツィオ沖棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1887": {
+        "jp": "アンツィオ沖棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1888": {
+        "jp": "アンツィオ沖棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
     "1889": {
         "jp": "飛行場姫",
         "kana": "",
@@ -31240,6 +31386,30 @@
         "stype": 10
     },
     "1891": {
+        "jp": "飛行場姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1892": {
+        "jp": "飛行場姫",
+        "kana": "",
+        "variant": "",
+        "slots": 3,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1893": {
+        "jp": "飛行場姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1894": {
         "jp": "飛行場姫",
         "kana": "",
         "variant": "",
