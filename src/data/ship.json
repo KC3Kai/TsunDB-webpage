@@ -6687,7 +6687,7 @@
         ],
         "fp": [
             18,
-            59
+            61
         ],
         "torp": [
             24,
@@ -6695,7 +6695,7 @@
         ],
         "aa": [
             45,
-            84
+            85
         ],
         "armor": [
             30,
@@ -6883,7 +6883,7 @@
         ],
         "fp": [
             13,
-            59
+            60
         ],
         "torp": [
             28,
@@ -7520,7 +7520,7 @@
         ],
         "fp": [
             24,
-            67
+            68
         ],
         "torp": [
             26,
@@ -7569,7 +7569,7 @@
         ],
         "fp": [
             27,
-            72
+            73
         ],
         "torp": [
             38,
@@ -7618,7 +7618,7 @@
         ],
         "fp": [
             22,
-            68
+            69
         ],
         "torp": [
             28,
@@ -15605,7 +15605,7 @@
         ],
         "fp": [
             13,
-            54
+            55
         ],
         "torp": [
             32,
@@ -16027,8 +16027,8 @@
         "kana": "あさしも",
         "variant": "",
         "en": "Asashimo Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 77,
+        "idAfterRemodel": "578",
         "buildTime": 24,
         "getMsg": "<br>",
         "slots": 3,
@@ -17475,7 +17475,7 @@
         ],
         "aa": [
             18,
-            58
+            60
         ],
         "armor": [
             14,
@@ -17735,7 +17735,7 @@
         "ammo": 10,
         "ctype": 74,
         "stype": 1,
-        "sortid": 384
+        "sortid": 1458
     },
     "379": {
         "jp": "石垣改",
@@ -17784,7 +17784,7 @@
         "ammo": 10,
         "ctype": 74,
         "stype": 1,
-        "sortid": 385
+        "sortid": 1459
     },
     "380": {
         "jp": "大鷹改",
@@ -18986,7 +18986,7 @@
         ],
         "fp": [
             10,
-            55
+            57
         ],
         "torp": [
             25,
@@ -18994,7 +18994,7 @@
         ],
         "aa": [
             24,
-            76
+            78
         ],
         "armor": [
             15,
@@ -19966,7 +19966,7 @@
         ],
         "fp": [
             55,
-            85
+            86
         ],
         "torp": [
             35,
@@ -22857,7 +22857,7 @@
         ],
         "fp": [
             15,
-            55
+            57
         ],
         "torp": [
             28,
@@ -22906,7 +22906,7 @@
         ],
         "fp": [
             14,
-            53
+            56
         ],
         "torp": [
             25,
@@ -26557,6 +26557,55 @@
         "stype": 9,
         "sortid": 376
     },
+    "578": {
+        "jp": "朝霜改二",
+        "kana": "あさしも",
+        "variant": "",
+        "en": "Asashimo Kai Ni",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 24,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            3,
+            10,
+            1
+        ],
+        "modValue": [
+            2,
+            2,
+            1,
+            1
+        ],
+        "fp": [
+            18,
+            68
+        ],
+        "torp": [
+            30,
+            88
+        ],
+        "aa": [
+            18,
+            70
+        ],
+        "armor": [
+            15,
+            53
+        ],
+        "luck": [
+            28,
+            84
+        ],
+        "rarity": 7,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 38,
+        "stype": 2,
+        "sortid": 378
+    },
     "579": {
         "jp": "Gotland改",
         "kana": "ゴトランド",
@@ -27145,6 +27194,55 @@
         "stype": 11,
         "sortid": 404
     },
+    "595": {
+        "jp": "Houston",
+        "kana": "ヒューストン",
+        "variant": "",
+        "en": "Houston",
+        "remodelLvl": 50,
+        "idAfterRemodel": "600",
+        "buildTime": 85,
+        "getMsg": "私の名前は、Houston。<br>太平洋方面の戦力の要石として、アジア艦隊の旗艦も務めたわ。<br>提督、よろしく頼むわね。",
+        "slots": 3,
+        "scrap": [
+            2,
+            2,
+            11,
+            2
+        ],
+        "modValue": [
+            2,
+            1,
+            0,
+            2
+        ],
+        "fp": [
+            37,
+            52
+        ],
+        "torp": [
+            16,
+            40
+        ],
+        "aa": [
+            20,
+            60
+        ],
+        "armor": [
+            33,
+            47
+        ],
+        "luck": [
+            12,
+            55
+        ],
+        "rarity": 6,
+        "fuel": 40,
+        "ammo": 60,
+        "ctype": 95,
+        "stype": 5,
+        "sortid": 395
+    },
     "596": {
         "jp": "Fletcher",
         "kana": "フレッチャー",
@@ -27243,6 +27341,55 @@
         "stype": 11,
         "sortid": 409
     },
+    "600": {
+        "jp": "Houston改",
+        "kana": "ヒューストン",
+        "variant": "",
+        "en": "Houston Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 85,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            2,
+            6,
+            19,
+            2
+        ],
+        "modValue": [
+            2,
+            1,
+            1,
+            2
+        ],
+        "fp": [
+            46,
+            76
+        ],
+        "torp": [
+            20,
+            60
+        ],
+        "aa": [
+            30,
+            75
+        ],
+        "armor": [
+            40,
+            73
+        ],
+        "luck": [
+            20,
+            65
+        ],
+        "rarity": 7,
+        "fuel": 40,
+        "ammo": 65,
+        "ctype": 95,
+        "stype": 5,
+        "sortid": 400
+    },
     "601": {
         "jp": "Colorado",
         "kana": "コロラド",
@@ -27291,6 +27438,55 @@
         "ctype": 93,
         "stype": 9,
         "sortid": 401
+    },
+    "604": {
+        "jp": "De Ruyter",
+        "kana": "デ・ロイテル",
+        "variant": "",
+        "en": "De Ruyter",
+        "remodelLvl": 50,
+        "idAfterRemodel": "609",
+        "buildTime": 60,
+        "getMsg": "Hoi ！　貴方が噂のこの艦隊の提督ね！<br>私は、オランダ軽巡 De Ruyter！　 わかる？<br>わかるわかる？　そ、結構、いいから、私！　任せて。",
+        "slots": 3,
+        "scrap": [
+            3,
+            4,
+            12,
+            1
+        ],
+        "modValue": [
+            1,
+            0,
+            1,
+            2
+        ],
+        "fp": [
+            21,
+            50
+        ],
+        "torp": [
+            0,
+            50
+        ],
+        "aa": [
+            20,
+            70
+        ],
+        "armor": [
+            15,
+            31
+        ],
+        "luck": [
+            9,
+            49
+        ],
+        "rarity": 4,
+        "fuel": 30,
+        "ammo": 35,
+        "ctype": 98,
+        "stype": 3,
+        "sortid": 399
     },
     "605": {
         "jp": "Luigi Torelli改",
@@ -27390,6 +27586,55 @@
         "stype": 14,
         "sortid": 1506
     },
+    "609": {
+        "jp": "De Ruyter改",
+        "kana": "デ・ロイテル",
+        "variant": "",
+        "en": "De Ruyter Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 60,
+        "getMsg": "",
+        "slots": 3,
+        "scrap": [
+            3,
+            5,
+            13,
+            1
+        ],
+        "modValue": [
+            1,
+            0,
+            1,
+            2
+        ],
+        "fp": [
+            29,
+            70
+        ],
+        "torp": [
+            0,
+            60
+        ],
+        "aa": [
+            25,
+            75
+        ],
+        "armor": [
+            29,
+            67
+        ],
+        "luck": [
+            10,
+            57
+        ],
+        "rarity": 5,
+        "fuel": 30,
+        "ammo": 40,
+        "ctype": 98,
+        "stype": 3,
+        "sortid": 1494
+    },
     "611": {
         "jp": "御蔵",
         "kana": "みくら",
@@ -27438,6 +27683,55 @@
         "ctype": 94,
         "stype": 1,
         "sortid": 411
+    },
+    "613": {
+        "jp": "Perth",
+        "kana": "パース",
+        "variant": "",
+        "en": "Perth",
+        "remodelLvl": 45,
+        "idAfterRemodel": "618",
+        "buildTime": 60,
+        "getMsg": "How are you?<br>私は、Perth級軽巡洋艦Perth。HMAS Perth！<br>イギリス生まれ、オーストラリア育ちよ。",
+        "slots": 3,
+        "scrap": [
+            3,
+            4,
+            12,
+            1
+        ],
+        "modValue": [
+            1,
+            1,
+            1,
+            2
+        ],
+        "fp": [
+            24,
+            58
+        ],
+        "torp": [
+            20,
+            54
+        ],
+        "aa": [
+            24,
+            66
+        ],
+        "armor": [
+            17,
+            32
+        ],
+        "luck": [
+            12,
+            55
+        ],
+        "rarity": 4,
+        "fuel": 30,
+        "ammo": 45,
+        "ctype": 96,
+        "stype": 3,
+        "sortid": 413
     },
     "614": {
         "jp": "Grecale",
@@ -27537,6 +27831,55 @@
         "stype": 1,
         "sortid": 416
     },
+    "618": {
+        "jp": "Perth改",
+        "kana": "パース",
+        "variant": "",
+        "en": "Perth Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 60,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            3,
+            6,
+            13,
+            1
+        ],
+        "modValue": [
+            1,
+            1,
+            1,
+            2
+        ],
+        "fp": [
+            32,
+            72
+        ],
+        "torp": [
+            24,
+            72
+        ],
+        "aa": [
+            28,
+            70
+        ],
+        "armor": [
+            27,
+            68
+        ],
+        "luck": [
+            22,
+            65
+        ],
+        "rarity": 5,
+        "fuel": 30,
+        "ammo": 45,
+        "ctype": 96,
+        "stype": 3,
+        "sortid": 418
+    },
     "619": {
         "jp": "Grecale改",
         "kana": "グレカーレ",
@@ -27585,6 +27928,104 @@
         "ctype": 61,
         "stype": 2,
         "sortid": 419
+    },
+    "621": {
+        "jp": "神州丸",
+        "kana": "しんしゅうまる",
+        "variant": "",
+        "en": "Shinshuu Maru",
+        "remodelLvl": 48,
+        "idAfterRemodel": "626",
+        "buildTime": 150,
+        "getMsg": "陸軍特種船「神州丸」です。<br>統合的な上陸戦力を投射できる本格的な強襲揚陸艦の<br>先駆けとして建造されました。揚陸作戦はお任せください。",
+        "slots": 3,
+        "scrap": [
+            2,
+            3,
+            11,
+            2
+        ],
+        "modValue": [
+            1,
+            0,
+            0,
+            1
+        ],
+        "fp": [
+            5,
+            22
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            10,
+            32
+        ],
+        "armor": [
+            9,
+            35
+        ],
+        "luck": [
+            14,
+            54
+        ],
+        "rarity": 6,
+        "fuel": 35,
+        "ammo": 5,
+        "ctype": 97,
+        "stype": 17,
+        "sortid": 421
+    },
+    "626": {
+        "jp": "神州丸改",
+        "kana": "しんしゅうまる",
+        "variant": "",
+        "en": "Shinshuu Maru Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 150,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            2,
+            3,
+            12,
+            3
+        ],
+        "modValue": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "fp": [
+            6,
+            35
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            12,
+            44
+        ],
+        "armor": [
+            12,
+            45
+        ],
+        "luck": [
+            18,
+            68
+        ],
+        "rarity": 7,
+        "fuel": 40,
+        "ammo": 20,
+        "ctype": 97,
+        "stype": 17,
+        "sortid": 426
     },
     "678": {
         "jp": "日振改",
@@ -31416,5 +31857,93 @@
         "slots": 4,
         "ctype": 1,
         "stype": 10
+    },
+    "1895": {
+        "jp": "重巡ネ級改",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 5
+    },
+    "1896": {
+        "jp": "重巡ネ級改",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 5
+    },
+    "1897": {
+        "jp": "重巡ネ級改",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 5
+    },
+    "1898": {
+        "jp": "バタビア沖棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1899": {
+        "jp": "バタビア沖棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1900": {
+        "jp": "バタビア沖棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1901": {
+        "jp": "バタビア沖棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1902": {
+        "jp": "バタビア沖棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1903": {
+        "jp": "バタビア沖棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1904": {
+        "jp": "軽巡ヘ級改",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
+    },
+    "1905": {
+        "jp": "軽巡ヘ級改",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
     }
 }

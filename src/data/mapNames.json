@@ -194,5 +194,29 @@
     "45-3":{
         "jp": "発動！「シングル作戦」",
         "en": "Commence! Operation Shingle"
+    },
+    "46-1":{
+        "jp": "八駆見参！バリ島沖海戦",
+        "en": "DesDiv 8, in Position! Battle of Bali Island"
+    },
+    "46-2":{
+        "jp": "強襲！第二次ジャワ沖海戦",
+        "en": "Assault! The 2nd Battle of Java Sea"
+    },
+    "46-3":{
+        "jp": "激突！スラバヤ沖海戦",
+        "en": "Clash! Battle of Surabaya"
+    },
+    "46-4":{
+        "jp": "バタビア沖海戦",
+        "en": "Battle of Batavia"
+    },
+    "46-5":{
+        "jp": "",
+        "en": ""
+    },
+    "46-6":{
+        "jp": "",
+        "en": ""
     }
 }

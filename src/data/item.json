@@ -180,7 +180,7 @@
         "jp": "給糧艦「間宮」"
     },
     "55": {
-        "en": "Marriage Papers and Ring",
+        "en": "Marriage Ring and Documents",
         "jp": "書類一式＆指輪"
     },
     "56": {
@@ -232,11 +232,11 @@
         "jp": "洋上補給"
     },
     "68": {
-        "en": "Mackerel",
+        "en": "Saury",
         "jp": "秋刀魚"
     },
     "69": {
-        "en": "Canned Mackerel",
+        "en": "Canned Saury",
         "jp": "秋刀魚の缶詰"
     },
     "70": {
@@ -328,7 +328,11 @@
         "jp": "緊急修理資材"
     },
     "92": {
-        "en": "New Model Jet Equipment Development Material",
+        "en": "New Model Rocket Development Material",
         "jp": "新型噴進装備開発資材"
+    },
+    "93": {
+        "en": "Sardine",
+        "jp": "鰯"
     }
 }

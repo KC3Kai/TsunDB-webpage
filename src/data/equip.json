@@ -1937,7 +1937,7 @@
         "rare": 4
     },
     "150": {
-        "en": "Canned Mackerel",
+        "en": "Canned Saury",
         "jp": "秋刀魚の缶詰",
         "type": 43,
         "icon": 34,
@@ -4485,19 +4485,20 @@
         "rare": 4
     },
     "349": {
-        "jp": "",
+        "en": "Type 4 20cm Anti-ground Rocket Launcher (Concentrated Deployment)",
+        "jp": "四式20cm対地噴進砲 集中配備",
         "type": 37,
         "icon": 31,
         "scrap": [
             1,
-            3,
+            6,
             1,
-            1
+            2
         ],
         "rare": 5
     },
     "350": {
-        "en": "Me163B",
+        "en": "Me 163B",
         "jp": "Me163B",
         "type": 48,
         "icon": 38,
@@ -4536,7 +4537,7 @@
         "rare": 5
     },
     "353": {
-        "en": "Fw190 A-5 Kai (Skilled)",
+        "en": "Fw 190 A-5 Kai (Skilled)",
         "jp": "Fw190 A-5改(熟練)",
         "type": 6,
         "icon": 6,
@@ -4549,7 +4550,7 @@
         "rare": 5
     },
     "354": {
-        "en": "Fw190 D-9",
+        "en": "Fw 190 D-9",
         "jp": "Fw190 D-9",
         "type": 48,
         "icon": 38,
@@ -4571,6 +4572,84 @@
             6,
             8,
             2
+        ],
+        "rare": 4
+    },
+    "356": {
+        "en": "8inch Triple Gun Mount Mk.9",
+        "jp": "8inch三連装砲 Mk.9",
+        "type": 2,
+        "icon": 2,
+        "scrap": [
+            0,
+            6,
+            9,
+            0
+        ],
+        "rare": 2
+    },
+    "357": {
+        "en": "8inch Triple Gun Mount Mk.9 mod.2",
+        "jp": "8inch三連装砲 Mk.9 mod.2",
+        "type": 2,
+        "icon": 2,
+        "scrap": [
+            1,
+            6,
+            1,
+            2
+        ],
+        "rare": 3
+    },
+    "358": {
+        "en": "5inch Single High-angle Gun Mount Battery",
+        "jp": "5inch 単装高角砲群",
+        "type": 4,
+        "icon": 16,
+        "scrap": [
+            0,
+            2,
+            3,
+            1
+        ],
+        "rare": 2
+    },
+    "359": {
+        "en": "6inch Twin Rapid Fire Gun Mount Mk.XXI",
+        "jp": "6inch 連装速射砲 Mk.XXI",
+        "type": 2,
+        "icon": 2,
+        "scrap": [
+            0,
+            2,
+            3,
+            1
+        ],
+        "rare": 2
+    },
+    "360": {
+        "en": "Bofors 15cm Twin Rapid Fire Gun Mount Mk.9 Model 1938",
+        "jp": "Bofors 15cm連装速射砲 Mk.9 Model 1938",
+        "type": 2,
+        "icon": 2,
+        "scrap": [
+            0,
+            2,
+            3,
+            1
+        ],
+        "rare": 3
+    },
+    "361": {
+        "en": "Bofors 15cm Twin Rapid Fire Gun Mount Mk.9 Kai + Single Rapid Fire Gun Mount Mk.10 Kai Model 1938",
+        "jp": "Bofors 15cm連装速射砲 Mk.9改+単装速射砲 Mk.10改 Model 1938",
+        "type": 2,
+        "icon": 2,
+        "scrap": [
+            0,
+            2,
+            3,
+            1
         ],
         "rare": 4
     },
@@ -5754,6 +5833,30 @@
         "jp": "深海4.7inch砲 Mk.XII",
         "type": 1,
         "icon": 16,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 4
+    },
+    "600": {
+        "jp": "深海8inch連装速射砲",
+        "type": 2,
+        "icon": 2,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 3
+    },
+    "601": {
+        "jp": "深海8inch三連装砲 Mk.9",
+        "type": 2,
+        "icon": 2,
         "scrap": [
             0,
             0,
