@@ -720,6 +720,7 @@ export default {
                 case 7: node = "Resource Scout"; break;
                 case 8: node = "Anchor"; break;
                 case 9: node = "Transport offload point"; break;
+                case 10: node = "Repair"; break;
             }
             return node;
         },
