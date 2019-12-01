@@ -682,6 +682,7 @@ export default {
                 case 7: node = "scout"; break;
                 case 8: node = "anchor"; break;
                 case 9: node = "flag"; break;
+                case 10: node = "repair"; break;
             }
             return require(`./../../../assets/nodes/${node}.png`);
         },
