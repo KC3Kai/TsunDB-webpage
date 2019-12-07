@@ -4647,11 +4647,37 @@
         "icon": 2,
         "scrap": [
             0,
-            2,
             3,
-            1
+            4,
+            2
         ],
         "rare": 4
+    },
+    "362": {
+        "en": "5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)",
+        "jp": "5inch連装両用砲(集中配備)",
+        "type": 2,
+        "icon": 16,
+        "scrap": [
+            0,
+            4,
+            6,
+            4
+        ],
+        "rare": 4
+    },
+    "363": {
+        "en": "GFCS Mk.37 + 5inch Twin Dual-purpose Gun Mount (Concentrated Deployment)",
+        "jp": "GFCS Mk.37+5inch連装両用砲(集中配備)",
+        "type": 2,
+        "icon": 16,
+        "scrap": [
+            0,
+            4,
+            26,
+            28
+        ],
+        "rare": 5
     },
     "501": {
         "jp": "5inch単装砲",
@@ -5864,6 +5890,30 @@
             0
         ],
         "rare": 4
+    },
+    "602": {
+        "jp": "深海5inch連装両用砲(集中配備)",
+        "type": 1,
+        "icon": 16,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 4
+    },
+    "603": {
+        "jp": "深海対空レーダーMark.III+FCS",
+        "type": 13,
+        "icon": 11,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 5
     },
     "penguin": {
         "en": "Penguin",

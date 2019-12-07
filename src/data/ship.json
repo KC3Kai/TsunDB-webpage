@@ -26312,6 +26312,55 @@
         "stype": 2,
         "sortid": 368
     },
+    "570": {
+        "jp": "平戸",
+        "kana": "ひらと",
+        "variant": "",
+        "en": "Hirato",
+        "remodelLvl": 48,
+        "idAfterRemodel": "684",
+        "buildTime": 14,
+        "getMsg": "司令、択捉型海防艦、平戸、参りました。<br>共にまいりましょう。心配しないで…今度は司令に<br>指一本触れさせません。今度は…。",
+        "slots": 2,
+        "scrap": [
+            1,
+            1,
+            2,
+            0
+        ],
+        "modValue": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "fp": [
+            4,
+            18
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            7,
+            28
+        ],
+        "armor": [
+            4,
+            16
+        ],
+        "luck": [
+            11,
+            54
+        ],
+        "rarity": 4,
+        "fuel": 10,
+        "ammo": 10,
+        "ctype": 77,
+        "stype": 1,
+        "sortid": 370
+    },
     "571": {
         "jp": "Nelson",
         "kana": "ネルソン",
@@ -27292,6 +27341,55 @@
         "stype": 2,
         "sortid": 396
     },
+    "597": {
+        "jp": "Atlanta",
+        "kana": "アトランタ",
+        "variant": "",
+        "en": "Atlanta",
+        "remodelLvl": 50,
+        "idAfterRemodel": "696",
+        "buildTime": 60,
+        "getMsg": "How is everything?<br>あたしは、Atlanta級防空巡洋艦、Atlanta。<br>Brooklyn生まれ。貴方、提督さん？　よろしくね。",
+        "slots": 3,
+        "scrap": [
+            3,
+            5,
+            11,
+            2
+        ],
+        "modValue": [
+            1,
+            1,
+            3,
+            1
+        ],
+        "fp": [
+            16,
+            38
+        ],
+        "torp": [
+            22,
+            66
+        ],
+        "aa": [
+            80,
+            120
+        ],
+        "armor": [
+            15,
+            29
+        ],
+        "luck": [
+            17,
+            47
+        ],
+        "rarity": 6,
+        "fuel": 30,
+        "ammo": 50,
+        "ctype": 99,
+        "stype": 3,
+        "sortid": 397
+    },
     "599": {
         "jp": "赤城改二戊",
         "kana": "あかぎ",
@@ -27978,6 +28076,55 @@
         "stype": 17,
         "sortid": 421
     },
+    "625": {
+        "jp": "秋霜",
+        "kana": "あきしも",
+        "variant": "",
+        "en": "Akishimo",
+        "remodelLvl": 30,
+        "idAfterRemodel": "695",
+        "buildTime": 24,
+        "getMsg": "うちが夕雲型駆逐艦、その十八番艦「秋霜」よ。<br>秋霜烈日、そんな言葉のような厳しい戦局を駆け抜けたの。<br>うちのことも覚えておいてね。忘れないでね。",
+        "slots": 2,
+        "scrap": [
+            1,
+            1,
+            6,
+            0
+        ],
+        "modValue": [
+            0,
+            1,
+            0,
+            1
+        ],
+        "fp": [
+            10,
+            30
+        ],
+        "torp": [
+            24,
+            69
+        ],
+        "aa": [
+            8,
+            40
+        ],
+        "armor": [
+            6,
+            19
+        ],
+        "luck": [
+            11,
+            49
+        ],
+        "rarity": 4,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 38,
+        "stype": 2,
+        "sortid": 425
+    },
     "626": {
         "jp": "神州丸改",
         "kana": "しんしゅうまる",
@@ -28222,6 +28369,55 @@
         "ctype": 87,
         "stype": 2,
         "sortid": 1481
+    },
+    "684": {
+        "jp": "平戸改",
+        "kana": "ひらと",
+        "variant": "",
+        "en": "Hirato Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 14,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            1,
+            2,
+            0
+        ],
+        "modValue": [
+            1,
+            0,
+            1,
+            0
+        ],
+        "fp": [
+            5,
+            37
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            12,
+            55
+        ],
+        "armor": [
+            7,
+            33
+        ],
+        "luck": [
+            14,
+            74
+        ],
+        "rarity": 5,
+        "fuel": 10,
+        "ammo": 10,
+        "ctype": 77,
+        "stype": 1,
+        "sortid": 1484
     },
     "685": {
         "jp": "福江改",
@@ -28663,6 +28859,104 @@
         "ctype": 92,
         "stype": 3,
         "sortid": 1483
+    },
+    "695": {
+        "jp": "秋霜改",
+        "kana": "あきしも",
+        "variant": "",
+        "en": "Akishimo Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 24,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            2,
+            10,
+            0
+        ],
+        "modValue": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "fp": [
+            11,
+            50
+        ],
+        "torp": [
+            28,
+            80
+        ],
+        "aa": [
+            15,
+            50
+        ],
+        "armor": [
+            14,
+            49
+        ],
+        "luck": [
+            12,
+            59
+        ],
+        "rarity": 5,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 38,
+        "stype": 2,
+        "sortid": 1495
+    },
+    "696": {
+        "jp": "Atlanta改",
+        "kana": "アトランタ",
+        "variant": "",
+        "en": "Atlanta Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 60,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            3,
+            5,
+            12,
+            3
+        ],
+        "modValue": [
+            1,
+            1,
+            4,
+            1
+        ],
+        "fp": [
+            18,
+            64
+        ],
+        "torp": [
+            22,
+            70
+        ],
+        "aa": [
+            82,
+            128
+        ],
+        "armor": [
+            27,
+            61
+        ],
+        "luck": [
+            18,
+            58
+        ],
+        "rarity": 7,
+        "fuel": 30,
+        "ammo": 60,
+        "ctype": 99,
+        "stype": 3,
+        "sortid": 1496
     },
     "893": {
         "jp": "Janus改",
@@ -31945,5 +32239,125 @@
         "slots": 4,
         "ctype": 1,
         "stype": 3
+    },
+    "1906": {
+        "jp": "空母棲姫改",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1907": {
+        "jp": "空母棲姫改",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1908": {
+        "jp": "空母棲姫改",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1909": {
+        "jp": "防空巡棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
+    },
+    "1910": {
+        "jp": "防空巡棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
+    },
+    "1911": {
+        "jp": "防空巡棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
+    },
+    "1912": {
+        "jp": "防空巡棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
+    },
+    "1913": {
+        "jp": "防空巡棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
+    },
+    "1914": {
+        "jp": "防空巡棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
+    },
+    "1915": {
+        "jp": "潜水棲姫改",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 3,
+        "ctype": 1,
+        "stype": 13
+    },
+    "1916": {
+        "jp": "潜水棲姫改",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 3,
+        "ctype": 1,
+        "stype": 13
+    },
+    "1917": {
+        "jp": "潜水棲姫改",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 3,
+        "ctype": 1,
+        "stype": 13
+    },
+    "1918": {
+        "jp": "潜水棲姫改-壊",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 3,
+        "ctype": 1,
+        "stype": 13
+    },
+    "1919": {
+        "jp": "潜水棲姫改-壊",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 3,
+        "ctype": 1,
+        "stype": 13
+    },
+    "1920": {
+        "jp": "潜水棲姫改-壊",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 3,
+        "ctype": 1,
+        "stype": 13
     }
 }
