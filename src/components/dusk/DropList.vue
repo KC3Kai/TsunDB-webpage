@@ -139,16 +139,18 @@ export default {
             if(this.map.split('-')[0] > 10) data = this.eventFilter(data);
             let list = {};
             let boss = (this.bossNodesData[this.map].length > 1) ? this.bossNodesData[this.map].join(', ') : this.bossNodesData[this.map][0];
+            
             for(const ship in data){
                 let name = this.shipData[ship].en;
                 list[name] = {};
                 for(const node in data[ship]){
                     let nodeletter = this.edgesData[this.map][node][1];
                     if(list[name].hasOwnProperty(nodeletter)){
-                        if(data[ship][node].S) list[name][nodeletter].S = true;
-                        if(data[ship][node].A) list[name][nodeletter].A = true;
-                        if(data[ship][node].B) list[name][nodeletter].B = true;
-                        if(data[ship][node].difficulty < list[name][nodeletter].difficulty) list[name][nodeletter].difficulty = data[ship][node].difficulty;
+                        for(const diff in data[ship][node]){
+                            if(data[ship][node][diff].S) (list[name][nodeletter].hasOwnProperty(diff)) ? list[name][nodeletter][diff].S = true : list[name][nodeletter][diff] = {S: true};
+                            if(data[ship][node][diff].A) (list[name][nodeletter].hasOwnProperty(diff)) ? list[name][nodeletter][diff].A = true : list[name][nodeletter][diff] = {A: true};
+                            if(data[ship][node][diff].B) (list[name][nodeletter].hasOwnProperty(diff)) ? list[name][nodeletter][diff].B = true : list[name][nodeletter][diff] = {B: true};
+                        }
                     }
                     else{
                         list[name][nodeletter] = data[ship][node];
@@ -206,10 +208,11 @@ export default {
                 for(const node in data[ship]){
                     let nodeletter = this.edgesData[this.map][node][1];
                     if(list[name].hasOwnProperty(nodeletter)){
-                        if(data[ship][node].S) list[name][nodeletter].S = true;
-                        if(data[ship][node].A) list[name][nodeletter].A = true;
-                        if(data[ship][node].B) list[name][nodeletter].B = true;
-                        if(data[ship][node].difficulty < list[name][nodeletter].difficulty) list[name][nodeletter].difficulty = data[ship][node].difficulty;
+                        for(const diff in data[ship][node]){
+                            if(data[ship][node][diff].S) (list[name][nodeletter].hasOwnProperty(diff)) ? list[name][nodeletter][diff].S = true : list[name][nodeletter][diff] = {S: true};
+                            if(data[ship][node][diff].A) (list[name][nodeletter].hasOwnProperty(diff)) ? list[name][nodeletter][diff].A = true : list[name][nodeletter][diff] = {A: true};
+                            if(data[ship][node][diff].B) (list[name][nodeletter].hasOwnProperty(diff)) ? list[name][nodeletter][diff].B = true : list[name][nodeletter][diff] = {B: true};
+                        }
                     }
                     else{
                         list[name][nodeletter] = data[ship][node];
@@ -284,10 +287,11 @@ export default {
                 for(const node in data[ship]){
                     let nodeletter = this.edgesData[this.map][node][1];
                     if(list[name].hasOwnProperty(nodeletter)){
-                        if(data[ship][node].S) list[name][nodeletter].S = true;
-                        if(data[ship][node].A) list[name][nodeletter].A = true;
-                        if(data[ship][node].B) list[name][nodeletter].B = true;
-                        if(data[ship][node].difficulty < list[name][nodeletter].difficulty) list[name][nodeletter].difficulty = data[ship][node].difficulty;
+                        for(const diff in data[ship][node]){
+                            if(data[ship][node][diff].S) (list[name][nodeletter].hasOwnProperty(diff)) ? list[name][nodeletter][diff].S = true : list[name][nodeletter][diff] = {S: true};
+                            if(data[ship][node][diff].A) (list[name][nodeletter].hasOwnProperty(diff)) ? list[name][nodeletter][diff].A = true : list[name][nodeletter][diff] = {A: true};
+                            if(data[ship][node][diff].B) (list[name][nodeletter].hasOwnProperty(diff)) ? list[name][nodeletter][diff].B = true : list[name][nodeletter][diff] = {B: true};
+                        }
                     }
                     else{
                         list[name][nodeletter] = data[ship][node];
