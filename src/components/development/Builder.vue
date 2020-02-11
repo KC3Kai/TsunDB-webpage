@@ -4,6 +4,9 @@
         Development Recipe Builder
     </p>
     <div class="subtitle">
+        <strong>WARNING: This is outdated as of the update on <a href="https://kancolle.fandom.com/wiki/Thread:742429" rel="noopener noreferrer" target="_blank">07-02-2020</a>! Use this at your own risk!</strong>
+    </div>
+    <div class="subtitle">
         Select what you need and we will do the rest for you!<br />
         Any equipment that are unobtainable through your combination will be filtered.
     </div>

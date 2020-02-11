@@ -3,6 +3,9 @@
     <p class="title">
         Development Pools
     </p>
+    <div class="subtitle">
+        <strong>WARNING: This is outdated as of the update on <a href="https://kancolle.fandom.com/wiki/Thread:742429" rel="noopener noreferrer" target="_blank">07-02-2020</a>! Use this at your own risk!</strong>
+    </div>
     <div class="content">
         <div class="field is-horizontal">
             <div class="field-label">
