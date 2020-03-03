@@ -737,7 +737,7 @@ export default {
                 return require(`./../../../assets/tags/${map}/${id}.png`);
             }
             catch(err){
-                return console.log(err);
+                //return console.log(err);
             }
         },
         getShipName(id){
