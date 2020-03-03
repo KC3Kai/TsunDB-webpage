@@ -63,12 +63,7 @@
                     </tr>
                     <tr class="has-background-white-ter" v-if="checkIfInWorld(45)" v-scroll-to="'#world45'" id="pointer">
                         <th>Fall 2019</th>
-                        <th :class="checkIfInMap(46, '46-1') ? 'has-text-success' : 'has-text-danger'">E-1</th>
-                        <th :class="checkIfInMap(46, '46-2') ? 'has-text-success' : 'has-text-danger'">E-2</th>
-                        <th :class="checkIfInMap(46, '46-3') ? 'has-text-success' : 'has-text-danger'">E-3</th>
-                        <th :class="checkIfInMap(46, '46-4') ? 'has-text-success' : 'has-text-danger'">E-4</th>
-                        <th :class="checkIfInMap(46, '46-5') ? 'has-text-success' : 'has-text-danger'">E-5</th>
-                        <th :class="checkIfInMap(46, '46-6') ? 'has-text-success' : 'has-text-danger'">E-6</th>
+                        <th :class="checkIfInMap(47, '47-1') ? 'has-text-success' : 'has-text-danger'">E-1</th>
                     </tr>
                 </tbody>
             </table>
