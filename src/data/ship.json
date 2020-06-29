@@ -4972,15 +4972,15 @@
         ],
         "fp": [
             9,
-            29
+            31
         ],
         "torp": [
             15,
-            72
+            73
         ],
         "aa": [
             17,
-            39
+            42
         ],
         "armor": [
             21,
@@ -5021,15 +5021,15 @@
         ],
         "fp": [
             9,
-            29
+            31
         ],
         "torp": [
             15,
-            72
+            73
         ],
         "aa": [
             17,
-            39
+            42
         ],
         "armor": [
             21,
@@ -6932,11 +6932,11 @@
         ],
         "fp": [
             18,
-            64
+            65
         ],
         "torp": [
             80,
-            110
+            111
         ],
         "aa": [
             24,
@@ -7109,8 +7109,8 @@
         "kana": "ひえい",
         "variant": "",
         "en": "Hiei Kai Ni",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 90,
+        "idAfterRemodel": "592",
         "buildTime": 240,
         "getMsg": "<br>",
         "slots": 4,
@@ -9431,7 +9431,7 @@
         ],
         "fp": [
             0,
-            58
+            62
         ],
         "torp": [
             0,
@@ -9951,8 +9951,8 @@
         "kana": "しきなみ",
         "variant": "",
         "en": "Shikinami Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 80,
+        "idAfterRemodel": "627",
         "buildTime": 20,
         "getMsg": "<br>",
         "slots": 3,
@@ -14116,8 +14116,8 @@
         "kana": "ゆうばり",
         "variant": "",
         "en": "Yuubari Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 84,
+        "idAfterRemodel": "622",
         "buildTime": 82,
         "getMsg": "<br>",
         "slots": 4,
@@ -16762,8 +16762,8 @@
         "kana": "おきなみ",
         "variant": "",
         "en": "Okinami Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 79,
+        "idAfterRemodel": "569",
         "buildTime": 24,
         "getMsg": "<br>",
         "slots": 3,
@@ -18986,7 +18986,7 @@
         ],
         "fp": [
             10,
-            57
+            58
         ],
         "torp": [
             25,
@@ -18994,15 +18994,15 @@
         ],
         "aa": [
             24,
-            78
+            79
         ],
         "armor": [
             15,
-            56
+            58
         ],
         "luck": [
             32,
-            83
+            89
         ],
         "rarity": 6,
         "fuel": 15,
@@ -25258,7 +25258,7 @@
         ],
         "fp": [
             16,
-            59
+            60
         ],
         "torp": [
             25,
@@ -25307,7 +25307,7 @@
         ],
         "fp": [
             7,
-            44
+            45
         ],
         "torp": [
             27,
@@ -25601,7 +25601,7 @@
         ],
         "fp": [
             58,
-            85
+            86
         ],
         "torp": [
             0,
@@ -26312,6 +26312,55 @@
         "stype": 2,
         "sortid": 368
     },
+    "569": {
+        "jp": "沖波改二",
+        "kana": "おきなみ",
+        "variant": "",
+        "en": "Okinami Kai Ni",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 24,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            2,
+            10,
+            0
+        ],
+        "modValue": [
+            2,
+            2,
+            1,
+            1
+        ],
+        "fp": [
+            18,
+            65
+        ],
+        "torp": [
+            30,
+            87
+        ],
+        "aa": [
+            18,
+            71
+        ],
+        "armor": [
+            15,
+            53
+        ],
+        "luck": [
+            22,
+            88
+        ],
+        "rarity": 7,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 38,
+        "stype": 2,
+        "sortid": 369
+    },
     "570": {
         "jp": "平戸",
         "kana": "ひらと",
@@ -26660,8 +26709,8 @@
         "kana": "ゴトランド",
         "variant": "",
         "en": "Gotland Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 85,
+        "idAfterRemodel": "630",
         "buildTime": 60,
         "getMsg": "<br>",
         "slots": 4,
@@ -27169,11 +27218,11 @@
         ],
         "fp": [
             76,
-            98
+            99
         ],
         "torp": [
             20,
-            42
+            44
         ],
         "aa": [
             32,
@@ -27181,7 +27230,7 @@
         ],
         "armor": [
             72,
-            88
+            91
         ],
         "luck": [
             18,
@@ -27193,6 +27242,55 @@
         "ctype": 6,
         "stype": 8,
         "sortid": 391
+    },
+    "592": {
+        "jp": "比叡改二丙",
+        "kana": "ひえい",
+        "variant": "",
+        "en": "Hiei Kai Ni C",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 240,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            14,
+            19,
+            38,
+            4
+        ],
+        "modValue": [
+            4,
+            1,
+            2,
+            4
+        ],
+        "fp": [
+            76,
+            98
+        ],
+        "torp": [
+            18,
+            47
+        ],
+        "aa": [
+            31,
+            85
+        ],
+        "armor": [
+            71,
+            90
+        ],
+        "luck": [
+            15,
+            88
+        ],
+        "rarity": 8,
+        "fuel": 100,
+        "ammo": 160,
+        "ctype": 6,
+        "stype": 8,
+        "sortid": 392
     },
     "594": {
         "jp": "赤城改二",
@@ -27684,6 +27782,55 @@
         "stype": 14,
         "sortid": 1506
     },
+    "607": {
+        "jp": "伊47改",
+        "kana": "い47",
+        "variant": "",
+        "en": "I-47 Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 22,
+        "getMsg": "<br>",
+        "slots": 2,
+        "scrap": [
+            1,
+            2,
+            2,
+            2
+        ],
+        "modValue": [
+            0,
+            3,
+            0,
+            0
+        ],
+        "fp": [
+            3,
+            12
+        ],
+        "torp": [
+            40,
+            88
+        ],
+        "aa": [
+            0,
+            0
+        ],
+        "armor": [
+            5,
+            21
+        ],
+        "luck": [
+            50,
+            97
+        ],
+        "rarity": 6,
+        "fuel": 10,
+        "ammo": 25,
+        "ctype": 103,
+        "stype": 13,
+        "sortid": 1507
+    },
     "609": {
         "jp": "De Ruyter改",
         "kana": "デ・ロイテル",
@@ -28076,6 +28223,153 @@
         "stype": 17,
         "sortid": 421
     },
+    "622": {
+        "jp": "夕張改二",
+        "kana": "ゆうばり",
+        "variant": "",
+        "en": "Yuubari Kai Ni",
+        "remodelLvl": 86,
+        "idAfterRemodel": "623",
+        "buildTime": 82,
+        "getMsg": "<br>",
+        "slots": 5,
+        "scrap": [
+            2,
+            3,
+            8,
+            1
+        ],
+        "modValue": [
+            1,
+            2,
+            2,
+            1
+        ],
+        "fp": [
+            14,
+            56
+        ],
+        "torp": [
+            50,
+            80
+        ],
+        "aa": [
+            58,
+            88
+        ],
+        "armor": [
+            35,
+            65
+        ],
+        "luck": [
+            30,
+            88
+        ],
+        "rarity": 7,
+        "fuel": 30,
+        "ammo": 40,
+        "ctype": 34,
+        "stype": 3,
+        "sortid": 422
+    },
+    "623": {
+        "jp": "夕張改二特",
+        "kana": "ゆうばり",
+        "variant": "",
+        "en": "Yuubari Kai Ni Toku",
+        "remodelLvl": 88,
+        "idAfterRemodel": "624",
+        "buildTime": 82,
+        "getMsg": "<br>",
+        "slots": 5,
+        "scrap": [
+            2,
+            3,
+            8,
+            1
+        ],
+        "modValue": [
+            1,
+            2,
+            2,
+            1
+        ],
+        "fp": [
+            14,
+            56
+        ],
+        "torp": [
+            0,
+            88
+        ],
+        "aa": [
+            48,
+            78
+        ],
+        "armor": [
+            36,
+            66
+        ],
+        "luck": [
+            30,
+            88
+        ],
+        "rarity": 7,
+        "fuel": 30,
+        "ammo": 40,
+        "ctype": 34,
+        "stype": 3,
+        "sortid": 423
+    },
+    "624": {
+        "jp": "夕張改二丁",
+        "kana": "ゆうばり",
+        "variant": "",
+        "en": "Yuubari Kai Ni D",
+        "remodelLvl": 88,
+        "idAfterRemodel": "622",
+        "buildTime": 82,
+        "getMsg": "<br>",
+        "slots": 5,
+        "scrap": [
+            2,
+            3,
+            8,
+            1
+        ],
+        "modValue": [
+            1,
+            2,
+            2,
+            1
+        ],
+        "fp": [
+            14,
+            56
+        ],
+        "torp": [
+            50,
+            80
+        ],
+        "aa": [
+            48,
+            78
+        ],
+        "armor": [
+            34,
+            64
+        ],
+        "luck": [
+            30,
+            88
+        ],
+        "rarity": 7,
+        "fuel": 30,
+        "ammo": 40,
+        "ctype": 34,
+        "stype": 3,
+        "sortid": 424
+    },
     "625": {
         "jp": "秋霜",
         "kana": "あきしも",
@@ -28173,6 +28467,496 @@
         "ctype": 97,
         "stype": 17,
         "sortid": 426
+    },
+    "627": {
+        "jp": "敷波改二",
+        "kana": "しきなみ",
+        "variant": "",
+        "en": "Shikinami Kai Ni",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 22,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            2,
+            10,
+            0
+        ],
+        "modValue": [
+            2,
+            2,
+            1,
+            1
+        ],
+        "fp": [
+            13,
+            61
+        ],
+        "torp": [
+            28,
+            88
+        ],
+        "aa": [
+            16,
+            62
+        ],
+        "armor": [
+            14,
+            51
+        ],
+        "luck": [
+            30,
+            80
+        ],
+        "rarity": 6,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 1,
+        "stype": 2,
+        "sortid": 427
+    },
+    "628": {
+        "jp": "Fletcher改 Mod.2",
+        "kana": "フレッチャー",
+        "variant": "",
+        "en": "Fletcher Kai Mod.2",
+        "remodelLvl": 90,
+        "idAfterRemodel": "629",
+        "buildTime": 23,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            2,
+            12,
+            4
+        ],
+        "modValue": [
+            1,
+            1,
+            3,
+            1
+        ],
+        "fp": [
+            16,
+            60
+        ],
+        "torp": [
+            29,
+            86
+        ],
+        "aa": [
+            45,
+            92
+        ],
+        "armor": [
+            17,
+            54
+        ],
+        "luck": [
+            47,
+            113
+        ],
+        "rarity": 8,
+        "fuel": 20,
+        "ammo": 25,
+        "ctype": 91,
+        "stype": 2,
+        "sortid": 428
+    },
+    "629": {
+        "jp": "Fletcher Mk.II",
+        "kana": "フレッチャー",
+        "variant": "",
+        "en": "Fletcher Mk.II",
+        "remodelLvl": 90,
+        "idAfterRemodel": "628",
+        "buildTime": 23,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            3,
+            12,
+            5
+        ],
+        "modValue": [
+            1,
+            1,
+            3,
+            1
+        ],
+        "fp": [
+            16,
+            62
+        ],
+        "torp": [
+            0,
+            82
+        ],
+        "aa": [
+            50,
+            95
+        ],
+        "armor": [
+            17,
+            56
+        ],
+        "luck": [
+            47,
+            113
+        ],
+        "rarity": 8,
+        "fuel": 25,
+        "ammo": 25,
+        "ctype": 91,
+        "stype": 2,
+        "sortid": 429
+    },
+    "630": {
+        "jp": "Gotland andra",
+        "kana": "ゴトランド",
+        "variant": "",
+        "en": "Gotland Andra",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 60,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            2,
+            4,
+            11,
+            3
+        ],
+        "modValue": [
+            1,
+            1,
+            3,
+            1
+        ],
+        "fp": [
+            16,
+            60
+        ],
+        "torp": [
+            16,
+            73
+        ],
+        "aa": [
+            30,
+            90
+        ],
+        "armor": [
+            22,
+            67
+        ],
+        "luck": [
+            26,
+            108
+        ],
+        "rarity": 8,
+        "fuel": 30,
+        "ammo": 35,
+        "ctype": 89,
+        "stype": 3,
+        "sortid": 430
+    },
+    "631": {
+        "jp": "薄雲",
+        "kana": "うすぐも",
+        "variant": "",
+        "en": "Usugumo",
+        "remodelLvl": 40,
+        "idAfterRemodel": "700",
+        "buildTime": 20,
+        "getMsg": "特I型駆逐艦、七番艦、薄雲です。東京湾の造船所で<br>生まれ、あの戦いでは北方の海で活動しました。<br>提督、薄雲のこと、覚えていてくださいね。",
+        "slots": 2,
+        "scrap": [
+            1,
+            1,
+            5,
+            0
+        ],
+        "modValue": [
+            0,
+            1,
+            0,
+            0
+        ],
+        "fp": [
+            10,
+            29
+        ],
+        "torp": [
+            27,
+            69
+        ],
+        "aa": [
+            10,
+            39
+        ],
+        "armor": [
+            5,
+            19
+        ],
+        "luck": [
+            7,
+            49
+        ],
+        "rarity": 4,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 12,
+        "stype": 2,
+        "sortid": 431
+    },
+    "634": {
+        "jp": "迅鯨",
+        "kana": "じんげい",
+        "variant": "",
+        "en": "Jingei",
+        "remodelLvl": 45,
+        "idAfterRemodel": "639",
+        "buildTime": 150,
+        "getMsg": "私、迅鯨型潜水母艦一番艦、迅鯨と申します。<br>提督、貴方に会えて……良かった。<br>一緒に頑張っていきましょう！",
+        "slots": 2,
+        "scrap": [
+            2,
+            2,
+            11,
+            1
+        ],
+        "modValue": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "fp": [
+            6,
+            32
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            12,
+            32
+        ],
+        "armor": [
+            5,
+            28
+        ],
+        "luck": [
+            11,
+            50
+        ],
+        "rarity": 4,
+        "fuel": 30,
+        "ammo": 10,
+        "ctype": 100,
+        "stype": 20,
+        "sortid": 434
+    },
+    "636": {
+        "jp": "伊47",
+        "kana": "い47",
+        "variant": "",
+        "en": "I-47",
+        "remodelLvl": 50,
+        "idAfterRemodel": "607",
+        "buildTime": 22,
+        "getMsg": "伊号潜水艦、巡潜丙型の七番艦、伊四十七。<br>ヨナって、呼んでくださいな。　ヨナですよ？<br>うふふ、提督、いいですか？",
+        "slots": 1,
+        "scrap": [
+            1,
+            3,
+            2,
+            0
+        ],
+        "modValue": [
+            0,
+            2,
+            0,
+            0
+        ],
+        "fp": [
+            2,
+            8
+        ],
+        "torp": [
+            36,
+            72
+        ],
+        "aa": [
+            0,
+            0
+        ],
+        "armor": [
+            4,
+            20
+        ],
+        "luck": [
+            47,
+            90
+        ],
+        "rarity": 5,
+        "fuel": 10,
+        "ammo": 20,
+        "ctype": 103,
+        "stype": 13,
+        "sortid": 436
+    },
+    "637": {
+        "jp": "第四号海防艦",
+        "kana": "だいよんごう",
+        "variant": "",
+        "en": "Kaiboukan No.4",
+        "remodelLvl": 35,
+        "idAfterRemodel": "701",
+        "buildTime": 14,
+        "getMsg": "マル戦計画で生まれた丁型海防艦、その二番艦<br>第四号海防艦でっすー。そうね～ぇ、よつ……って<br>呼んでくれていいよぉ？　ていとく、よろしくねぇ！",
+        "slots": 1,
+        "scrap": [
+            1,
+            1,
+            1,
+            0
+        ],
+        "modValue": [
+            0,
+            0,
+            1,
+            0
+        ],
+        "fp": [
+            3,
+            15
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            5,
+            19
+        ],
+        "armor": [
+            4,
+            15
+        ],
+        "luck": [
+            18,
+            76
+        ],
+        "rarity": 4,
+        "fuel": 10,
+        "ammo": 10,
+        "ctype": 104,
+        "stype": 1,
+        "sortid": 437
+    },
+    "639": {
+        "jp": "迅鯨改",
+        "kana": "じんげい",
+        "variant": "",
+        "en": "Jingei Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 150,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            2,
+            2,
+            12,
+            1
+        ],
+        "modValue": [
+            0,
+            0,
+            1,
+            2
+        ],
+        "fp": [
+            8,
+            40
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            14,
+            34
+        ],
+        "armor": [
+            17,
+            34
+        ],
+        "luck": [
+            16,
+            60
+        ],
+        "rarity": 5,
+        "fuel": 30,
+        "ammo": 10,
+        "ctype": 100,
+        "stype": 20,
+        "sortid": 439
+    },
+    "641": {
+        "jp": "松",
+        "kana": "まつ",
+        "variant": "",
+        "en": "Matsu",
+        "remodelLvl": 50,
+        "idAfterRemodel": "702",
+        "buildTime": 14,
+        "getMsg": "待たせたわね。丁型駆逐艦、松型、その一番艦、<br>松よ！大丈夫、すぐ出れる。護ってみせるわ！<br>任せておいて！",
+        "slots": 2,
+        "scrap": [
+            1,
+            1,
+            4,
+            0
+        ],
+        "modValue": [
+            0,
+            1,
+            1,
+            0
+        ],
+        "fp": [
+            5,
+            26
+        ],
+        "torp": [
+            16,
+            60
+        ],
+        "aa": [
+            20,
+            60
+        ],
+        "armor": [
+            5,
+            22
+        ],
+        "luck": [
+            14,
+            58
+        ],
+        "rarity": 5,
+        "fuel": 15,
+        "ammo": 15,
+        "ctype": 101,
+        "stype": 2,
+        "sortid": 441
     },
     "678": {
         "jp": "日振改",
@@ -28767,8 +29551,8 @@
         "kana": "フレッチャー",
         "variant": "",
         "en": "Fletcher Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 88,
+        "idAfterRemodel": "628",
         "buildTime": 23,
         "getMsg": "<br>",
         "slots": 3,
@@ -28957,6 +29741,153 @@
         "ctype": 99,
         "stype": 3,
         "sortid": 1496
+    },
+    "700": {
+        "jp": "薄雲改",
+        "kana": "うすぐも",
+        "variant": "",
+        "en": "Usugumo Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 20,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            2,
+            10,
+            0
+        ],
+        "modValue": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "fp": [
+            12,
+            49
+        ],
+        "torp": [
+            27,
+            79
+        ],
+        "aa": [
+            14,
+            48
+        ],
+        "armor": [
+            13,
+            49
+        ],
+        "luck": [
+            9,
+            54
+        ],
+        "rarity": 5,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 12,
+        "stype": 2,
+        "sortid": 1700
+    },
+    "701": {
+        "jp": "第四号海防艦改",
+        "kana": "だいよんごう",
+        "variant": "",
+        "en": "Kaiboukan No.4 Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 14,
+        "getMsg": "<br>",
+        "slots": 2,
+        "scrap": [
+            1,
+            1,
+            2,
+            0
+        ],
+        "modValue": [
+            1,
+            0,
+            1,
+            0
+        ],
+        "fp": [
+            4,
+            28
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            11,
+            40
+        ],
+        "armor": [
+            5,
+            29
+        ],
+        "luck": [
+            20,
+            80
+        ],
+        "rarity": 5,
+        "fuel": 10,
+        "ammo": 10,
+        "ctype": 104,
+        "stype": 1,
+        "sortid": 1701
+    },
+    "702": {
+        "jp": "松改",
+        "kana": "まつ",
+        "variant": "",
+        "en": "Matsu Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 14,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            1,
+            4,
+            0
+        ],
+        "modValue": [
+            1,
+            1,
+            2,
+            1
+        ],
+        "fp": [
+            7,
+            26
+        ],
+        "torp": [
+            16,
+            72
+        ],
+        "aa": [
+            30,
+            74
+        ],
+        "armor": [
+            12,
+            55
+        ],
+        "luck": [
+            18,
+            68
+        ],
+        "rarity": 6,
+        "fuel": 15,
+        "ammo": 15,
+        "ctype": 101,
+        "stype": 2,
+        "sortid": 1702
     },
     "893": {
         "jp": "Janus改",
@@ -32359,5 +33290,261 @@
         "slots": 3,
         "ctype": 1,
         "stype": 13
+    },
+    "1921": {
+        "jp": "集積地棲姫II",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1922": {
+        "jp": "集積地棲姫II",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1923": {
+        "jp": "集積地棲姫II",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1924": {
+        "jp": "集積地棲姫II-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1925": {
+        "jp": "集積地棲姫II-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1926": {
+        "jp": "集積地棲姫II-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1927": {
+        "jp": "深海千島棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1928": {
+        "jp": "深海千島棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1929": {
+        "jp": "深海千島棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1930": {
+        "jp": "深海千島棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1931": {
+        "jp": "深海千島棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1932": {
+        "jp": "深海千島棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1933": {
+        "jp": "集積地棲姫II 夏季上陸mode",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1934": {
+        "jp": "集積地棲姫II 夏季上陸mode",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1935": {
+        "jp": "集積地棲姫II 夏季上陸mode",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 10
+    },
+    "1936": {
+        "jp": "集積地棲姫II 夏季上陸mode-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 9
+    },
+    "1937": {
+        "jp": "集積地棲姫II 夏季上陸mode-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 9
+    },
+    "1938": {
+        "jp": "集積地棲姫II 夏季上陸mode-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 9
+    },
+    "1939": {
+        "jp": "五島沖海底姫",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 13
+    },
+    "1940": {
+        "jp": "五島沖海底姫",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 13
+    },
+    "1941": {
+        "jp": "五島沖海底姫",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 13
+    },
+    "1942": {
+        "jp": "五島沖海底姫-壊",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 13
+    },
+    "1943": {
+        "jp": "五島沖海底姫-壊",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 13
+    },
+    "1944": {
+        "jp": "五島沖海底姫-壊",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 13
+    },
+    "1945": {
+        "jp": "駆逐林棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1946": {
+        "jp": "駆逐林棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1947": {
+        "jp": "駆逐林棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1948": {
+        "jp": "駆逐林棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1949": {
+        "jp": "駆逐林棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1950": {
+        "jp": "駆逐林棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1951": {
+        "jp": "駆逐ナ級後期型II",
+        "kana": "",
+        "variant": "elite",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
+    },
+    "1952": {
+        "jp": "駆逐ナ級後期型II",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 2
     }
 }

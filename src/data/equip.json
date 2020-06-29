@@ -4679,6 +4679,279 @@
         ],
         "rare": 5
     },
+    "364": {
+        "en": "Type D Kouhyouteki Kai (Kouryuu Kai)",
+        "jp": "甲標的 丁型改(蛟龍改)",
+        "type": 22,
+        "icon": 5,
+        "scrap": [
+            4,
+            9,
+            12,
+            4
+        ],
+        "rare": 4
+    },
+    "365": {
+        "en": "Type 1 Armor Piercing Shell Kai",
+        "jp": "一式徹甲弾改",
+        "type": 19,
+        "icon": 13,
+        "scrap": [
+            0,
+            6,
+            10,
+            1
+        ],
+        "rare": 4
+    },
+    "366": {
+        "en": "12.7cm Twin Gun Mount Model D Kai 3",
+        "jp": "12.7cm連装砲D型改三",
+        "type": 1,
+        "icon": 1,
+        "scrap": [
+            0,
+            2,
+            3,
+            1
+        ],
+        "rare": 4
+    },
+    "367": {
+        "en": "Swordfish (Seaplane Model)",
+        "jp": "Swordfish(水上機型)",
+        "type": 11,
+        "icon": 10,
+        "scrap": [
+            1,
+            2,
+            0,
+            3
+        ],
+        "rare": 3
+    },
+    "368": {
+        "en": "Swordfish Mk.III Kai (Seaplane Model)",
+        "jp": "Swordfish Mk.III改(水上機型)",
+        "type": 11,
+        "icon": 10,
+        "scrap": [
+            1,
+            3,
+            0,
+            3
+        ],
+        "rare": 4
+    },
+    "369": {
+        "en": "Swordfish Mk.III Kai (Seaplane Model/Skilled)",
+        "jp": "Swordfish Mk.III改(水上機型/熟練)",
+        "type": 11,
+        "icon": 10,
+        "scrap": [
+            1,
+            3,
+            0,
+            3
+        ],
+        "rare": 5
+    },
+    "370": {
+        "en": "Swordfish Mk.II Kai (Reconnaissance Seaplane Model)",
+        "jp": "Swordfish Mk.II改(水偵型)",
+        "type": 10,
+        "icon": 10,
+        "scrap": [
+            1,
+            2,
+            0,
+            4
+        ],
+        "rare": 4
+    },
+    "371": {
+        "en": "Fairey Seafox Kai",
+        "jp": "Fairey Seafox改",
+        "type": 10,
+        "icon": 10,
+        "scrap": [
+            1,
+            2,
+            0,
+            4
+        ],
+        "rare": 4
+    },
+    "372": {
+        "en": "Tenzan Model 12A",
+        "jp": "天山一二型甲",
+        "type": 8,
+        "icon": 8,
+        "scrap": [
+            2,
+            5,
+            0,
+            5
+        ],
+        "rare": 3
+    },
+    "373": {
+        "en": "Tenzan Model 12A Kai (w/ Type 6 Airborne Radar Kai)",
+        "jp": "天山一二型甲改(空六号電探改装備機)",
+        "type": 8,
+        "icon": 46,
+        "scrap": [
+            2,
+            5,
+            0,
+            6
+        ],
+        "rare": 4
+    },
+    "374": {
+        "en": "Tenzan Model 12A Kai (Skilled w/ Type 6 Airborne Radar Kai)",
+        "jp": "天山一二型甲改(熟練/空六号電探改装備機)",
+        "type": 8,
+        "icon": 46,
+        "scrap": [
+            3,
+            6,
+            0,
+            6
+        ],
+        "rare": 5
+    },
+    "375": {
+        "en": "XF5U",
+        "jp": "XF5U",
+        "type": 6,
+        "icon": 6,
+        "scrap": [
+            3,
+            4,
+            1,
+            14
+        ],
+        "rare": 6
+    },
+    "376": {
+        "en": "533mm Quintuple Torpedo Mount (Late Model)",
+        "jp": "533mm五連装魚雷(後期型)",
+        "type": 5,
+        "icon": 5,
+        "scrap": [
+            2,
+            4,
+            2,
+            3
+        ],
+        "rare": 3
+    },
+    "377": {
+        "en": "RUR-4A Weapon Alpha Kai",
+        "jp": "RUR-4A Weapon Alpha改",
+        "type": 15,
+        "icon": 17,
+        "scrap": [
+            1,
+            10,
+            4,
+            4
+        ],
+        "rare": 5
+    },
+    "378": {
+        "en": "Lightweight ASW Torpedo (Initial Test Model)",
+        "jp": "対潜短魚雷(試作初期型)",
+        "type": 15,
+        "icon": 17,
+        "scrap": [
+            2,
+            11,
+            2,
+            5
+        ],
+        "rare": 6
+    },
+    "379": {
+        "en": "12.7cm Single High-angle Gun Mount Kai 2",
+        "jp": "12.7cm単装高角砲改二",
+        "type": 1,
+        "icon": 16,
+        "scrap": [
+            0,
+            1,
+            2,
+            1
+        ],
+        "rare": 3
+    },
+    "380": {
+        "en": "12.7cm Twin High-angle Gun Mount Kai 2",
+        "jp": "12.7cm連装高角砲改二",
+        "type": 1,
+        "icon": 16,
+        "scrap": [
+            0,
+            2,
+            2,
+            1
+        ],
+        "rare": 3
+    },
+    "381": {
+        "en": "16inch Triple Gun Mount Mk.6",
+        "jp": "16inch三連装砲 Mk.6",
+        "type": 3,
+        "icon": 3,
+        "scrap": [
+            0,
+            13,
+            22,
+            2
+        ],
+        "rare": 3
+    },
+    "382": {
+        "en": "12cm Single High-angle Gun Mount Model E",
+        "jp": "12cm単装高角砲E型",
+        "type": 1,
+        "icon": 16,
+        "scrap": [
+            0,
+            1,
+            1,
+            1
+        ],
+        "rare": 2
+    },
+    "383": {
+        "en": "Late Model 53cm Bow Torpedo Mount (8 tubes)",
+        "jp": "後期型53cm艦首魚雷(8門)",
+        "type": 32,
+        "icon": 5,
+        "scrap": [
+            3,
+            4,
+            3,
+            1
+        ],
+        "rare": 4
+    },
+    "384": {
+        "en": "Late Model Submarine Radar & Passive Radiolocator",
+        "jp": "後期型潜水艦搭載電探&逆探",
+        "type": 51,
+        "icon": 42,
+        "scrap": [
+            0,
+            0,
+            14,
+            19
+        ],
+        "rare": 5
+    },
     "501": {
         "jp": "5inch単装砲",
         "type": 1,
@@ -5914,6 +6187,54 @@
             0
         ],
         "rare": 5
+    },
+    "604": {
+        "jp": "深海5inch連装砲A型",
+        "type": 1,
+        "icon": 1,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 4
+    },
+    "605": {
+        "jp": "深海潜水艦搭載電子兵装",
+        "type": 51,
+        "icon": 42,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 5
+    },
+    "606": {
+        "jp": "深海5inch単装高角砲改二",
+        "type": 1,
+        "icon": 16,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 4
+    },
+    "607": {
+        "jp": "深海5inch連装高角砲改二",
+        "type": 1,
+        "icon": 16,
+        "scrap": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "rare": 4
     },
     "penguin": {
         "en": "Penguin",
