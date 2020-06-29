@@ -39,6 +39,14 @@
                                 <option value="46-4">46-4</option>
                                 <option value="46-5">46-5</option>
                                 <option value="46-6">46-6</option>
+                                <option value="47-1">47-1</option>
+                                <option value="48-1">48-1</option>
+                                <option value="48-2">48-2</option>
+                                <option value="48-3">48-3</option>
+                                <option value="48-4">48-4</option>
+                                <option value="48-5">48-5</option>
+                                <option value="48-6">48-6</option>
+                                <option value="48-7">48-7</option>
                             </select>
                         </div>
                     </div>

@@ -222,5 +222,21 @@
     "47-1":{
         "jp": "桃の節句！沖に立つ波",
         "en": "Peach Festival! Offshore Waves"
+    },
+    "48-1":{
+        "jp": "鎮魂、キ504船団",
+        "en": "Requiem for the Fleet Convoy Ki-504"
+    },
+    "48-2":{
+        "jp": "瀬底島、その先へ――",
+        "en": "Beyond Sesoko Island..."
+    },
+    "48-3":{
+        "jp": "五島列島沖海底の祈り",
+        "en": "A Prayer From the Seafloor of the Gotou Islands Sea"
+    },
+    "48-4":{
+        "jp": "反転!敵任務部隊を撃て!",
+        "en": "The Tables Have Turned! Attack the Enemy Task Force!"
     }
 }
