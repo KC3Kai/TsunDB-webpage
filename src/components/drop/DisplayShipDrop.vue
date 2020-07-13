@@ -67,6 +67,9 @@
                         <th :class="checkIfInMap(48, '48-2') ? 'has-text-success' : 'has-text-danger'">E-2</th>
                         <th :class="checkIfInMap(48, '48-3') ? 'has-text-success' : 'has-text-danger'">E-3</th>
                         <th :class="checkIfInMap(48, '48-4') ? 'has-text-success' : 'has-text-danger'">E-4</th>
+                        <th :class="checkIfInMap(48, '48-5') ? 'has-text-success' : 'has-text-danger'">E-5</th>
+                        <th :class="checkIfInMap(48, '48-6') ? 'has-text-success' : 'has-text-danger'">E-6</th>
+                        <th :class="checkIfInMap(48, '48-7') ? 'has-text-success' : 'has-text-danger'">E-7</th>
                     </tr>
                 </tbody>
             </table>

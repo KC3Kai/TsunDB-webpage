@@ -27635,6 +27635,104 @@
         "stype": 9,
         "sortid": 401
     },
+    "602": {
+        "jp": "South Dakota",
+        "kana": "サウスダコタ",
+        "variant": "",
+        "en": "South Dakota",
+        "remodelLvl": 48,
+        "idAfterRemodel": "697",
+        "buildTime": 400,
+        "getMsg": "Nice meeting you.<br>My name is South Dakota.　提督、よろしくな。",
+        "slots": 4,
+        "scrap": [
+            18,
+            32,
+            50,
+            10
+        ],
+        "modValue": [
+            5,
+            0,
+            2,
+            5
+        ],
+        "fp": [
+            81,
+            100
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            40,
+            91
+        ],
+        "armor": [
+            77,
+            93
+        ],
+        "luck": [
+            20,
+            79
+        ],
+        "rarity": 7,
+        "fuel": 150,
+        "ammo": 190,
+        "ctype": 102,
+        "stype": 8,
+        "sortid": 402
+    },
+    "603": {
+        "jp": "Hornet",
+        "kana": "ホーネット",
+        "variant": "",
+        "en": "Hornet",
+        "remodelLvl": 40,
+        "idAfterRemodel": "704",
+        "buildTime": 360,
+        "getMsg": "そう、貴方が噂の提督なの。よろしくね。<br>私は USS CV8 Hornet!　I’m looking forward to you.",
+        "slots": 4,
+        "scrap": [
+            8,
+            13,
+            37,
+            12
+        ],
+        "modValue": [
+            0,
+            0,
+            4,
+            4
+        ],
+        "fp": [
+            0,
+            45
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            32,
+            72
+        ],
+        "armor": [
+            38,
+            65
+        ],
+        "luck": [
+            28,
+            67
+        ],
+        "rarity": 7,
+        "fuel": 60,
+        "ammo": 65,
+        "ctype": 105,
+        "stype": 11,
+        "sortid": 403
+    },
     "604": {
         "jp": "De Ruyter",
         "kana": "デ・ロイテル",
@@ -27929,6 +28027,55 @@
         "stype": 1,
         "sortid": 411
     },
+    "612": {
+        "jp": "屋代",
+        "kana": "やしろ",
+        "variant": "",
+        "en": "Yashiro",
+        "remodelLvl": 45,
+        "idAfterRemodel": "617",
+        "buildTime": 14,
+        "getMsg": "御蔵型海防艦、五番艦、屋代。参ります。<br>どんなに困難な状況でも、屋代、頑張り抜きます。<br>皆さんを護る、それが勤めですから。",
+        "slots": 2,
+        "scrap": [
+            1,
+            1,
+            2,
+            0
+        ],
+        "modValue": [
+            1,
+            0,
+            0,
+            0
+        ],
+        "fp": [
+            4,
+            16
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            9,
+            37
+        ],
+        "armor": [
+            4,
+            16
+        ],
+        "luck": [
+            20,
+            80
+        ],
+        "rarity": 4,
+        "fuel": 10,
+        "ammo": 10,
+        "ctype": 94,
+        "stype": 1,
+        "sortid": 412
+    },
     "613": {
         "jp": "Perth",
         "kana": "パース",
@@ -28027,6 +28174,55 @@
         "stype": 2,
         "sortid": 414
     },
+    "615": {
+        "jp": "Helena",
+        "kana": "ヘレナ",
+        "variant": "",
+        "en": "Helena",
+        "remodelLvl": 45,
+        "idAfterRemodel": "620",
+        "buildTime": 70,
+        "getMsg": "My name is Helena.<br>St. Louis class 軽巡洋艦二番艦 USS CL50 Helena<br>よろしくね！",
+        "slots": 3,
+        "scrap": [
+            3,
+            3,
+            13,
+            2
+        ],
+        "modValue": [
+            2,
+            0,
+            2,
+            2
+        ],
+        "fp": [
+            30,
+            60
+        ],
+        "torp": [
+            0,
+            32
+        ],
+        "aa": [
+            30,
+            72
+        ],
+        "armor": [
+            17,
+            40
+        ],
+        "luck": [
+            9,
+            59
+        ],
+        "rarity": 5,
+        "fuel": 35,
+        "ammo": 55,
+        "ctype": 106,
+        "stype": 3,
+        "sortid": 415
+    },
     "616": {
         "jp": "御蔵改",
         "kana": "みくら",
@@ -28075,6 +28271,55 @@
         "ctype": 94,
         "stype": 1,
         "sortid": 416
+    },
+    "617": {
+        "jp": "屋代改",
+        "kana": "やしろ",
+        "variant": "",
+        "en": "Yashiro Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 14,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            1,
+            2,
+            0
+        ],
+        "modValue": [
+            1,
+            0,
+            1,
+            0
+        ],
+        "fp": [
+            5,
+            36
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            16,
+            62
+        ],
+        "armor": [
+            7,
+            33
+        ],
+        "luck": [
+            30,
+            98
+        ],
+        "rarity": 5,
+        "fuel": 10,
+        "ammo": 10,
+        "ctype": 94,
+        "stype": 1,
+        "sortid": 417
     },
     "618": {
         "jp": "Perth改",
@@ -28173,6 +28418,55 @@
         "ctype": 61,
         "stype": 2,
         "sortid": 419
+    },
+    "620": {
+        "jp": "Helena改",
+        "kana": "ヘレナ",
+        "variant": "",
+        "en": "Helena Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 70,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            4,
+            7,
+            17,
+            2
+        ],
+        "modValue": [
+            2,
+            0,
+            2,
+            2
+        ],
+        "fp": [
+            36,
+            78
+        ],
+        "torp": [
+            0,
+            38
+        ],
+        "aa": [
+            40,
+            86
+        ],
+        "armor": [
+            27,
+            69
+        ],
+        "luck": [
+            13,
+            69
+        ],
+        "rarity": 6,
+        "fuel": 35,
+        "ammo": 60,
+        "ctype": 106,
+        "stype": 3,
+        "sortid": 420
     },
     "621": {
         "jp": "神州丸",
@@ -28712,6 +29006,55 @@
         "ctype": 12,
         "stype": 2,
         "sortid": 431
+    },
+    "632": {
+        "jp": "有明",
+        "kana": "ありあけ",
+        "variant": "",
+        "en": "Ariake",
+        "remodelLvl": 48,
+        "idAfterRemodel": "703",
+        "buildTime": 20,
+        "getMsg": "よお！あたしが初春型の有明だ。よろしくな！<br>有明型っていう奴もいるけど、どっちだっていいよ。<br>あたしはあたし、それが全てさ。いくぜ！",
+        "slots": 2,
+        "scrap": [
+            1,
+            1,
+            5,
+            0
+        ],
+        "modValue": [
+            0,
+            1,
+            0,
+            0
+        ],
+        "fp": [
+            10,
+            29
+        ],
+        "torp": [
+            27,
+            70
+        ],
+        "aa": [
+            8,
+            38
+        ],
+        "armor": [
+            6,
+            19
+        ],
+        "luck": [
+            10,
+            49
+        ],
+        "rarity": 4,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 10,
+        "stype": 2,
+        "sortid": 432
     },
     "634": {
         "jp": "迅鯨",
@@ -29742,6 +30085,55 @@
         "stype": 3,
         "sortid": 1496
     },
+    "697": {
+        "jp": "South Dakota改",
+        "kana": "サウスダコタ",
+        "variant": "",
+        "en": "South Dakota Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 400,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            24,
+            40,
+            70,
+            20
+        ],
+        "modValue": [
+            5,
+            0,
+            3,
+            5
+        ],
+        "fp": [
+            86,
+            109
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            58,
+            108
+        ],
+        "armor": [
+            86,
+            108
+        ],
+        "luck": [
+            36,
+            98
+        ],
+        "rarity": 8,
+        "fuel": 160,
+        "ammo": 200,
+        "ctype": 102,
+        "stype": 8,
+        "sortid": 407
+    },
     "700": {
         "jp": "薄雲改",
         "kana": "うすぐも",
@@ -29864,7 +30256,7 @@
         ],
         "fp": [
             7,
-            26
+            42
         ],
         "torp": [
             16,
@@ -29888,6 +30280,104 @@
         "ctype": 101,
         "stype": 2,
         "sortid": 1702
+    },
+    "703": {
+        "jp": "有明改",
+        "kana": "ありあけ",
+        "variant": "",
+        "en": "Ariake Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 20,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            2,
+            10,
+            0
+        ],
+        "modValue": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "fp": [
+            7,
+            48
+        ],
+        "torp": [
+            20,
+            78
+        ],
+        "aa": [
+            12,
+            54
+        ],
+        "armor": [
+            12,
+            49
+        ],
+        "luck": [
+            12,
+            59
+        ],
+        "rarity": 5,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 10,
+        "stype": 2,
+        "sortid": 1703
+    },
+    "704": {
+        "jp": "Hornet改",
+        "kana": "ホーネット",
+        "variant": "",
+        "en": "Hornet Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 360,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            9,
+            16,
+            42,
+            16
+        ],
+        "modValue": [
+            0,
+            0,
+            4,
+            4
+        ],
+        "fp": [
+            0,
+            55
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            42,
+            86
+        ],
+        "armor": [
+            45,
+            84
+        ],
+        "luck": [
+            30,
+            80
+        ],
+        "rarity": 8,
+        "fuel": 70,
+        "ammo": 80,
+        "ctype": 105,
+        "stype": 11,
+        "sortid": 1704
     },
     "893": {
         "jp": "Janus改",
@@ -33546,5 +34036,213 @@
         "slots": 4,
         "ctype": 1,
         "stype": 2
+    },
+    "1953": {
+        "jp": "重巡ネ級改 夏mode",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 5
+    },
+    "1954": {
+        "jp": "重巡ネ級改 夏mode",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 5
+    },
+    "1955": {
+        "jp": "重巡ネ級改 夏mode",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 5
+    },
+    "1956": {
+        "jp": "重巡ネ級改II 夏mode",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 5
+    },
+    "1957": {
+        "jp": "軽巡棲姫II",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
+    },
+    "1958": {
+        "jp": "軽巡棲姫II",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
+    },
+    "1959": {
+        "jp": "軽巡棲姫II",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
+    },
+    "1960": {
+        "jp": "軽巡棲姫II",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 3
+    },
+    "1961": {
+        "jp": "空母夏姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1962": {
+        "jp": "空母夏姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1963": {
+        "jp": "空母夏姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1964": {
+        "jp": "空母夏姫II",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1965": {
+        "jp": "南方戦艦新棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1966": {
+        "jp": "南方戦艦新棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1967": {
+        "jp": "南方戦艦新棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1968": {
+        "jp": "南方戦艦新棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1969": {
+        "jp": "南方戦艦新棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1970": {
+        "jp": "南方戦艦新棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1971": {
+        "jp": "南太平洋空母棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1972": {
+        "jp": "南太平洋空母棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1973": {
+        "jp": "南太平洋空母棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1974": {
+        "jp": "南太平洋空母棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1975": {
+        "jp": "南太平洋空母棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1976": {
+        "jp": "南太平洋空母棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 11
+    },
+    "1977": {
+        "jp": "潜水夏姫II",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 3,
+        "ctype": 1,
+        "stype": 13
+    },
+    "1978": {
+        "jp": "潜水夏姫II",
+        "kana": "",
+        "variant": "flagship",
+        "slots": 3,
+        "ctype": 1,
+        "stype": 13
     }
 }

@@ -238,5 +238,17 @@
     "48-4":{
         "jp": "反転!敵任務部隊を撃て!",
         "en": "The Tables Have Turned! Attack the Enemy Task Force!"
+    },
+    "48-5":{
+        "jp": "南方戦線 島嶼海上輸送作戦",
+        "en": "Southern Front - Interisland Transport Operation"
+    },
+    "48-6":{
+        "jp": "鉄底海峡の死闘",
+        "en": "Mortal Combat at Ironbottom Sound"
+    },
+    "48-7":{
+        "jp": "決戦！南太平洋海戦",
+        "en": "Decisive Battle! The Battle of the Santa Cruz Islands"
     }
 }
