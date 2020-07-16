@@ -24,7 +24,7 @@
     "handlebars": "^4.5.3",
     "https-proxy-agent": "^2.2.4",
     "js-yaml": "^3.13.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mixin-deep": "^2.0.1",
     "sort-json-array": "^0.1.7",
     "tapable": "^1.1.1",
