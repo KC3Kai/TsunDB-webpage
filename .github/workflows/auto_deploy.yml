@@ -1,0 +1,19 @@
+name: Deploy TsunDB Website
+on: 
+    push:
+        branches: [ master ]
+
+jobs: 
+    job_one: 
+        name: Deploy
+        runs-on: debian-latest
+        steps:
+          - uses: appleboy/ssh-action@master
+            with: 
+                host: ${{ secrets.HOST }}
+                username: ${{ secrets.USER }}
+                key: ${{ secrets.KEY }}
+                port: 22
+                script_stop: true
+                script: |
+                  bash updateWebsite.sh
