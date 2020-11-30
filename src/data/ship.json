@@ -6883,11 +6883,11 @@
         ],
         "fp": [
             13,
-            60
+            61
         ],
         "torp": [
             28,
-            86
+            87
         ],
         "aa": [
             24,
@@ -9006,7 +9006,7 @@
         ],
         "luck": [
             15,
-            70
+            72
         ],
         "rarity": 7,
         "fuel": 50,
@@ -9235,7 +9235,7 @@
         ],
         "fp": [
             53,
-            82
+            83
         ],
         "torp": [
             34,
@@ -9251,7 +9251,7 @@
         ],
         "luck": [
             20,
-            72
+            75
         ],
         "rarity": 6,
         "fuel": 45,
@@ -9300,7 +9300,7 @@
         ],
         "luck": [
             19,
-            70
+            74
         ],
         "rarity": 5,
         "fuel": 45,
@@ -10931,8 +10931,8 @@
         "kana": "ゆきかぜ",
         "variant": "",
         "en": "Yukikaze Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 71,
+        "idAfterRemodel": "651",
         "buildTime": 24,
         "getMsg": "<br>",
         "slots": 3,
@@ -12975,7 +12975,7 @@
         ],
         "luck": [
             10,
-            59
+            63
         ],
         "rarity": 5,
         "fuel": 40,
@@ -13381,8 +13381,8 @@
         "kana": "かが",
         "variant": "",
         "en": "Kaga Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 82,
+        "idAfterRemodel": "698",
         "buildTime": 260,
         "getMsg": "<br>",
         "slots": 4,
@@ -14410,8 +14410,8 @@
         "kana": "あきぐも",
         "variant": "",
         "en": "Akigumo Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 74,
+        "idAfterRemodel": "648",
         "buildTime": 24,
         "getMsg": "<br>",
         "slots": 3,
@@ -14625,7 +14625,7 @@
         ],
         "fp": [
             28,
-            67
+            68
         ],
         "torp": [
             24,
@@ -14674,7 +14674,7 @@
         ],
         "fp": [
             28,
-            68
+            70
         ],
         "torp": [
             24,
@@ -14723,7 +14723,7 @@
         ],
         "fp": [
             28,
-            70
+            72
         ],
         "torp": [
             24,
@@ -15066,7 +15066,7 @@
         ],
         "fp": [
             27,
-            65
+            67
         ],
         "torp": [
             23,
@@ -15262,7 +15262,7 @@
         ],
         "fp": [
             50,
-            80
+            81
         ],
         "torp": [
             36,
@@ -16830,7 +16830,7 @@
         ],
         "fp": [
             90,
-            115
+            116
         ],
         "torp": [
             0,
@@ -18986,11 +18986,11 @@
         ],
         "fp": [
             10,
-            58
+            59
         ],
         "torp": [
             25,
-            80
+            83
         ],
         "aa": [
             24,
@@ -19002,7 +19002,7 @@
         ],
         "luck": [
             32,
-            89
+            90
         ],
         "rarity": 6,
         "fuel": 15,
@@ -23862,6 +23862,55 @@
         "stype": 8,
         "sortid": 316
     },
+    "514": {
+        "jp": "Sheffield",
+        "kana": "シェフィールド",
+        "variant": "",
+        "en": "Sheffield",
+        "remodelLvl": 55,
+        "idAfterRemodel": "705",
+        "buildTime": 70,
+        "getMsg": "HMS Sheffield 着任します。<br>君がAdmiral？ ふうん、ちょっといいね。<br>よろしく。",
+        "slots": 3,
+        "scrap": [
+            3,
+            3,
+            12,
+            3
+        ],
+        "modValue": [
+            2,
+            1,
+            2,
+            2
+        ],
+        "fp": [
+            25,
+            56
+        ],
+        "torp": [
+            20,
+            40
+        ],
+        "aa": [
+            28,
+            70
+        ],
+        "armor": [
+            16,
+            41
+        ],
+        "luck": [
+            17,
+            79
+        ],
+        "rarity": 6,
+        "fuel": 35,
+        "ammo": 60,
+        "ctype": 108,
+        "stype": 3,
+        "sortid": 314
+    },
     "515": {
         "jp": "Ark Royal",
         "kana": "アークロイヤル",
@@ -25748,11 +25797,11 @@
         ],
         "fp": [
             10,
-            61
+            63
         ],
         "torp": [
             24,
-            82
+            84
         ],
         "aa": [
             30,
@@ -25797,7 +25846,7 @@
         ],
         "fp": [
             10,
-            58
+            60
         ],
         "torp": [
             24,
@@ -26687,7 +26736,7 @@
         ],
         "aa": [
             18,
-            70
+            72
         ],
         "armor": [
             15,
@@ -26695,7 +26744,7 @@
         ],
         "luck": [
             28,
-            84
+            86
         ],
         "rarity": 7,
         "fuel": 15,
@@ -27978,6 +28027,55 @@
         "stype": 3,
         "sortid": 1494
     },
+    "610": {
+        "jp": "加賀改二戊",
+        "kana": "かが",
+        "variant": "",
+        "en": "Kaga Kai Ni E",
+        "remodelLvl": 84,
+        "idAfterRemodel": "646",
+        "buildTime": 260,
+        "getMsg": "<br>",
+        "slots": 5,
+        "scrap": [
+            14,
+            19,
+            43,
+            17
+        ],
+        "modValue": [
+            0,
+            0,
+            6,
+            5
+        ],
+        "fp": [
+            0,
+            62
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            36,
+            84
+        ],
+        "armor": [
+            41,
+            80
+        ],
+        "luck": [
+            18,
+            74
+        ],
+        "rarity": 8,
+        "fuel": 100,
+        "ammo": 95,
+        "ctype": 3,
+        "stype": 11,
+        "sortid": 410
+    },
     "611": {
         "jp": "御蔵",
         "kana": "みくら",
@@ -28035,7 +28133,7 @@
         "remodelLvl": 45,
         "idAfterRemodel": "617",
         "buildTime": 14,
-        "getMsg": "御蔵型海防艦、五番艦、屋代。参ります。<br>どんなに困難な状況でも、屋代、頑張り抜きます。<br>皆さんを護る、それが勤めですから。",
+        "getMsg": "御蔵型海防艦、六番艦、屋代。参ります。<br>どんなに困難な状況でも、屋代、頑張り抜きます。<br>皆さんを護る、それが勤めですから。",
         "slots": 2,
         "scrap": [
             1,
@@ -28737,7 +28835,7 @@
         ],
         "fp": [
             6,
-            35
+            36
         ],
         "torp": [
             0,
@@ -28745,7 +28843,7 @@
         ],
         "aa": [
             12,
-            44
+            46
         ],
         "armor": [
             12,
@@ -29300,6 +29398,398 @@
         "ctype": 101,
         "stype": 2,
         "sortid": 441
+    },
+    "646": {
+        "jp": "加賀改二護",
+        "kana": "かが",
+        "variant": "",
+        "en": "Kaga Kai Ni Go",
+        "remodelLvl": 84,
+        "idAfterRemodel": "698",
+        "buildTime": 260,
+        "getMsg": "<br>",
+        "slots": 5,
+        "scrap": [
+            14,
+            19,
+            43,
+            17
+        ],
+        "modValue": [
+            0,
+            0,
+            6,
+            5
+        ],
+        "fp": [
+            36,
+            60
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            40,
+            84
+        ],
+        "armor": [
+            41,
+            84
+        ],
+        "luck": [
+            18,
+            74
+        ],
+        "rarity": 8,
+        "fuel": 105,
+        "ammo": 105,
+        "ctype": 3,
+        "stype": 11,
+        "sortid": 446
+    },
+    "648": {
+        "jp": "秋雲改二",
+        "kana": "あきぐも",
+        "variant": "",
+        "en": "Akigumo Kai Ni",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 24,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            2,
+            10,
+            1
+        ],
+        "modValue": [
+            2,
+            2,
+            1,
+            1
+        ],
+        "fp": [
+            18,
+            65
+        ],
+        "torp": [
+            30,
+            91
+        ],
+        "aa": [
+            18,
+            64
+        ],
+        "armor": [
+            15,
+            53
+        ],
+        "luck": [
+            18,
+            76
+        ],
+        "rarity": 7,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 30,
+        "stype": 2,
+        "sortid": 448
+    },
+    "651": {
+        "jp": "丹陽",
+        "kana": "ゆきかぜ",
+        "variant": "",
+        "en": "Dan Yang",
+        "remodelLvl": 88,
+        "idAfterRemodel": "656",
+        "buildTime": 24,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            3,
+            10,
+            1
+        ],
+        "modValue": [
+            2,
+            0,
+            3,
+            2
+        ],
+        "fp": [
+            18,
+            68
+        ],
+        "torp": [
+            0,
+            56
+        ],
+        "aa": [
+            40,
+            88
+        ],
+        "armor": [
+            16,
+            60
+        ],
+        "luck": [
+            60,
+            100
+        ],
+        "rarity": 7,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 30,
+        "stype": 2,
+        "sortid": 451
+    },
+    "653": {
+        "jp": "Scirocco",
+        "kana": "シロッコ",
+        "variant": "",
+        "en": "Scirocco",
+        "remodelLvl": 30,
+        "idAfterRemodel": "658",
+        "buildTime": 23,
+        "getMsg": "ふああ、Buongiorno～？<br>あたし、マエストラーレ級駆逐艦、そう、末っ子です。<br>名前は、シロッコ。うん、よろしくちゃ～お？",
+        "slots": 2,
+        "scrap": [
+            1,
+            1,
+            6,
+            0
+        ],
+        "modValue": [
+            1,
+            1,
+            0,
+            0
+        ],
+        "fp": [
+            9,
+            27
+        ],
+        "torp": [
+            22,
+            58
+        ],
+        "aa": [
+            11,
+            41
+        ],
+        "armor": [
+            7,
+            18
+        ],
+        "luck": [
+            9,
+            49
+        ],
+        "rarity": 6,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 61,
+        "stype": 2,
+        "sortid": 453
+    },
+    "654": {
+        "jp": "Washington",
+        "kana": "ワシントン",
+        "variant": "",
+        "en": "Washington",
+        "remodelLvl": 47,
+        "idAfterRemodel": "659",
+        "buildTime": 400,
+        "getMsg": "North Carolina class. USS Battleship Washington、着任。<br>貴方が私の提督って訳か…しっかりした指揮をお願いね。",
+        "slots": 4,
+        "scrap": [
+            19,
+            28,
+            52,
+            8
+        ],
+        "modValue": [
+            5,
+            0,
+            2,
+            5
+        ],
+        "fp": [
+            80,
+            99
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            38,
+            91
+        ],
+        "armor": [
+            74,
+            91
+        ],
+        "luck": [
+            24,
+            89
+        ],
+        "rarity": 7,
+        "fuel": 140,
+        "ammo": 190,
+        "ctype": 107,
+        "stype": 8,
+        "sortid": 454
+    },
+    "656": {
+        "jp": "雪風改二",
+        "kana": "ゆきかぜ",
+        "variant": "",
+        "en": "Yukikaze Kai Ni",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 24,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            2,
+            4,
+            10,
+            2
+        ],
+        "modValue": [
+            2,
+            2,
+            3,
+            2
+        ],
+        "fp": [
+            17,
+            66
+        ],
+        "torp": [
+            32,
+            90
+        ],
+        "aa": [
+            32,
+            85
+        ],
+        "armor": [
+            16,
+            60
+        ],
+        "luck": [
+            63,
+            120
+        ],
+        "rarity": 8,
+        "fuel": 15,
+        "ammo": 25,
+        "ctype": 30,
+        "stype": 2,
+        "sortid": 456
+    },
+    "658": {
+        "jp": "Scirocco改",
+        "kana": "シロッコ",
+        "variant": "",
+        "en": "Scirocco Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 23,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            1,
+            2,
+            10,
+            0
+        ],
+        "modValue": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "fp": [
+            13,
+            55
+        ],
+        "torp": [
+            27,
+            72
+        ],
+        "aa": [
+            22,
+            63
+        ],
+        "armor": [
+            15,
+            50
+        ],
+        "luck": [
+            13,
+            69
+        ],
+        "rarity": 7,
+        "fuel": 15,
+        "ammo": 20,
+        "ctype": 61,
+        "stype": 2,
+        "sortid": 1707
+    },
+    "659": {
+        "jp": "Washington改",
+        "kana": "ワシントン",
+        "variant": "",
+        "en": "Washington Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 400,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            23,
+            38,
+            72,
+            18
+        ],
+        "modValue": [
+            5,
+            0,
+            3,
+            5
+        ],
+        "fp": [
+            84,
+            107
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            55,
+            106
+        ],
+        "armor": [
+            84,
+            104
+        ],
+        "luck": [
+            38,
+            108
+        ],
+        "rarity": 8,
+        "fuel": 150,
+        "ammo": 195,
+        "ctype": 107,
+        "stype": 8,
+        "sortid": 459
     },
     "678": {
         "jp": "日振改",
@@ -30134,6 +30624,55 @@
         "stype": 8,
         "sortid": 407
     },
+    "698": {
+        "jp": "加賀改二",
+        "kana": "かが",
+        "variant": "",
+        "en": "Kaga Kai Ni",
+        "remodelLvl": 82,
+        "idAfterRemodel": "610",
+        "buildTime": 260,
+        "getMsg": "<br>",
+        "slots": 5,
+        "scrap": [
+            14,
+            19,
+            43,
+            17
+        ],
+        "modValue": [
+            0,
+            0,
+            6,
+            5
+        ],
+        "fp": [
+            0,
+            56
+        ],
+        "torp": [
+            0,
+            0
+        ],
+        "aa": [
+            36,
+            84
+        ],
+        "armor": [
+            41,
+            80
+        ],
+        "luck": [
+            18,
+            74
+        ],
+        "rarity": 8,
+        "fuel": 100,
+        "ammo": 95,
+        "ctype": 3,
+        "stype": 11,
+        "sortid": 405
+    },
     "700": {
         "jp": "薄雲改",
         "kana": "うすぐも",
@@ -30378,6 +30917,55 @@
         "ctype": 105,
         "stype": 11,
         "sortid": 1704
+    },
+    "705": {
+        "jp": "Sheffield改",
+        "kana": "シェフィールド",
+        "variant": "",
+        "en": "Sheffield Kai",
+        "remodelLvl": 0,
+        "idAfterRemodel": "0",
+        "buildTime": 70,
+        "getMsg": "<br>",
+        "slots": 4,
+        "scrap": [
+            4,
+            8,
+            16,
+            3
+        ],
+        "modValue": [
+            2,
+            1,
+            2,
+            2
+        ],
+        "fp": [
+            32,
+            74
+        ],
+        "torp": [
+            24,
+            68
+        ],
+        "aa": [
+            34,
+            78
+        ],
+        "armor": [
+            25,
+            68
+        ],
+        "luck": [
+            20,
+            98
+        ],
+        "rarity": 7,
+        "fuel": 40,
+        "ammo": 65,
+        "ctype": 108,
+        "stype": 3,
+        "sortid": 1705
     },
     "893": {
         "jp": "Janus改",
@@ -34244,5 +34832,53 @@
         "slots": 3,
         "ctype": 1,
         "stype": 13
+    },
+    "1979": {
+        "jp": "戦艦新棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1980": {
+        "jp": "戦艦新棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1981": {
+        "jp": "戦艦新棲姫",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1982": {
+        "jp": "戦艦新棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1983": {
+        "jp": "戦艦新棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
+    },
+    "1984": {
+        "jp": "戦艦新棲姫-壊",
+        "kana": "",
+        "variant": "",
+        "slots": 4,
+        "ctype": 1,
+        "stype": 8
     }
 }

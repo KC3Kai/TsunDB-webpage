@@ -215,7 +215,7 @@
             <div class="dropdown-trigger">
                 <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
                     <span>
-                        Rainy Summer 2020
+                        Fall 2020
                     </span>
                     <span class="icon is-small">
                         <i class="fas fa-angle-down" aria-hidden="true"></i>
@@ -224,26 +224,14 @@
             </div>
             <div class="dropdown-menu" id="dropdown-menu" role="menu">
                 <div class="dropdown-content">
-                    <router-link class="dropdown-item" :to="returnPath('48-1')">
+                    <router-link class="dropdown-item" :to="returnPath('49-1')">
                         E-1
                     </router-link>
-                    <router-link class="dropdown-item" :to="returnPath('48-2')">
+                    <router-link class="dropdown-item" :to="returnPath('49-2')">
                         E-2
                     </router-link>
-                    <router-link class="dropdown-item" :to="returnPath('48-3')">
+                    <router-link class="dropdown-item" :to="returnPath('49-3')">
                         E-3
-                    </router-link>
-                    <router-link class="dropdown-item" :to="returnPath('48-4')">
-                        E-4
-                    </router-link>
-                    <router-link class="dropdown-item" :to="returnPath('48-5')">
-                        E-5
-                    </router-link>
-                    <router-link class="dropdown-item" :to="returnPath('48-6')">
-                        E-6
-                    </router-link>
-                    <router-link class="dropdown-item" :to="returnPath('48-7')">
-                        E-7
                     </router-link>
                 </div>
             </div>

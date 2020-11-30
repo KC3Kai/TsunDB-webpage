@@ -160,11 +160,9 @@
         "jp": "ドック開放キー"
     },
     "50": {
-        "en": "Emergency Repair Personnel",
         "jp": "応急修理要員"
     },
     "51": {
-        "en": "Emergency Repair Goddess",
         "jp": "応急修理女神"
     },
     "52": {
@@ -224,11 +222,9 @@
         "jp": "試製甲板カタパルト"
     },
     "66": {
-        "en": "Combat Ration",
         "jp": "戦闘糧食"
     },
     "67": {
-        "en": "Underway Replenishment",
         "jp": "洋上補給"
     },
     "68": {
@@ -236,7 +232,6 @@
         "jp": "秋刀魚"
     },
     "69": {
-        "en": "Canned Saury",
         "jp": "秋刀魚の缶詰"
     },
     "70": {
@@ -264,7 +259,6 @@
         "jp": "新型砲熕兵装資材"
     },
     "76": {
-        "en": "Combat Ration (Special Onigiri)",
         "jp": "戦闘糧食(特別なおにぎり)"
     },
     "77": {
@@ -334,5 +328,9 @@
     "93": {
         "en": "Sardine",
         "jp": "鰯"
+    },
+    "94": {
+        "en": "New Model Armament Material",
+        "jp": "新型兵装資材"
     }
 }

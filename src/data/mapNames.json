@@ -250,5 +250,17 @@
     "48-7":{
         "jp": "決戦！南太平洋海戦",
         "en": "Decisive Battle! The Battle of the Santa Cruz Islands"
+    },
+    "49-1":{
+        "jp": "発動！MG1作戦",
+        "en": "Commence! Operation MG1"
+    },
+    "49-2":{
+        "jp": "バレンツ海【バレンツ海海戦】",
+        "en": "Battle of the Barents Sea"
+    },
+    "49-3":{
+        "jp": "ノルウェー北岬沖/北極海【PQ17船団を護衛せよ！】",
+        "en": "Escort the Convoy PQ 17!"
     }
 }

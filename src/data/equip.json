@@ -1898,8 +1898,8 @@
         "rare": 2
     },
     "147": {
-        "en": "120mm Twin Gun Mount",
-        "jp": "120mm連装砲",
+        "en": "120mm/50 Twin Gun Mount",
+        "jp": "120mm/50 連装砲",
         "type": 1,
         "icon": 1,
         "scrap": [
@@ -4990,6 +4990,201 @@
             2
         ],
         "rare": 4
+    },
+    "388": {
+        "en": "Ginga (Egusa Squadron)",
+        "jp": "銀河(江草隊)",
+        "type": 47,
+        "icon": 37,
+        "scrap": [
+            9,
+            7,
+            0,
+            17
+        ],
+        "rare": 5
+    },
+    "389": {
+        "en": "TBM-3W+3S",
+        "jp": "TBM-3W+3S",
+        "type": 8,
+        "icon": 46,
+        "scrap": [
+            4,
+            6,
+            0,
+            16
+        ],
+        "rare": 6
+    },
+    "390": {
+        "en": "16inch Triple Gun Mount Mk.6 + GFCS",
+        "jp": "16inch三連装砲 Mk.6+GFCS",
+        "type": 3,
+        "icon": 3,
+        "scrap": [
+            0,
+            16,
+            22,
+            16
+        ],
+        "rare": 5
+    },
+    "391": {
+        "en": "Type 99 Dive Bomber Model 22",
+        "jp": "九九式艦爆二二型",
+        "type": 7,
+        "icon": 7,
+        "scrap": [
+            1,
+            1,
+            0,
+            2
+        ],
+        "rare": 2
+    },
+    "392": {
+        "en": "Type 99 Dive Bomber Model 22 (Skilled)",
+        "jp": "九九式艦爆二二型(熟練)",
+        "type": 7,
+        "icon": 7,
+        "scrap": [
+            1,
+            1,
+            0,
+            2
+        ],
+        "rare": 3
+    },
+    "393": {
+        "en": "120mm/50 Twin Gun Mount mod.1936",
+        "jp": "120mm/50 連装砲 mod.1936",
+        "type": 1,
+        "icon": 1,
+        "scrap": [
+            0,
+            1,
+            2,
+            0
+        ],
+        "rare": 3
+    },
+    "394": {
+        "en": "120mm/50 Twin Gun Mount Kai A.mod.1937",
+        "jp": "120mm/50 連装砲改 A.mod.1937",
+        "type": 1,
+        "icon": 1,
+        "scrap": [
+            0,
+            1,
+            2,
+            0
+        ],
+        "rare": 4
+    },
+    "395": {
+        "en": "Shinzan",
+        "jp": "深山",
+        "type": 53,
+        "icon": 49,
+        "scrap": [
+            12,
+            18,
+            0,
+            23
+        ],
+        "rare": 3
+    },
+    "396": {
+        "en": "Shinzan Kai",
+        "jp": "深山改",
+        "type": 53,
+        "icon": 49,
+        "scrap": [
+            13,
+            18,
+            0,
+            24
+        ],
+        "rare": 4
+    },
+    "397": {
+        "en": "Locally Modified 12.7cm Twin High-angle Gun Mount",
+        "jp": "現地改装12.7cm連装高角砲",
+        "type": 1,
+        "icon": 16,
+        "scrap": [
+            0,
+            2,
+            3,
+            0
+        ],
+        "rare": 4
+    },
+    "398": {
+        "en": "Locally Modified 10cm Twin High-angle Gun Mount",
+        "jp": "現地改装10cm連装高角砲",
+        "type": 1,
+        "icon": 16,
+        "scrap": [
+            0,
+            2,
+            3,
+            0
+        ],
+        "rare": 4
+    },
+    "399": {
+        "en": "6inch Mk.XXIII Triple Gun Mount",
+        "jp": "6inch Mk.XXIII三連装砲",
+        "type": 2,
+        "icon": 2,
+        "scrap": [
+            0,
+            2,
+            4,
+            1
+        ],
+        "rare": 2
+    },
+    "400": {
+        "en": "533mm Triple Torpedo Mount (Model 53-39)",
+        "jp": "533mm 三連装魚雷(53-39型)",
+        "type": 5,
+        "icon": 5,
+        "scrap": [
+            2,
+            1,
+            1,
+            1
+        ],
+        "rare": 3
+    },
+    "401": {
+        "en": "Do 17 Z-2",
+        "jp": "Do 17 Z-2",
+        "type": 47,
+        "icon": 37,
+        "scrap": [
+            6,
+            5,
+            0,
+            13
+        ],
+        "rare": 2
+    },
+    "402": {
+        "en": "Arctic Gear & Deck Personnel",
+        "jp": "寒冷地装備&甲板要員",
+        "type": 35,
+        "icon": 29,
+        "scrap": [
+            1,
+            0,
+            1,
+            1
+        ],
+        "rare": 3
     },
     "501": {
         "jp": "5inch単装砲",
