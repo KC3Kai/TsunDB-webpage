@@ -55,7 +55,7 @@ export default {
             configData: require('./../../data/config.json'),
             shipData: require('./../../data/ship.json'),
             edgesData: require('./../../data/edges.json'),
-            mapNamesData: require('./../../data/mapNames'),
+            mapNamesData: require('./../../data/mapNames.json'),
             map: undefined,
             list: 'normal',
             output: "Select a map"
