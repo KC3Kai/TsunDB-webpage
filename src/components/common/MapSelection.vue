@@ -233,6 +233,9 @@
                     <router-link class="dropdown-item" :to="returnPath('49-3')">
                         E-3
                     </router-link>
+                    <router-link class="dropdown-item" :to="returnPath('49-4')">
+                        E-4
+                    </router-link>
                 </div>
             </div>
         </div>
