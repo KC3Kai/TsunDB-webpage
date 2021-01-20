@@ -5186,6 +5186,32 @@
         ],
         "rare": 3
     },
+    "403": {
+        "en": "Type 4 Heavy Bomber Hiryuu",
+        "jp": "四式重爆 飛龍",
+        "type": 47,
+        "icon": 37,
+        "scrap": [
+            8,
+            8,
+            0,
+            18
+        ],
+        "rare": 4
+    },
+    "404": {
+        "en": "Type 4 Heavy Bomber Hiryuu (Skilled)",
+        "jp": "四式重爆 飛龍(熟練)",
+        "type": 47,
+        "icon": 37,
+        "scrap": [
+            9,
+            9,
+            0,
+            18
+        ],
+        "rare": 5
+    },
     "501": {
         "jp": "5inch単装砲",
         "type": 1,

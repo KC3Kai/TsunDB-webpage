@@ -10294,8 +10294,8 @@
         "kana": "くま",
         "variant": "",
         "en": "Kuma Kai",
-        "remodelLvl": 0,
-        "idAfterRemodel": "0",
+        "remodelLvl": 88,
+        "idAfterRemodel": "652",
         "buildTime": 60,
         "getMsg": "<br>",
         "slots": 3,
@@ -22857,7 +22857,7 @@
         ],
         "fp": [
             15,
-            57
+            58
         ],
         "torp": [
             28,
@@ -22906,7 +22906,7 @@
         ],
         "fp": [
             14,
-            56
+            57
         ],
         "torp": [
             25,
@@ -25307,7 +25307,7 @@
         ],
         "fp": [
             16,
-            60
+            61
         ],
         "torp": [
             25,
@@ -29595,6 +29595,55 @@
         "stype": 2,
         "sortid": 451
     },
+    "652": {
+        "jp": "球磨改二",
+        "kana": "くま",
+        "variant": "",
+        "en": "Kuma Kai Ni",
+        "remodelLvl": 88,
+        "idAfterRemodel": "657",
+        "buildTime": 60,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            2,
+            2,
+            11,
+            0
+        ],
+        "modValue": [
+            1,
+            2,
+            2,
+            3
+        ],
+        "fp": [
+            22,
+            70
+        ],
+        "torp": [
+            32,
+            92
+        ],
+        "aa": [
+            32,
+            80
+        ],
+        "armor": [
+            29,
+            70
+        ],
+        "luck": [
+            16,
+            86
+        ],
+        "rarity": 7,
+        "fuel": 25,
+        "ammo": 35,
+        "ctype": 4,
+        "stype": 3,
+        "sortid": 452
+    },
     "653": {
         "jp": "Scirocco",
         "kana": "シロッコ",
@@ -29741,6 +29790,55 @@
         "ctype": 30,
         "stype": 2,
         "sortid": 456
+    },
+    "657": {
+        "jp": "球磨改二丁",
+        "kana": "くま",
+        "variant": "",
+        "en": "Kuma Kai Ni D",
+        "remodelLvl": 88,
+        "idAfterRemodel": "652",
+        "buildTime": 60,
+        "getMsg": "<br>",
+        "slots": 3,
+        "scrap": [
+            2,
+            2,
+            11,
+            0
+        ],
+        "modValue": [
+            1,
+            2,
+            2,
+            3
+        ],
+        "fp": [
+            17,
+            67
+        ],
+        "torp": [
+            0,
+            84
+        ],
+        "aa": [
+            35,
+            84
+        ],
+        "armor": [
+            29,
+            70
+        ],
+        "luck": [
+            16,
+            86
+        ],
+        "rarity": 7,
+        "fuel": 25,
+        "ammo": 35,
+        "ctype": 4,
+        "stype": 3,
+        "sortid": 457
     },
     "658": {
         "jp": "Scirocco改",

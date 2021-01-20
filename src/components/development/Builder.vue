@@ -3,9 +3,11 @@
     <p class="title is-spaced">
         Development Recipe Builder
     </p>
+    <!--
     <div class="subtitle">
         <strong>WARNING: This is outdated as of the update on <a href="https://kancolle.fandom.com/wiki/Thread:742429" rel="noopener noreferrer" target="_blank">07-02-2020</a>! Use this at your own risk!</strong>
     </div>
+    -->
     <div class="subtitle">
         Select what you need and we will do the rest for you!<br />
         Any equipment that are unobtainable through your combination will be filtered.
@@ -196,6 +198,19 @@ export default {
                 for(let pool of groups[group]){
                     for(let x in this.devTableData[group][pool]){
                         if(this.selectedEquips.includes(x)) continue;
+                        if(x == 163 && this.nationality != "No"){
+                            //Sanity check for Ro.43
+                            if(this.nationality != "Yes, Italian") continue;
+                        }
+                        if((x == 242 || x == 249) && this.nationality != "No"){
+                            //Sanity check for Swordfish and Fulmar
+                            if(this.nationality != "Yes, UK") continue;
+                        }
+                        if(x == 250 && this.nationality != "No"){
+                            //Sanity check for Spitfire
+                            if(this.nationality != "Yes, UK") continue;
+                        }
+
                         let category = this.getCategory(this.equipData[x].type);
                         if(!(newObj.hasOwnProperty(category))) newObj[category] = [x];
                         if(!(newObj[category].includes(x))) newObj[category].push(x);
@@ -211,6 +226,7 @@ export default {
                     group2:["fuelsteel", "ammo", "baux"],
                     group3:["fuelsteel", "ammo", "baux"]
                 };
+                this.nationality = "No";
                 this.buildList(this.defaultGroups);
             }
             else{
@@ -270,6 +286,40 @@ export default {
                     break;
                 }
             }
+            if(this.selectedEquips.includes('250')){
+                //Spitfire
+                switch(group){
+                    case "group2":
+                        if(pool == "baux"){
+                            if(equip == 20) rate -= 1;
+                            if(equip == 21) rate -= 1;
+                            if(equip == 250) rate += 2;
+                        }
+                    break;
+                }
+            }
+            if(this.selectedEquips.includes('242') || this.selectedEquips.includes('249')){
+                //Fulmar and Swordfish
+                switch(group){
+                    case "group3":
+                        if(pool == "ammo"){
+                            if(equip == 16) rate -= 1;
+                            if(equip == 23) rate -= 1;
+                            if(equip == 25) rate -= 1;
+                            if(equip == 242) rate += 2;
+                            if(equip == 249) rate += 1;
+                        }
+                        if(pool == "baux"){
+                            if(equip == 16) rate -= 1;
+                            if(equip == 20) rate -= 1;
+                            if(equip == 23) rate -= 1;
+                            if(equip == 25) rate -= 1;
+                            if(equip == 242) rate += 2;
+                            if(equip == 249) rate += 2;
+                        }
+                    break;
+                }
+            }
             return `${Number(rate)*2}%`;
         },
         calculateResources(pool, list){
@@ -323,6 +373,11 @@ export default {
                     nationality = "Yes, Italian";
                     break;
                 }
+                //UK check
+                if(x == 242 || x == 249 || x == 250){
+                    nationality = "Yes, UK";
+                    break;
+                }
             }
             return nationality;
         },
@@ -352,7 +407,9 @@ export default {
                 case 27: category = "Bulges"; break;
                 case 28: category = "Bulges"; break;
                 case 30: category = "Drum"; break;
+                case 36: category = "Anti-Aircraft Guns"; break;
                 case 47: category = "Carrier/Land Aircraft"; break;
+                case 48: category = "Carrier/Land Aircraft"; break;
             }
             return category;
         },

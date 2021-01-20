@@ -3,9 +3,11 @@
     <p class="title is-spaced">
         Development - Sandbox
     </p>
+    <!--
     <div class="subtitle">
         <strong>WARNING: This is outdated as of the update on <a href="https://kancolle.fandom.com/wiki/Thread:742429" rel="noopener noreferrer" target="_blank">07-02-2020</a>! Use this at your own risk!</strong>
     </div>
+    -->
     <div class="content">
         <div class="field is-horizontal">
             <div class="field-label">
@@ -33,6 +35,11 @@
                     <span class="control">
                         <span :class="nationality == 'italian' ? 'button is-info' : 'button'" @click="toggleNationality('italian')">
                             Italian
+                        </span>
+                    </span>
+                    <span class="control">
+                        <span :class="nationality == 'uk' ? 'button is-info' : 'button'" @click="toggleNationality('uk')">
+                            UK
                         </span>
                     </span>
                     <span class="control">
@@ -386,6 +393,11 @@ export default {
                         pool['25'] -= 1;
                         pool['163'] += 2;
                     }
+                    if(this.nationality == 'uk' && this.selectedPool == 'baux'){
+                        pool['20'] -= 1;
+                        pool['21'] -= 1;
+                        pool['250'] += 2;
+                    }
                     break;
                 case 3:
                     if(this.resources['fuel'] >= 240 && this.resources['ammo'] >= 260 && this.resources['bauxite'] >= 250 && (this.selectedPool == 'ammo' || this.selectedPool == 'baux') && pool.hasOwnProperty('168')){
@@ -394,6 +406,21 @@ export default {
                         pool['24'] -= 1;
                         pool['25'] -= 1;
                         pool['168'] += 4;
+                    }
+                    if(this.nationality == 'uk' && this.selectedPool == 'ammo'){
+                        pool['16'] -= 1;
+                        pool['23'] -= 1;
+                        pool['25'] -= 1;
+                        pool['242'] += 2;
+                        pool['249'] += 1;
+                    }
+                    if(this.nationality == 'uk' && this.selectedPool == 'baux'){
+                        pool['16'] -= 1;
+                        pool['20'] -= 1;
+                        pool['23'] -= 1;
+                        pool['25'] -= 1;
+                        pool['242'] += 2;
+                        pool['249'] += 2;
                     }
                     break;
             }
